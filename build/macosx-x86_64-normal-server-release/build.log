@@ -1,0 +1,676 @@
+## Starting langtools
+Compiling 781 files for BUILD_BOOTSTRAP_LANGTOOLS
+Modifying langtools/dist/bootstrap/lib/javac.jar
+  updating 2038 files
+Updating langtools/dist/lib/src.zip
+Compiling 784 files for BUILD_FULL_JAVAC
+Modifying langtools/dist/lib/classes.jar
+  updating 2048 files
+## Finished langtools (build time 00:00:42)
+
+## Starting hotspot
+## Finished hotspot (build time 00:00:00)
+
+## Starting corba
+## Finished corba (build time 00:00:01)
+
+## Starting jaxp
+## Finished jaxp (build time 00:00:00)
+
+## Starting jaxws
+## Finished jaxws (build time 00:00:00)
+
+## Starting jdk
+Importing LANGTOOLS classes.jar
+Importing LANGTOOLS src.zip
+/Users/cg/jdk8u/openjdk/jdk/src/share/native/sun/font/freetypeScaler.c:99:30: warning: unused parameter 'scaler' [-Wunused-parameter]
+        JNIEnv *env, jobject scaler, jclass FFSClass) {
+                             ^
+/Users/cg/jdk8u/openjdk/jdk/src/share/native/sun/font/freetypeScaler.c:235:30: warning: unused parameter 'scaler' [-Wunused-parameter]
+        JNIEnv *env, jobject scaler, jobject font2D, jint type,
+                             ^
+/Users/cg/jdk8u/openjdk/jdk/src/share/native/sun/font/freetypeScaler.c:236:42: warning: unused parameter 'supportsCJK' [-Wunused-parameter]
+        jint indexInCollection, jboolean supportsCJK, jint filesize) {
+                                         ^
+/Users/cg/jdk8u/openjdk/jdk/src/share/native/sun/font/freetypeScaler.c:889:30: warning: unused parameter 'scaler' [-Wunused-parameter]
+        JNIEnv *env, jobject scaler, jobject font2D, jlong pScaler) {
+                             ^
+/Users/cg/jdk8u/openjdk/jdk/src/share/native/sun/font/freetypeScaler.c:931:17: warning: unused parameter 'env' [-Wunused-parameter]
+        JNIEnv *env, jobject scaler, jlong pScaler) {
+                ^
+/Users/cg/jdk8u/openjdk/jdk/src/share/native/sun/font/freetypeScaler.c:931:30: warning: unused parameter 'scaler' [-Wunused-parameter]
+        JNIEnv *env, jobject scaler, jlong pScaler) {
+                             ^
+/Users/cg/jdk8u/openjdk/jdk/src/share/native/sun/font/freetypeScaler.c:931:44: warning: unused parameter 'pScaler' [-Wunused-parameter]
+        JNIEnv *env, jobject scaler, jlong pScaler) {
+                                           ^
+/Users/cg/jdk8u/openjdk/jdk/src/share/native/sun/font/freetypeScaler.c:1244:28: warning: unused parameter 'scaler' [-Wunused-parameter]
+      JNIEnv *env, jobject scaler, jobject font2D, jlong pScalerContext,
+                           ^
+/Users/cg/jdk8u/openjdk/jdk/src/share/native/sun/font/freetypeScaler.c:1273:30: warning: unused parameter 'scaler' [-Wunused-parameter]
+        JNIEnv *env, jobject scaler, jobject font2D,
+                             ^
+/Users/cg/jdk8u/openjdk/jdk/src/share/native/sun/font/freetypeScaler.c:1322:30: warning: unused parameter 'scaler' [-Wunused-parameter]
+        JNIEnv *env, jobject scaler, jobject font2D,
+                             ^
+/Users/cg/jdk8u/openjdk/jdk/src/share/native/sun/font/freetypeScaler.c:1340:53: warning: comparison of integers of different signs: 'unsigned long' and 'jint' (aka 'int') [-Wsign-compare]
+    if (numGlyphs > 0 && 0xffffffffu / sizeof(jint) >= numGlyphs) {
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~ ^  ~~~~~~~~~
+/Users/cg/jdk8u/openjdk/jdk/src/share/native/sun/font/freetypeScaler.c:1407:17: warning: unused parameter 'env' [-Wunused-parameter]
+        JNIEnv *env, jobject scaler, jlong pScaler) {
+                ^
+/Users/cg/jdk8u/openjdk/jdk/src/share/native/sun/font/freetypeScaler.c:1407:30: warning: unused parameter 'scaler' [-Wunused-parameter]
+        JNIEnv *env, jobject scaler, jlong pScaler) {
+                             ^
+/Users/cg/jdk8u/openjdk/jdk/src/share/native/sun/font/freetypeScaler.c:1427:30: warning: unused parameter 'scaler' [-Wunused-parameter]
+        JNIEnv *env, jobject scaler, jobject font2D, jlong pScalerContext,
+                             ^
+14 warnings generated.
+clang: warning: libstdc++ is deprecated; move to libc++ with a minimum deployment target of OS X 10.9 [-Wdeprecated]
+clang: warning: libstdc++ is deprecated; move to libc++ with a minimum deployment target of OS X 10.9 [-Wdeprecated]
+## Finished jdk (build time 00:00:07)
+
+## Starting demos
+## Finished demos (build time 00:00:01)
+
+## Starting nashorn
+## Finished nashorn (build time 00:00:00)
+
+## Starting images
+Modifying images/lib/tools.jar
+WARNING: Path does not exist as file or directory: com/apple/laf/ImageCache.class
+WARNING: Path does not exist as file or directory: com/apple/laf/ImageCache$1.class
+WARNING: Path does not exist as file or directory: com/apple/laf/ImageCache$PixelCountSoftReference.class
+WARNING: Path does not exist as file or directory: java/lang/UNIXProcess$2.class
+WARNING: Path does not exist as file or directory: java/lang/UNIXProcess$3.class
+WARNING: Path does not exist as file or directory: java/lang/UNIXProcess$4.class
+WARNING: Path does not exist as file or directory: java/lang/UNIXProcess$ProcessReaperThreadFactory.class
+WARNING: Path does not exist as file or directory: java/lang/UNIXProcess$ProcessReaperThreadFactory$1.class
+WARNING: Path does not exist as file or directory: java/lang/invoke/MagicLambdaImpl.class
+WARNING: Path does not exist as file or directory: javax/swing/JComponent$2.class
+WARNING: Path does not exist as file or directory: javax/swing/text/AbstractDocument$InsertStringResult.class
+WARNING: Path does not exist as file or directory: sun/dc/DuctusRenderingEngine.class
+WARNING: Path does not exist as file or directory: sun/font/CFontManager$4.class
+WARNING: Path does not exist as file or directory: sun/java2d/Disposer$2.class
+WARNING: Path does not exist as file or directory: sun/java2d/opengl/OGLRenderQueue$1.class
+WARNING: Path does not exist as file or directory: sun/lwawt/macosx/CPlatformWindow$14.class
+WARNING: Path does not exist as file or directory: sun/lwawt/macosx/LWCToolkit$5.class
+WARNING: Path does not exist as file or directory: sun/lwawt/macosx/event/NSEvent.class
+WARNING: Path does not exist as file or directory: sun/misc/PostVMInitHook.class
+WARNING: Path does not exist as file or directory: com/sun/crypto/provider
+WARNING: Path does not exist as file or directory: com/sun/java/accessibility
+WARNING: Path does not exist as file or directory: javax/crypto
+WARNING: Path does not exist as file or directory: sun/security/ec
+WARNING: Path does not exist as file or directory: sun/security/internal
+WARNING: Path does not exist as file or directory: sun/security/mscapi
+WARNING: Path does not exist as file or directory: sun/security/pkcs11
+WARNING: Path does not exist as file or directory: com/oracle/jrockit/jfr
+WARNING: Path does not exist as file or directory: oracle/jrockit/jfr
+WARNING: Path does not exist as file or directory: jdk/jfr
+  updating 1904 files
+Creating resources.jar
+Creating rt.jar Compressed=false
+警告: 程序包javax.crypto不存在
+警告: 程序包javax.crypto.interfaces不存在
+警告: 程序包javax.crypto.spec不存在
+警告: 程序包javax.tools.annotation不存在
+警告: 程序包jdk.management.cmm不存在
+警告: 程序包com.oracle.nio不存在
+Using boot class path = [/Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/images/lib/rt.jar, /Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/langtools/dist/bootstrap/lib/javac.jar, /Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/jre/lib/resources.jar, /Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/jre/lib/sunrsasign.jar, /Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/jre/lib/jsse.jar, /Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/jre/lib/jce.jar, /Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/jre/lib/charsets.jar, /Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/jre/lib/jfr.jar, /Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/jre/classes, /Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/jre/lib/ext/sunec.jar, /Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/jre/lib/ext/dnsns.jar, /Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/jre/lib/ext/localedata.jar, /Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar, /Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar, /Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/jre/lib/ext/zipfs.jar, /System/Library/Java/Extensions/MRJToolkit.jar]
+Ignoring (other) com.sun.management.package-info : <any>
+   ClassSymbol <any>
+Ignoring (other) com.sun.net.httpserver.package-info : <any>
+   ClassSymbol <any>
+Ignoring (other) com.sun.net.httpserver.spi.package-info : <any>
+   ClassSymbol <any>
+Ignoring (other) com.sun.nio.sctp.package-info : <any>
+   ClassSymbol <any>
+Ignoring (other) com.sun.security.auth.package-info : <any>
+   ClassSymbol <any>
+Ignoring (other) com.sun.security.auth.callback.package-info : <any>
+   ClassSymbol <any>
+Ignoring (other) com.sun.security.auth.login.package-info : <any>
+   ClassSymbol <any>
+Ignoring (other) com.sun.security.auth.module.package-info : <any>
+   ClassSymbol <any>
+Ignoring (other) com.sun.security.jgss.package-info : <any>
+   ClassSymbol <any>
+Ignoring (other) javax.xml.ws.wsaddressing.package-info : <any>
+   ClassSymbol <any>
+Ignoring (other) jdk.net.package-info : <any>
+   ClassSymbol <any>
+6 个警告
+Modifying images/lib/ct.sym
+  updating 26605 files
+Copying images/j2re-bundle/jre1.8.0.jre/Contents/Home/release
+Copying images/j2re-bundle/jre1.8.0.jre/Contents/Home/lib
+Copying images/j2re-bundle/jre1.8.0.jre/Contents/Home/lib/.DS_Store
+Copying images/j2re-bundle/jre1.8.0.jre/Contents/Home/lib/rt.jar
+Copying images/j2re-bundle/jre1.8.0.jre/Contents/Home/lib/ext/meta-index
+Copying images/j2re-bundle/jre1.8.0.jre/Contents/Home/lib/resources.jar
+Copying images/j2re-bundle/jre1.8.0.jre/Contents/Home/lib/libfontmanager.dylib
+Copying images/j2re-bundle/jre1.8.0.jre/Contents/Home/lib/meta-index
+Creating images/j2re-bundle/jre1.8.0.jre/Contents/Info.plist
+Copying images/j2sdk-bundle/jdk1.8.0.jdk/Contents/Home/jre/lib
+Copying images/j2sdk-bundle/jdk1.8.0.jdk/Contents/Home/jre/lib/.DS_Store
+Copying images/j2sdk-bundle/jdk1.8.0.jdk/Contents/Home/jre/lib/rt.jar
+Copying images/j2sdk-bundle/jdk1.8.0.jdk/Contents/Home/jre/lib/ext/meta-index
+Copying images/j2sdk-bundle/jdk1.8.0.jdk/Contents/Home/jre/lib/resources.jar
+Copying images/j2sdk-bundle/jdk1.8.0.jdk/Contents/Home/jre/lib/libfontmanager.dylib
+Copying images/j2sdk-bundle/jdk1.8.0.jdk/Contents/Home/jre/lib/meta-index
+Copying images/j2sdk-bundle/jdk1.8.0.jdk/Contents/Home/.DS_Store
+Copying images/j2sdk-bundle/jdk1.8.0.jdk/Contents/Home/release
+Copying images/j2sdk-bundle/jdk1.8.0.jdk/Contents/Home/lib/tools.jar
+Copying images/j2sdk-bundle/jdk1.8.0.jdk/Contents/Home/lib/ct.sym
+Creating images/j2sdk-bundle/jdk1.8.0.jdk/Contents/Info.plist
+## Finished images (build time 00:01:19)
+
+## Starting docs
+/usr/bin/find /Users/cg/jdk8u/openjdk/jdk/src/share/classes -type f >> /Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/docstemp/doctmp/directory.cache
+/bin/cp /Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/hotspot/dist/docs/platform/jvmti/jvmti.html /Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/docs/platform/jvmti/jvmti.html
+/usr/bin/find /Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/jdk/impsrc -type f >> /Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/docstemp/doctmp/directory.cache
+/usr/bin/find /Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/jdk/gensrc -type f >> /Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/docstemp/doctmp/directory.cache
+/usr/bin/find /Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/jdk/gendocsrc_rmic -type f >> /Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/docstemp/doctmp/directory.cache
+/usr/bin/find /Users/cg/jdk8u/openjdk/jdk/src/solaris/classes -type f >> /Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/docstemp/doctmp/directory.cache
+/usr/bin/find /Users/cg/jdk8u/openjdk/jdk/src/windows/classes -type f >> /Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/docstemp/doctmp/directory.cache
+/usr/bin/find /Users/cg/jdk8u/openjdk/nashorn/src/ -type f >> /Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/docstemp/doctmp/directory.cache
+/usr/bin/find /Users/cg/jdk8u/openjdk/jdk/src/share/doc/stub -type f >> /Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/docstemp/doctmp/directory.cache
+WARNING: Package not found: javax.tools.annotation
+# Summary for /Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/docs/api/index.html
+# Options (coredocs.options):
+#   -XDignore.symbol.file=true -quiet -use -keywords -Xdoclint:none -Xprofilespath /Users/cg/jdk8u/openjdk/jdk/make/profile-rtjar-includes.txt -Xdocrootparent https://docs.oracle.com/javase/7/docs
+#   -sourcepath '/Users/cg/jdk8u/openjdk/jdk/src/share/classes:/Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/jdk/impsrc:/Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/jdk/gensrc:/Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/jdk/gendocsrc_rmic:/Users/cg/jdk8u/openjdk/jdk/src/solaris/classes:/Users/cg/jdk8u/openjdk/jdk/src/windows/classes:/Users/cg/jdk8u/openjdk/nashorn/src/:/Users/cg/jdk8u/openjdk/jdk/src/share/doc/stub'
+#   -encoding 'ISO-8859-1'
+#   -tag 'beaninfo:X'
+#   -tag 'revised:X'
+#   -tag 'since.unbundled:X'
+#   -tag 'spec:X'
+#   -tag 'specdefault:X'
+#   -tag 'Note:X'
+#   -tag 'ToDo:X'
+#   -tag 'apiNote:a:API Note:'
+#   -tag 'implSpec:a:Implementation Requirements:'
+#   -tag 'implNote:a:Implementation Note:'
+#   -tag 'param'
+#   -tag 'return'
+#   -tag 'throws'
+#   -tag 'since'
+#   -tag 'version'
+#   -tag 'serialData'
+#   -tag 'factory'
+#   -tag 'see'
+#   -tag 'jls:a:See <cite> The Java&trade; Language Specification</cite>:'
+#   -splitIndex
+#   -overview '/Users/cg/jdk8u/openjdk/jdk/src/share/classes/overview-core.html'
+#   -doctitle 'Java&trade; Platform, Standard Edition 8<br>API Specification'
+#   -windowtitle 'Java Platform SE 8 b00'
+#   -header '<strong>Java&trade;&nbsp;Platform<br>Standard&nbsp;Ed.&nbsp;8</strong><br><strong>DRAFT&nbsp;internal-b00</strong>'
+#   -bottom '<font size="-1"> <a href="http://bugreport.sun.com/bugreport/">Submit a bug or feature</a> <br>For further API reference and developer documentation, see <a href="https://docs.oracle.com/javase/8/docs/index.html" target="_blank">Java SE Documentation</a>. That documentation contains more detailed, developer-targeted descriptions, with conceptual overviews, definitions of terms, workarounds, and working code examples.<br> <a href="{@docroot}/../legal/cpyr.html">Copyright</a> &#x00a9; 1993, 2020, Oracle and/or its affiliates.  All rights reserved. </font><br><strong>DRAFT&nbsp;internal-b00</strong>'
+#   -top '<div style="background-color: #EEEEEE"> <div style="padding: 6px; margin-top: 2px; margin-bottom: 6px; margin-left: 6px; margin-right: 6px; text-align: justify; font-size: 80%; font-family: Helvetica, Arial, sans-serif; font-weight: normal;"> Please note that the specifications and other information contained herein are not final and are subject to change. The information is being made available to you solely for purpose of evaluation. </div> </div>'
+# Packages (coredocs.packages):
+#   java.applet
+#   java.awt
+#   java.awt.color
+#   java.awt.datatransfer
+#   java.awt.dnd
+#   java.awt.event
+#   java.awt.font
+#   java.awt.geom
+#   java.awt.im
+#   java.awt.im.spi
+#   java.awt.image
+#   java.awt.image.renderable
+#   java.awt.print
+#   java.beans
+#   java.beans.beancontext
+#   java.io
+#   java.lang
+#   java.lang.annotation
+#   java.lang.instrument
+#   java.lang.invoke
+#   java.lang.management
+#   java.lang.ref
+#   java.lang.reflect
+#   java.math
+#   java.net
+#   java.nio
+#   java.nio.channels
+#   java.nio.channels.spi
+#   java.nio.charset
+#   java.nio.charset.spi
+#   java.nio.file
+#   java.nio.file.attribute
+#   java.nio.file.spi
+#   java.rmi
+#   java.rmi.activation
+#   java.rmi.dgc
+#   java.rmi.registry
+#   java.rmi.server
+#   java.security
+#   java.security.acl
+#   java.security.cert
+#   java.security.interfaces
+#   java.security.spec
+#   java.sql
+#   java.text
+#   java.text.spi
+#   java.time
+#   java.time.chrono
+#   java.time.format
+#   java.time.temporal
+#   java.time.zone
+#   java.util
+#   java.util.concurrent
+#   java.util.concurrent.atomic
+#   java.util.concurrent.locks
+#   java.util.function
+#   java.util.jar
+#   java.util.logging
+#   java.util.prefs
+#   java.util.regex
+#   java.util.spi
+#   java.util.stream
+#   java.util.zip
+#   javax.accessibility
+#   javax.activation
+#   javax.activity
+#   javax.annotation
+#   javax.annotation.processing
+#   javax.crypto
+#   javax.crypto.interfaces
+#   javax.crypto.spec
+#   javax.imageio
+#   javax.imageio.event
+#   javax.imageio.metadata
+#   javax.imageio.plugins.jpeg
+#   javax.imageio.plugins.bmp
+#   javax.imageio.spi
+#   javax.imageio.stream
+#   javax.jws
+#   javax.jws.soap
+#   javax.lang.model
+#   javax.lang.model.element
+#   javax.lang.model.type
+#   javax.lang.model.util
+#   javax.management
+#   javax.management.loading
+#   javax.management.monitor
+#   javax.management.relation
+#   javax.management.openmbean
+#   javax.management.timer
+#   javax.management.modelmbean
+#   javax.management.remote
+#   javax.management.remote.rmi
+#   javax.naming
+#   javax.naming.directory
+#   javax.naming.event
+#   javax.naming.ldap
+#   javax.naming.spi
+#   javax.net
+#   javax.net.ssl
+#   javax.print
+#   javax.print.attribute
+#   javax.print.attribute.standard
+#   javax.print.event
+#   javax.rmi
+#   javax.rmi.CORBA
+#   javax.rmi.ssl
+#   javax.script
+#   javax.security.auth
+#   javax.security.auth.callback
+#   javax.security.auth.kerberos
+#   javax.security.auth.login
+#   javax.security.auth.spi
+#   javax.security.auth.x500
+#   javax.security.cert
+#   javax.security.sasl
+#   javax.sound.sampled
+#   javax.sound.sampled.spi
+#   javax.sound.midi
+#   javax.sound.midi.spi
+#   javax.sql
+#   javax.sql.rowset
+#   javax.sql.rowset.serial
+#   javax.sql.rowset.spi
+#   javax.swing
+#   javax.swing.border
+#   javax.swing.colorchooser
+#   javax.swing.filechooser
+#   javax.swing.event
+#   javax.swing.table
+#   javax.swing.text
+#   javax.swing.text.html
+#   javax.swing.text.html.parser
+#   javax.swing.text.rtf
+#   javax.swing.tree
+#   javax.swing.undo
+#   javax.swing.plaf
+#   javax.swing.plaf.basic
+#   javax.swing.plaf.metal
+#   javax.swing.plaf.multi
+#   javax.swing.plaf.nimbus
+#   javax.swing.plaf.synth
+#   javax.tools
+#   javax.transaction
+#   javax.transaction.xa
+#   javax.xml.parsers
+#   javax.xml.bind
+#   javax.xml.bind.annotation
+#   javax.xml.bind.annotation.adapters
+#   javax.xml.bind.attachment
+#   javax.xml.bind.helpers
+#   javax.xml.bind.util
+#   javax.xml.soap
+#   javax.xml.ws
+#   javax.xml.ws.handler
+#   javax.xml.ws.handler.soap
+#   javax.xml.ws.http
+#   javax.xml.ws.soap
+#   javax.xml.ws.spi
+#   javax.xml.ws.spi.http
+#   javax.xml.ws.wsaddressing
+#   javax.xml.transform
+#   javax.xml.transform.sax
+#   javax.xml.transform.dom
+#   javax.xml.transform.stax
+#   javax.xml.transform.stream
+#   javax.xml
+#   javax.xml.crypto
+#   javax.xml.crypto.dom
+#   javax.xml.crypto.dsig
+#   javax.xml.crypto.dsig.dom
+#   javax.xml.crypto.dsig.keyinfo
+#   javax.xml.crypto.dsig.spec
+#   javax.xml.datatype
+#   javax.xml.validation
+#   javax.xml.namespace
+#   javax.xml.xpath
+#   javax.xml.stream
+#   javax.xml.stream.events
+#   javax.xml.stream.util
+#   org.ietf.jgss
+#   org.omg.CORBA
+#   org.omg.CORBA.DynAnyPackage
+#   org.omg.CORBA.ORBPackage
+#   org.omg.CORBA.TypeCodePackage
+#   org.omg.stub.java.rmi
+#   org.omg.CORBA.portable
+#   org.omg.CORBA_2_3
+#   org.omg.CORBA_2_3.portable
+#   org.omg.CosNaming
+#   org.omg.CosNaming.NamingContextExtPackage
+#   org.omg.CosNaming.NamingContextPackage
+#   org.omg.SendingContext
+#   org.omg.PortableServer
+#   org.omg.PortableServer.CurrentPackage
+#   org.omg.PortableServer.POAPackage
+#   org.omg.PortableServer.POAManagerPackage
+#   org.omg.PortableServer.ServantLocatorPackage
+#   org.omg.PortableServer.portable
+#   org.omg.PortableInterceptor
+#   org.omg.PortableInterceptor.ORBInitInfoPackage
+#   org.omg.Messaging
+#   org.omg.IOP
+#   org.omg.IOP.CodecFactoryPackage
+#   org.omg.IOP.CodecPackage
+#   org.omg.Dynamic
+#   org.omg.DynamicAny
+#   org.omg.DynamicAny.DynAnyPackage
+#   org.omg.DynamicAny.DynAnyFactoryPackage
+#   org.w3c.dom
+#   org.w3c.dom.events
+#   org.w3c.dom.bootstrap
+#   org.w3c.dom.ls
+#   org.w3c.dom.views
+#   org.xml.sax
+#   org.xml.sax.ext
+#   org.xml.sax.helpers
+javadoc: 警告 - 找到程序包 "javax.xml.ws.wsaddressing" 的多个程序包注释源
+/Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/jdk/impsrc/javax/xml/bind/JAXBContext.java:262: 警告 - 标记@see: 找不到引用: S 7.4.1 "Named Packages" in Java Language Specification</a>
+2 个警告
+# Summary for /Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/docs/jdk/api/javadoc/doclet/index.html
+# Summary for /Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/docs/jre/api/plugin/dom/index.html
+# Summary for /Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/docs/jdk/api/jpda/jdi/index.html
+# Summary for /Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/docs/jdk/api/javadoc/taglet/index.html
+# Options (docletapi.options):
+# Options (domapi.options):
+# Options (jdi.options):
+#   -XDignore.symbol.file=true -quiet -use -keywords -Xdoclint:none -Xprofilespath /Users/cg/jdk8u/openjdk/jdk/make/profile-rtjar-includes.txt -Xdocrootparent https://docs.oracle.com/javase/7/docs
+#   -sourcepath '/Users/cg/jdk8u/openjdk/jdk/src/share/classes:/Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/jdk/impsrc:/Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/jdk/gensrc:/Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/jdk/gendocsrc_rmic:/Users/cg/jdk8u/openjdk/jdk/src/solaris/classes:/Users/cg/jdk8u/openjdk/jdk/src/windows/classes:/Users/cg/jdk8u/openjdk/nashorn/src/:/Users/cg/jdk8u/openjdk/jdk/src/share/doc/stub'
+#   -encoding 'ascii'
+#   -breakiterator
+#   -doctitle 'Doclet API'
+#   -windowtitle 'Doclet API b00'
+#   -header '<strong>Doclet API</strong><br><strong>DRAFT&nbsp;internal-b00</strong>'
+#   -bottom '<font size="-1"> <a href="http://bugreport.sun.com/bugreport/">Submit a bug or feature</a><br>Java is a trademark or registered trademark of Oracle and/or its affiliates in the US and other countries.<br> Copyright &#x00a9; 1993, 2020, Oracle and/or its affiliates. 500 Oracle Parkway<br>Redwood Shores, CA 94065 USA. All rights reserved. </font><br><strong>DRAFT&nbsp;internal-b00</strong>'
+#   -group 'Packages' 'com.sun.javadoc'
+#   -linkoffline '../../../../api' '/Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/docs/api/'
+#   -XDignore.symbol.file=true -quiet -use -keywords -Xdoclint:none -Xprofilespath /Users/cg/jdk8u/openjdk/jdk/make/profile-rtjar-includes.txt -Xdocrootparent https://docs.oracle.com/javase/7/docs
+#   -sourcepath '/Users/cg/jdk8u/openjdk/jdk/src/share/classes:/Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/jdk/impsrc:/Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/jdk/gensrc:/Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/jdk/gendocsrc_rmic:/Users/cg/jdk8u/openjdk/jdk/src/solaris/classes:/Users/cg/jdk8u/openjdk/jdk/src/windows/classes:/Users/cg/jdk8u/openjdk/nashorn/src/:/Users/cg/jdk8u/openjdk/jdk/src/share/doc/stub'
+#   -encoding 'ascii'
+#   -splitIndex
+#   -doctitle 'Common DOM API'
+#   -windowtitle 'Common DOM API b00'
+#   -header '<strong>Common DOM API</strong><br><strong>DRAFT&nbsp;internal-b00</strong>'
+#   -bottom '<font size="-1"> <a href="http://bugreport.sun.com/bugreport/">Submit a bug or feature</a><br>Java is a trademark or registered trademark of Oracle and/or its affiliates in the US and other countries.<br> Copyright &#x00a9; 2005, 2020, Oracle and/or its affiliates. 500 Oracle Parkway<br>Redwood Shores, CA 94065 USA. All rights reserved. </font><br><strong>DRAFT&nbsp;internal-b00</strong>'
+#   -group 'Packages' 'com.sun.java.browser.dom:org.w3c.dom*'
+#   -linkoffline '../../../../api' '/Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/docs/api/'
+#   -XDignore.symbol.file=true -quiet -use -keywords -Xdoclint:none -Xprofilespath /Users/cg/jdk8u/openjdk/jdk/make/profile-rtjar-includes.txt -Xdocrootparent https://docs.oracle.com/javase/7/docs
+#   -sourcepath '/Users/cg/jdk8u/openjdk/jdk/src/share/classes:/Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/jdk/impsrc:/Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/jdk/gensrc:/Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/jdk/gendocsrc_rmic:/Users/cg/jdk8u/openjdk/jdk/src/solaris/classes:/Users/cg/jdk8u/openjdk/jdk/src/windows/classes:/Users/cg/jdk8u/openjdk/nashorn/src/:/Users/cg/jdk8u/openjdk/jdk/src/share/doc/stub'
+#   -encoding 'ascii'
+#   -overview '/Users/cg/jdk8u/openjdk/jdk/src/share/classes/jdi-overview.html'
+#   -doctitle 'Java&trade; Debug Interface'
+#   -windowtitle 'Java Debug Interface b00'
+#   -header '<strong>Java Debug Interface</strong><br><strong>DRAFT&nbsp;internal-b00</strong>'
+#   -bottom '<font size="-1"><br> Copyright &#x00a9; 1999, 2020, Oracle and/or its affiliates.  All rights reserved.</font><br><strong>DRAFT&nbsp;internal-b00</strong>'
+#   -linkoffline '../../../../api' '/Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/docs/api/'
+# Options (tagletapi.options):
+#   -XDignore.symbol.file=true -quiet -use -keywords -Xdoclint:none -Xprofilespath /Users/cg/jdk8u/openjdk/jdk/make/profile-rtjar-includes.txt -Xdocrootparent https://docs.oracle.com/javase/7/docs
+#   -sourcepath '/Users/cg/jdk8u/openjdk/jdk/src/share/classes:/Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/jdk/impsrc:/Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/jdk/gensrc:/Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/jdk/gendocsrc_rmic:/Users/cg/jdk8u/openjdk/jdk/src/solaris/classes:/Users/cg/jdk8u/openjdk/jdk/src/windows/classes:/Users/cg/jdk8u/openjdk/nashorn/src/:/Users/cg/jdk8u/openjdk/jdk/src/share/doc/stub'
+#   -encoding 'ascii'
+#   -nonavbar
+#   -noindex
+#   -bottom '<font size="-1"> <a href="http://bugreport.sun.com/bugreport/">Submit a bug or feature</a><br>Java is a trademark or registered trademark of Oracle and/or its affiliates in the US and other countries.<br> Copyright &#x00a9; 1993, 2020, Oracle and/or its affiliates. 500 Oracle Parkway<br>Redwood Shores, CA 94065 USA. All rights reserved. </font><br><strong>DRAFT&nbsp;internal-b00</strong>'
+#   -linkoffline '../../../../api' '/Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/docs/api/'
+# Packages (docletapi.packages):
+# Packages (domapi.packages):
+# Packages (jdi.packages):
+#   com.sun.jdi
+#   com.sun.jdi.event
+#   com.sun.jdi.request
+#   com.sun.jdi.connect
+#   com.sun.jdi.connect.spi
+#   com.sun.javadoc
+#   com.sun.java.browser.dom
+#   org.w3c.dom
+#   org.w3c.dom.bootstrap
+#   org.w3c.dom.ls
+#   org.w3c.dom.ranges
+#   org.w3c.dom.traversal
+#   org.w3c.dom.html
+#   org.w3c.dom.stylesheets
+#   org.w3c.dom.css
+#   org.w3c.dom.events
+#   org.w3c.dom.views
+# Packages (tagletapi.packages):
+#   /Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/jdk/impsrc/com/sun/tools/doclets/Taglet.java
+# Summary for /Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/docs/jre/api/security/jaas/spec/index.html
+# Options (jaas.options):
+#   -XDignore.symbol.file=true -quiet -use -keywords -Xdoclint:none -Xprofilespath /Users/cg/jdk8u/openjdk/jdk/make/profile-rtjar-includes.txt -Xdocrootparent https://docs.oracle.com/javase/7/docs
+#   -sourcepath '/Users/cg/jdk8u/openjdk/jdk/src/share/classes:/Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/jdk/impsrc:/Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/jdk/gensrc:/Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/jdk/gendocsrc_rmic:/Users/cg/jdk8u/openjdk/jdk/src/solaris/classes:/Users/cg/jdk8u/openjdk/jdk/src/windows/classes:/Users/cg/jdk8u/openjdk/nashorn/src/:/Users/cg/jdk8u/openjdk/jdk/src/share/doc/stub'
+#   -encoding 'ascii'
+#   -overview '/Users/cg/jdk8u/openjdk/jdk/src/share/classes/com/sun/security/auth/jaas-overview.html'
+#   -doctitle 'Java&trade; Authentication and Authorization Service'
+#   -windowtitle 'Java Authentication and Authorization Service b00'
+#   -header '<strong>Java Authentication and Authorization Service</strong><br><strong>DRAFT&nbsp;internal-b00</strong>'
+#   -bottom '<font size="-1"><br> Copyright &#x00a9; 1998, 2020, Oracle and/or its affiliates.  All rights reserved.</font><br><strong>DRAFT&nbsp;internal-b00</strong>'
+#   -linkoffline '../../../../../api' '/Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/docs/api/'
+# Packages (jaas.packages):
+#   com.sun.security.auth
+#   com.sun.security.auth.callback
+#   com.sun.security.auth.login
+#   com.sun.security.auth.module
+/Users/cg/jdk8u/openjdk/jdk/src/share/classes/com/sun/jdi/InterfaceType.java:193: 警告 - 标记@link: 在com.sun.jdi.InterfaceType中找不到INVOKE_SINGLE_THREADED
+# Summary for /Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/docs/jre/api/security/jgss/spec/index.html
+# Options (jgss.options):
+#   -XDignore.symbol.file=true -quiet -use -keywords -Xdoclint:none -Xprofilespath /Users/cg/jdk8u/openjdk/jdk/make/profile-rtjar-includes.txt -Xdocrootparent https://docs.oracle.com/javase/7/docs
+#   -sourcepath '/Users/cg/jdk8u/openjdk/jdk/src/share/classes:/Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/jdk/impsrc:/Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/jdk/gensrc:/Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/jdk/gendocsrc_rmic:/Users/cg/jdk8u/openjdk/jdk/src/solaris/classes:/Users/cg/jdk8u/openjdk/jdk/src/windows/classes:/Users/cg/jdk8u/openjdk/nashorn/src/:/Users/cg/jdk8u/openjdk/jdk/src/share/doc/stub'
+#   -encoding 'ascii'
+#   -nodeprecatedlist
+#   -overview '/Users/cg/jdk8u/openjdk/jdk/src/share/classes/com/sun/security/jgss/jgss-overview.html'
+#   -doctitle 'Java&trade; GSS-API Utilities'
+#   -windowtitle 'Java GSS-API Utilities b00'
+#   -header '<strong>Java GSS-API Utilities</strong><br><strong>DRAFT&nbsp;internal-b00</strong>'
+#   -bottom '<font size="-1"><br> Copyright &#x00a9; 2000, 2020, Oracle and/or its affiliates.  All rights reserved.</font><br><strong>DRAFT&nbsp;internal-b00</strong>'
+#   -linkoffline '../../../../../api' '/Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/docs/api/'
+# Packages (jgss.packages):
+#   com.sun.security.jgss
+1 个警告
+# Summary for /Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/docs/jre/api/security/smartcardio/spec/index.html
+# Options (smartcardio.options):
+#   -XDignore.symbol.file=true -quiet -use -keywords -Xdoclint:none -Xprofilespath /Users/cg/jdk8u/openjdk/jdk/make/profile-rtjar-includes.txt -Xdocrootparent https://docs.oracle.com/javase/7/docs
+#   -sourcepath '/Users/cg/jdk8u/openjdk/jdk/src/share/classes:/Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/jdk/impsrc:/Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/jdk/gensrc:/Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/jdk/gendocsrc_rmic:/Users/cg/jdk8u/openjdk/jdk/src/solaris/classes:/Users/cg/jdk8u/openjdk/jdk/src/windows/classes:/Users/cg/jdk8u/openjdk/nashorn/src/:/Users/cg/jdk8u/openjdk/jdk/src/share/doc/stub'
+#   -encoding 'ascii'
+#   -nodeprecatedlist
+#   -doctitle 'Java&trade; Smart Card I/O'
+#   -windowtitle 'Java Smart Card I/O b00'
+#   -header '<strong>Java Smart Card I/O</strong><br><strong>DRAFT&nbsp;internal-b00</strong>'
+#   -bottom '<font size="-1"><br> Copyright &#x00a9; 2005, 2020, Oracle and/or its affiliates.  All rights reserved.</font><br><strong>DRAFT&nbsp;internal-b00</strong>'
+#   -linkoffline '../../../../../api' '/Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/docs/api/'
+# Packages (smartcardio.packages):
+#   javax.smartcardio
+# Summary for /Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/docs/jre/api/net/httpserver/spec/index.html
+# Options (httpserver.options):
+#   -XDignore.symbol.file=true -quiet -use -keywords -Xdoclint:none -Xprofilespath /Users/cg/jdk8u/openjdk/jdk/make/profile-rtjar-includes.txt -Xdocrootparent https://docs.oracle.com/javase/7/docs
+#   -sourcepath '/Users/cg/jdk8u/openjdk/jdk/src/share/classes:/Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/jdk/impsrc:/Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/jdk/gensrc:/Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/jdk/gendocsrc_rmic:/Users/cg/jdk8u/openjdk/jdk/src/solaris/classes:/Users/cg/jdk8u/openjdk/jdk/src/windows/classes:/Users/cg/jdk8u/openjdk/nashorn/src/:/Users/cg/jdk8u/openjdk/jdk/src/share/doc/stub'
+#   -encoding 'ascii'
+#   -nodeprecatedlist
+#   -doctitle 'Java&trade; HTTP Server'
+#   -windowtitle 'Java HTTP Server b00'
+#   -header '<strong>Java HTTP Server</strong><br><strong>DRAFT&nbsp;internal-b00</strong>'
+#   -bottom '<font size="-1"><br> Copyright &#x00a9; 2005, 2020, Oracle and/or its affiliates.  All rights reserved.</font><br><strong>DRAFT&nbsp;internal-b00</strong>'
+#   -linkoffline '../../../../../api' '/Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/docs/api/'
+# Packages (httpserver.packages):
+#   com.sun.net.httpserver
+#   com.sun.net.httpserver.spi
+WARNING: File JVM-MANAGEMENT-MIB.mib not available.
+# Summary for /Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/docs/jre/api/management/extension/index.html
+# Options (mgmt.options):
+#   -XDignore.symbol.file=true -quiet -use -keywords -Xdoclint:none -Xprofilespath /Users/cg/jdk8u/openjdk/jdk/make/profile-rtjar-includes.txt -Xdocrootparent https://docs.oracle.com/javase/7/docs
+#   -sourcepath '/Users/cg/jdk8u/openjdk/jdk/src/share/classes:/Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/jdk/impsrc:/Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/jdk/gensrc:/Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/jdk/gendocsrc_rmic:/Users/cg/jdk8u/openjdk/jdk/src/solaris/classes:/Users/cg/jdk8u/openjdk/jdk/src/windows/classes:/Users/cg/jdk8u/openjdk/nashorn/src/:/Users/cg/jdk8u/openjdk/jdk/src/share/doc/stub'
+#   -encoding 'ascii'
+#   -nodeprecatedlist
+#   -overview '/Users/cg/jdk8u/openjdk/jdk/src/share/classes/com/sun/management/mgmt-overview.html'
+#   -doctitle 'Monitoring and Management Interface for the Java&trade; Platform'
+#   -windowtitle 'Monitoring and Management Interface for the Java Platform b00'
+#   -header '<strong>Monitoring and Management Interface for the Java Platform</strong><br><strong>DRAFT&nbsp;internal-b00</strong>'
+#   -bottom '<font size="-1"><br> Copyright &#x00a9; 2003, 2020, Oracle and/or its affiliates.  All rights reserved.</font><br><strong>DRAFT&nbsp;internal-b00</strong>'
+#   -linkoffline '../../../../api' '/Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/docs/api/'
+# Packages (mgmt.packages):
+#   com.sun.management
+# Summary for /Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/docs/jdk/api/attach/spec/index.html
+# Options (attach.options):
+#   -XDignore.symbol.file=true -quiet -use -keywords -Xdoclint:none -Xprofilespath /Users/cg/jdk8u/openjdk/jdk/make/profile-rtjar-includes.txt -Xdocrootparent https://docs.oracle.com/javase/7/docs
+#   -sourcepath '/Users/cg/jdk8u/openjdk/jdk/src/share/classes:/Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/jdk/impsrc:/Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/jdk/gensrc:/Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/jdk/gendocsrc_rmic:/Users/cg/jdk8u/openjdk/jdk/src/solaris/classes:/Users/cg/jdk8u/openjdk/jdk/src/windows/classes:/Users/cg/jdk8u/openjdk/nashorn/src/:/Users/cg/jdk8u/openjdk/jdk/src/share/doc/stub'
+#   -encoding 'ascii'
+#   -nodeprecatedlist
+#   -doctitle 'Attach API'
+#   -windowtitle 'Attach API b00'
+#   -header '<strong>Attach API</strong><br><strong>DRAFT&nbsp;internal-b00</strong>'
+#   -bottom '<font size="-1"><br> Copyright &#x00a9; 2005, 2020, Oracle and/or its affiliates.  All rights reserved.</font><br><strong>DRAFT&nbsp;internal-b00</strong>'
+#   -linkoffline '../../../../api' '/Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/docs/api/'
+# Packages (attach.packages):
+#   com.sun.tools.attach
+#   com.sun.tools.attach.spi
+# Summary for /Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/docs/jdk/api/jconsole/spec/index.html
+# Options (jconsole.options):
+#   -XDignore.symbol.file=true -quiet -use -keywords -Xdoclint:none -Xprofilespath /Users/cg/jdk8u/openjdk/jdk/make/profile-rtjar-includes.txt -Xdocrootparent https://docs.oracle.com/javase/7/docs
+#   -sourcepath '/Users/cg/jdk8u/openjdk/jdk/src/share/classes:/Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/jdk/impsrc:/Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/jdk/gensrc:/Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/jdk/gendocsrc_rmic:/Users/cg/jdk8u/openjdk/jdk/src/solaris/classes:/Users/cg/jdk8u/openjdk/jdk/src/windows/classes:/Users/cg/jdk8u/openjdk/nashorn/src/:/Users/cg/jdk8u/openjdk/jdk/src/share/doc/stub'
+#   -encoding 'ascii'
+#   -nodeprecatedlist
+#   -doctitle 'JConsole API'
+#   -windowtitle 'JConsole API b00'
+#   -header '<strong>JConsole API</strong><br><strong>DRAFT&nbsp;internal-b00</strong>'
+#   -bottom '<font size="-1"><br> Copyright &#x00a9; 2006, 2020, Oracle and/or its affiliates.  All rights reserved.</font><br><strong>DRAFT&nbsp;internal-b00</strong>'
+#   -linkoffline '../../../../api' '/Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/docs/api/'
+# Packages (jconsole.packages):
+#   com.sun.tools.jconsole
+# Summary for /Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/docs/jdk/api/javac/tree/index.html
+# Options (treeapi.options):
+#   -XDignore.symbol.file=true -quiet -use -keywords -Xdoclint:none -Xprofilespath /Users/cg/jdk8u/openjdk/jdk/make/profile-rtjar-includes.txt -Xdocrootparent https://docs.oracle.com/javase/7/docs
+#   -sourcepath '/Users/cg/jdk8u/openjdk/jdk/src/share/classes:/Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/jdk/impsrc:/Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/jdk/gensrc:/Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/jdk/gendocsrc_rmic:/Users/cg/jdk8u/openjdk/jdk/src/solaris/classes:/Users/cg/jdk8u/openjdk/jdk/src/windows/classes:/Users/cg/jdk8u/openjdk/nashorn/src/:/Users/cg/jdk8u/openjdk/jdk/src/share/doc/stub'
+#   -encoding 'ascii'
+#   -doctitle 'Compiler Tree API'
+#   -windowtitle 'Compiler Tree API b00'
+#   -header '<strong>Compiler Tree API</strong><br><strong>DRAFT&nbsp;internal-b00</strong>'
+#   -tag 'jls:a:See <cite> The Java&trade; Language Specification</cite>:'
+#   -bottom '<font size="-1"><br> Copyright &#x00a9; 2005, 2020, Oracle and/or its affiliates.  All rights reserved.</font><br><strong>DRAFT&nbsp;internal-b00</strong>'
+#   -group 'Packages' 'com.sun.source.*'
+#   -linkoffline '../../../../api' '/Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/docs/api/'
+# Packages (treeapi.packages):
+#   com.sun.source.doctree
+#   com.sun.source.tree
+#   com.sun.source.util
+#   jdk
+/Users/cg/jdk8u/openjdk/jdk/src/share/classes/com/sun/management/HotSpotDiagnosticMXBean.java:52: 警告 - 标记@see: 找不到引用: ManagementFactory#getPlatformMXBeans(Class)
+1 个警告
+# Summary for /Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/docs/jdk/api/nashorn/index.html
+# Options (nashornapi.options):
+#   -XDignore.symbol.file=true -quiet -use -keywords -Xdoclint:none -Xprofilespath /Users/cg/jdk8u/openjdk/jdk/make/profile-rtjar-includes.txt -Xdocrootparent https://docs.oracle.com/javase/7/docs
+#   -sourcepath '/Users/cg/jdk8u/openjdk/jdk/src/share/classes:/Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/jdk/impsrc:/Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/jdk/gensrc:/Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/jdk/gendocsrc_rmic:/Users/cg/jdk8u/openjdk/jdk/src/solaris/classes:/Users/cg/jdk8u/openjdk/jdk/src/windows/classes:/Users/cg/jdk8u/openjdk/nashorn/src/:/Users/cg/jdk8u/openjdk/jdk/src/share/doc/stub'
+#   -encoding 'ascii'
+#   -doctitle 'Nashorn API'
+#   -windowtitle 'Nashorn API b00'
+#   -header '<strong>Nashorn API</strong><br><strong>DRAFT&nbsp;internal-b00</strong>'
+#   -tag 'jls:a:See <cite> The Java&trade; Language Specification</cite>:'
+#   -bottom '<font size="-1"><br> Copyright &#x00a9; 2014, 2020, Oracle and/or its affiliates.  All rights reserved.</font><br><strong>DRAFT&nbsp;internal-b00</strong>'
+#   -group 'Packages' 'jdk.nashorn.api.scripting.*'
+#   -linkoffline '../../../api' '/Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/docs/api/'
+# Packages (nashornapi.packages):
+#   jdk.nashorn.api.scripting
+/Users/cg/jdk8u/openjdk/jdk/src/share/classes/com/sun/tools/attach/AttachOperationFailedException.java:51: 警告 - @param argument "s" 不是参数名称。
+1 个警告
+# Summary for /Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/docs/jre/api/nio/sctp/spec/index.html
+# Options (sctp.options):
+#   -XDignore.symbol.file=true -quiet -use -keywords -Xdoclint:none -Xprofilespath /Users/cg/jdk8u/openjdk/jdk/make/profile-rtjar-includes.txt -Xdocrootparent https://docs.oracle.com/javase/7/docs
+#   -sourcepath '/Users/cg/jdk8u/openjdk/jdk/src/share/classes:/Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/jdk/impsrc:/Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/jdk/gensrc:/Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/jdk/gendocsrc_rmic:/Users/cg/jdk8u/openjdk/jdk/src/solaris/classes:/Users/cg/jdk8u/openjdk/jdk/src/windows/classes:/Users/cg/jdk8u/openjdk/nashorn/src/:/Users/cg/jdk8u/openjdk/jdk/src/share/doc/stub'
+#   -encoding 'ascii'
+#   -nodeprecatedlist
+#   -doctitle 'SCTP API'
+#   -windowtitle 'SCTP API b00'
+#   -header '<strong>SCTP API</strong><br><strong>DRAFT&nbsp;internal-b00</strong>'
+#   -bottom '<font size="-1"><br> Copyright &#x00a9; 2009, 2020, Oracle and/or its affiliates.  All rights reserved.</font><br><strong>DRAFT&nbsp;internal-b00</strong>'
+#   -linkoffline '../../../../../api' '/Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/docs/api/'
+# Packages (sctp.packages):
+#   com.sun.nio.sctp
+# Summary for /Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/docs/jre/api/net/socketoptions/spec/index.html
+# Options (jdknet.options):
+#   -XDignore.symbol.file=true -quiet -use -keywords -Xdoclint:none -Xprofilespath /Users/cg/jdk8u/openjdk/jdk/make/profile-rtjar-includes.txt -Xdocrootparent https://docs.oracle.com/javase/7/docs
+#   -Xdoclint:none
+#   -sourcepath '/Users/cg/jdk8u/openjdk/jdk/src/share/classes:/Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/jdk/impsrc:/Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/jdk/gensrc:/Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/jdk/gendocsrc_rmic:/Users/cg/jdk8u/openjdk/jdk/src/solaris/classes:/Users/cg/jdk8u/openjdk/jdk/src/windows/classes:/Users/cg/jdk8u/openjdk/nashorn/src/:/Users/cg/jdk8u/openjdk/jdk/src/share/doc/stub'
+#   -encoding 'ascii'
+#   -nodeprecatedlist
+#   -doctitle 'jdk.net API'
+#   -windowtitle 'jdk.net API b00'
+#   -header '<strong>jdk.net API</strong><br><strong>DRAFT&nbsp;internal-b00</strong>'
+#   -bottom '<font size="-1"><br> Copyright &#x00a9; 2014, 2020, Oracle and/or its affiliates.  All rights reserved.</font><br><strong>DRAFT&nbsp;internal-b00</strong>'
+#   -linkoffline '../../../../../api' '/Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/docs/api/'
+# Packages (jdknet.packages):
+#   jdk.net
+## Finished docs (build time 00:03:18)
+
+----- Build times -------
+Start 2020-11-16 20:27:04
+End   2020-11-16 20:32:33
+00:00:01 corba
+00:00:01 demos
+00:03:18 docs
+00:00:00 hotspot
+00:01:19 images
+00:00:00 jaxp
+00:00:00 jaxws
+00:00:07 jdk
+00:00:42 langtools
+00:00:00 nashorn
+00:05:29 TOTAL
+-------------------------

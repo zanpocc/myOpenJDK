@@ -1,0 +1,10 @@
+-XDignore.symbol.file=true -quiet -use -keywords -Xdoclint:none -Xprofilespath /Users/cg/jdk8u/openjdk/jdk/make/profile-rtjar-includes.txt -Xdocrootparent https://docs.oracle.com/javase/7/docs
+-Xdoclint:none
+-sourcepath '/Users/cg/jdk8u/openjdk/jdk/src/share/classes:/Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/jdk/impsrc:/Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/jdk/gensrc:/Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/jdk/gendocsrc_rmic:/Users/cg/jdk8u/openjdk/jdk/src/solaris/classes:/Users/cg/jdk8u/openjdk/jdk/src/windows/classes:/Users/cg/jdk8u/openjdk/nashorn/src/:/Users/cg/jdk8u/openjdk/jdk/src/share/doc/stub'
+-encoding 'ascii'
+-nodeprecatedlist
+-doctitle 'jdk.net API'
+-windowtitle 'jdk.net API b00'
+-header '<strong>jdk.net API</strong><br><strong>DRAFT&nbsp;internal-b00</strong>'
+-bottom '<font size="-1"><br> Copyright &#x00a9; 2014, 2020, Oracle and/or its affiliates.  All rights reserved.</font><br><strong>DRAFT&nbsp;internal-b00</strong>'
+-linkoffline '../../../../../api' '/Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/docs/api/'
