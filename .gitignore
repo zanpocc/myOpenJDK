@@ -3,8 +3,12 @@
 
 # mac file
 .DS_Store
-/.DS_Store
-/.DS_Store/
+
+# vscode
+**/.vscode
+
+# idea
+.idea
 
 # Prerequisites
 *.d
