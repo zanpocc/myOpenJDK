@@ -84,8 +84,8 @@ public class JFormattedTextFieldBeanInfo extends javax.swing.SwingBeanInfoBase {
     public PropertyDescriptor[] getPropertyDescriptors() {
          
 		Object[] focusLostBehaviorEnumeration = new Object[] { 
-			"COMMIT" ,   new Integer(JFormattedTextField.COMMIT), "JFormattedTextField.COMMIT",
 			"REVERT" ,   new Integer(JFormattedTextField.REVERT), "JFormattedTextField.REVERT",
+			"COMMIT" ,   new Integer(JFormattedTextField.COMMIT), "JFormattedTextField.COMMIT",
 			"COMMIT_OR_REVERT" ,   new Integer(JFormattedTextField.COMMIT_OR_REVERT), "JFormattedTextField.COMMIT_OR_REVERT",
 			"PERSIST" ,   new Integer(JFormattedTextField.PERSIST), "JFormattedTextField.PERSIST"
 		};

@@ -147,9 +147,9 @@ public class FormatData_ii extends ListResourceBundle {
             { "field.minute", "\ua0cf" },
             { "field.second", "\ua1d9" },
             { "field.zone", "\ua0c5\ua137\ua12e\ua209" },
-            { "calendarname.islamic", "\ua473\ua326\ua1c2\ua44d\ua256" },
             { "calendarname.gregorian", "\ua109\ua27b\ua0c5\ua44d" },
             { "calendarname.gregory", "\ua109\ua27b\ua0c5\ua44d" },
+            { "calendarname.islamic", "\ua473\ua326\ua1c2\ua44d\ua256" },
             { "DefaultNumberingSystem", "latn" },
             { "latn.NumberElements",
                 new String[] {

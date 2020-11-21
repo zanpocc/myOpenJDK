@@ -4,8 +4,8 @@ package org.omg.PortableServer;
 /**
 * org/omg/PortableServer/IdUniquenessPolicyOperations.java .
 * ?IDL-to-Java ??? (???), ?? "3.2"??
-* ?/Users/cg/jdk8u/openjdk/corba/src/share/classes/org/omg/PortableServer/poa.idl
-* 2020?2?2? ??? ??02?27?29? CST
+* ?/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/corba/src/share/classes/org/omg/PortableServer/poa.idl
+* 2020?11?21? ??? ??04?43?32? CST
 */
 
 

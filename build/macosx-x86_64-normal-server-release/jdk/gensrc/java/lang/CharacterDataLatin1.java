@@ -1,4 +1,4 @@
-// This file was generated AUTOMATICALLY from a template file Sun Feb 02 02:29:13 CST 2020
+// This file was generated AUTOMATICALLY from a template file Sat Nov 21 16:45:35 CST 2020
 /*
  * Copyright (c) 2002, 2013, Oracle and/or its affiliates. All rights reserved.
  * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
@@ -252,7 +252,7 @@ class CharacterDataLatin1 extends CharacterData {
     private CharacterDataLatin1() {};
 
     // The following tables and code generated using:
-  // java GenerateCharacter -template /Users/cg/jdk8u/openjdk/jdk/make/data/characterdata/CharacterDataLatin1.java.template -spec /Users/cg/jdk8u/openjdk/jdk/make/data/unicodedata/UnicodeData.txt -specialcasing /Users/cg/jdk8u/openjdk/jdk/make/data/unicodedata/SpecialCasing.txt -proplist /Users/cg/jdk8u/openjdk/jdk/make/data/unicodedata/PropList.txt -o /Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/jdk/gensrc/java/lang/CharacterDataLatin1.java -string -usecharforbyte -latin1 8
+  // java GenerateCharacter -template /Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/jdk/make/data/characterdata/CharacterDataLatin1.java.template -spec /Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/jdk/make/data/unicodedata/UnicodeData.txt -specialcasing /Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/jdk/make/data/unicodedata/SpecialCasing.txt -proplist /Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/jdk/make/data/unicodedata/PropList.txt -o /Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/build/macosx-x86_64-normal-server-release/jdk/gensrc/java/lang/CharacterDataLatin1.java -string -usecharforbyte -latin1 8
   // The A table has 256 entries for a total of 1024 bytes.
 
   static final int A[] = new int[256];

@@ -164,14 +164,14 @@ public class FormatData_ur extends ListResourceBundle {
                     "",
                 }
             },
+            { "calendarname.islamic", "\u0627\u0633\u0644\u0627\u0645\u06cc \u06a9\u06cc\u0644\u0646\u0688\u0631" },
+            { "calendarname.buddhist", "\u0628\u0648\u062f\u06be \u06a9\u0644\u06cc\u0646\u0688\u0631" },
             { "calendarname.gregorian", "\u062c\u0627\u0631\u062c\u06cc\u0627\u0626\u06cc \u06a9\u06cc\u0644\u0646\u0688\u0631" },
             { "calendarname.gregory", "\u062c\u0627\u0631\u062c\u06cc\u0627\u0626\u06cc \u06a9\u06cc\u0644\u0646\u0688\u0631" },
-            { "calendarname.roc", "\u0645\u0646\u06af\u0648\u0648 \u06a9\u06cc\u0644\u0646\u0688\u0631" },
             { "calendarname.islamic-civil", "\u0627\u0633\u0644\u0627\u0645\u06cc \u0634\u06c1\u0631\u06cc \u06a9\u06cc\u0644\u0646\u0688\u0631" },
             { "calendarname.islamicc", "\u0627\u0633\u0644\u0627\u0645\u06cc \u0634\u06c1\u0631\u06cc \u06a9\u06cc\u0644\u0646\u0688\u0631" },
+            { "calendarname.roc", "\u0645\u0646\u06af\u0648\u0648 \u06a9\u06cc\u0644\u0646\u0688\u0631" },
             { "calendarname.japanese", "\u062c\u0627\u067e\u0627\u0646\u06cc \u06a9\u06cc\u0644\u0646\u0688\u0631" },
-            { "calendarname.buddhist", "\u0628\u0648\u062f\u06be \u06a9\u0644\u06cc\u0646\u0688\u0631" },
-            { "calendarname.islamic", "\u0627\u0633\u0644\u0627\u0645\u06cc \u06a9\u06cc\u0644\u0646\u0688\u0631" },
             { "DefaultNumberingSystem", "latn" },
             { "latn.NumberElements",
                 new String[] {

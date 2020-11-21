@@ -64,7 +64,7 @@ UNIQ="/usr/bin/uniq"
 UNPACK200=" /Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/bin/unpack200"
 UNZIP="/usr/bin/unzip"
 
-SRC_ROOT="/Users/cg/jdk8u/openjdk"
+SRC_ROOT="/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK"
 
 if [ "$OPENJDK_TARGET_OS" = "windows" ]; then
   PATH=""

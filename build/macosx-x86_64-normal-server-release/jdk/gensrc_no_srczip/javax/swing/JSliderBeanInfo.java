@@ -85,8 +85,8 @@ public class JSliderBeanInfo extends javax.swing.SwingBeanInfoBase {
     public PropertyDescriptor[] getPropertyDescriptors() {
          
 		Object[] orientationEnumeration = new Object[] { 
-			"VERTICAL" ,   new Integer(JSlider.VERTICAL), "JSlider.VERTICAL",
-			"HORIZONTAL" ,   new Integer(JSlider.HORIZONTAL), "JSlider.HORIZONTAL"
+			"HORIZONTAL" ,   new Integer(JSlider.HORIZONTAL), "JSlider.HORIZONTAL",
+			"VERTICAL" ,   new Integer(JSlider.VERTICAL), "JSlider.VERTICAL"
 		};
 
         return new PropertyDescriptor[] {

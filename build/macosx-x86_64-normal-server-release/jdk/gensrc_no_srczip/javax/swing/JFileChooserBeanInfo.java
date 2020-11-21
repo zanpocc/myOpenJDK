@@ -92,8 +92,8 @@ public class JFileChooserBeanInfo extends javax.swing.SwingBeanInfoBase {
 
 		Object[] fileSelectionModeEnumeration = new Object[] { 
 			"FILES_ONLY" ,   new Integer(JFileChooser.FILES_ONLY), "JFileChooser.FILES_ONLY",
-			"FILES_AND_DIRECTORIES" ,   new Integer(JFileChooser.FILES_AND_DIRECTORIES), "JFileChooser.FILES_AND_DIRECTORIES",
-			"DIRECTORIES_ONLY" ,   new Integer(JFileChooser.DIRECTORIES_ONLY), "JFileChooser.DIRECTORIES_ONLY"
+			"DIRECTORIES_ONLY" ,   new Integer(JFileChooser.DIRECTORIES_ONLY), "JFileChooser.DIRECTORIES_ONLY",
+			"FILES_AND_DIRECTORIES" ,   new Integer(JFileChooser.FILES_AND_DIRECTORIES), "JFileChooser.FILES_AND_DIRECTORIES"
 		};
 
         return new PropertyDescriptor[] {

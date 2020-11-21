@@ -75,11 +75,17 @@ public class TimeZoneNames_ga extends TimeZoneNamesBundle {
                "GT",
             };
         final Object[][] data = new Object[][] {
-            { "Africa/Lome", GMT },
-            { "Africa/Freetown", GMT },
-            { "Africa/Abidjan", GMT },
-            { "Atlantic/Reykjavik", GMT },
             { "Africa/Monrovia", GMT },
+            { "Africa/Dakar", GMT },
+            { "Africa/Conakry", GMT },
+            { "Africa/Bissau", GMT },
+            { "Africa/Accra", GMT },
+            { "Europe/Jersey", GMT },
+            { "Africa/Banjul", GMT },
+            { "Africa/Abidjan", GMT },
+            { "Africa/Freetown", GMT },
+            { "America/Danmarkshavn", GMT },
+            { "Europe/Kaliningrad", GMT },
             { "Europe/Dublin",
                 new String[] {
                     "Me\u00e1n-Am Greenwich",
@@ -90,14 +96,14 @@ public class TimeZoneNames_ga extends TimeZoneNamesBundle {
                     "GT",
                 }
             },
-            { "Europe/Kaliningrad", GMT },
-            { "Atlantic/St_Helena", GMT },
-            { "Africa/Sao_Tome", GMT },
-            { "Europe/Isle_of_Man", GMT },
-            { "Africa/Nouakchott", GMT },
             { "Africa/Ouagadougou", GMT },
-            { "Europe/Jersey", GMT },
             { "Africa/Bamako", GMT },
+            { "Atlantic/Reykjavik", GMT },
+            { "Africa/Sao_Tome", GMT },
+            { "Africa/Lome", GMT },
+            { "Atlantic/St_Helena", GMT },
+            { "Africa/Nouakchott", GMT },
+            { "Europe/Guernsey", GMT },
             { "Europe/London",
                 new String[] {
                     "Me\u00e1n-Am Greenwich",
@@ -108,13 +114,7 @@ public class TimeZoneNames_ga extends TimeZoneNamesBundle {
                     "GT",
                 }
             },
-            { "Europe/Guernsey", GMT },
-            { "Africa/Dakar", GMT },
-            { "Africa/Banjul", GMT },
-            { "Africa/Accra", GMT },
-            { "America/Danmarkshavn", GMT },
-            { "Africa/Bissau", GMT },
-            { "Africa/Conakry", GMT },
+            { "Europe/Isle_of_Man", GMT },
         };
         return data;
     }

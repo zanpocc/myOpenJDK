@@ -85,15 +85,15 @@ public class JListBeanInfo extends javax.swing.SwingBeanInfoBase {
     public PropertyDescriptor[] getPropertyDescriptors() {
          
 		Object[] layoutOrientationEnumeration = new Object[] { 
+			"VERTICAL_WRAP" ,   new Integer(JList.VERTICAL_WRAP), "JList.VERTICAL_WRAP",
 			"VERTICAL" ,   new Integer(JList.VERTICAL), "JList.VERTICAL",
-			"HORIZONTAL_WRAP" ,   new Integer(JList.HORIZONTAL_WRAP), "JList.HORIZONTAL_WRAP",
-			"VERTICAL_WRAP" ,   new Integer(JList.VERTICAL_WRAP), "JList.VERTICAL_WRAP"
+			"HORIZONTAL_WRAP" ,   new Integer(JList.HORIZONTAL_WRAP), "JList.HORIZONTAL_WRAP"
 		};
 
 		Object[] selectionModeEnumeration = new Object[] { 
-			"MULTIPLE_INTERVAL_SELECTION" ,   new Integer(ListSelectionModel.MULTIPLE_INTERVAL_SELECTION), "ListSelectionModel.MULTIPLE_INTERVAL_SELECTION",
+			"SINGLE_SELECTION" ,   new Integer(ListSelectionModel.SINGLE_SELECTION), "ListSelectionModel.SINGLE_SELECTION",
 			"SINGLE_INTERVAL_SELECTION" ,   new Integer(ListSelectionModel.SINGLE_INTERVAL_SELECTION), "ListSelectionModel.SINGLE_INTERVAL_SELECTION",
-			"SINGLE_SELECTION" ,   new Integer(ListSelectionModel.SINGLE_SELECTION), "ListSelectionModel.SINGLE_SELECTION"
+			"MULTIPLE_INTERVAL_SELECTION" ,   new Integer(ListSelectionModel.MULTIPLE_INTERVAL_SELECTION), "ListSelectionModel.MULTIPLE_INTERVAL_SELECTION"
 		};
 
         return new PropertyDescriptor[] {

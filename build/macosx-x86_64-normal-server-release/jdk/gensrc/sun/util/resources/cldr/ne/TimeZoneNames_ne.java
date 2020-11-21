@@ -75,14 +75,14 @@ public class TimeZoneNames_ne extends TimeZoneNamesBundle {
                "CAT",
             };
         final Object[][] data = new Object[][] {
+            { "Africa/Gaborone", Africa_Central },
             { "Africa/Lubumbashi", Africa_Central },
-            { "Africa/Bujumbura", Africa_Central },
+            { "Africa/Kigali", Africa_Central },
+            { "Africa/Blantyre", Africa_Central },
+            { "Africa/Maputo", Africa_Central },
             { "Africa/Lusaka", Africa_Central },
             { "Africa/Harare", Africa_Central },
-            { "Africa/Gaborone", Africa_Central },
-            { "Africa/Maputo", Africa_Central },
-            { "Africa/Blantyre", Africa_Central },
-            { "Africa/Kigali", Africa_Central },
+            { "Africa/Bujumbura", Africa_Central },
         };
         return data;
     }

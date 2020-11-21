@@ -23,7 +23,7 @@
 # questions.
 #
 
-# Configured Mon Nov 16 20:26:32 CST 2020 to build
+# Configured Sat Nov 21 16:38:59 CST 2020 to build
 # for target system macosx-x86_64
 #   (called x86_64-apple-darwin18.6.0 by autoconf)
 # on build system macosx-x86_64
@@ -47,7 +47,7 @@ define NEWLINE
 endef
 
 # A self-referential reference to this file.
-SPEC:=/Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/spec.gmk
+SPEC:=/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/build/macosx-x86_64-normal-server-release/spec.gmk
 
 # Specify where the spec file is.
 MAKE_ARGS="SPEC=$(SPEC)"
@@ -65,8 +65,8 @@ ifeq (,$(findstring -R,$(MAKE)))
 endif
 
 # Specify where the common include directory for makefiles is.
-ifeq (,$(findstring -I /Users/cg/jdk8u/openjdk/make/common,$(MAKE)))
-  MAKE:=$(MAKE) -I /Users/cg/jdk8u/openjdk/make/common
+ifeq (,$(findstring -I /Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/make/common,$(MAKE)))
+  MAKE:=$(MAKE) -I /Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/make/common
 endif
 
 # The "human readable" name of this configuration
@@ -131,18 +131,18 @@ endif
 SYS_ROOT:=/
 
 # Paths to the source code
-SRC_ROOT:=/Users/cg/jdk8u/openjdk
+SRC_ROOT:=/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK
 ADD_SRC_ROOT:=
 OVERRIDE_SRC_ROOT:=
-TOPDIR:=/Users/cg/jdk8u/openjdk
-OUTPUT_ROOT:=/Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release
-JDK_TOPDIR:=/Users/cg/jdk8u/openjdk/jdk
-LANGTOOLS_TOPDIR:=/Users/cg/jdk8u/openjdk/langtools
-CORBA_TOPDIR:=/Users/cg/jdk8u/openjdk/corba
-JAXP_TOPDIR:=/Users/cg/jdk8u/openjdk/jaxp
-JAXWS_TOPDIR:=/Users/cg/jdk8u/openjdk/jaxws
-HOTSPOT_TOPDIR:=/Users/cg/jdk8u/openjdk/hotspot
-NASHORN_TOPDIR:=/Users/cg/jdk8u/openjdk/nashorn
+TOPDIR:=/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK
+OUTPUT_ROOT:=/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/build/macosx-x86_64-normal-server-release
+JDK_TOPDIR:=/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/jdk
+LANGTOOLS_TOPDIR:=/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/langtools
+CORBA_TOPDIR:=/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/corba
+JAXP_TOPDIR:=/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/jaxp
+JAXWS_TOPDIR:=/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/jaxws
+HOTSPOT_TOPDIR:=/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot
+NASHORN_TOPDIR:=/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/nashorn
 COPYRIGHT_YEAR:=2020
 
 # Location where build customization files may be found
@@ -162,7 +162,7 @@ JDK_RC_PLATFORM_NAME:=Platform
 COMPANY_NAME:=N/A
 MACOSX_BUNDLE_NAME_BASE=OpenJDK
 MACOSX_BUNDLE_ID_BASE=net.java.openjdk
-USER_RELEASE_SUFFIX=cg_2020_11_16_20_26
+USER_RELEASE_SUFFIX=cg_2020_11_21_16_38
 
 # Different version strings generated from the above information.
 JDK_VERSION:=1.8.0
@@ -227,7 +227,7 @@ BUILD_VARIANT_RELEASE:=
 # Then it will copy the contents of the jdk into the installation
 # directory.
 
-BUILD_OUTPUT:=/Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release
+BUILD_OUTPUT:=/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/build/macosx-x86_64-normal-server-release
 # Colon left out to be able to override IMAGES_OUTPUTDIR for bootcycle-images
 LANGTOOLS_OUTPUTDIR=$(BUILD_OUTPUT)/langtools
 CORBA_OUTPUTDIR=$(BUILD_OUTPUT)/corba
@@ -242,7 +242,7 @@ LANGTOOLS_DIST=$(LANGTOOLS_OUTPUTDIR)/dist
 CORBA_DIST=$(CORBA_OUTPUTDIR)/dist
 JAXP_DIST=$(JAXP_OUTPUTDIR)/dist
 JAXWS_DIST=$(JAXWS_OUTPUTDIR)/dist
-HOTSPOT_DIST=/Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/hotspot/dist
+HOTSPOT_DIST=/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/build/macosx-x86_64-normal-server-release/hotspot/dist
 NASHORN_DIST=$(NASHORN_OUTPUTDIR)/dist
 
 BUILD_HOTSPOT=true
@@ -278,7 +278,7 @@ ALSA_CFLAGS:=
 PACKAGE_PATH=/opt/local
 
 # Source file for cacerts
-CACERTS_FILE=/Users/cg/jdk8u/openjdk/jdk/src/share/lib/security/cacerts
+CACERTS_FILE=/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/jdk/src/share/lib/security/cacerts
 
 # Enable unlimited crypto policy
 UNLIMITED_CRYPTO=false
@@ -320,15 +320,15 @@ C_FLAG_DEPS:=-MMD -MF
 CXX_FLAG_DEPS:=-MMD -MF
 
 # Tools that potentially need to be cross compilation aware.
-CC:=  /usr/bin/gcc
+CC:=  /usr/bin/clang
 
 # CFLAGS used to compile the jdk native libraries (C-code)
-CFLAGS_JDKLIB:=  -W -Wall -Wno-unused -Wno-parentheses       -pipe       -D_GNU_SOURCE -D_REENTRANT -D_LARGEFILE64_SOURCE -fno-omit-frame-pointer -D_LP64=1 -D_LITTLE_ENDIAN -DMACOSX -D_ALLBSD_SOURCE -D_DARWIN_UNLIMITED_SELECT -DMAC_OS_X_VERSION_MAX_ALLOWED=$(subst .,,$(MACOSX_VERSION_MIN)) -mmacosx-version-min=$(MACOSX_VERSION_MIN) -DNDEBUG -DARCH='"x86_64"' -Dx86_64 -DRELEASE='"$(RELEASE)"'       -I/Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/jdk/include       -I/Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/jdk/include/macosx       -I/Users/cg/jdk8u/openjdk/jdk/src/share/javavm/export       -I/Users/cg/jdk8u/openjdk/jdk/src/macosx/javavm/export       -I/Users/cg/jdk8u/openjdk/jdk/src/share/native/common       -I/Users/cg/jdk8u/openjdk/jdk/src/solaris/native/common   -fno-strict-aliasing -fPIC 
-CXXFLAGS_JDKLIB:=  -W -Wall -Wno-unused -Wno-parentheses       -pipe       -D_GNU_SOURCE -D_REENTRANT -D_LARGEFILE64_SOURCE -fno-omit-frame-pointer -D_LP64=1 -D_LITTLE_ENDIAN -DMACOSX -D_ALLBSD_SOURCE -D_DARWIN_UNLIMITED_SELECT -DMAC_OS_X_VERSION_MAX_ALLOWED=$(subst .,,$(MACOSX_VERSION_MIN)) -mmacosx-version-min=$(MACOSX_VERSION_MIN) -DNDEBUG -DARCH='"x86_64"' -Dx86_64 -DRELEASE='"$(RELEASE)"'       -I/Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/jdk/include       -I/Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/jdk/include/macosx       -I/Users/cg/jdk8u/openjdk/jdk/src/share/javavm/export       -I/Users/cg/jdk8u/openjdk/jdk/src/macosx/javavm/export       -I/Users/cg/jdk8u/openjdk/jdk/src/share/native/common       -I/Users/cg/jdk8u/openjdk/jdk/src/solaris/native/common   -fPIC  
+CFLAGS_JDKLIB:=  -W -Wall -Wno-unused -Wno-parentheses       -pipe       -D_GNU_SOURCE -D_REENTRANT -D_LARGEFILE64_SOURCE -fno-omit-frame-pointer -D_LP64=1 -D_LITTLE_ENDIAN -DMACOSX -D_ALLBSD_SOURCE -D_DARWIN_UNLIMITED_SELECT -DMAC_OS_X_VERSION_MAX_ALLOWED=$(subst .,,$(MACOSX_VERSION_MIN)) -mmacosx-version-min=$(MACOSX_VERSION_MIN) -DNDEBUG -DARCH='"x86_64"' -Dx86_64 -DRELEASE='"$(RELEASE)"'       -I/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/build/macosx-x86_64-normal-server-release/jdk/include       -I/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/build/macosx-x86_64-normal-server-release/jdk/include/macosx       -I/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/jdk/src/share/javavm/export       -I/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/jdk/src/macosx/javavm/export       -I/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/jdk/src/share/native/common       -I/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/jdk/src/solaris/native/common   -fno-strict-aliasing -fPIC 
+CXXFLAGS_JDKLIB:=  -W -Wall -Wno-unused -Wno-parentheses       -pipe       -D_GNU_SOURCE -D_REENTRANT -D_LARGEFILE64_SOURCE -fno-omit-frame-pointer -D_LP64=1 -D_LITTLE_ENDIAN -DMACOSX -D_ALLBSD_SOURCE -D_DARWIN_UNLIMITED_SELECT -DMAC_OS_X_VERSION_MAX_ALLOWED=$(subst .,,$(MACOSX_VERSION_MIN)) -mmacosx-version-min=$(MACOSX_VERSION_MIN) -DNDEBUG -DARCH='"x86_64"' -Dx86_64 -DRELEASE='"$(RELEASE)"'       -I/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/build/macosx-x86_64-normal-server-release/jdk/include       -I/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/build/macosx-x86_64-normal-server-release/jdk/include/macosx       -I/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/jdk/src/share/javavm/export       -I/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/jdk/src/macosx/javavm/export       -I/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/jdk/src/share/native/common       -I/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/jdk/src/solaris/native/common   -fPIC  
 
 # CFLAGS used to compile the jdk native launchers (C-code)
-CFLAGS_JDKEXE:=  -W -Wall -Wno-unused -Wno-parentheses       -pipe       -D_GNU_SOURCE -D_REENTRANT -D_LARGEFILE64_SOURCE -fno-omit-frame-pointer -D_LP64=1 -D_LITTLE_ENDIAN -DMACOSX -D_ALLBSD_SOURCE -D_DARWIN_UNLIMITED_SELECT -DMAC_OS_X_VERSION_MAX_ALLOWED=$(subst .,,$(MACOSX_VERSION_MIN)) -mmacosx-version-min=$(MACOSX_VERSION_MIN) -DNDEBUG -DARCH='"x86_64"' -Dx86_64 -DRELEASE='"$(RELEASE)"'       -I/Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/jdk/include       -I/Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/jdk/include/macosx       -I/Users/cg/jdk8u/openjdk/jdk/src/share/javavm/export       -I/Users/cg/jdk8u/openjdk/jdk/src/macosx/javavm/export       -I/Users/cg/jdk8u/openjdk/jdk/src/share/native/common       -I/Users/cg/jdk8u/openjdk/jdk/src/solaris/native/common   -fno-strict-aliasing
-CXXFLAGS_JDKEXE:=  -W -Wall -Wno-unused -Wno-parentheses       -pipe       -D_GNU_SOURCE -D_REENTRANT -D_LARGEFILE64_SOURCE -fno-omit-frame-pointer -D_LP64=1 -D_LITTLE_ENDIAN -DMACOSX -D_ALLBSD_SOURCE -D_DARWIN_UNLIMITED_SELECT -DMAC_OS_X_VERSION_MAX_ALLOWED=$(subst .,,$(MACOSX_VERSION_MIN)) -mmacosx-version-min=$(MACOSX_VERSION_MIN) -DNDEBUG -DARCH='"x86_64"' -Dx86_64 -DRELEASE='"$(RELEASE)"'       -I/Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/jdk/include       -I/Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/jdk/include/macosx       -I/Users/cg/jdk8u/openjdk/jdk/src/share/javavm/export       -I/Users/cg/jdk8u/openjdk/jdk/src/macosx/javavm/export       -I/Users/cg/jdk8u/openjdk/jdk/src/share/native/common       -I/Users/cg/jdk8u/openjdk/jdk/src/solaris/native/common  
+CFLAGS_JDKEXE:=  -W -Wall -Wno-unused -Wno-parentheses       -pipe       -D_GNU_SOURCE -D_REENTRANT -D_LARGEFILE64_SOURCE -fno-omit-frame-pointer -D_LP64=1 -D_LITTLE_ENDIAN -DMACOSX -D_ALLBSD_SOURCE -D_DARWIN_UNLIMITED_SELECT -DMAC_OS_X_VERSION_MAX_ALLOWED=$(subst .,,$(MACOSX_VERSION_MIN)) -mmacosx-version-min=$(MACOSX_VERSION_MIN) -DNDEBUG -DARCH='"x86_64"' -Dx86_64 -DRELEASE='"$(RELEASE)"'       -I/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/build/macosx-x86_64-normal-server-release/jdk/include       -I/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/build/macosx-x86_64-normal-server-release/jdk/include/macosx       -I/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/jdk/src/share/javavm/export       -I/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/jdk/src/macosx/javavm/export       -I/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/jdk/src/share/native/common       -I/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/jdk/src/solaris/native/common   -fno-strict-aliasing
+CXXFLAGS_JDKEXE:=  -W -Wall -Wno-unused -Wno-parentheses       -pipe       -D_GNU_SOURCE -D_REENTRANT -D_LARGEFILE64_SOURCE -fno-omit-frame-pointer -D_LP64=1 -D_LITTLE_ENDIAN -DMACOSX -D_ALLBSD_SOURCE -D_DARWIN_UNLIMITED_SELECT -DMAC_OS_X_VERSION_MAX_ALLOWED=$(subst .,,$(MACOSX_VERSION_MIN)) -mmacosx-version-min=$(MACOSX_VERSION_MIN) -DNDEBUG -DARCH='"x86_64"' -Dx86_64 -DRELEASE='"$(RELEASE)"'       -I/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/build/macosx-x86_64-normal-server-release/jdk/include       -I/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/build/macosx-x86_64-normal-server-release/jdk/include/macosx       -I/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/jdk/src/share/javavm/export       -I/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/jdk/src/macosx/javavm/export       -I/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/jdk/src/share/native/common       -I/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/jdk/src/solaris/native/common  
 
 CXX:=  /usr/bin/g++
 #CXXFLAGS:= -I/usr/local/opt/freetype/include/freetype2
@@ -336,11 +336,11 @@ CXX:=  /usr/bin/g++
 OBJC:= /usr/bin/gcc
 #OBJCFLAGS:=
 
-CPP:= /usr/bin/gcc -E
+CPP:= /usr/bin/clang -E
 #CPPFLAGS:=
 
 # The linker can be gcc or ld on posix systems, or link.exe on windows systems.
-LD:= /usr/bin/gcc
+LD:= /usr/bin/clang
 
 # The linker on older SuSE distros (e.g. on SLES 10) complains with:
 # "Invalid version tag `SUNWprivate_1.1'. Only anonymous version tag is allowed in executable."
@@ -348,12 +348,12 @@ LD:= /usr/bin/gcc
 USING_BROKEN_SUSE_LD:=no
 
 # LDFLAGS used to link the jdk native libraries (C-code)
-LDFLAGS_JDKLIB:=  -mmacosx-version-min=$(MACOSX_VERSION_MIN) -dynamiclib -compatibility_version 1.0.0 -current_version 1.0.0 -fPIC         -L/Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/jdk/lib -L/Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/jdk/lib/server
+LDFLAGS_JDKLIB:=  -mmacosx-version-min=$(MACOSX_VERSION_MIN) -dynamiclib -compatibility_version 1.0.0 -current_version 1.0.0 -fPIC         -L/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/build/macosx-x86_64-normal-server-release/jdk/lib -L/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/build/macosx-x86_64-normal-server-release/jdk/lib/server
 LDFLAGS_JDKLIB_SUFFIX:=-ljava -ljvm
 
 # On some platforms the linker cannot be used to create executables, thus
 # the need for a separate LDEXE command.
-LDEXE:= /usr/bin/gcc
+LDEXE:= /usr/bin/clang
 
 # LDFLAGS used to link the jdk native launchers (C-code)
 LDFLAGS_JDKEXE:=  -mmacosx-version-min=$(MACOSX_VERSION_MIN)
@@ -372,10 +372,10 @@ LDEXECXX:= /usr/bin/g++
 
 # BUILD_CC/BUILD_LD is a compiler/linker that generates code that is runnable on the
 # build platform.
-BUILD_CC:= /usr/bin/gcc
-BUILD_LD:= /usr/bin/gcc
+BUILD_CC:= /usr/bin/clang
+BUILD_LD:= /usr/bin/clang
 
-AS:= /usr/bin/gcc -c
+AS:= /usr/bin/clang -c
 
 # AR is used to create a static library (is ar in posix, lib.exe in windows)
 AR:= /usr/bin/ar
@@ -674,4 +674,4 @@ JDK_BUNDLE_DIR=$(IMAGES_OUTPUTDIR)/$(JDK_BUNDLE_SUBDIR)
 JRE_BUNDLE_DIR=$(IMAGES_OUTPUTDIR)/$(JRE_BUNDLE_SUBDIR)
 
 # Include the custom-spec.gmk file if it exists
--include $(dir /Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/spec.gmk)/custom-spec.gmk
+-include $(dir /Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/build/macosx-x86_64-normal-server-release/spec.gmk)/custom-spec.gmk

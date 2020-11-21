@@ -85,31 +85,31 @@ public class JLabelBeanInfo extends javax.swing.SwingBeanInfoBase {
     public PropertyDescriptor[] getPropertyDescriptors() {
          
 		Object[] horizontalAlignmentEnumeration = new Object[] { 
-			"CENTER" ,   new Integer(SwingConstants.CENTER), "SwingConstants.CENTER",
-			"LEFT" ,   new Integer(SwingConstants.LEFT), "SwingConstants.LEFT",
-			"RIGHT" ,   new Integer(SwingConstants.RIGHT), "SwingConstants.RIGHT",
 			"TRAILING" ,   new Integer(SwingConstants.TRAILING), "SwingConstants.TRAILING",
-			"LEADING" ,   new Integer(SwingConstants.LEADING), "SwingConstants.LEADING"
+			"RIGHT" ,   new Integer(SwingConstants.RIGHT), "SwingConstants.RIGHT",
+			"LEFT" ,   new Integer(SwingConstants.LEFT), "SwingConstants.LEFT",
+			"LEADING" ,   new Integer(SwingConstants.LEADING), "SwingConstants.LEADING",
+			"CENTER" ,   new Integer(SwingConstants.CENTER), "SwingConstants.CENTER"
 		};
 
 		Object[] horizontalTextPositionEnumeration = new Object[] { 
-			"CENTER" ,   new Integer(SwingConstants.CENTER), "SwingConstants.CENTER",
-			"LEFT" ,   new Integer(SwingConstants.LEFT), "SwingConstants.LEFT",
-			"RIGHT" ,   new Integer(SwingConstants.RIGHT), "SwingConstants.RIGHT",
 			"TRAILING" ,   new Integer(SwingConstants.TRAILING), "SwingConstants.TRAILING",
-			"LEADING" ,   new Integer(SwingConstants.LEADING), "SwingConstants.LEADING"
+			"RIGHT" ,   new Integer(SwingConstants.RIGHT), "SwingConstants.RIGHT",
+			"LEFT" ,   new Integer(SwingConstants.LEFT), "SwingConstants.LEFT",
+			"LEADING" ,   new Integer(SwingConstants.LEADING), "SwingConstants.LEADING",
+			"CENTER" ,   new Integer(SwingConstants.CENTER), "SwingConstants.CENTER"
 		};
 
 		Object[] verticalAlignmentEnumeration = new Object[] { 
-			"CENTER" ,   new Integer(SwingConstants.CENTER), "SwingConstants.CENTER",
+			"BOTTOM" ,   new Integer(SwingConstants.BOTTOM), "SwingConstants.BOTTOM",
 			"TOP" ,   new Integer(SwingConstants.TOP), "SwingConstants.TOP",
-			"BOTTOM" ,   new Integer(SwingConstants.BOTTOM), "SwingConstants.BOTTOM"
+			"CENTER" ,   new Integer(SwingConstants.CENTER), "SwingConstants.CENTER"
 		};
 
 		Object[] verticalTextPositionEnumeration = new Object[] { 
-			"CENTER" ,   new Integer(SwingConstants.CENTER), "SwingConstants.CENTER",
+			"BOTTOM" ,   new Integer(SwingConstants.BOTTOM), "SwingConstants.BOTTOM",
 			"TOP" ,   new Integer(SwingConstants.TOP), "SwingConstants.TOP",
-			"BOTTOM" ,   new Integer(SwingConstants.BOTTOM), "SwingConstants.BOTTOM"
+			"CENTER" ,   new Integer(SwingConstants.CENTER), "SwingConstants.CENTER"
 		};
 
         return new PropertyDescriptor[] {

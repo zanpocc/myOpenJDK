@@ -1,4 +1,4 @@
-/* /Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/config.h.  Generated from config.h.in by configure.  */
+/* /Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/build/macosx-x86_64-normal-server-release/config.h.  Generated from config.h.in by configure.  */
 /*
  * Copyright (c) 2011, 2012, Oracle and/or its affiliates. All rights reserved.
  * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.

@@ -66,14 +66,6 @@ import sun.util.resources.TimeZoneNamesBundle;
 public class TimeZoneNames_es_AR extends TimeZoneNamesBundle {
     @Override
     protected final Object[][] getContents() {
-        final String[] Argentina = new String[] {
-               "Hora est\u00e1ndar de Argentina",
-               "ART",
-               "Hora de verano de Argentina",
-               "ARST",
-               "Hora de Argentina",
-               "ART",
-            };
         final String[] Argentina_Western = new String[] {
                "Hora est\u00e1ndar de Argentina occidental",
                "WART",
@@ -82,19 +74,27 @@ public class TimeZoneNames_es_AR extends TimeZoneNamesBundle {
                "Hora de Argentina occidental",
                "WART",
             };
+        final String[] Argentina = new String[] {
+               "Hora est\u00e1ndar de Argentina",
+               "ART",
+               "Hora de verano de Argentina",
+               "ARST",
+               "Hora de Argentina",
+               "ART",
+            };
         final Object[][] data = new Object[][] {
+            { "America/Mendoza", Argentina },
+            { "America/Buenos_Aires", Argentina },
+            { "America/Catamarca", Argentina },
             { "America/Argentina/San_Juan", Argentina },
+            { "America/Argentina/San_Luis", Argentina_Western },
+            { "America/Argentina/La_Rioja", Argentina },
             { "America/Cordoba", Argentina },
             { "America/Argentina/Tucuman", Argentina },
             { "America/Argentina/Ushuaia", Argentina },
-            { "America/Mendoza", Argentina },
-            { "America/Argentina/Rio_Gallegos", Argentina },
             { "America/Jujuy", Argentina },
-            { "America/Catamarca", Argentina },
             { "America/Argentina/Salta", Argentina },
-            { "America/Argentina/La_Rioja", Argentina },
-            { "America/Buenos_Aires", Argentina },
-            { "America/Argentina/San_Luis", Argentina_Western },
+            { "America/Argentina/Rio_Gallegos", Argentina },
         };
         return data;
     }

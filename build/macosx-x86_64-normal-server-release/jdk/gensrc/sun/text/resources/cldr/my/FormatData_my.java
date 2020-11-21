@@ -217,11 +217,11 @@ public class FormatData_my extends ListResourceBundle {
                     "yy/MM/dd",
                 }
             },
+            { "calendarname.islamic", "\u1021\u1005\u1039\u1005\u101c\u102c\u1019\u103a \u1015\u103c\u1000\u1039\u1001\u1012\u102d\u1014\u103a" },
+            { "calendarname.buddhist", "\u1017\u102f\u1012\u1039\u1013 \u1015\u103c\u1000\u1039\u1001\u1012\u102d\u1014\u103a" },
+            { "calendarname.japanese", "\u1002\u103b\u1015\u1014\u103a \u1015\u103c\u1000\u1039\u1001\u1012\u102d\u1014\u103a" },
             { "calendarname.gregorian", "\u1014\u102d\u102f\u1004\u103a\u1004\u1036\u1010\u1000\u102c\u101e\u102f\u1036\u1038 \u1015\u103c\u1000\u1039\u1001\u1012\u102d\u1014\u103a" },
             { "calendarname.gregory", "\u1014\u102d\u102f\u1004\u103a\u1004\u1036\u1010\u1000\u102c\u101e\u102f\u1036\u1038 \u1015\u103c\u1000\u1039\u1001\u1012\u102d\u1014\u103a" },
-            { "calendarname.japanese", "\u1002\u103b\u1015\u1014\u103a \u1015\u103c\u1000\u1039\u1001\u1012\u102d\u1014\u103a" },
-            { "calendarname.buddhist", "\u1017\u102f\u1012\u1039\u1013 \u1015\u103c\u1000\u1039\u1001\u1012\u102d\u1014\u103a" },
-            { "calendarname.islamic", "\u1021\u1005\u1039\u1005\u101c\u102c\u1019\u103a \u1015\u103c\u1000\u1039\u1001\u1012\u102d\u1014\u103a" },
             { "DefaultNumberingSystem", "mymr" },
             { "latn.NumberElements",
                 new String[] {

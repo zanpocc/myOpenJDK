@@ -85,8 +85,8 @@ public class JScrollBarBeanInfo extends javax.swing.SwingBeanInfoBase {
     public PropertyDescriptor[] getPropertyDescriptors() {
          
 		Object[] orientationEnumeration = new Object[] { 
-			"VERTICAL" ,   new Integer(JScrollBar.VERTICAL), "JScrollBar.VERTICAL",
-			"HORIZONTAL" ,   new Integer(JScrollBar.HORIZONTAL), "JScrollBar.HORIZONTAL"
+			"HORIZONTAL" ,   new Integer(JScrollBar.HORIZONTAL), "JScrollBar.HORIZONTAL",
+			"VERTICAL" ,   new Integer(JScrollBar.VERTICAL), "JScrollBar.VERTICAL"
 		};
 
         return new PropertyDescriptor[] {

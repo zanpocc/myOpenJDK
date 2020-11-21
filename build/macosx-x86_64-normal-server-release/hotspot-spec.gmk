@@ -48,7 +48,7 @@ ALT_CUPS_HEADERS_PATH:=$(patsubst -I%,%,$(filter -I%,))
 
 # The HOSTCC/HOSTCXX is Hotspot terminology for the BUILD_CC/BUILD_CXX, i.e. the
 # compiler that produces code that can be run on the build platform.
-HOSTCC:= /usr/bin/gcc
+HOSTCC:= /usr/bin/clang
 HOSTCXX:= /usr/bin/g++
 
 ####################################################
@@ -105,7 +105,7 @@ TEST_IN_BUILD=false
 # For hotspot, override compiler/tools definition to not include FIXPATH prefix.
 # Hotspot has its own handling on the Windows path situation.
 CXX:= /usr/bin/g++
-LD:=/usr/bin/gcc
+LD:=/usr/bin/clang
 MT:=
 RC:=
 

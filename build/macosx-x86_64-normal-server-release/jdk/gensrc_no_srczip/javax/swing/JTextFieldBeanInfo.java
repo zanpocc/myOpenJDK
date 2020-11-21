@@ -85,11 +85,11 @@ public class JTextFieldBeanInfo extends javax.swing.SwingBeanInfoBase {
     public PropertyDescriptor[] getPropertyDescriptors() {
          
 		Object[] horizontalAlignmentEnumeration = new Object[] { 
-			"CENTER" ,   new Integer(JTextField.CENTER), "JTextField.CENTER",
-			"LEFT" ,   new Integer(JTextField.LEFT), "JTextField.LEFT",
-			"RIGHT" ,   new Integer(JTextField.RIGHT), "JTextField.RIGHT",
 			"TRAILING" ,   new Integer(JTextField.TRAILING), "JTextField.TRAILING",
-			"LEADING" ,   new Integer(JTextField.LEADING), "JTextField.LEADING"
+			"RIGHT" ,   new Integer(JTextField.RIGHT), "JTextField.RIGHT",
+			"LEFT" ,   new Integer(JTextField.LEFT), "JTextField.LEFT",
+			"LEADING" ,   new Integer(JTextField.LEADING), "JTextField.LEADING",
+			"CENTER" ,   new Integer(JTextField.CENTER), "JTextField.CENTER"
 		};
 
         return new PropertyDescriptor[] {

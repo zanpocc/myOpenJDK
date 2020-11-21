@@ -84,8 +84,8 @@ public class JSplitPaneBeanInfo extends javax.swing.SwingBeanInfoBase {
     public PropertyDescriptor[] getPropertyDescriptors() {
          
 		Object[] orientationEnumeration = new Object[] { 
-			"HORIZONTAL_SPLIT" ,   new Integer(JSplitPane.HORIZONTAL_SPLIT), "JSplitPane.HORIZONTAL_SPLIT",
-			"VERTICAL_SPLIT" ,   new Integer(JSplitPane.VERTICAL_SPLIT), "JSplitPane.VERTICAL_SPLIT"
+			"VERTICAL_SPLIT" ,   new Integer(JSplitPane.VERTICAL_SPLIT), "JSplitPane.VERTICAL_SPLIT",
+			"HORIZONTAL_SPLIT" ,   new Integer(JSplitPane.HORIZONTAL_SPLIT), "JSplitPane.HORIZONTAL_SPLIT"
 		};
 
         return new PropertyDescriptor[] {

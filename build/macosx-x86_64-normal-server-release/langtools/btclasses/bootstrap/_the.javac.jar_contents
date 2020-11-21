@@ -377,6 +377,9 @@ com/sun/tools/doclets/internal/toolkit/taglets/ValueTaglet.class
 com/sun/tools/doclets/internal/toolkit/taglets/LiteralTaglet.class
 com/sun/tools/doclets/internal/toolkit/resources/doclets_zh_CN.class
 com/sun/tools/doclets/internal/toolkit/resources/doclets.class
+com/sun/tools/doclets/internal/toolkit/resources/doclet.xml
+com/sun/tools/doclets/internal/toolkit/resources/script.js
+com/sun/tools/doclets/internal/toolkit/resources/stylesheet.css
 com/sun/tools/doclets/internal/toolkit/resources/doclets_ja.class
 com/sun/tools/doclets/internal/toolkit/EnumConstantWriter.class
 com/sun/tools/doclets/internal/toolkit/AnnotationTypeOptionalMemberWriter.class
@@ -1726,6 +1729,7 @@ com/sun/tools/javac/main/Option$26.class
 com/sun/tools/javac/main/Option$24.class
 com/sun/tools/javac/main/Option$19.class
 com/sun/tools/javac/main/JavaCompiler$ImplicitSourcePolicy.class
+com/sun/tools/javac/services/javax.tools.JavaCompilerTool
 com/sun/tools/javadoc/ToolOption.class
 com/sun/tools/javadoc/SeeTagImpl.class
 com/sun/tools/javadoc/ToolOption$24.class

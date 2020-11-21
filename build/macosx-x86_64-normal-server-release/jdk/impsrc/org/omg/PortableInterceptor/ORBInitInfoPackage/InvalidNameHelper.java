@@ -4,8 +4,8 @@ package org.omg.PortableInterceptor.ORBInitInfoPackage;
 /**
 * org/omg/PortableInterceptor/ORBInitInfoPackage/InvalidNameHelper.java .
 * ?IDL-to-Java ??? (???), ?? "3.2"??
-* ?/Users/cg/jdk8u/openjdk/corba/src/share/classes/org/omg/PortableInterceptor/Interceptors.idl
-* 2020?2?2? ??? ??02?27?29? CST
+* ?/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/corba/src/share/classes/org/omg/PortableInterceptor/Interceptors.idl
+* 2020?11?21? ??? ??04?43?31? CST
 */
 
 abstract public class InvalidNameHelper

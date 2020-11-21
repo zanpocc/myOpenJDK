@@ -381,14 +381,14 @@ public class FormatData_hr extends ListResourceBundle {
                     "d.M.y. GGGG",
                 }
             },
+            { "calendarname.islamic", "islamski kalendar" },
+            { "calendarname.buddhist", "budisti\u010dki kalendar" },
             { "calendarname.gregorian", "gregorijanski kalendar" },
             { "calendarname.gregory", "gregorijanski kalendar" },
-            { "calendarname.roc", "kalendar Republike Kine" },
             { "calendarname.islamic-civil", "islamski civilni kalendar" },
             { "calendarname.islamicc", "islamski civilni kalendar" },
+            { "calendarname.roc", "kalendar Republike Kine" },
             { "calendarname.japanese", "japanski kalendar" },
-            { "calendarname.buddhist", "budisti\u010dki kalendar" },
-            { "calendarname.islamic", "islamski kalendar" },
             { "DefaultNumberingSystem", "latn" },
             { "latn.NumberElements",
                 new String[] {

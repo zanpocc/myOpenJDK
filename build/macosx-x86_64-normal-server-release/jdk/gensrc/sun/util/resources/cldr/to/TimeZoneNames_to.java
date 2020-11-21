@@ -66,13 +66,13 @@ import sun.util.resources.TimeZoneNamesBundle;
 public class TimeZoneNames_to extends TimeZoneNamesBundle {
     @Override
     protected final Object[][] getContents() {
-        final String[] Niue = new String[] {
-               "houa fakaniu\u0113",
-               "NT",
-               "Niue Summer Time",
-               "NST",
-               "Niue Time",
-               "NT",
+        final String[] Tahiti = new String[] {
+               "houa fakatahisi",
+               "TT",
+               "Tahiti Summer Time",
+               "TST",
+               "Tahiti Time",
+               "TT",
             };
         final String[] Wallis = new String[] {
                "houa faka\u02bbuvea mo futuna",
@@ -82,21 +82,21 @@ public class TimeZoneNames_to extends TimeZoneNamesBundle {
                "Wallis and Futuna Time",
                "WFT",
             };
-        final String[] Tuvalu = new String[] {
-               "houa fakat\u016bvalu",
-               "TT",
-               "Tuvalu Summer Time",
-               "TST",
-               "Tuvalu Time",
-               "TT",
+        final String[] Fiji = new String[] {
+               "houa fakafisi fakas\u012bpinga",
+               "FST",
+               "houa fakafisi fakamaama",
+               "FST",
+               "houa fakafisi",
+               "FT",
             };
-        final String[] Tahiti = new String[] {
-               "houa fakatahisi",
-               "TT",
-               "Tahiti Summer Time",
-               "TST",
-               "Tahiti Time",
-               "TT",
+        final String[] Niue = new String[] {
+               "houa fakaniu\u0113",
+               "NT",
+               "Niue Summer Time",
+               "NST",
+               "Niue Time",
+               "NT",
             };
         final String[] Tonga = new String[] {
                "houa fakatonga fakas\u012bpinga",
@@ -104,22 +104,6 @@ public class TimeZoneNames_to extends TimeZoneNamesBundle {
                "houa fakatonga lotoh\u0113",
                "TST",
                "houa fakatonga",
-               "TT",
-            };
-        final String[] Hawaii_Aleutian = new String[] {
-               "houa fakahaua\u02bbi fakas\u012bpinga",
-               "HAST",
-               "houa fakahaua\u02bbi fakamaama",
-               "HADT",
-               "houa fakahaua\u02bbi",
-               "HAT",
-            };
-        final String[] Tokelau = new String[] {
-               "houa fakatokelau",
-               "TT",
-               "Tokelau Summer Time",
-               "TST",
-               "Tokelau Time",
                "TT",
             };
         final String[] New_Zealand = new String[] {
@@ -130,6 +114,14 @@ public class TimeZoneNames_to extends TimeZoneNamesBundle {
                "houa fakanu\u02bbusila",
                "NZT",
             };
+        final String[] Hawaii_Aleutian = new String[] {
+               "houa fakahaua\u02bbi fakas\u012bpinga",
+               "HAST",
+               "houa fakahaua\u02bbi fakamaama",
+               "HADT",
+               "houa fakahaua\u02bbi",
+               "HAT",
+            };
         final String[] Samoa = new String[] {
                "houa fakaha\u02bbamoa",
                "SST",
@@ -138,30 +130,38 @@ public class TimeZoneNames_to extends TimeZoneNamesBundle {
                "Samoa Time",
                "ST",
             };
-        final String[] Fiji = new String[] {
-               "houa fakafisi fakas\u012bpinga",
-               "FST",
-               "houa fakafisi fakamaama",
-               "FST",
-               "houa fakafisi",
-               "FT",
+        final String[] Tuvalu = new String[] {
+               "houa fakat\u016bvalu",
+               "TT",
+               "Tuvalu Summer Time",
+               "TST",
+               "Tuvalu Time",
+               "TT",
+            };
+        final String[] Tokelau = new String[] {
+               "houa fakatokelau",
+               "TT",
+               "Tokelau Summer Time",
+               "TST",
+               "Tokelau Time",
+               "TT",
             };
         final Object[][] data = new Object[][] {
+            { "Pacific/Niue", Niue },
+            { "Pacific/Tahiti", Tahiti },
             { "Pacific/Funafuti", Tuvalu },
             { "Pacific/Pago_Pago", Samoa },
-            { "Pacific/Midway", Samoa },
-            { "Pacific/Honolulu", Hawaii_Aleutian },
-            { "Pacific/Wallis", Wallis },
-            { "Antarctica/McMurdo", New_Zealand },
-            { "Pacific/Apia", Samoa },
-            { "America/Adak", Hawaii_Aleutian },
-            { "Pacific/Niue", Niue },
             { "Pacific/Tongatapu", Tonga },
-            { "Pacific/Tahiti", Tahiti },
+            { "Pacific/Apia", Samoa },
             { "Pacific/Fiji", Fiji },
-            { "Pacific/Fakaofo", Tokelau },
+            { "America/Adak", Hawaii_Aleutian },
+            { "Pacific/Honolulu", Hawaii_Aleutian },
             { "Pacific/Auckland", New_Zealand },
+            { "Pacific/Fakaofo", Tokelau },
+            { "Antarctica/McMurdo", New_Zealand },
+            { "Pacific/Wallis", Wallis },
             { "Pacific/Johnston", Hawaii_Aleutian },
+            { "Pacific/Midway", Samoa },
         };
         return data;
     }

@@ -313,14 +313,14 @@ public class FormatData_ca extends ListResourceBundle {
                     "dd/MM/yy",
                 }
             },
+            { "calendarname.islamic", "calendari musulm\u00e0" },
+            { "calendarname.buddhist", "calendari budista" },
             { "calendarname.gregorian", "calendari gregori\u00e0" },
             { "calendarname.gregory", "calendari gregori\u00e0" },
-            { "calendarname.roc", "calendari de la Rep\u00fablica de Xina" },
             { "calendarname.islamic-civil", "calendari civil isl\u00e0mic" },
             { "calendarname.islamicc", "calendari civil isl\u00e0mic" },
+            { "calendarname.roc", "calendari de la Rep\u00fablica de Xina" },
             { "calendarname.japanese", "calendari japon\u00e8s" },
-            { "calendarname.buddhist", "calendari budista" },
-            { "calendarname.islamic", "calendari musulm\u00e0" },
             { "DefaultNumberingSystem", "latn" },
             { "latn.NumberElements",
                 new String[] {

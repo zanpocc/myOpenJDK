@@ -86,10 +86,10 @@ public class JTableBeanInfo extends javax.swing.SwingBeanInfoBase {
          
 		Object[] autoResizeModeEnumeration = new Object[] { 
 			"AUTO_RESIZE_OFF" ,   new Integer(JTable.AUTO_RESIZE_OFF), "JTable.AUTO_RESIZE_OFF",
-			"AUTO_RESIZE_NEXT_COLUMN" ,   new Integer(JTable.AUTO_RESIZE_NEXT_COLUMN), "JTable.AUTO_RESIZE_NEXT_COLUMN",
-			"AUTO_RESIZE_ALL_COLUMNS" ,   new Integer(JTable.AUTO_RESIZE_ALL_COLUMNS), "JTable.AUTO_RESIZE_ALL_COLUMNS",
+			"AUTO_RESIZE_SUBSEQUENT_COLUMNS" ,   new Integer(JTable.AUTO_RESIZE_SUBSEQUENT_COLUMNS), "JTable.AUTO_RESIZE_SUBSEQUENT_COLUMNS",
 			"AUTO_RESIZE_LAST_COLUMN" ,   new Integer(JTable.AUTO_RESIZE_LAST_COLUMN), "JTable.AUTO_RESIZE_LAST_COLUMN",
-			"AUTO_RESIZE_SUBSEQUENT_COLUMNS" ,   new Integer(JTable.AUTO_RESIZE_SUBSEQUENT_COLUMNS), "JTable.AUTO_RESIZE_SUBSEQUENT_COLUMNS"
+			"AUTO_RESIZE_ALL_COLUMNS" ,   new Integer(JTable.AUTO_RESIZE_ALL_COLUMNS), "JTable.AUTO_RESIZE_ALL_COLUMNS",
+			"AUTO_RESIZE_NEXT_COLUMN" ,   new Integer(JTable.AUTO_RESIZE_NEXT_COLUMN), "JTable.AUTO_RESIZE_NEXT_COLUMN"
 		};
 
         return new PropertyDescriptor[] {
@@ -231,12 +231,6 @@ public class JTableBeanInfo extends javax.swing.SwingBeanInfoBase {
              
              createPropertyDescriptor("rowCount", new Object[] {
                  sun.swing.BeanInfoUtils.SHORTDESCRIPTION, "rowCount",
-               }
-             ),
-             
-             createPropertyDescriptor("rowHeight", new Object[] {
-                            sun.swing.BeanInfoUtils.BOUND, Boolean.TRUE,
-                 sun.swing.BeanInfoUtils.SHORTDESCRIPTION, "The height in pixels of the cells in <code>row</code>",
                }
              ),
              

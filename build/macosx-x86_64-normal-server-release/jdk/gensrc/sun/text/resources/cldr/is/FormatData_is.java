@@ -263,14 +263,14 @@ public class FormatData_is extends ListResourceBundle {
                     "d.M.yyyy",
                 }
             },
+            { "calendarname.islamic", "\u00cdslamskt dagatal" },
+            { "calendarname.buddhist", "B\u00fadd\u00edskt dagatal" },
             { "calendarname.gregorian", "Gregor\u00edskt dagatal" },
             { "calendarname.gregory", "Gregor\u00edskt dagatal" },
-            { "calendarname.roc", "k\u00ednverskt dagatal" },
             { "calendarname.islamic-civil", "\u00cdslamskt borgaradagatal" },
             { "calendarname.islamicc", "\u00cdslamskt borgaradagatal" },
+            { "calendarname.roc", "k\u00ednverskt dagatal" },
             { "calendarname.japanese", "Japanskt dagatal" },
-            { "calendarname.buddhist", "B\u00fadd\u00edskt dagatal" },
-            { "calendarname.islamic", "\u00cdslamskt dagatal" },
             { "DefaultNumberingSystem", "latn" },
             { "latn.NumberElements",
                 new String[] {

@@ -227,14 +227,14 @@ public class FormatData_gsw extends ListResourceBundle {
                     "d.M.yyyy",
                 }
             },
+            { "calendarname.islamic", "Islaamisch Kal\u00e4nder" },
+            { "calendarname.buddhist", "Buddhischtisch Kal\u00e4nder" },
             { "calendarname.gregorian", "Gregoriaanisch Kal\u00e4nder" },
             { "calendarname.gregory", "Gregoriaanisch Kal\u00e4nder" },
-            { "calendarname.roc", "Kal\u00e4nder vor Republik Chiina" },
             { "calendarname.islamic-civil", "B\u00fcrgerlich islaamisch Kal\u00e4nder" },
             { "calendarname.islamicc", "B\u00fcrgerlich islaamisch Kal\u00e4nder" },
+            { "calendarname.roc", "Kal\u00e4nder vor Republik Chiina" },
             { "calendarname.japanese", "Japaanisch Kal\u00e4nder" },
-            { "calendarname.buddhist", "Buddhischtisch Kal\u00e4nder" },
-            { "calendarname.islamic", "Islaamisch Kal\u00e4nder" },
             { "DefaultNumberingSystem", "latn" },
             { "latn.NumberElements",
                 new String[] {

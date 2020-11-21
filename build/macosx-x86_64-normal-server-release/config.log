@@ -30,8 +30,8 @@ Kernel configured for up to 8 processors.
 Processor type: x86_64h (Intel x86-64h Haswell)
 Processors active: 0 1 2 3 4 5 6 7
 Primary memory available: 16.00 gigabytes
-Default processor set: 320 tasks, 1468 threads, 8 processors
-Load average: 2.00, Mach factor: 5.99
+Default processor set: 335 tasks, 1458 threads, 8 processors
+Load average: 3.41, Mach factor: 5.37
 /bin/machine           = unknown
 /usr/bin/oslevel       = unknown
 /bin/universe          = unknown
@@ -59,7 +59,7 @@ PATH: /Volumes/Mac/develop/apache-maven-3.6.0/bin
 ## Core tests. ##
 ## ----------- ##
 
-configure:3892: Configuration created at Mon Nov 16 20:26:32 CST 2020.
+configure:3892: Configuration created at Sat Nov 21 16:38:59 CST 2020.
 configure:3894: configure script generated at timestamp 1416326200.
 configure:3911: checking for basename
 configure:3929: found /usr/bin/basename
@@ -352,70 +352,68 @@ Command: /Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/bin/jav
 configure:16287: result:  -XX:+UseSerialGC -Xms32M -Xmx512M
 configure:16655: checking for jtreg
 configure:16657: result: no
-configure:19335: checking for gcc
-configure:19353: found /usr/bin/gcc
-configure:19365: result: /usr/bin/gcc
-configure:19648: Resolving CC (as /usr/bin/gcc) failed, using /usr/bin/gcc directly.
+configure:19335: checking for clang
+configure:19353: found /usr/bin/clang
+configure:19365: result: /usr/bin/clang
+configure:19648: Resolving CC (as /usr/bin/clang) failed, using /usr/bin/clang directly.
 configure:19682: checking resolved symbolic links for CC
-configure:19732: result: /usr/bin/gcc
+configure:19732: result: /usr/bin/clang
 configure:19735: checking if CC is disguised ccache
 configure:20174: result: no, keeping CC
-configure:20228: The C compiler (located as /usr/bin/gcc) does not seem to be the required GCC compiler.
-configure:20230: The result from running with --version was: "Configured with: --prefix=/Applications/Xcode.app/Contents/Developer/usr --with-gxx-include-dir=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/c++/4.2.1"
-configure:20245: Using  C compiler version  (located at /usr/bin/gcc)
+configure:20228: The C compiler (located as /usr/bin/clang) does not seem to be the required GCC compiler.
+configure:20230: The result from running with --version was: "Apple LLVM version 9.0.0 (clang-900.0.37)"
+configure:20245: Using Apple LLVM version (clang-900.0.37) C compiler version 9.0.0 (clang-900.0.37) (located at /usr/bin/clang)
 configure:20362: checking for C compiler version
-configure:20371: /usr/bin/gcc --version >&5
-Apple LLVM version 9.0.0 (clang-900.0.37)
-Target: x86_64-apple-darwin18.6.0
-Thread model: posix
-InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
-Configured with: --prefix=/Applications/Xcode.app/Contents/Developer/usr --with-gxx-include-dir=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/c++/4.2.1
-configure:20382: $? = 0
-configure:20371: /usr/bin/gcc -v >&5
-Configured with: --prefix=/Applications/Xcode.app/Contents/Developer/usr --with-gxx-include-dir=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/c++/4.2.1
+configure:20371: /usr/bin/clang --version >&5
 Apple LLVM version 9.0.0 (clang-900.0.37)
 Target: x86_64-apple-darwin18.6.0
 Thread model: posix
 InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
 configure:20382: $? = 0
-configure:20371: /usr/bin/gcc -V >&5
+configure:20371: /usr/bin/clang -v >&5
+Apple LLVM version 9.0.0 (clang-900.0.37)
+Target: x86_64-apple-darwin18.6.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+configure:20382: $? = 0
+configure:20371: /usr/bin/clang -V >&5
 clang: error: argument to '-V' is missing (expected 1 value)
 clang: error: no input files
 configure:20382: $? = 1
-configure:20371: /usr/bin/gcc -qversion >&5
+configure:20371: /usr/bin/clang -qversion >&5
 clang: error: unknown argument: '-qversion'
 clang: error: no input files
 configure:20382: $? = 1
 configure:20402: checking whether the C compiler works
-configure:20424: /usr/bin/gcc    conftest.c  >&5
+configure:20424: /usr/bin/clang    conftest.c  >&5
 configure:20428: $? = 0
 configure:20476: result: yes
 configure:20479: checking for C compiler default output file name
 configure:20481: result: a.out
 configure:20487: checking for suffix of executables
-configure:20494: /usr/bin/gcc -o conftest    conftest.c  >&5
+configure:20494: /usr/bin/clang -o conftest    conftest.c  >&5
 configure:20498: $? = 0
 configure:20520: result: 
 configure:20542: checking whether we are cross compiling
-configure:20550: /usr/bin/gcc -o conftest    conftest.c  >&5
+configure:20550: /usr/bin/clang -o conftest    conftest.c  >&5
 configure:20554: $? = 0
 configure:20561: ./conftest
 configure:20565: $? = 0
 configure:20580: result: no
 configure:20585: checking for suffix of object files
-configure:20607: /usr/bin/gcc -c   conftest.c >&5
+configure:20607: /usr/bin/clang -c   conftest.c >&5
 configure:20611: $? = 0
 configure:20632: result: o
 configure:20636: checking whether we are using the GNU C compiler
-configure:20655: /usr/bin/gcc -c   conftest.c >&5
+configure:20655: /usr/bin/clang -c   conftest.c >&5
 configure:20655: $? = 0
 configure:20664: result: yes
-configure:20673: checking whether /usr/bin/gcc accepts -g
-configure:20693: /usr/bin/gcc -c -g  conftest.c >&5
+configure:20673: checking whether /usr/bin/clang accepts -g
+configure:20693: /usr/bin/clang -c -g  conftest.c >&5
 configure:20693: $? = 0
 configure:20734: result: yes
-configure:20751: checking for /usr/bin/gcc option to accept ISO C89
-configure:20814: /usr/bin/gcc  -c -g -O2  conftest.c >&5
+configure:20751: checking for /usr/bin/clang option to accept ISO C89
+configure:20814: /usr/bin/clang  -c -g -O2  conftest.c >&5
 configure:20814: $? = 0
 configure:20827: result: none needed
 configure:20936: checking for g++
@@ -500,9 +498,9 @@ configure:22711: found /usr/bin/ar
 configure:22722: result: ar
 configure:23006: Rewriting AR to "/usr/bin/ar"
 configure:24711: checking how to run the C preprocessor
-configure:24742: /usr/bin/gcc -E  conftest.c
+configure:24742: /usr/bin/clang -E  conftest.c
 configure:24742: $? = 0
-configure:24756: /usr/bin/gcc -E  conftest.c
+configure:24756: /usr/bin/clang -E  conftest.c
 conftest.c:9:10: fatal error: 'ac_nonexistent.h' file not found
 #include <ac_nonexistent.h>
          ^~~~~~~~~~~~~~~~~~
@@ -518,10 +516,10 @@ configure: failed program was:
 | #define PACKAGE_URL "http://openjdk.java.net"
 | /* end confdefs.h.  */
 | #include <ac_nonexistent.h>
-configure:24781: result: /usr/bin/gcc -E
-configure:24801: /usr/bin/gcc -E  conftest.c
+configure:24781: result: /usr/bin/clang -E
+configure:24801: /usr/bin/clang -E  conftest.c
 configure:24801: $? = 0
-configure:24815: /usr/bin/gcc -E  conftest.c
+configure:24815: /usr/bin/clang -E  conftest.c
 conftest.c:9:10: fatal error: 'ac_nonexistent.h' file not found
 #include <ac_nonexistent.h>
          ^~~~~~~~~~~~~~~~~~
@@ -537,7 +535,7 @@ configure: failed program was:
 | #define PACKAGE_URL "http://openjdk.java.net"
 | /* end confdefs.h.  */
 | #include <ac_nonexistent.h>
-configure:25079: Resolving CPP (as /usr/bin/gcc) failed, using /usr/bin/gcc directly.
+configure:25079: Resolving CPP (as /usr/bin/clang) failed, using /usr/bin/clang directly.
 configure:25115: checking how to run the C++ preprocessor
 configure:25142: /usr/bin/g++ -E  conftest.cpp
 configure:25142: $? = 0
@@ -711,13 +709,13 @@ configure: failed program was:
 | }
 configure:29392: result: no
 configure:30051: checking if compiler supports "-m64"
-configure:30067: /usr/bin/gcc -c  -m64  conftest.c >&5
+configure:30067: /usr/bin/clang -c  -m64  conftest.c >&5
 configure:30067: $? = 0
 configure:30093: /usr/bin/g++ -c  -m64  conftest.cpp >&5
 configure:30093: $? = 0
 configure:30107: result: yes
 configure:30120: checking if compiler supports "-m64"
-configure:30136: /usr/bin/gcc -c  -m64  conftest.c >&5
+configure:30136: /usr/bin/clang -c  -m64  conftest.c >&5
 configure:30136: $? = 0
 configure:30162: /usr/bin/g++ -c  -m64  conftest.cpp >&5
 configure:30162: $? = 0
@@ -888,19 +886,19 @@ configure:31134: /usr/bin/g++ -o conftest    -L/usr/X11/lib conftest.cpp -lICE  
 configure:31134: $? = 0
 configure:31143: result: yes
 configure:31224: checking for X11/extensions/shape.h
-configure:31224: /usr/bin/gcc -c   -I/usr/X11/include  conftest.c >&5
+configure:31224: /usr/bin/clang -c   -I/usr/X11/include  conftest.c >&5
 configure:31224: $? = 0
 configure:31224: result: yes
 configure:31224: checking for X11/extensions/Xrender.h
-configure:31224: /usr/bin/gcc -c   -I/usr/X11/include  conftest.c >&5
+configure:31224: /usr/bin/clang -c   -I/usr/X11/include  conftest.c >&5
 configure:31224: $? = 0
 configure:31224: result: yes
 configure:31224: checking for X11/extensions/XTest.h
-configure:31224: /usr/bin/gcc -c   -I/usr/X11/include  conftest.c >&5
+configure:31224: /usr/bin/clang -c   -I/usr/X11/include  conftest.c >&5
 configure:31224: $? = 0
 configure:31224: result: yes
 configure:31224: checking for X11/Intrinsic.h
-configure:31224: /usr/bin/gcc -c   -I/usr/X11/include  conftest.c >&5
+configure:31224: /usr/bin/clang -c   -I/usr/X11/include  conftest.c >&5
 configure:31224: $? = 0
 configure:31224: result: yes
 configure:31477: checking cups/cups.h usability
@@ -1065,7 +1063,7 @@ configure:36175: checking for ccache
 configure:36208: result: no
 configure:36315: checking if build directory is on local disk
 configure:36341: result: yes
-configure:36488: creating /Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/config.status
+configure:36488: creating /Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/build/macosx-x86_64-normal-server-release/config.status
 
 ## ---------------------- ##
 ## Running config.status. ##
@@ -1078,18 +1076,17 @@ generated by GNU Autoconf 2.69.  Invocation command line was
   CONFIG_HEADERS  = 
   CONFIG_LINKS    = 
   CONFIG_COMMANDS = 
-  $ /Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/config.status 
+  $ /Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/build/macosx-x86_64-normal-server-release/config.status 
 
 on cgdeMacBook-Pro.lan
 
-config.status:1163: creating /Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/spec.gmk
-config.status:1163: creating /Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/hotspot-spec.gmk
-config.status:1163: creating /Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/bootcycle-spec.gmk
-config.status:1163: creating /Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/compare.sh
-config.status:1163: creating /Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/spec.sh
-config.status:1163: creating /Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/Makefile
-config.status:1163: creating /Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/config.h
-config.status:1318: /Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/config.h is unchanged
+config.status:1168: creating /Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/build/macosx-x86_64-normal-server-release/spec.gmk
+config.status:1168: creating /Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/build/macosx-x86_64-normal-server-release/hotspot-spec.gmk
+config.status:1168: creating /Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/build/macosx-x86_64-normal-server-release/bootcycle-spec.gmk
+config.status:1168: creating /Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/build/macosx-x86_64-normal-server-release/compare.sh
+config.status:1168: creating /Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/build/macosx-x86_64-normal-server-release/spec.sh
+config.status:1168: creating /Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/build/macosx-x86_64-normal-server-release/Makefile
+config.status:1168: creating /Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/build/macosx-x86_64-normal-server-release/config.h
 
 ## ---------------- ##
 ## Cache variables. ##
@@ -1105,8 +1102,8 @@ ac_cv_env_ALSA_LIBS_set=
 ac_cv_env_ALSA_LIBS_value=
 ac_cv_env_CCC_set=
 ac_cv_env_CCC_value=
-ac_cv_env_CC_set=
-ac_cv_env_CC_value=
+ac_cv_env_CC_set=set
+ac_cv_env_CC_value=clang
 ac_cv_env_CFLAGS_set=
 ac_cv_env_CFLAGS_value=
 ac_cv_env_CPPFLAGS_set=
@@ -1207,7 +1204,7 @@ ac_cv_path_MKTEMP=/usr/bin/mktemp
 ac_cv_path_MV=/bin/mv
 ac_cv_path_NAWK=/usr/bin/awk
 ac_cv_path_OTOOL=/usr/bin/otool
-ac_cv_path_POTENTIAL_CC=/usr/bin/gcc
+ac_cv_path_POTENTIAL_CC=/usr/bin/clang
 ac_cv_path_POTENTIAL_CXX=/usr/bin/g++
 ac_cv_path_PRINTF=/usr/bin/printf
 ac_cv_path_READLINK=/usr/bin/readlink
@@ -1234,7 +1231,7 @@ ac_cv_path_ZIP=/usr/bin/zip
 ac_cv_path_ac_pt_PKG_CONFIG=/usr/local/bin/pkg-config
 ac_cv_prog_AWK=awk
 ac_cv_prog_BDEPS_UNZIP=unzip
-ac_cv_prog_CPP='/usr/bin/gcc -E'
+ac_cv_prog_CPP='/usr/bin/clang -E'
 ac_cv_prog_CXXCPP='/usr/bin/g++ -E'
 ac_cv_prog_PKGHANDLER=port
 ac_cv_prog_ac_ct_AR=ar
@@ -1261,7 +1258,7 @@ ALSA_LIBS=''
 AR='/usr/bin/ar'
 ARFLAGS='-r'
 AR_OUT_OPTION='rcs$(SPACE)'
-AS='/usr/bin/gcc -c'
+AS='/usr/bin/clang -c'
 AWK='awk'
 BASENAME='/usr/bin/basename'
 BASH='/bin/bash'
@@ -1271,25 +1268,25 @@ BOOT_JDK='/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home'
 BOOT_JDK_SOURCETARGET='-source 7 -target 7'
 BOOT_RTJAR='/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/jre/lib/rt.jar'
 BOOT_TOOLSJAR='/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/lib/tools.jar'
-BUILD_CC='/usr/bin/gcc'
+BUILD_CC='/usr/bin/clang'
 BUILD_CXX='/usr/bin/g++'
 BUILD_HEADLESS='BUILD_HEADLESS:=true'
 BUILD_HOTSPOT='true'
-BUILD_LD='/usr/bin/gcc'
+BUILD_LD='/usr/bin/clang'
 BUILD_LOG='$(OUTPUT_ROOT)/build.log'
 BUILD_LOG_PREVIOUS='$(OUTPUT_ROOT)/build.log.old'
 BUILD_LOG_WRAPPER='$(BASH) $(SRC_ROOT)/common/bin/logger.sh $(BUILD_LOG)'
-BUILD_OUTPUT='/Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release'
+BUILD_OUTPUT='/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/build/macosx-x86_64-normal-server-release'
 BUILD_VARIANT_RELEASE=''
-CACERTS_FILE='/Users/cg/jdk8u/openjdk/jdk/src/share/lib/security/cacerts'
+CACERTS_FILE='/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/jdk/src/share/lib/security/cacerts'
 CAT='/bin/cat'
-CC='/usr/bin/gcc'
+CC='/usr/bin/clang'
 CCACHE=''
 CC_OUT_OPTION='-o$(SPACE)'
 CFLAGS=''
 CFLAGS_DEBUG_SYMBOLS='-g'
-CFLAGS_JDKEXE='  -W -Wall -Wno-unused -Wno-parentheses       -pipe       -D_GNU_SOURCE -D_REENTRANT -D_LARGEFILE64_SOURCE -fno-omit-frame-pointer -D_LP64=1 -D_LITTLE_ENDIAN -DMACOSX -D_ALLBSD_SOURCE -D_DARWIN_UNLIMITED_SELECT -DMAC_OS_X_VERSION_MAX_ALLOWED=$(subst .,,$(MACOSX_VERSION_MIN)) -mmacosx-version-min=$(MACOSX_VERSION_MIN) -DNDEBUG -DARCH='\''"x86_64"'\'' -Dx86_64 -DRELEASE='\''"$(RELEASE)"'\''       -I/Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/jdk/include       -I/Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/jdk/include/macosx       -I/Users/cg/jdk8u/openjdk/jdk/src/share/javavm/export       -I/Users/cg/jdk8u/openjdk/jdk/src/macosx/javavm/export       -I/Users/cg/jdk8u/openjdk/jdk/src/share/native/common       -I/Users/cg/jdk8u/openjdk/jdk/src/solaris/native/common   -fno-strict-aliasing'
-CFLAGS_JDKLIB='  -W -Wall -Wno-unused -Wno-parentheses       -pipe       -D_GNU_SOURCE -D_REENTRANT -D_LARGEFILE64_SOURCE -fno-omit-frame-pointer -D_LP64=1 -D_LITTLE_ENDIAN -DMACOSX -D_ALLBSD_SOURCE -D_DARWIN_UNLIMITED_SELECT -DMAC_OS_X_VERSION_MAX_ALLOWED=$(subst .,,$(MACOSX_VERSION_MIN)) -mmacosx-version-min=$(MACOSX_VERSION_MIN) -DNDEBUG -DARCH='\''"x86_64"'\'' -Dx86_64 -DRELEASE='\''"$(RELEASE)"'\''       -I/Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/jdk/include       -I/Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/jdk/include/macosx       -I/Users/cg/jdk8u/openjdk/jdk/src/share/javavm/export       -I/Users/cg/jdk8u/openjdk/jdk/src/macosx/javavm/export       -I/Users/cg/jdk8u/openjdk/jdk/src/share/native/common       -I/Users/cg/jdk8u/openjdk/jdk/src/solaris/native/common   -fno-strict-aliasing -fPIC '
+CFLAGS_JDKEXE='  -W -Wall -Wno-unused -Wno-parentheses       -pipe       -D_GNU_SOURCE -D_REENTRANT -D_LARGEFILE64_SOURCE -fno-omit-frame-pointer -D_LP64=1 -D_LITTLE_ENDIAN -DMACOSX -D_ALLBSD_SOURCE -D_DARWIN_UNLIMITED_SELECT -DMAC_OS_X_VERSION_MAX_ALLOWED=$(subst .,,$(MACOSX_VERSION_MIN)) -mmacosx-version-min=$(MACOSX_VERSION_MIN) -DNDEBUG -DARCH='\''"x86_64"'\'' -Dx86_64 -DRELEASE='\''"$(RELEASE)"'\''       -I/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/build/macosx-x86_64-normal-server-release/jdk/include       -I/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/build/macosx-x86_64-normal-server-release/jdk/include/macosx       -I/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/jdk/src/share/javavm/export       -I/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/jdk/src/macosx/javavm/export       -I/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/jdk/src/share/native/common       -I/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/jdk/src/solaris/native/common   -fno-strict-aliasing'
+CFLAGS_JDKLIB='  -W -Wall -Wno-unused -Wno-parentheses       -pipe       -D_GNU_SOURCE -D_REENTRANT -D_LARGEFILE64_SOURCE -fno-omit-frame-pointer -D_LP64=1 -D_LITTLE_ENDIAN -DMACOSX -D_ALLBSD_SOURCE -D_DARWIN_UNLIMITED_SELECT -DMAC_OS_X_VERSION_MAX_ALLOWED=$(subst .,,$(MACOSX_VERSION_MIN)) -mmacosx-version-min=$(MACOSX_VERSION_MIN) -DNDEBUG -DARCH='\''"x86_64"'\'' -Dx86_64 -DRELEASE='\''"$(RELEASE)"'\''       -I/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/build/macosx-x86_64-normal-server-release/jdk/include       -I/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/build/macosx-x86_64-normal-server-release/jdk/include/macosx       -I/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/jdk/src/share/javavm/export       -I/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/jdk/src/macosx/javavm/export       -I/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/jdk/src/share/native/common       -I/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/jdk/src/solaris/native/common   -fno-strict-aliasing -fPIC '
 CHECK_GMAKE=''
 CHECK_MAKE='/usr/bin/make'
 CHECK_TOOLSDIR_GMAKE=''
@@ -1309,10 +1306,10 @@ CONFIGURE_COMMAND_LINE=''
 CONF_NAME='macosx-x86_64-normal-server-release'
 COOKED_BUILD_NUMBER='0'
 COPYRIGHT_YEAR='2020'
-CORBA_TOPDIR='/Users/cg/jdk8u/openjdk/corba'
+CORBA_TOPDIR='/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/corba'
 CP='/bin/cp'
 CPIO='/usr/bin/cpio'
-CPP='/usr/bin/gcc -E'
+CPP='/usr/bin/clang -E'
 CPPFLAGS=''
 CUPS_CFLAGS=''
 CUSTOM_MAKE_DIR=''
@@ -1321,8 +1318,8 @@ CXX='/usr/bin/g++'
 CXXCPP='/usr/bin/g++ -E'
 CXXFLAGS=' -I/usr/local/opt/freetype/include/freetype2'
 CXXFLAGS_DEBUG_SYMBOLS='-g'
-CXXFLAGS_JDKEXE='  -W -Wall -Wno-unused -Wno-parentheses       -pipe       -D_GNU_SOURCE -D_REENTRANT -D_LARGEFILE64_SOURCE -fno-omit-frame-pointer -D_LP64=1 -D_LITTLE_ENDIAN -DMACOSX -D_ALLBSD_SOURCE -D_DARWIN_UNLIMITED_SELECT -DMAC_OS_X_VERSION_MAX_ALLOWED=$(subst .,,$(MACOSX_VERSION_MIN)) -mmacosx-version-min=$(MACOSX_VERSION_MIN) -DNDEBUG -DARCH='\''"x86_64"'\'' -Dx86_64 -DRELEASE='\''"$(RELEASE)"'\''       -I/Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/jdk/include       -I/Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/jdk/include/macosx       -I/Users/cg/jdk8u/openjdk/jdk/src/share/javavm/export       -I/Users/cg/jdk8u/openjdk/jdk/src/macosx/javavm/export       -I/Users/cg/jdk8u/openjdk/jdk/src/share/native/common       -I/Users/cg/jdk8u/openjdk/jdk/src/solaris/native/common  '
-CXXFLAGS_JDKLIB='  -W -Wall -Wno-unused -Wno-parentheses       -pipe       -D_GNU_SOURCE -D_REENTRANT -D_LARGEFILE64_SOURCE -fno-omit-frame-pointer -D_LP64=1 -D_LITTLE_ENDIAN -DMACOSX -D_ALLBSD_SOURCE -D_DARWIN_UNLIMITED_SELECT -DMAC_OS_X_VERSION_MAX_ALLOWED=$(subst .,,$(MACOSX_VERSION_MIN)) -mmacosx-version-min=$(MACOSX_VERSION_MIN) -DNDEBUG -DARCH='\''"x86_64"'\'' -Dx86_64 -DRELEASE='\''"$(RELEASE)"'\''       -I/Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/jdk/include       -I/Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/jdk/include/macosx       -I/Users/cg/jdk8u/openjdk/jdk/src/share/javavm/export       -I/Users/cg/jdk8u/openjdk/jdk/src/macosx/javavm/export       -I/Users/cg/jdk8u/openjdk/jdk/src/share/native/common       -I/Users/cg/jdk8u/openjdk/jdk/src/solaris/native/common   -fPIC  '
+CXXFLAGS_JDKEXE='  -W -Wall -Wno-unused -Wno-parentheses       -pipe       -D_GNU_SOURCE -D_REENTRANT -D_LARGEFILE64_SOURCE -fno-omit-frame-pointer -D_LP64=1 -D_LITTLE_ENDIAN -DMACOSX -D_ALLBSD_SOURCE -D_DARWIN_UNLIMITED_SELECT -DMAC_OS_X_VERSION_MAX_ALLOWED=$(subst .,,$(MACOSX_VERSION_MIN)) -mmacosx-version-min=$(MACOSX_VERSION_MIN) -DNDEBUG -DARCH='\''"x86_64"'\'' -Dx86_64 -DRELEASE='\''"$(RELEASE)"'\''       -I/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/build/macosx-x86_64-normal-server-release/jdk/include       -I/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/build/macosx-x86_64-normal-server-release/jdk/include/macosx       -I/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/jdk/src/share/javavm/export       -I/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/jdk/src/macosx/javavm/export       -I/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/jdk/src/share/native/common       -I/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/jdk/src/solaris/native/common  '
+CXXFLAGS_JDKLIB='  -W -Wall -Wno-unused -Wno-parentheses       -pipe       -D_GNU_SOURCE -D_REENTRANT -D_LARGEFILE64_SOURCE -fno-omit-frame-pointer -D_LP64=1 -D_LITTLE_ENDIAN -DMACOSX -D_ALLBSD_SOURCE -D_DARWIN_UNLIMITED_SELECT -DMAC_OS_X_VERSION_MAX_ALLOWED=$(subst .,,$(MACOSX_VERSION_MIN)) -mmacosx-version-min=$(MACOSX_VERSION_MIN) -DNDEBUG -DARCH='\''"x86_64"'\'' -Dx86_64 -DRELEASE='\''"$(RELEASE)"'\''       -I/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/build/macosx-x86_64-normal-server-release/jdk/include       -I/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/build/macosx-x86_64-normal-server-release/jdk/include/macosx       -I/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/jdk/src/share/javavm/export       -I/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/jdk/src/macosx/javavm/export       -I/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/jdk/src/share/native/common       -I/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/jdk/src/solaris/native/common   -fPIC  '
 CXX_FLAG_DEPS='-MMD -MF'
 CXX_FLAG_REORDER=''
 CXX_O_FLAG_HI='-Os'
@@ -1338,7 +1335,7 @@ C_O_FLAG_HIGHEST='-Os'
 C_O_FLAG_NONE=''
 C_O_FLAG_NORM='-Os'
 DATE='/bin/date'
-DATE_WHEN_CONFIGURED='Mon Nov 16 20:26:32 CST 2020'
+DATE_WHEN_CONFIGURED='Sat Nov 21 16:38:59 CST 2020'
 DEBUG_CLASSFILES='false'
 DEBUG_LEVEL='release'
 DEFINE_CROSS_COMPILE_ARCH=''
@@ -1374,12 +1371,12 @@ GREP='/usr/bin/grep'
 HEAD='/usr/bin/head'
 HG=''
 HOTSPOT_CXX='/usr/bin/g++'
-HOTSPOT_DIST='/Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/hotspot/dist'
-HOTSPOT_LD='/usr/bin/gcc'
+HOTSPOT_DIST='/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/build/macosx-x86_64-normal-server-release/hotspot/dist'
+HOTSPOT_LD='/usr/bin/clang'
 HOTSPOT_MAKE_ARGS='universal_product'
 HOTSPOT_MT=''
 HOTSPOT_RC=''
-HOTSPOT_TOPDIR='/Users/cg/jdk8u/openjdk/hotspot'
+HOTSPOT_TOPDIR='/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot'
 INCLUDE_SA='true'
 IS_GNU_TIME='no'
 JAVAC_CHECK=''
@@ -1388,14 +1385,14 @@ JAVA_CHECK=''
 JAVA_FLAGS=' '
 JAVA_FLAGS_BIG=' -Xms64M -Xmx1600M -XX:ThreadStackSize=1536 -XX:PermSize=32m -XX:MaxPermSize=160m'
 JAVA_FLAGS_SMALL=' -XX:+UseSerialGC -Xms32M -Xmx512M'
-JAXP_TOPDIR='/Users/cg/jdk8u/openjdk/jaxp'
-JAXWS_TOPDIR='/Users/cg/jdk8u/openjdk/jaxws'
+JAXP_TOPDIR='/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/jaxp'
+JAXWS_TOPDIR='/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/jaxws'
 JDK_BUILD_NUMBER='b00'
 JDK_MAJOR_VERSION='1'
 JDK_MICRO_VERSION='0'
 JDK_MINOR_VERSION='8'
 JDK_RC_PLATFORM_NAME='Platform'
-JDK_TOPDIR='/Users/cg/jdk8u/openjdk/jdk'
+JDK_TOPDIR='/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/jdk'
 JDK_UPDATE_VERSION=''
 JDK_VARIANT='normal'
 JDK_VERSION='1.8.0'
@@ -1411,18 +1408,18 @@ JVM_VARIANT_MINIMAL1='false'
 JVM_VARIANT_SERVER='true'
 JVM_VARIANT_ZERO='false'
 JVM_VARIANT_ZEROSHARK='false'
-LANGTOOLS_TOPDIR='/Users/cg/jdk8u/openjdk/langtools'
+LANGTOOLS_TOPDIR='/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/langtools'
 LAUNCHER_NAME='openjdk'
-LD='/usr/bin/gcc'
+LD='/usr/bin/clang'
 LDCXX='/usr/bin/g++'
 LDD='true'
-LDEXE='/usr/bin/gcc'
+LDEXE='/usr/bin/clang'
 LDEXECXX='/usr/bin/g++'
 LDFLAGS=''
 LDFLAGS_CXX_JDK=''
 LDFLAGS_JDKEXE='  -mmacosx-version-min=$(MACOSX_VERSION_MIN)'
 LDFLAGS_JDKEXE_SUFFIX=''
-LDFLAGS_JDKLIB='  -mmacosx-version-min=$(MACOSX_VERSION_MIN) -dynamiclib -compatibility_version 1.0.0 -current_version 1.0.0 -fPIC         -L/Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/jdk/lib -L/Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/jdk/lib/server'
+LDFLAGS_JDKLIB='  -mmacosx-version-min=$(MACOSX_VERSION_MIN) -dynamiclib -compatibility_version 1.0.0 -current_version 1.0.0 -fPIC         -L/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/build/macosx-x86_64-normal-server-release/jdk/lib -L/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/build/macosx-x86_64-normal-server-release/jdk/lib/server'
 LDFLAGS_JDKLIB_SUFFIX='-ljava -ljvm'
 LD_OUT_OPTION='-o$(SPACE)'
 LEGACY_EXTRA_CFLAGS=''
@@ -1459,7 +1456,7 @@ MKTEMP='/usr/bin/mktemp'
 MSVCR_DLL=''
 MT=''
 MV='/bin/mv'
-NASHORN_TOPDIR='/Users/cg/jdk8u/openjdk/nashorn'
+NASHORN_TOPDIR='/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/nashorn'
 NAWK='/usr/bin/awk'
 NM='/usr/bin/nm'
 NUM_CORES='4'
@@ -1496,7 +1493,7 @@ OS_VERSION_MAJOR='18'
 OS_VERSION_MICRO='0'
 OS_VERSION_MINOR='6'
 OTOOL='/usr/bin/otool'
-OUTPUT_ROOT='/Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release'
+OUTPUT_ROOT='/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/build/macosx-x86_64-normal-server-release'
 OVERRIDE_SRC_ROOT=''
 PACKAGE_BUGREPORT='build-dev@openjdk.java.net'
 PACKAGE_NAME='OpenJDK'
@@ -1511,7 +1508,7 @@ PKGHANDLER='port'
 PKG_CONFIG='/usr/local/bin/pkg-config'
 POST_MCS_CMD=''
 POST_STRIP_CMD='/usr/bin/strip -S'
-POTENTIAL_CC='/usr/bin/gcc'
+POTENTIAL_CC='/usr/bin/clang'
 POTENTIAL_CXX='/usr/bin/g++'
 PRINTF='/usr/bin/printf'
 PRODUCT_NAME='OpenJDK'
@@ -1541,8 +1538,8 @@ SHELL='/bin/sh'
 SJAVAC_SERVER_DIR=''
 SJAVAC_SERVER_JAVA='/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/bin/java  -verbosegc -d64 -Xms6G -Xmx6G'
 SORT='/usr/bin/sort'
-SPEC='/Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/spec.gmk'
-SRC_ROOT='/Users/cg/jdk8u/openjdk'
+SPEC='/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/build/macosx-x86_64-normal-server-release/spec.gmk'
+SRC_ROOT='/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK'
 STAT='/usr/bin/stat'
 STATIC_CXX_SETTING=''
 STATIC_LIBRARY='lib$1.a'
@@ -1564,7 +1561,7 @@ UNAME='/usr/bin/uname'
 UNIQ='/usr/bin/uniq'
 UNLIMITED_CRYPTO='false'
 UNZIP='/usr/bin/unzip'
-USER_RELEASE_SUFFIX='cg_2020_11_16_20_26'
+USER_RELEASE_SUFFIX='cg_2020_11_21_16_38'
 USE_EXTERNAL_LIBGIF='false'
 USE_EXTERNAL_LIBJPEG='false'
 USE_EXTERNAL_LIBZ='true'

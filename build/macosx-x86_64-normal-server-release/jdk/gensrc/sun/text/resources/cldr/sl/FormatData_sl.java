@@ -247,14 +247,14 @@ public class FormatData_sl extends ListResourceBundle {
                     "d. MM. yy",
                 }
             },
+            { "calendarname.islamic", "islamski koledar" },
+            { "calendarname.buddhist", "budisti\u010dni koledar" },
             { "calendarname.gregorian", "gregorijanski koledar" },
             { "calendarname.gregory", "gregorijanski koledar" },
-            { "calendarname.roc", "kitajski dr\u017eavni koledar" },
             { "calendarname.islamic-civil", "islamski civilni koledar" },
             { "calendarname.islamicc", "islamski civilni koledar" },
+            { "calendarname.roc", "kitajski dr\u017eavni koledar" },
             { "calendarname.japanese", "japonski koledar" },
-            { "calendarname.buddhist", "budisti\u010dni koledar" },
-            { "calendarname.islamic", "islamski koledar" },
             { "DefaultNumberingSystem", "latn" },
             { "latn.NumberElements",
                 new String[] {

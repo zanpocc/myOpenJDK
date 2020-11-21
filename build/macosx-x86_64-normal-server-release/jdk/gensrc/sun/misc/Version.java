@@ -42,7 +42,7 @@ public class Version {
         "";
 
     private static final String java_runtime_version =
-        "1.8.0-internal-cg_2020_02_02_02_23-b00";
+        "1.8.0-internal-cg_2020_11_21_16_38-b00";
 
     static {
         init();

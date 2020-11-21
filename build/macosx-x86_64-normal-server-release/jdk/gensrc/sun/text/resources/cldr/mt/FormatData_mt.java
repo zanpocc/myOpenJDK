@@ -202,13 +202,13 @@ public class FormatData_mt extends ListResourceBundle {
                     "dd/MM/yyyy",
                 }
             },
+            { "calendarname.islamic", "Kalendarju Islamiku" },
+            { "calendarname.buddhist", "Kalendarju Buddist" },
             { "calendarname.gregorian", "Kalendarju Gregorjan" },
             { "calendarname.gregory", "Kalendarju Gregorjan" },
             { "calendarname.islamic-civil", "Kalendarju Islamiku-\u010aivili" },
             { "calendarname.islamicc", "Kalendarju Islamiku-\u010aivili" },
             { "calendarname.japanese", "Kalendarju \u0120appuni\u017c" },
-            { "calendarname.buddhist", "Kalendarju Buddist" },
-            { "calendarname.islamic", "Kalendarju Islamiku" },
             { "DefaultNumberingSystem", "latn" },
             { "latn.NumberElements",
                 new String[] {

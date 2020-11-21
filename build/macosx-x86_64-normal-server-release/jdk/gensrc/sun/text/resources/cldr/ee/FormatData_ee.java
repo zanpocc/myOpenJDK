@@ -324,14 +324,14 @@ public class FormatData_ee extends ListResourceBundle {
                     "{0} {1}",
                 }
             },
+            { "calendarname.islamic", "islam sub\u0254lawo \u0192e kalenda" },
+            { "calendarname.buddhist", "buddha sub\u0254lawo \u0192e kalenda" },
             { "calendarname.gregorian", "gregoria kalenda" },
             { "calendarname.gregory", "gregoria kalenda" },
-            { "calendarname.roc", "china rep\u0254blikt\u0254wo \u0192e kalenda tso 1912" },
             { "calendarname.islamic-civil", "islam sub\u0254lawo \u0192e sivil kalenda" },
             { "calendarname.islamicc", "islam sub\u0254lawo \u0192e sivil kalenda" },
+            { "calendarname.roc", "china rep\u0254blikt\u0254wo \u0192e kalenda tso 1912" },
             { "calendarname.japanese", "japant\u0254wo \u0192e kalenda" },
-            { "calendarname.buddhist", "buddha sub\u0254lawo \u0192e kalenda" },
-            { "calendarname.islamic", "islam sub\u0254lawo \u0192e kalenda" },
             { "DefaultNumberingSystem", "latn" },
             { "latn.NumberElements",
                 new String[] {

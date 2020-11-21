@@ -66,14 +66,6 @@ import sun.util.resources.TimeZoneNamesBundle;
 public class TimeZoneNames_or extends TimeZoneNamesBundle {
     @Override
     protected final Object[][] getContents() {
-        final String[] India = new String[] {
-               "India Standard Time",
-               "IST",
-               "India Daylight Time",
-               "IDT",
-               "India Time",
-               "IT",
-            };
         final String[] Christmas = new String[] {
                "\u0b16\u0b4d\u0b30\u0b40\u0b37\u0b4d\u0b1f\u0b2e\u0b3e\u0b38 \u0b06\u0b07\u0b32\u0b4d\u0b5f\u0b3e\u0b23\u0b4d\u0b21 \u0b38\u0b2e\u0b5f",
                "CIT",
@@ -82,10 +74,18 @@ public class TimeZoneNames_or extends TimeZoneNamesBundle {
                "Christmas Island Time",
                "CIT",
             };
+        final String[] India = new String[] {
+               "India Standard Time",
+               "IST",
+               "India Daylight Time",
+               "IDT",
+               "India Time",
+               "IT",
+            };
         final Object[][] data = new Object[][] {
             { "Asia/Calcutta", India },
-            { "Indian/Christmas", Christmas },
             { "Asia/Colombo", India },
+            { "Indian/Christmas", Christmas },
         };
         return data;
     }

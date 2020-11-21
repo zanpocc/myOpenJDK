@@ -219,13 +219,13 @@ public class FormatData_to extends ListResourceBundle {
                     "d/M/yy",
                 }
             },
-            { "calendarname.islamic-civil", "fakamohameti-sivile" },
-            { "calendarname.islamicc", "fakamohameti-sivile" },
+            { "calendarname.islamic", "fakamohameti" },
+            { "calendarname.buddhist", "fakaputa" },
+            { "calendarname.japanese", "fakasiapani" },
             { "calendarname.gregorian", "fakakelekolia" },
             { "calendarname.gregory", "fakakelekolia" },
-            { "calendarname.japanese", "fakasiapani" },
-            { "calendarname.buddhist", "fakaputa" },
-            { "calendarname.islamic", "fakamohameti" },
+            { "calendarname.islamic-civil", "fakamohameti-sivile" },
+            { "calendarname.islamicc", "fakamohameti-sivile" },
             { "DefaultNumberingSystem", "latn" },
             { "latn.NumberElements",
                 new String[] {

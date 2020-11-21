@@ -235,14 +235,14 @@ public class FormatData_am extends ListResourceBundle {
                     "dd/MM/yyyy",
                 }
             },
+            { "calendarname.islamic", "\u12e8\u12a5\u1235\u120b\u121b\u12ca \u12e8\u1230\u12d3\u1275 \u12a0\u1246\u1323\u1320\u122d" },
+            { "calendarname.buddhist", "\u12e8\u1261\u12f2\u1235\u1275 \u1240\u1295 \u12a0\u1246\u1323\u1320\u122d" },
             { "calendarname.gregorian", "\u12e8\u130d\u122a\u130e\u122a\u12eb\u1295 \u1240\u1295 \u12a0\u1246\u1323\u1320\u122d" },
             { "calendarname.gregory", "\u12e8\u130d\u122a\u130e\u122a\u12eb\u1295 \u1240\u1295 \u12a0\u1246\u1323\u1320\u122d" },
-            { "calendarname.roc", "\u12e8\u121a\u1295\u1309 \u12e8\u1240\u1295 \u12a0\u1246\u1323\u1320\u122d" },
             { "calendarname.islamic-civil", "\u12e8\u12a5\u1235\u120b\u121d \u1205\u12dd\u1263\u12ca \u12e8\u1240\u1295 \u12a0\u1246\u1323\u1320\u122d" },
             { "calendarname.islamicc", "\u12e8\u12a5\u1235\u120b\u121d \u1205\u12dd\u1263\u12ca \u12e8\u1240\u1295 \u12a0\u1246\u1323\u1320\u122d" },
+            { "calendarname.roc", "\u12e8\u121a\u1295\u1309 \u12e8\u1240\u1295 \u12a0\u1246\u1323\u1320\u122d" },
             { "calendarname.japanese", "\u12e8\u1303\u1353\u1295 \u12e8\u1240\u1295 \u12a0\u1246\u1323\u1320\u122d" },
-            { "calendarname.buddhist", "\u12e8\u1261\u12f2\u1235\u1275 \u1240\u1295 \u12a0\u1246\u1323\u1320\u122d" },
-            { "calendarname.islamic", "\u12e8\u12a5\u1235\u120b\u121b\u12ca \u12e8\u1230\u12d3\u1275 \u12a0\u1246\u1323\u1320\u122d" },
             { "DefaultNumberingSystem", "latn" },
             { "NumberPatterns",
                 new String[] {

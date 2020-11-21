@@ -187,14 +187,14 @@ public class FormatData_az extends ListResourceBundle {
                     "yyyy-MM-dd",
                 }
             },
+            { "calendarname.islamic", "M\u00fcs\u0259lman t\u0259qvimi" },
+            { "calendarname.buddhist", "Budist t\u0259qvimi" },
             { "calendarname.gregorian", "Qreqoriy t\u0259qvimi" },
             { "calendarname.gregory", "Qreqoriy t\u0259qvimi" },
-            { "calendarname.roc", "\u00c7in respublikas\u0131 t\u0259qvimi" },
             { "calendarname.islamic-civil", "Ivrit t\u0259qvimi" },
             { "calendarname.islamicc", "Ivrit t\u0259qvimi" },
+            { "calendarname.roc", "\u00c7in respublikas\u0131 t\u0259qvimi" },
             { "calendarname.japanese", "Yapon t\u0259qvimi" },
-            { "calendarname.buddhist", "Budist t\u0259qvimi" },
-            { "calendarname.islamic", "M\u00fcs\u0259lman t\u0259qvimi" },
             { "DefaultNumberingSystem", "latn" },
             { "latn.NumberElements",
                 new String[] {

@@ -23,7 +23,7 @@
 //
 
 
-#line 24 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 24 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
 // AMD64 Architecture Description File
 
@@ -11752,7 +11752,7 @@ peephole
 //
 
 
-#line 24 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 24 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
 // X86 Common Architecture Description File
 

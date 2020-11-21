@@ -85,15 +85,15 @@ public class JTabbedPaneBeanInfo extends javax.swing.SwingBeanInfoBase {
     public PropertyDescriptor[] getPropertyDescriptors() {
          
 		Object[] tabLayoutPolicyEnumeration = new Object[] { 
-			"SCROLL_TAB_LAYOUT" ,   new Integer(JTabbedPane.SCROLL_TAB_LAYOUT), "JTabbedPane.SCROLL_TAB_LAYOUT",
-			"WRAP_TAB_LAYOUT" ,   new Integer(JTabbedPane.WRAP_TAB_LAYOUT), "JTabbedPane.WRAP_TAB_LAYOUT"
+			"WRAP_TAB_LAYOUT" ,   new Integer(JTabbedPane.WRAP_TAB_LAYOUT), "JTabbedPane.WRAP_TAB_LAYOUT",
+			"SCROLL_TAB_LAYOUT" ,   new Integer(JTabbedPane.SCROLL_TAB_LAYOUT), "JTabbedPane.SCROLL_TAB_LAYOUT"
 		};
 
 		Object[] tabPlacementEnumeration = new Object[] { 
-			"TOP" ,   new Integer(JTabbedPane.TOP), "JTabbedPane.TOP",
-			"LEFT" ,   new Integer(JTabbedPane.LEFT), "JTabbedPane.LEFT",
+			"BOTTOM" ,   new Integer(JTabbedPane.BOTTOM), "JTabbedPane.BOTTOM",
 			"RIGHT" ,   new Integer(JTabbedPane.RIGHT), "JTabbedPane.RIGHT",
-			"BOTTOM" ,   new Integer(JTabbedPane.BOTTOM), "JTabbedPane.BOTTOM"
+			"TOP" ,   new Integer(JTabbedPane.TOP), "JTabbedPane.TOP",
+			"LEFT" ,   new Integer(JTabbedPane.LEFT), "JTabbedPane.LEFT"
 		};
 
         return new PropertyDescriptor[] {

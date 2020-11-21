@@ -86,15 +86,15 @@ public class JScrollPaneBeanInfo extends javax.swing.SwingBeanInfoBase {
     public PropertyDescriptor[] getPropertyDescriptors() {
          
 		Object[] horizontalScrollBarPolicyEnumeration = new Object[] { 
-			"HORIZONTAL_SCROLLBAR_NEVER" ,   new Integer(ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER), "ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER",
 			"HORIZONTAL_SCROLLBAR_ALWAYS" ,   new Integer(ScrollPaneConstants.HORIZONTAL_SCROLLBAR_ALWAYS), "ScrollPaneConstants.HORIZONTAL_SCROLLBAR_ALWAYS",
+			"HORIZONTAL_SCROLLBAR_NEVER" ,   new Integer(ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER), "ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER",
 			"HORIZONTAL_SCROLLBAR_AS_NEEDED" ,   new Integer(ScrollPaneConstants.HORIZONTAL_SCROLLBAR_AS_NEEDED), "ScrollPaneConstants.HORIZONTAL_SCROLLBAR_AS_NEEDED"
 		};
 
 		Object[] verticalScrollBarPolicyEnumeration = new Object[] { 
+			"VERTICAL_SCROLLBAR_NEVER" ,   new Integer(ScrollPaneConstants.VERTICAL_SCROLLBAR_NEVER), "ScrollPaneConstants.VERTICAL_SCROLLBAR_NEVER",
 			"VERTICAL_SCROLLBAR_AS_NEEDED" ,   new Integer(ScrollPaneConstants.VERTICAL_SCROLLBAR_AS_NEEDED), "ScrollPaneConstants.VERTICAL_SCROLLBAR_AS_NEEDED",
-			"VERTICAL_SCROLLBAR_ALWAYS" ,   new Integer(ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS), "ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS",
-			"VERTICAL_SCROLLBAR_NEVER" ,   new Integer(ScrollPaneConstants.VERTICAL_SCROLLBAR_NEVER), "ScrollPaneConstants.VERTICAL_SCROLLBAR_NEVER"
+			"VERTICAL_SCROLLBAR_ALWAYS" ,   new Integer(ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS), "ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS"
 		};
 
         return new PropertyDescriptor[] {

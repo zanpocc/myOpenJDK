@@ -225,14 +225,14 @@ public class FormatData_gl extends ListResourceBundle {
                     "dd/MM/yy",
                 }
             },
+            { "calendarname.islamic", "calendario isl\u00e1mico" },
+            { "calendarname.buddhist", "calendario budista" },
             { "calendarname.gregorian", "calendario gregoriano" },
             { "calendarname.gregory", "calendario gregoriano" },
-            { "calendarname.roc", "Calendario Minguo" },
             { "calendarname.islamic-civil", "calendario isl\u00e1mico civil" },
             { "calendarname.islamicc", "calendario isl\u00e1mico civil" },
+            { "calendarname.roc", "Calendario Minguo" },
             { "calendarname.japanese", "calendario xapon\u00e9s" },
-            { "calendarname.buddhist", "calendario budista" },
-            { "calendarname.islamic", "calendario isl\u00e1mico" },
             { "DefaultNumberingSystem", "latn" },
             { "latn.NumberElements",
                 new String[] {

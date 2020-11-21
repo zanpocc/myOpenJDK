@@ -84,8 +84,8 @@ public class JDesktopPaneBeanInfo extends javax.swing.SwingBeanInfoBase {
     public PropertyDescriptor[] getPropertyDescriptors() {
          
 		Object[] dragModeEnumeration = new Object[] { 
-			"LIVE_DRAG_MODE" ,   new Integer(JDesktopPane.LIVE_DRAG_MODE), "JDesktopPane.LIVE_DRAG_MODE",
-			"OUTLINE_DRAG_MODE" ,   new Integer(JDesktopPane.OUTLINE_DRAG_MODE), "JDesktopPane.OUTLINE_DRAG_MODE"
+			"OUTLINE_DRAG_MODE" ,   new Integer(JDesktopPane.OUTLINE_DRAG_MODE), "JDesktopPane.OUTLINE_DRAG_MODE",
+			"LIVE_DRAG_MODE" ,   new Integer(JDesktopPane.LIVE_DRAG_MODE), "JDesktopPane.LIVE_DRAG_MODE"
 		};
 
         return new PropertyDescriptor[] {

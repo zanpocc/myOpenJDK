@@ -26,7 +26,7 @@
 # Support for building boot cycle builds
 
 # First include the real base spec.gmk file
-include /Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/spec.gmk
+include /Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/build/macosx-x86_64-normal-server-release/spec.gmk
 
 # Check that the user did not try to specify a different java to use for compiling.
 # On windows we need to account for fixpath being first word.
@@ -43,11 +43,11 @@ endif
 # Override specific values to do a boot cycle build
 
 # The bootcycle build has a different output directory
-BUILD_OUTPUT:=/Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/bootcycle-build
+BUILD_OUTPUT:=/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/build/macosx-x86_64-normal-server-release/bootcycle-build
 
 # Use a different Boot JDK
 OLD_BOOT_JDK:=$(BOOT_JDK)
-BOOT_JDK:=/Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/images/j2sdk-image
-BOOT_RTJAR:=/Users/cg/jdk8u/openjdk/build/macosx-x86_64-normal-server-release/images/j2sdk-image/jre/lib/rt.jar
+BOOT_JDK:=/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/build/macosx-x86_64-normal-server-release/images/j2sdk-image
+BOOT_RTJAR:=/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/build/macosx-x86_64-normal-server-release/images/j2sdk-image/jre/lib/rt.jar
 
 SJAVAC_SERVER_JAVA:=$(subst $(OLD_BOOT_JDK),$(BOOT_JDK),$(SJAVAC_SERVER_JAVA))

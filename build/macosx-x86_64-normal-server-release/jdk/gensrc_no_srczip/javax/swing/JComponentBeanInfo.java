@@ -84,10 +84,10 @@ public class JComponentBeanInfo extends javax.swing.SwingBeanInfoBase {
     public PropertyDescriptor[] getPropertyDescriptors() {
          
 		Object[] debugGraphicsOptionsEnumeration = new Object[] { 
+			"LOG_OPTION" ,   new Integer(DebugGraphics.LOG_OPTION), "DebugGraphics.LOG_OPTION",
 			"BUFFERED_OPTION" ,   new Integer(DebugGraphics.BUFFERED_OPTION), "DebugGraphics.BUFFERED_OPTION",
-			"FLASH_OPTION" ,   new Integer(DebugGraphics.FLASH_OPTION), "DebugGraphics.FLASH_OPTION",
 			"NONE_OPTION" ,   new Integer(DebugGraphics.NONE_OPTION), "DebugGraphics.NONE_OPTION",
-			"LOG_OPTION" ,   new Integer(DebugGraphics.LOG_OPTION), "DebugGraphics.LOG_OPTION"
+			"FLASH_OPTION" ,   new Integer(DebugGraphics.FLASH_OPTION), "DebugGraphics.FLASH_OPTION"
 		};
 
         return new PropertyDescriptor[] {
@@ -96,6 +96,11 @@ public class JComponentBeanInfo extends javax.swing.SwingBeanInfoBase {
                             sun.swing.BeanInfoUtils.BOUND, Boolean.FALSE,
                            sun.swing.BeanInfoUtils.EXPERT, Boolean.TRUE,
                  sun.swing.BeanInfoUtils.SHORTDESCRIPTION, "UIClassID",
+               }
+             ),
+             
+             createPropertyDescriptor("accessibleContext", new Object[] {
+                 sun.swing.BeanInfoUtils.SHORTDESCRIPTION, "accessibleContext",
                }
              ),
              
@@ -247,11 +252,6 @@ public class JComponentBeanInfo extends javax.swing.SwingBeanInfoBase {
              createPropertyDescriptor("inheritsPopupMenu", new Object[] {
                             sun.swing.BeanInfoUtils.BOUND, Boolean.TRUE,
                  sun.swing.BeanInfoUtils.SHORTDESCRIPTION, "Whether or not the JPopupMenu is inherited",
-               }
-             ),
-             
-             createPropertyDescriptor("inputMap", new Object[] {
-                 sun.swing.BeanInfoUtils.SHORTDESCRIPTION, "inputMap",
                }
              ),
              

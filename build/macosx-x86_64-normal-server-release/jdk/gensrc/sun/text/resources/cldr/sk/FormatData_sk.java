@@ -279,14 +279,14 @@ public class FormatData_sk extends ListResourceBundle {
                     "d.M.yyyy",
                 }
             },
+            { "calendarname.islamic", "Islamsk\u00fd kalend\u00e1r" },
+            { "calendarname.buddhist", "Buddhistick\u00fd kalend\u00e1r" },
             { "calendarname.gregorian", "Gregori\u00e1nsky kalend\u00e1r" },
             { "calendarname.gregory", "Gregori\u00e1nsky kalend\u00e1r" },
-            { "calendarname.roc", "Kalend\u00e1r \u010c\u00ednskej republiky" },
             { "calendarname.islamic-civil", "Islamsk\u00fd ob\u010diansky kalend\u00e1r" },
             { "calendarname.islamicc", "Islamsk\u00fd ob\u010diansky kalend\u00e1r" },
+            { "calendarname.roc", "Kalend\u00e1r \u010c\u00ednskej republiky" },
             { "calendarname.japanese", "Japonsk\u00fd kalend\u00e1r" },
-            { "calendarname.buddhist", "Buddhistick\u00fd kalend\u00e1r" },
-            { "calendarname.islamic", "Islamsk\u00fd kalend\u00e1r" },
             { "DefaultNumberingSystem", "latn" },
             { "latn.NumberElements",
                 new String[] {

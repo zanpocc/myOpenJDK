@@ -2195,4 +2195,3 @@
   ???: com/sun/java_cup/internal/runtime/virtual_parse_stack.java
   ???: com/sun/java_cup/internal/runtime/Symbol.java
   ???: com/sun/java_cup/internal/runtime/lr_parser.java
-  ???: com/.DS_Store

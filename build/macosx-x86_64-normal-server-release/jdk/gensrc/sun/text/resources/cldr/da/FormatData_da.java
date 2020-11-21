@@ -300,14 +300,14 @@ public class FormatData_da extends ListResourceBundle {
                     "d/M/y GGGG",
                 }
             },
+            { "calendarname.islamic", "islamisk kalender" },
+            { "calendarname.buddhist", "buddhistisk kalender" },
             { "calendarname.gregorian", "gregoriansk kalender" },
             { "calendarname.gregory", "gregoriansk kalender" },
-            { "calendarname.roc", "kalender for Republikken Kina" },
             { "calendarname.islamic-civil", "verdslig islamisk kalender" },
             { "calendarname.islamicc", "verdslig islamisk kalender" },
+            { "calendarname.roc", "kalender for Republikken Kina" },
             { "calendarname.japanese", "japansk kalender" },
-            { "calendarname.buddhist", "buddhistisk kalender" },
-            { "calendarname.islamic", "islamisk kalender" },
             { "DefaultNumberingSystem", "latn" },
             { "latn.NumberElements",
                 new String[] {

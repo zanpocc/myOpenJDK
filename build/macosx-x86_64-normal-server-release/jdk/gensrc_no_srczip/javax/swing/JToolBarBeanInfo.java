@@ -85,8 +85,8 @@ public class JToolBarBeanInfo extends javax.swing.SwingBeanInfoBase {
     public PropertyDescriptor[] getPropertyDescriptors() {
          
 		Object[] orientationEnumeration = new Object[] { 
-			"VERTICAL" ,   new Integer(SwingConstants.VERTICAL), "SwingConstants.VERTICAL",
-			"HORIZONTAL" ,   new Integer(SwingConstants.HORIZONTAL), "SwingConstants.HORIZONTAL"
+			"HORIZONTAL" ,   new Integer(SwingConstants.HORIZONTAL), "SwingConstants.HORIZONTAL",
+			"VERTICAL" ,   new Integer(SwingConstants.VERTICAL), "SwingConstants.VERTICAL"
 		};
 
         return new PropertyDescriptor[] {

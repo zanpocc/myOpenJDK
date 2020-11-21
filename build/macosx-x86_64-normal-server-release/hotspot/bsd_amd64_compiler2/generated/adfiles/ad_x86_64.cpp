@@ -52,7 +52,7 @@
 
 //SourceForm
 
-#line 393 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 393 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
 #define   RELOC_IMM64    Assembler::imm_operand
 #define   RELOC_DISP32   Assembler::disp32_operand
@@ -1271,7 +1271,7 @@ const RegMask Matcher::method_handle_invoke_SP_save_mask() {
 
 //SourceForm
 
-#line 543 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 543 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
 
 // Emit exception handler code.
@@ -12488,7 +12488,7 @@ void loadBNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4495 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 4495 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ movsbl(opnd_array(0)->as_Register(ra_,this)/* dst */, Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()));
   
@@ -12504,7 +12504,7 @@ void loadB2LNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4510 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 4510 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ movsbq(opnd_array(0)->as_Register(ra_,this)/* dst */, Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()));
   
@@ -12520,7 +12520,7 @@ void loadUBNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4525 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 4525 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ movzbl(opnd_array(0)->as_Register(ra_,this)/* dst */, Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()));
   
@@ -12536,7 +12536,7 @@ void loadUB2LNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4540 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 4540 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ movzbq(opnd_array(0)->as_Register(ra_,this)/* dst */, Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()));
   
@@ -12553,7 +12553,7 @@ void loadUB2L_immI8Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4554 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 4554 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     Register Rdst = opnd_array(0)->as_Register(ra_,this)/* dst */;
     __ movzbq(Rdst, Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()));
@@ -12571,7 +12571,7 @@ void loadSNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4570 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 4570 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ movswl(opnd_array(0)->as_Register(ra_,this)/* dst */, Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()));
   
@@ -12588,7 +12588,7 @@ void loadS2BNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4583 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 4583 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ movsbl(opnd_array(0)->as_Register(ra_,this)/* dst */, Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()));
   
@@ -12604,7 +12604,7 @@ void loadS2LNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4597 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 4597 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ movswq(opnd_array(0)->as_Register(ra_,this)/* dst */, Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()));
   
@@ -12620,7 +12620,7 @@ void loadUSNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4612 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 4612 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ movzwl(opnd_array(0)->as_Register(ra_,this)/* dst */, Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()));
   
@@ -12637,7 +12637,7 @@ void loadUS2BNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4625 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 4625 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ movsbl(opnd_array(0)->as_Register(ra_,this)/* dst */, Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()));
   
@@ -12653,7 +12653,7 @@ void loadUS2LNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4639 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 4639 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ movzwq(opnd_array(0)->as_Register(ra_,this)/* dst */, Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()));
   
@@ -12670,7 +12670,7 @@ void loadUS2L_immI_255Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4651 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 4651 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ movzbq(opnd_array(0)->as_Register(ra_,this)/* dst */, Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()));
   
@@ -12687,7 +12687,7 @@ void loadUS2L_immI16Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4664 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 4664 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     Register Rdst = opnd_array(0)->as_Register(ra_,this)/* dst */;
     __ movzwq(Rdst, Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()));
@@ -12705,7 +12705,7 @@ void loadINode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4680 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 4680 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ movl(opnd_array(0)->as_Register(ra_,this)/* dst */, Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()));
   
@@ -12722,7 +12722,7 @@ void loadI2BNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4693 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 4693 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ movsbl(opnd_array(0)->as_Register(ra_,this)/* dst */, Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()));
   
@@ -12739,7 +12739,7 @@ void loadI2UBNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4705 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 4705 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ movzbl(opnd_array(0)->as_Register(ra_,this)/* dst */, Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()));
   
@@ -12756,7 +12756,7 @@ void loadI2SNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4717 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 4717 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ movswl(opnd_array(0)->as_Register(ra_,this)/* dst */, Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()));
   
@@ -12773,7 +12773,7 @@ void loadI2USNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4729 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 4729 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ movzwl(opnd_array(0)->as_Register(ra_,this)/* dst */, Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()));
   
@@ -12789,7 +12789,7 @@ void loadI2LNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4743 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 4743 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ movslq(opnd_array(0)->as_Register(ra_,this)/* dst */, Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()));
   
@@ -12806,7 +12806,7 @@ void loadI2L_immI_255Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4755 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 4755 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ movzbq(opnd_array(0)->as_Register(ra_,this)/* dst */, Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()));
   
@@ -12823,7 +12823,7 @@ void loadI2L_immI_65535Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4766 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 4766 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ movzwq(opnd_array(0)->as_Register(ra_,this)/* dst */, Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()));
   
@@ -12840,7 +12840,7 @@ void loadI2L_immU31Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4779 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 4779 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     Register Rdst = opnd_array(0)->as_Register(ra_,this)/* dst */;
     __ movl(Rdst, Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()));
@@ -12859,7 +12859,7 @@ void loadUI2LNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4795 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 4795 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ movl(opnd_array(0)->as_Register(ra_,this)/* dst */, Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()));
   
@@ -12875,7 +12875,7 @@ void loadLNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4810 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 4810 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ movq(opnd_array(0)->as_Register(ra_,this)/* dst */, Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()));
   
@@ -12890,7 +12890,7 @@ void loadRangeNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx1 = 2; 	// mem
   {
 
-#line 2306 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2306 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(0)->reg(ra_,this)/* dst */ < 8) {
       if (opnd_array(1)->base(ra_,this,idx1) < 8) {
@@ -12924,7 +12924,7 @@ void loadRangeNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x8B /*primary()*/));
   
@@ -12932,7 +12932,7 @@ void loadRangeNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2370 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2370 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // High registers handle in encode_RegMem
     int reg = opnd_array(0)->reg(ra_,this)/* dst */;
@@ -12955,7 +12955,7 @@ void loadPNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx1 = 2; 	// mem
   {
 
-#line 2337 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2337 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(0)->reg(ra_,this)/* dst */ < 8) {
       if (opnd_array(1)->base(ra_,this,idx1) < 8) {
@@ -12991,7 +12991,7 @@ void loadPNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x8B /*primary()*/));
   
@@ -12999,7 +12999,7 @@ void loadPNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2370 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2370 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // High registers handle in encode_RegMem
     int reg = opnd_array(0)->reg(ra_,this)/* dst */;
@@ -13023,7 +13023,7 @@ void loadNNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4848 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 4848 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
      __ movl(opnd_array(0)->as_Register(ra_,this)/* dst */, Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()));
    
@@ -13038,7 +13038,7 @@ void loadKlassNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx1 = 2; 	// mem
   {
 
-#line 2337 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2337 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(0)->reg(ra_,this)/* dst */ < 8) {
       if (opnd_array(1)->base(ra_,this,idx1) < 8) {
@@ -13074,7 +13074,7 @@ void loadKlassNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x8B /*primary()*/));
   
@@ -13082,7 +13082,7 @@ void loadKlassNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2370 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2370 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // High registers handle in encode_RegMem
     int reg = opnd_array(0)->reg(ra_,this)/* dst */;
@@ -13106,7 +13106,7 @@ void loadNKlassNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4874 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 4874 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ movl(opnd_array(0)->as_Register(ra_,this)/* dst */, Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()));
   
@@ -13122,7 +13122,7 @@ void loadFNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4887 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 4887 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ movflt(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()));
   
@@ -13138,7 +13138,7 @@ void loadD_partialNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4901 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 4901 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ movdbl(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()));
   
@@ -13154,7 +13154,7 @@ void loadDNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4914 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 4914 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ movdbl(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()));
   
@@ -13169,7 +13169,7 @@ void leaP8Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx1 = 2; 	// mem
   {
 
-#line 2337 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2337 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(0)->reg(ra_,this)/* dst */ < 8) {
       if (opnd_array(1)->base(ra_,this,idx1) < 8) {
@@ -13205,7 +13205,7 @@ void leaP8Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x8D /*primary()*/));
   
@@ -13213,7 +13213,7 @@ void leaP8Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2370 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2370 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // High registers handle in encode_RegMem
     int reg = opnd_array(0)->reg(ra_,this)/* dst */;
@@ -13236,7 +13236,7 @@ void leaP32Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx1 = 2; 	// mem
   {
 
-#line 2337 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2337 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(0)->reg(ra_,this)/* dst */ < 8) {
       if (opnd_array(1)->base(ra_,this,idx1) < 8) {
@@ -13272,7 +13272,7 @@ void leaP32Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x8D /*primary()*/));
   
@@ -13280,7 +13280,7 @@ void leaP32Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2370 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2370 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // High registers handle in encode_RegMem
     int reg = opnd_array(0)->reg(ra_,this)/* dst */;
@@ -13303,7 +13303,7 @@ void leaPIdxOffNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx1 = 2; 	// mem
   {
 
-#line 2337 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2337 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(0)->reg(ra_,this)/* dst */ < 8) {
       if (opnd_array(1)->base(ra_,this,idx1) < 8) {
@@ -13339,7 +13339,7 @@ void leaPIdxOffNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x8D /*primary()*/));
   
@@ -13347,7 +13347,7 @@ void leaPIdxOffNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2370 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2370 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // High registers handle in encode_RegMem
     int reg = opnd_array(0)->reg(ra_,this)/* dst */;
@@ -13370,7 +13370,7 @@ void leaPIdxScaleNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx1 = 2; 	// mem
   {
 
-#line 2337 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2337 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(0)->reg(ra_,this)/* dst */ < 8) {
       if (opnd_array(1)->base(ra_,this,idx1) < 8) {
@@ -13406,7 +13406,7 @@ void leaPIdxScaleNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x8D /*primary()*/));
   
@@ -13414,7 +13414,7 @@ void leaPIdxScaleNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2370 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2370 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // High registers handle in encode_RegMem
     int reg = opnd_array(0)->reg(ra_,this)/* dst */;
@@ -13437,7 +13437,7 @@ void leaPIdxScaleOffNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx1 = 2; 	// mem
   {
 
-#line 2337 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2337 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(0)->reg(ra_,this)/* dst */ < 8) {
       if (opnd_array(1)->base(ra_,this,idx1) < 8) {
@@ -13473,7 +13473,7 @@ void leaPIdxScaleOffNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x8D /*primary()*/));
   
@@ -13481,7 +13481,7 @@ void leaPIdxScaleOffNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2370 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2370 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // High registers handle in encode_RegMem
     int reg = opnd_array(0)->reg(ra_,this)/* dst */;
@@ -13504,7 +13504,7 @@ void leaPPosIdxScaleOffNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx1 = 2; 	// mem
   {
 
-#line 2337 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2337 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(0)->reg(ra_,this)/* dst */ < 8) {
       if (opnd_array(1)->base(ra_,this,idx1) < 8) {
@@ -13540,7 +13540,7 @@ void leaPPosIdxScaleOffNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x8D /*primary()*/));
   
@@ -13548,7 +13548,7 @@ void leaPPosIdxScaleOffNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2370 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2370 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // High registers handle in encode_RegMem
     int reg = opnd_array(0)->reg(ra_,this)/* dst */;
@@ -13571,7 +13571,7 @@ void leaPCompressedOopOffsetNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) con
   unsigned idx1 = 2; 	// mem
   {
 
-#line 2337 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2337 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(0)->reg(ra_,this)/* dst */ < 8) {
       if (opnd_array(1)->base(ra_,this,idx1) < 8) {
@@ -13607,7 +13607,7 @@ void leaPCompressedOopOffsetNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) con
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x8D /*primary()*/));
   
@@ -13615,7 +13615,7 @@ void leaPCompressedOopOffsetNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) con
   }
   {
 
-#line 2370 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2370 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // High registers handle in encode_RegMem
     int reg = opnd_array(0)->reg(ra_,this)/* dst */;
@@ -13638,7 +13638,7 @@ void leaP8NarrowNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx1 = 2; 	// mem
   {
 
-#line 2337 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2337 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(0)->reg(ra_,this)/* dst */ < 8) {
       if (opnd_array(1)->base(ra_,this,idx1) < 8) {
@@ -13674,7 +13674,7 @@ void leaP8NarrowNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x8D /*primary()*/));
   
@@ -13682,7 +13682,7 @@ void leaP8NarrowNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2370 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2370 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // High registers handle in encode_RegMem
     int reg = opnd_array(0)->reg(ra_,this)/* dst */;
@@ -13705,7 +13705,7 @@ void leaP32NarrowNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx1 = 2; 	// mem
   {
 
-#line 2337 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2337 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(0)->reg(ra_,this)/* dst */ < 8) {
       if (opnd_array(1)->base(ra_,this,idx1) < 8) {
@@ -13741,7 +13741,7 @@ void leaP32NarrowNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x8D /*primary()*/));
   
@@ -13749,7 +13749,7 @@ void leaP32NarrowNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2370 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2370 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // High registers handle in encode_RegMem
     int reg = opnd_array(0)->reg(ra_,this)/* dst */;
@@ -13772,7 +13772,7 @@ void leaPIdxOffNarrowNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx1 = 2; 	// mem
   {
 
-#line 2337 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2337 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(0)->reg(ra_,this)/* dst */ < 8) {
       if (opnd_array(1)->base(ra_,this,idx1) < 8) {
@@ -13808,7 +13808,7 @@ void leaPIdxOffNarrowNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x8D /*primary()*/));
   
@@ -13816,7 +13816,7 @@ void leaPIdxOffNarrowNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2370 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2370 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // High registers handle in encode_RegMem
     int reg = opnd_array(0)->reg(ra_,this)/* dst */;
@@ -13839,7 +13839,7 @@ void leaPIdxScaleNarrowNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx1 = 2; 	// mem
   {
 
-#line 2337 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2337 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(0)->reg(ra_,this)/* dst */ < 8) {
       if (opnd_array(1)->base(ra_,this,idx1) < 8) {
@@ -13875,7 +13875,7 @@ void leaPIdxScaleNarrowNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x8D /*primary()*/));
   
@@ -13883,7 +13883,7 @@ void leaPIdxScaleNarrowNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2370 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2370 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // High registers handle in encode_RegMem
     int reg = opnd_array(0)->reg(ra_,this)/* dst */;
@@ -13906,7 +13906,7 @@ void leaPIdxScaleOffNarrowNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const
   unsigned idx1 = 2; 	// mem
   {
 
-#line 2337 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2337 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(0)->reg(ra_,this)/* dst */ < 8) {
       if (opnd_array(1)->base(ra_,this,idx1) < 8) {
@@ -13942,7 +13942,7 @@ void leaPIdxScaleOffNarrowNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x8D /*primary()*/));
   
@@ -13950,7 +13950,7 @@ void leaPIdxScaleOffNarrowNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const
   }
   {
 
-#line 2370 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2370 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // High registers handle in encode_RegMem
     int reg = opnd_array(0)->reg(ra_,this)/* dst */;
@@ -13973,7 +13973,7 @@ void leaPPosIdxScaleOffNarrowNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) co
   unsigned idx1 = 2; 	// mem
   {
 
-#line 2337 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2337 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(0)->reg(ra_,this)/* dst */ < 8) {
       if (opnd_array(1)->base(ra_,this,idx1) < 8) {
@@ -14009,7 +14009,7 @@ void leaPPosIdxScaleOffNarrowNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) co
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x8D /*primary()*/));
   
@@ -14017,7 +14017,7 @@ void leaPPosIdxScaleOffNarrowNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) co
   }
   {
 
-#line 2370 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2370 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // High registers handle in encode_RegMem
     int reg = opnd_array(0)->reg(ra_,this)/* dst */;
@@ -14040,7 +14040,7 @@ void loadConINode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx1 = 1; 	// src
   {
 
-#line 2049 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2049 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     int dstenc = opnd_array(0)->reg(ra_,this)/* dst */;
     if (dstenc >= 8) {
@@ -14061,7 +14061,7 @@ void loadConI0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx1 = 1; 	// src
   {
 
-#line 2274 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2274 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(0)->reg(ra_,this)/* dst */ < 8) {
       if (opnd_array(0)->reg(ra_,this)/* dst */ >= 8) {
@@ -14079,7 +14079,7 @@ void loadConI0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x33 /*primary()*/));
   
@@ -14087,7 +14087,7 @@ void loadConI0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1678 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1678 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_rm(cbuf, 0x3, opnd_array(0)->reg(ra_,this)/* dst */ & 7, opnd_array(0)->reg(ra_,this)/* dst */ & 7);
   
@@ -14102,7 +14102,7 @@ void loadConLNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx1 = 1; 	// src
   {
 
-#line 2060 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2060 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     int dstenc = opnd_array(0)->reg(ra_,this)/* dst */;
     if (dstenc < 8) {
@@ -14125,7 +14125,7 @@ void loadConL0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx1 = 1; 	// src
   {
 
-#line 2274 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2274 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(0)->reg(ra_,this)/* dst */ < 8) {
       if (opnd_array(0)->reg(ra_,this)/* dst */ >= 8) {
@@ -14143,7 +14143,7 @@ void loadConL0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x33 /*primary()*/));
   
@@ -14151,7 +14151,7 @@ void loadConL0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1678 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1678 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_rm(cbuf, 0x3, opnd_array(0)->reg(ra_,this)/* dst */ & 7, opnd_array(0)->reg(ra_,this)/* dst */ & 7);
   
@@ -14166,7 +14166,7 @@ void loadConUL32Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx1 = 1; 	// src
   {
 
-#line 2073 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2073 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // same as load_immI, but this time we care about zeroes in the high word
     int dstenc = opnd_array(0)->reg(ra_,this)/* dst */;
@@ -14188,7 +14188,7 @@ void loadConL32Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx1 = 1; 	// src
   {
 
-#line 2085 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2085 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     int dstenc = opnd_array(0)->reg(ra_,this)/* dst */;
     if (dstenc < 8) {
@@ -14212,7 +14212,7 @@ void loadConPNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx1 = 1; 	// con
   {
 
-#line 2111 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2111 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     int dstenc = opnd_array(0)->reg(ra_,this)/* dst */;
     if (dstenc < 8) {
@@ -14240,7 +14240,7 @@ void loadConP0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx1 = 1; 	// src
   {
 
-#line 2274 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2274 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(0)->reg(ra_,this)/* dst */ < 8) {
       if (opnd_array(0)->reg(ra_,this)/* dst */ >= 8) {
@@ -14258,7 +14258,7 @@ void loadConP0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x33 /*primary()*/));
   
@@ -14266,7 +14266,7 @@ void loadConP0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1678 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1678 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_rm(cbuf, 0x3, opnd_array(0)->reg(ra_,this)/* dst */ & 7, opnd_array(0)->reg(ra_,this)/* dst */ & 7);
   
@@ -14281,7 +14281,7 @@ void loadConP31Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx1 = 1; 	// src
   {
 
-#line 2099 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2099 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // same as load_immI, but this time we care about zeroes in the high word
     int dstenc = opnd_array(0)->reg(ra_,this)/* dst */;
@@ -14309,7 +14309,7 @@ void loadConFNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 5181 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 5181 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ movflt(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, InternalAddress(__ code()->consts()->start() + constant_offset()));
   
@@ -14320,7 +14320,7 @@ void loadConFNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
 void loadConFNode::eval_constant(Compile* C) {
   {
 
-#line 5182 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 5182 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
     _constant = C->constant_table().add(this, opnd_array(1));
 #line 14326 "../generated/adfiles/ad_x86_64.cpp"
   }
@@ -14333,7 +14333,7 @@ void loadConN0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 5191 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 5191 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ xorq(opnd_array(0)->as_Register(ra_,this)/* dst */, opnd_array(0)->as_Register(ra_,this)/* dst */);
   
@@ -14349,7 +14349,7 @@ void loadConNNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 5202 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 5202 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     address con = (address)opnd_array(1)->constant();
     if (con == NULL) {
@@ -14370,7 +14370,7 @@ void loadConNKlassNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 5218 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 5218 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     address con = (address)opnd_array(1)->constant();
     if (con == NULL) {
@@ -14391,7 +14391,7 @@ void loadConF0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 5235 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 5235 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ xorps(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(0)->as_XMMRegister(ra_,this)/* dst */);
   
@@ -14407,7 +14407,7 @@ void loadConDNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 5246 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 5246 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ movdbl(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, InternalAddress(__ code()->consts()->start() + constant_offset()));
   
@@ -14418,7 +14418,7 @@ void loadConDNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
 void loadConDNode::eval_constant(Compile* C) {
   {
 
-#line 5247 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 5247 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
     _constant = C->constant_table().add(this, opnd_array(1));
 #line 14424 "../generated/adfiles/ad_x86_64.cpp"
   }
@@ -14431,7 +14431,7 @@ void loadConD0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 5258 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 5258 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ xorpd (opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(0)->as_XMMRegister(ra_,this)/* dst */);
   
@@ -14446,7 +14446,7 @@ void loadSSINode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx1 = 1; 	// src
   {
 
-#line 2306 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2306 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(0)->reg(ra_,this)/* dst */ < 8) {
       if (opnd_array(1)->base(ra_,this,idx1) < 8) {
@@ -14480,7 +14480,7 @@ void loadSSINode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x8B /*primary()*/));
   
@@ -14488,7 +14488,7 @@ void loadSSINode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2370 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2370 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // High registers handle in encode_RegMem
     int reg = opnd_array(0)->reg(ra_,this)/* dst */;
@@ -14511,7 +14511,7 @@ void loadSSLNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx1 = 1; 	// src
   {
 
-#line 2337 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2337 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(0)->reg(ra_,this)/* dst */ < 8) {
       if (opnd_array(1)->base(ra_,this,idx1) < 8) {
@@ -14547,7 +14547,7 @@ void loadSSLNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x8B /*primary()*/));
   
@@ -14555,7 +14555,7 @@ void loadSSLNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2370 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2370 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // High registers handle in encode_RegMem
     int reg = opnd_array(0)->reg(ra_,this)/* dst */;
@@ -14578,7 +14578,7 @@ void loadSSPNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx1 = 1; 	// src
   {
 
-#line 2337 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2337 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(0)->reg(ra_,this)/* dst */ < 8) {
       if (opnd_array(1)->base(ra_,this,idx1) < 8) {
@@ -14614,7 +14614,7 @@ void loadSSPNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x8B /*primary()*/));
   
@@ -14622,7 +14622,7 @@ void loadSSPNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2370 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2370 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // High registers handle in encode_RegMem
     int reg = opnd_array(0)->reg(ra_,this)/* dst */;
@@ -14646,7 +14646,7 @@ void loadSSFNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 5303 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 5303 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ movflt(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, Address(rsp, opnd_array(1)->disp(ra_,this,idx1)));
   
@@ -14662,7 +14662,7 @@ void loadSSDNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 5316 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 5316 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ movdbl(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, Address(rsp, opnd_array(1)->disp(ra_,this,idx1)));
   
@@ -14678,7 +14678,7 @@ void prefetchrNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 5331 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 5331 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ prefetchr(Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()));
   
@@ -14694,7 +14694,7 @@ void prefetchrNTANode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 5343 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 5343 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ prefetchnta(Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()));
   
@@ -14710,7 +14710,7 @@ void prefetchrT0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 5355 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 5355 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ prefetcht0(Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()));
   
@@ -14726,7 +14726,7 @@ void prefetchrT2Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 5367 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 5367 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ prefetcht2(Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()));
   
@@ -14742,7 +14742,7 @@ void prefetchwNTANode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 5378 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 5378 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ prefetchnta(Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()));
   
@@ -14758,7 +14758,7 @@ void prefetchAllocNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 5392 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 5392 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ prefetchw(Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()));
   
@@ -14774,7 +14774,7 @@ void prefetchAllocNTANode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 5404 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 5404 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ prefetchnta(Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()));
   
@@ -14790,7 +14790,7 @@ void prefetchAllocT0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 5416 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 5416 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ prefetcht0(Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()));
   
@@ -14806,7 +14806,7 @@ void prefetchAllocT2Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 5428 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 5428 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ prefetcht2(Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()));
   
@@ -14822,7 +14822,7 @@ void storeBNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// src
   {
 
-#line 2225 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2225 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(2)->reg(ra_,this,idx2)/* src */ < 8) {
       if (opnd_array(1)->base(ra_,this,idx1) < 8) {
@@ -14858,7 +14858,7 @@ void storeBNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x88 /*primary()*/));
   
@@ -14866,7 +14866,7 @@ void storeBNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2370 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2370 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // High registers handle in encode_RegMem
     int reg = opnd_array(2)->reg(ra_,this,idx2)/* src */;
@@ -14890,7 +14890,7 @@ void storeCNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// src
   {
 
-#line 1668 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1668 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, 0x66);
   
@@ -14898,7 +14898,7 @@ void storeCNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2306 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2306 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(2)->reg(ra_,this,idx2)/* src */ < 8) {
       if (opnd_array(1)->base(ra_,this,idx1) < 8) {
@@ -14932,7 +14932,7 @@ void storeCNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x89 /*primary()*/));
   
@@ -14940,7 +14940,7 @@ void storeCNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2370 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2370 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // High registers handle in encode_RegMem
     int reg = opnd_array(2)->reg(ra_,this,idx2)/* src */;
@@ -14964,7 +14964,7 @@ void storeINode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// src
   {
 
-#line 2306 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2306 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(2)->reg(ra_,this,idx2)/* src */ < 8) {
       if (opnd_array(1)->base(ra_,this,idx1) < 8) {
@@ -14998,7 +14998,7 @@ void storeINode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x89 /*primary()*/));
   
@@ -15006,7 +15006,7 @@ void storeINode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2370 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2370 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // High registers handle in encode_RegMem
     int reg = opnd_array(2)->reg(ra_,this,idx2)/* src */;
@@ -15030,7 +15030,7 @@ void storeLNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// src
   {
 
-#line 2337 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2337 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(2)->reg(ra_,this,idx2)/* src */ < 8) {
       if (opnd_array(1)->base(ra_,this,idx1) < 8) {
@@ -15066,7 +15066,7 @@ void storeLNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x89 /*primary()*/));
   
@@ -15074,7 +15074,7 @@ void storeLNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2370 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2370 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // High registers handle in encode_RegMem
     int reg = opnd_array(2)->reg(ra_,this,idx2)/* src */;
@@ -15098,7 +15098,7 @@ void storePNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// src
   {
 
-#line 2337 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2337 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(2)->reg(ra_,this,idx2)/* src */ < 8) {
       if (opnd_array(1)->base(ra_,this,idx1) < 8) {
@@ -15134,7 +15134,7 @@ void storePNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x89 /*primary()*/));
   
@@ -15142,7 +15142,7 @@ void storePNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2370 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2370 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // High registers handle in encode_RegMem
     int reg = opnd_array(2)->reg(ra_,this,idx2)/* src */;
@@ -15167,7 +15167,7 @@ void storeImmP0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 5503 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 5503 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ movq(Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()), r12);
   
@@ -15183,7 +15183,7 @@ void storeImmPNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// src
   {
 
-#line 2183 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2183 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->base(ra_,this,idx1) >= 8) {
       if (opnd_array(1)->index(ra_,this,idx1) < 8) {
@@ -15203,7 +15203,7 @@ void storeImmPNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xC7 /*primary()*/));
   
@@ -15211,7 +15211,7 @@ void storeImmPNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2383 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2383 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     int rm_byte_opcode = (0x00);
 
@@ -15231,7 +15231,7 @@ void storeImmPNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2129 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2129 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // Output immediate
     
@@ -15254,7 +15254,7 @@ void storeNNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 5528 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 5528 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ movl(Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()), opnd_array(2)->as_Register(ra_,this,idx2)/* src */);
   
@@ -15271,7 +15271,7 @@ void storeNKlassNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 5540 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 5540 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ movl(Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()), opnd_array(2)->as_Register(ra_,this,idx2)/* src */);
   
@@ -15288,7 +15288,7 @@ void storeImmN0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 5553 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 5553 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ movl(Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()), r12);
   
@@ -15305,7 +15305,7 @@ void storeImmNNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 5565 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 5565 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     address con = (address)opnd_array(2)->constant();
     if (con == NULL) {
@@ -15327,7 +15327,7 @@ void storeImmNKlassNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 5582 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 5582 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ set_narrow_klass(Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()), (Klass*)opnd_array(2)->constant());
   
@@ -15344,7 +15344,7 @@ void storeImmI0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 5596 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 5596 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ movl(Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()), r12);
   
@@ -15360,7 +15360,7 @@ void storeImmINode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// src
   {
 
-#line 2168 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2168 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->base(ra_,this,idx1) >= 8) {
       if (opnd_array(1)->index(ra_,this,idx1) < 8) {
@@ -15378,7 +15378,7 @@ void storeImmINode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xC7 /*primary()*/));
   
@@ -15386,7 +15386,7 @@ void storeImmINode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2383 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2383 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     int rm_byte_opcode = (0x00);
 
@@ -15406,7 +15406,7 @@ void storeImmINode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2129 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2129 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // Output immediate
     emit_d32(cbuf, opnd_array(2)->constant());
@@ -15424,7 +15424,7 @@ void storeImmL0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 5621 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 5621 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ movq(Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()), r12);
   
@@ -15440,7 +15440,7 @@ void storeImmLNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// src
   {
 
-#line 2183 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2183 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->base(ra_,this,idx1) >= 8) {
       if (opnd_array(1)->index(ra_,this,idx1) < 8) {
@@ -15460,7 +15460,7 @@ void storeImmLNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xC7 /*primary()*/));
   
@@ -15468,7 +15468,7 @@ void storeImmLNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2383 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2383 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     int rm_byte_opcode = (0x00);
 
@@ -15488,7 +15488,7 @@ void storeImmLNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2129 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2129 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // Output immediate
     emit_d32(cbuf, opnd_array(2)->constantL());
@@ -15506,7 +15506,7 @@ void storeImmC0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 5646 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 5646 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ movw(Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()), r12);
   
@@ -15522,7 +15522,7 @@ void storeImmI16Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// src
   {
 
-#line 1668 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1668 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, 0x66);
   
@@ -15530,7 +15530,7 @@ void storeImmI16Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2168 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2168 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->base(ra_,this,idx1) >= 8) {
       if (opnd_array(1)->index(ra_,this,idx1) < 8) {
@@ -15548,7 +15548,7 @@ void storeImmI16Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xC7 /*primary()*/));
   
@@ -15556,7 +15556,7 @@ void storeImmI16Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2383 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2383 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     int rm_byte_opcode = (0x00);
 
@@ -15576,7 +15576,7 @@ void storeImmI16Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2143 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2143 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // Output immediate
     emit_d16(cbuf, opnd_array(2)->constant());
@@ -15594,7 +15594,7 @@ void storeImmB0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 5672 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 5672 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ movb(Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()), r12);
   
@@ -15610,7 +15610,7 @@ void storeImmBNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// src
   {
 
-#line 2168 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2168 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->base(ra_,this,idx1) >= 8) {
       if (opnd_array(1)->index(ra_,this,idx1) < 8) {
@@ -15628,7 +15628,7 @@ void storeImmBNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xC6 /*primary()*/));
   
@@ -15636,7 +15636,7 @@ void storeImmBNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2383 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2383 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     int rm_byte_opcode = (0x00);
 
@@ -15656,7 +15656,7 @@ void storeImmBNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1879 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1879 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // Check for 8-bit immediate, and set sign extend bit in opcode
     if (-0x80 <= opnd_array(2)->constant() && opnd_array(2)->constant() < 0x80) {
@@ -15679,7 +15679,7 @@ void storeImmCM0_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 5697 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 5697 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ movb(Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()), r12);
   
@@ -15695,7 +15695,7 @@ void storeImmCM0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// src
   {
 
-#line 2168 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2168 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->base(ra_,this,idx1) >= 8) {
       if (opnd_array(1)->index(ra_,this,idx1) < 8) {
@@ -15713,7 +15713,7 @@ void storeImmCM0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xC6 /*primary()*/));
   
@@ -15721,7 +15721,7 @@ void storeImmCM0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2383 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2383 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     int rm_byte_opcode = (0x00);
 
@@ -15741,7 +15741,7 @@ void storeImmCM0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1879 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1879 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // Check for 8-bit immediate, and set sign extend bit in opcode
     if (-0x80 <= opnd_array(2)->constant() && opnd_array(2)->constant() < 0x80) {
@@ -15764,7 +15764,7 @@ void storeFNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 5721 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 5721 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ movflt(Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()), opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src */);
   
@@ -15781,7 +15781,7 @@ void storeF0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 5735 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 5735 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ movl(Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()), r12);
   
@@ -15797,7 +15797,7 @@ void storeF_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// src
   {
 
-#line 2168 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2168 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->base(ra_,this,idx1) >= 8) {
       if (opnd_array(1)->index(ra_,this,idx1) < 8) {
@@ -15815,7 +15815,7 @@ void storeF_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xC7 /*primary()*/));
   
@@ -15823,7 +15823,7 @@ void storeF_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2383 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2383 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     int rm_byte_opcode = (0x00);
 
@@ -15843,7 +15843,7 @@ void storeF_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2135 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2135 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // Output Float immediate bits
     jfloat jf = opnd_array(2)->constantF();
@@ -15863,7 +15863,7 @@ void storeDNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 5759 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 5759 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ movdbl(Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()), opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src */);
   
@@ -15879,7 +15879,7 @@ void storeD0_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// src
   {
 
-#line 2183 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2183 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->base(ra_,this,idx1) >= 8) {
       if (opnd_array(1)->index(ra_,this,idx1) < 8) {
@@ -15899,7 +15899,7 @@ void storeD0_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xC7 /*primary()*/));
   
@@ -15907,7 +15907,7 @@ void storeD0_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2383 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2383 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     int rm_byte_opcode = (0x00);
 
@@ -15927,7 +15927,7 @@ void storeD0_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2135 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2135 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // Output Float immediate bits
     jfloat jf = opnd_array(2)->constantD();
@@ -15947,7 +15947,7 @@ void storeD0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 5785 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 5785 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ movq(Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()), r12);
   
@@ -15962,7 +15962,7 @@ void storeSSINode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx1 = 1; 	// src
   {
 
-#line 2306 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2306 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->reg(ra_,this,idx1)/* src */ < 8) {
       if (opnd_array(0)->base(ra_,this,idx0) < 8) {
@@ -15996,7 +15996,7 @@ void storeSSINode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x89 /*primary()*/));
   
@@ -16004,7 +16004,7 @@ void storeSSINode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2370 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2370 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // High registers handle in encode_RegMem
     int reg = opnd_array(1)->reg(ra_,this,idx1)/* src */;
@@ -16027,7 +16027,7 @@ void storeSSLNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx1 = 1; 	// src
   {
 
-#line 2337 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2337 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->reg(ra_,this,idx1)/* src */ < 8) {
       if (opnd_array(0)->base(ra_,this,idx0) < 8) {
@@ -16063,7 +16063,7 @@ void storeSSLNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x89 /*primary()*/));
   
@@ -16071,7 +16071,7 @@ void storeSSLNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2370 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2370 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // High registers handle in encode_RegMem
     int reg = opnd_array(1)->reg(ra_,this,idx1)/* src */;
@@ -16094,7 +16094,7 @@ void storeSSPNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx1 = 1; 	// src
   {
 
-#line 2337 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2337 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->reg(ra_,this,idx1)/* src */ < 8) {
       if (opnd_array(0)->base(ra_,this,idx0) < 8) {
@@ -16130,7 +16130,7 @@ void storeSSPNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x89 /*primary()*/));
   
@@ -16138,7 +16138,7 @@ void storeSSPNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2370 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2370 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // High registers handle in encode_RegMem
     int reg = opnd_array(1)->reg(ra_,this,idx1)/* src */;
@@ -16162,7 +16162,7 @@ void storeSSFNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 5830 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 5830 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ movflt(Address(rsp, opnd_array(0)->disp(ra_,this,0)), opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */);
   
@@ -16178,7 +16178,7 @@ void storeSSDNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 5842 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 5842 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ movdbl(Address(rsp, opnd_array(0)->disp(ra_,this,0)), opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */);
   
@@ -16193,7 +16193,7 @@ void bytes_reverse_intNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx1 = 1; 	// dst
   {
 
-#line 2258 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2258 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->reg(ra_,this,idx1)/* dst */ >= 8) {
       emit_opcode(cbuf, Assembler::REX_B);
@@ -16203,7 +16203,7 @@ void bytes_reverse_intNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x0F /*primary()*/));
   
@@ -16211,7 +16211,7 @@ void bytes_reverse_intNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1890 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1890 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // BSWAP
     emit_cc(cbuf, (0xC8 /*secondary()*/), opnd_array(1)->reg(ra_,this,idx1)/* dst */);
@@ -16227,7 +16227,7 @@ void bytes_reverse_longNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx1 = 1; 	// dst
   {
 
-#line 2265 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2265 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->reg(ra_,this,idx1)/* dst */ < 8) {
       emit_opcode(cbuf, Assembler::REX_W);
@@ -16239,7 +16239,7 @@ void bytes_reverse_longNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x0F /*primary()*/));
   
@@ -16247,7 +16247,7 @@ void bytes_reverse_longNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1890 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1890 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // BSWAP
     emit_cc(cbuf, (0xC8 /*secondary()*/), opnd_array(1)->reg(ra_,this,idx1)/* dst */);
@@ -16264,7 +16264,7 @@ void bytes_reverse_unsigned_shortNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_
   {
     MacroAssembler _masm(&cbuf);
 
-#line 5873 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 5873 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ bswapl(opnd_array(1)->as_Register(ra_,this,idx1)/* dst */);
     __ shrl(opnd_array(1)->as_Register(ra_,this,idx1)/* dst */, 16);
@@ -16281,7 +16281,7 @@ void bytes_reverse_shortNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 5886 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 5886 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ bswapl(opnd_array(1)->as_Register(ra_,this,idx1)/* dst */);
     __ sarl(opnd_array(1)->as_Register(ra_,this,idx1)/* dst */, 16);
@@ -16298,7 +16298,7 @@ void countLeadingZerosINode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 5901 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 5901 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ lzcntl(opnd_array(0)->as_Register(ra_,this)/* dst */, opnd_array(1)->as_Register(ra_,this,idx1)/* src */);
   
@@ -16314,7 +16314,7 @@ void countLeadingZerosI_bsrNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) cons
   {
     MacroAssembler _masm(&cbuf);
 
-#line 5918 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 5918 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     Register Rdst = opnd_array(0)->as_Register(ra_,this)/* dst */;
     Register Rsrc = opnd_array(1)->as_Register(ra_,this,idx1)/* src */;
@@ -16338,7 +16338,7 @@ void countLeadingZerosLNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 5938 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 5938 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ lzcntq(opnd_array(0)->as_Register(ra_,this)/* dst */, opnd_array(1)->as_Register(ra_,this,idx1)/* src */);
   
@@ -16354,7 +16354,7 @@ void countLeadingZerosL_bsrNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) cons
   {
     MacroAssembler _masm(&cbuf);
 
-#line 5955 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 5955 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     Register Rdst = opnd_array(0)->as_Register(ra_,this)/* dst */;
     Register Rsrc = opnd_array(1)->as_Register(ra_,this,idx1)/* src */;
@@ -16378,7 +16378,7 @@ void countTrailingZerosINode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 5975 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 5975 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ tzcntl(opnd_array(0)->as_Register(ra_,this)/* dst */, opnd_array(1)->as_Register(ra_,this,idx1)/* src */);
   
@@ -16394,7 +16394,7 @@ void countTrailingZerosI_bsfNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) con
   {
     MacroAssembler _masm(&cbuf);
 
-#line 5990 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 5990 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     Register Rdst = opnd_array(0)->as_Register(ra_,this)/* dst */;
     Label done;
@@ -16415,7 +16415,7 @@ void countTrailingZerosLNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 6007 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 6007 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ tzcntq(opnd_array(0)->as_Register(ra_,this)/* dst */, opnd_array(1)->as_Register(ra_,this,idx1)/* src */);
   
@@ -16431,7 +16431,7 @@ void countTrailingZerosL_bsfNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) con
   {
     MacroAssembler _masm(&cbuf);
 
-#line 6022 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 6022 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     Register Rdst = opnd_array(0)->as_Register(ra_,this)/* dst */;
     Label done;
@@ -16452,7 +16452,7 @@ void popCountINode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 6042 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 6042 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ popcntl(opnd_array(0)->as_Register(ra_,this)/* dst */, opnd_array(1)->as_Register(ra_,this,idx1)/* src */);
   
@@ -16468,7 +16468,7 @@ void popCountI_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 6054 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 6054 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ popcntl(opnd_array(0)->as_Register(ra_,this)/* dst */, Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()));
   
@@ -16484,7 +16484,7 @@ void popCountLNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 6067 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 6067 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ popcntq(opnd_array(0)->as_Register(ra_,this)/* dst */, opnd_array(1)->as_Register(ra_,this,idx1)/* src */);
   
@@ -16500,7 +16500,7 @@ void popCountL_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 6080 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 6080 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ popcntq(opnd_array(0)->as_Register(ra_,this)/* dst */, Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()));
   
@@ -16594,7 +16594,7 @@ void membar_volatileNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 6149 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 6149 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ membar(Assembler::StoreLoad);
   
@@ -16636,7 +16636,7 @@ void castX2PNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 6184 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 6184 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(0)->reg(ra_,this)/* dst */!= opnd_array(1)->reg(ra_,this,idx1)/* src */) {
       __ movptr(opnd_array(0)->as_Register(ra_,this)/* dst */, opnd_array(1)->as_Register(ra_,this,idx1)/* src */);
@@ -16654,7 +16654,7 @@ void castP2XNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 6197 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 6197 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(0)->reg(ra_,this)/* dst */!= opnd_array(1)->reg(ra_,this,idx1)/* src */) {
       __ movptr(opnd_array(0)->as_Register(ra_,this)/* dst */, opnd_array(1)->as_Register(ra_,this,idx1)/* src */);
@@ -16672,7 +16672,7 @@ void convP2INode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 6211 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 6211 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ movl(opnd_array(0)->as_Register(ra_,this)/* dst */, opnd_array(1)->as_Register(ra_,this,idx1)/* src */);
   
@@ -16688,7 +16688,7 @@ void convN2INode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 6225 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 6225 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ movl(opnd_array(0)->as_Register(ra_,this)/* dst */, opnd_array(1)->as_Register(ra_,this,idx1)/* src */);
   
@@ -16704,7 +16704,7 @@ void encodeHeapOopNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 6237 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 6237 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     Register s = opnd_array(1)->as_Register(ra_,this,idx1)/* src */;
     Register d = opnd_array(0)->as_Register(ra_,this)/* dst */;
@@ -16725,7 +16725,7 @@ void encodeHeapOop_not_nullNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) cons
   {
     MacroAssembler _masm(&cbuf);
 
-#line 6253 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 6253 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ encode_heap_oop_not_null(opnd_array(0)->as_Register(ra_,this)/* dst */, opnd_array(1)->as_Register(ra_,this,idx1)/* src */);
   
@@ -16741,7 +16741,7 @@ void decodeHeapOopNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 6265 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 6265 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     Register s = opnd_array(1)->as_Register(ra_,this,idx1)/* src */;
     Register d = opnd_array(0)->as_Register(ra_,this)/* dst */;
@@ -16762,7 +16762,7 @@ void decodeHeapOop_not_nullNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) cons
   {
     MacroAssembler _masm(&cbuf);
 
-#line 6282 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 6282 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     Register s = opnd_array(1)->as_Register(ra_,this,idx1)/* src */;
     Register d = opnd_array(0)->as_Register(ra_,this)/* dst */;
@@ -16784,7 +16784,7 @@ void encodeKlass_not_nullNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const 
   {
     MacroAssembler _masm(&cbuf);
 
-#line 6298 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 6298 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ encode_klass_not_null(opnd_array(0)->as_Register(ra_,this)/* dst */, opnd_array(1)->as_Register(ra_,this,idx1)/* src */);
   
@@ -16800,7 +16800,7 @@ void decodeKlass_not_nullNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const 
   {
     MacroAssembler _masm(&cbuf);
 
-#line 6308 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 6308 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     Register s = opnd_array(1)->as_Register(ra_,this,idx1)/* src */;
     Register d = opnd_array(0)->as_Register(ra_,this)/* dst */;
@@ -16825,7 +16825,7 @@ void jumpXtnd_offsetNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 6332 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 6332 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // We could use jump(ArrayAddress) except that the macro assembler needs to use r10
     // to do that and the compiler is using that register as one it can allocate.
@@ -16856,7 +16856,7 @@ void jumpXtnd_addrNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 6352 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 6352 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // We could use jump(ArrayAddress) except that the macro assembler needs to use r10
     // to do that and the compiler is using that register as one it can allocate.
@@ -16885,7 +16885,7 @@ void jumpXtndNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 6372 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 6372 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // We could use jump(ArrayAddress) except that the macro assembler needs to use r10
     // to do that and the compiler is using that register as one it can allocate.
@@ -16914,7 +16914,7 @@ void cmovI_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx4 = idx3 + opnd_array(3)->num_edges(); 	// src
   {
 
-#line 2274 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2274 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(3)->reg(ra_,this,idx3)/* dst */ < 8) {
       if (opnd_array(4)->reg(ra_,this,idx4)/* src */ >= 8) {
@@ -16932,7 +16932,7 @@ void cmovI_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1908 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1908 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // CMOV
     emit_d8(cbuf, (0x0F /*primary()*/));
@@ -16942,7 +16942,7 @@ void cmovI_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1678 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1678 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_rm(cbuf, 0x3, opnd_array(3)->reg(ra_,this,idx3)/* dst */ & 7, opnd_array(4)->reg(ra_,this,idx4)/* src */ & 7);
   
@@ -16960,7 +16960,7 @@ void cmovI_regUNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx4 = idx3 + opnd_array(3)->num_edges(); 	// src
   {
 
-#line 2274 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2274 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(3)->reg(ra_,this,idx3)/* dst */ < 8) {
       if (opnd_array(4)->reg(ra_,this,idx4)/* src */ >= 8) {
@@ -16978,7 +16978,7 @@ void cmovI_regUNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1908 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1908 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // CMOV
     emit_d8(cbuf, (0x0F /*primary()*/));
@@ -16988,7 +16988,7 @@ void cmovI_regUNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1678 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1678 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_rm(cbuf, 0x3, opnd_array(3)->reg(ra_,this,idx3)/* dst */ & 7, opnd_array(4)->reg(ra_,this,idx4)/* src */ & 7);
   
@@ -17006,7 +17006,7 @@ void cmovI_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx4 = idx3 + opnd_array(3)->num_edges(); 	// src
   {
 
-#line 2306 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2306 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(3)->reg(ra_,this,idx3)/* dst */ < 8) {
       if (opnd_array(4)->base(ra_,this,idx4) < 8) {
@@ -17040,7 +17040,7 @@ void cmovI_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1908 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1908 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // CMOV
     emit_d8(cbuf, (0x0F /*primary()*/));
@@ -17050,7 +17050,7 @@ void cmovI_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2370 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2370 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // High registers handle in encode_RegMem
     int reg = opnd_array(3)->reg(ra_,this,idx3)/* dst */;
@@ -17076,7 +17076,7 @@ void cmovI_memUNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx4 = idx3 + opnd_array(3)->num_edges(); 	// src
   {
 
-#line 2306 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2306 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(3)->reg(ra_,this,idx3)/* dst */ < 8) {
       if (opnd_array(4)->base(ra_,this,idx4) < 8) {
@@ -17110,7 +17110,7 @@ void cmovI_memUNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1908 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1908 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // CMOV
     emit_d8(cbuf, (0x0F /*primary()*/));
@@ -17120,7 +17120,7 @@ void cmovI_memUNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2370 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2370 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // High registers handle in encode_RegMem
     int reg = opnd_array(3)->reg(ra_,this,idx3)/* dst */;
@@ -17146,7 +17146,7 @@ void cmovN_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx4 = idx3 + opnd_array(3)->num_edges(); 	// src
   {
 
-#line 2274 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2274 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(3)->reg(ra_,this,idx3)/* dst */ < 8) {
       if (opnd_array(4)->reg(ra_,this,idx4)/* src */ >= 8) {
@@ -17164,7 +17164,7 @@ void cmovN_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1908 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1908 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // CMOV
     emit_d8(cbuf, (0x0F /*primary()*/));
@@ -17174,7 +17174,7 @@ void cmovN_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1678 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1678 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_rm(cbuf, 0x3, opnd_array(3)->reg(ra_,this,idx3)/* dst */ & 7, opnd_array(4)->reg(ra_,this,idx4)/* src */ & 7);
   
@@ -17192,7 +17192,7 @@ void cmovN_regUNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx4 = idx3 + opnd_array(3)->num_edges(); 	// src
   {
 
-#line 2274 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2274 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(3)->reg(ra_,this,idx3)/* dst */ < 8) {
       if (opnd_array(4)->reg(ra_,this,idx4)/* src */ >= 8) {
@@ -17210,7 +17210,7 @@ void cmovN_regUNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1908 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1908 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // CMOV
     emit_d8(cbuf, (0x0F /*primary()*/));
@@ -17220,7 +17220,7 @@ void cmovN_regUNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1678 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1678 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_rm(cbuf, 0x3, opnd_array(3)->reg(ra_,this,idx3)/* dst */ & 7, opnd_array(4)->reg(ra_,this,idx4)/* src */ & 7);
   
@@ -17238,7 +17238,7 @@ void cmovP_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx4 = idx3 + opnd_array(3)->num_edges(); 	// src
   {
 
-#line 2289 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2289 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(3)->reg(ra_,this,idx3)/* dst */ < 8) {
       if (opnd_array(4)->reg(ra_,this,idx4)/* src */ < 8) {
@@ -17258,7 +17258,7 @@ void cmovP_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1908 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1908 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // CMOV
     emit_d8(cbuf, (0x0F /*primary()*/));
@@ -17268,7 +17268,7 @@ void cmovP_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1678 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1678 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_rm(cbuf, 0x3, opnd_array(3)->reg(ra_,this,idx3)/* dst */ & 7, opnd_array(4)->reg(ra_,this,idx4)/* src */ & 7);
   
@@ -17286,7 +17286,7 @@ void cmovP_regUNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx4 = idx3 + opnd_array(3)->num_edges(); 	// src
   {
 
-#line 2289 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2289 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(3)->reg(ra_,this,idx3)/* dst */ < 8) {
       if (opnd_array(4)->reg(ra_,this,idx4)/* src */ < 8) {
@@ -17306,7 +17306,7 @@ void cmovP_regUNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1908 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1908 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // CMOV
     emit_d8(cbuf, (0x0F /*primary()*/));
@@ -17316,7 +17316,7 @@ void cmovP_regUNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1678 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1678 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_rm(cbuf, 0x3, opnd_array(3)->reg(ra_,this,idx3)/* dst */ & 7, opnd_array(4)->reg(ra_,this,idx4)/* src */ & 7);
   
@@ -17334,7 +17334,7 @@ void cmovL_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx4 = idx3 + opnd_array(3)->num_edges(); 	// src
   {
 
-#line 2289 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2289 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(3)->reg(ra_,this,idx3)/* dst */ < 8) {
       if (opnd_array(4)->reg(ra_,this,idx4)/* src */ < 8) {
@@ -17354,7 +17354,7 @@ void cmovL_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1908 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1908 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // CMOV
     emit_d8(cbuf, (0x0F /*primary()*/));
@@ -17364,7 +17364,7 @@ void cmovL_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1678 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1678 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_rm(cbuf, 0x3, opnd_array(3)->reg(ra_,this,idx3)/* dst */ & 7, opnd_array(4)->reg(ra_,this,idx4)/* src */ & 7);
   
@@ -17382,7 +17382,7 @@ void cmovL_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx4 = idx3 + opnd_array(3)->num_edges(); 	// src
   {
 
-#line 2337 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2337 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(3)->reg(ra_,this,idx3)/* dst */ < 8) {
       if (opnd_array(4)->base(ra_,this,idx4) < 8) {
@@ -17418,7 +17418,7 @@ void cmovL_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1908 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1908 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // CMOV
     emit_d8(cbuf, (0x0F /*primary()*/));
@@ -17428,7 +17428,7 @@ void cmovL_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2370 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2370 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // High registers handle in encode_RegMem
     int reg = opnd_array(3)->reg(ra_,this,idx3)/* dst */;
@@ -17454,7 +17454,7 @@ void cmovL_regUNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx4 = idx3 + opnd_array(3)->num_edges(); 	// src
   {
 
-#line 2289 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2289 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(3)->reg(ra_,this,idx3)/* dst */ < 8) {
       if (opnd_array(4)->reg(ra_,this,idx4)/* src */ < 8) {
@@ -17474,7 +17474,7 @@ void cmovL_regUNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1908 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1908 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // CMOV
     emit_d8(cbuf, (0x0F /*primary()*/));
@@ -17484,7 +17484,7 @@ void cmovL_regUNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1678 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1678 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_rm(cbuf, 0x3, opnd_array(3)->reg(ra_,this,idx3)/* dst */ & 7, opnd_array(4)->reg(ra_,this,idx4)/* src */ & 7);
   
@@ -17502,7 +17502,7 @@ void cmovL_memUNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx4 = idx3 + opnd_array(3)->num_edges(); 	// src
   {
 
-#line 2337 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2337 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(3)->reg(ra_,this,idx3)/* dst */ < 8) {
       if (opnd_array(4)->base(ra_,this,idx4) < 8) {
@@ -17538,7 +17538,7 @@ void cmovL_memUNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1908 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1908 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // CMOV
     emit_d8(cbuf, (0x0F /*primary()*/));
@@ -17548,7 +17548,7 @@ void cmovL_memUNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2370 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2370 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // High registers handle in encode_RegMem
     int reg = opnd_array(3)->reg(ra_,this,idx3)/* dst */;
@@ -17575,7 +17575,7 @@ void cmovF_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 6605 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 6605 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     Label Lskip;
     // Invert sense of branch from sense of CMOV
@@ -17598,7 +17598,7 @@ void cmovF_regUNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 6635 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 6635 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     Label Lskip;
     // Invert sense of branch from sense of CMOV
@@ -17621,7 +17621,7 @@ void cmovD_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 6661 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 6661 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     Label Lskip;
     // Invert sense of branch from sense of CMOV
@@ -17644,7 +17644,7 @@ void cmovD_regUNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 6679 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 6679 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     Label Lskip;
     // Invert sense of branch from sense of CMOV
@@ -17664,7 +17664,7 @@ void addI_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// src
   {
 
-#line 2274 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2274 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->reg(ra_,this,idx1)/* dst */ < 8) {
       if (opnd_array(2)->reg(ra_,this,idx2)/* src */ >= 8) {
@@ -17682,7 +17682,7 @@ void addI_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x03 /*primary()*/));
   
@@ -17690,7 +17690,7 @@ void addI_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1678 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1678 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_rm(cbuf, 0x3, opnd_array(1)->reg(ra_,this,idx1)/* dst */ & 7, opnd_array(2)->reg(ra_,this,idx2)/* src */ & 7);
   
@@ -17706,7 +17706,7 @@ void addI_rReg_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// src
   {
 
-#line 1837 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1837 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // OpcSEr/m
     int dstenc = opnd_array(1)->reg(ra_,this,idx1)/* dst */;
@@ -17729,7 +17729,7 @@ void addI_rReg_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1879 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1879 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // Check for 8-bit immediate, and set sign extend bit in opcode
     if (-0x80 <= opnd_array(2)->constant() && opnd_array(2)->constant() < 0x80) {
@@ -17751,7 +17751,7 @@ void addI_rReg_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// src
   {
 
-#line 2306 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2306 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->reg(ra_,this,idx1)/* dst */ < 8) {
       if (opnd_array(2)->base(ra_,this,idx2) < 8) {
@@ -17785,7 +17785,7 @@ void addI_rReg_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x03 /*primary()*/));
   
@@ -17793,7 +17793,7 @@ void addI_rReg_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2370 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2370 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // High registers handle in encode_RegMem
     int reg = opnd_array(1)->reg(ra_,this,idx1)/* dst */;
@@ -17817,7 +17817,7 @@ void addI_rReg_mem_0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// dst
   {
 
-#line 2306 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2306 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(2)->reg(ra_,this,idx2)/* dst */ < 8) {
       if (opnd_array(1)->base(ra_,this,idx1) < 8) {
@@ -17851,7 +17851,7 @@ void addI_rReg_mem_0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x03 /*primary()*/));
   
@@ -17859,7 +17859,7 @@ void addI_rReg_mem_0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2370 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2370 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // High registers handle in encode_RegMem
     int reg = opnd_array(2)->reg(ra_,this,idx2)/* dst */;
@@ -17883,7 +17883,7 @@ void addI_mem_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// src
   {
 
-#line 2306 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2306 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(2)->reg(ra_,this,idx2)/* src */ < 8) {
       if (opnd_array(1)->base(ra_,this,idx1) < 8) {
@@ -17917,7 +17917,7 @@ void addI_mem_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x01 /*primary()*/));
   
@@ -17925,7 +17925,7 @@ void addI_mem_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2370 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2370 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // High registers handle in encode_RegMem
     int reg = opnd_array(2)->reg(ra_,this,idx2)/* src */;
@@ -17949,7 +17949,7 @@ void addI_mem_rReg_0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// src
   {
 
-#line 2306 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2306 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(2)->reg(ra_,this,idx2)/* src */ < 8) {
       if (opnd_array(1)->base(ra_,this,idx1) < 8) {
@@ -17983,7 +17983,7 @@ void addI_mem_rReg_0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x01 /*primary()*/));
   
@@ -17991,7 +17991,7 @@ void addI_mem_rReg_0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2370 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2370 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // High registers handle in encode_RegMem
     int reg = opnd_array(2)->reg(ra_,this,idx2)/* src */;
@@ -18015,7 +18015,7 @@ void addI_mem_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// src
   {
 
-#line 2168 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2168 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->base(ra_,this,idx1) >= 8) {
       if (opnd_array(1)->index(ra_,this,idx1) < 8) {
@@ -18033,7 +18033,7 @@ void addI_mem_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1825 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1825 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // Emit primary opcode and set sign-extend bit
     // Check for 8-bit immediate, and set sign extend bit in opcode
@@ -18048,7 +18048,7 @@ void addI_mem_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2383 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2383 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     int rm_byte_opcode = (0x00);
 
@@ -18068,7 +18068,7 @@ void addI_mem_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1879 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1879 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // Check for 8-bit immediate, and set sign extend bit in opcode
     if (-0x80 <= opnd_array(2)->constant() && opnd_array(2)->constant() < 0x80) {
@@ -18090,7 +18090,7 @@ void incI_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// src
   {
 
-#line 2258 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2258 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->reg(ra_,this,idx1)/* dst */ >= 8) {
       emit_opcode(cbuf, Assembler::REX_B);
@@ -18100,7 +18100,7 @@ void incI_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xFF /*primary()*/));
   
@@ -18108,7 +18108,7 @@ void incI_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1902 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1902 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // INC, DEC, IDIV, IMOD, JMP indirect, ...
     emit_rm(cbuf, 0x3, (0x00 /*secondary()*/), opnd_array(1)->reg(ra_,this,idx1)/* dst */ & 7);
@@ -18125,7 +18125,7 @@ void incI_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// src
   {
 
-#line 2168 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2168 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->base(ra_,this,idx1) >= 8) {
       if (opnd_array(1)->index(ra_,this,idx1) < 8) {
@@ -18143,7 +18143,7 @@ void incI_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xFF /*primary()*/));
   
@@ -18151,7 +18151,7 @@ void incI_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2383 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2383 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     int rm_byte_opcode = (0x00);
 
@@ -18179,7 +18179,7 @@ void decI_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// src
   {
 
-#line 2258 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2258 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->reg(ra_,this,idx1)/* dst */ >= 8) {
       emit_opcode(cbuf, Assembler::REX_B);
@@ -18189,7 +18189,7 @@ void decI_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xFF /*primary()*/));
   
@@ -18197,7 +18197,7 @@ void decI_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1902 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1902 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // INC, DEC, IDIV, IMOD, JMP indirect, ...
     emit_rm(cbuf, 0x3, (0x01 /*secondary()*/), opnd_array(1)->reg(ra_,this,idx1)/* dst */ & 7);
@@ -18214,7 +18214,7 @@ void decI_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// src
   {
 
-#line 2168 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2168 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->base(ra_,this,idx1) >= 8) {
       if (opnd_array(1)->index(ra_,this,idx1) < 8) {
@@ -18232,7 +18232,7 @@ void decI_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xFF /*primary()*/));
   
@@ -18240,7 +18240,7 @@ void decI_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2383 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2383 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     int rm_byte_opcode = (0x01);
 
@@ -18268,7 +18268,7 @@ void leaI_rReg_immINode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// src1
   {
 
-#line 1662 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1662 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x67));
   
@@ -18276,7 +18276,7 @@ void leaI_rReg_immINode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2274 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2274 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(0)->reg(ra_,this)/* dst */ < 8) {
       if (opnd_array(1)->reg(ra_,this,idx1)/* src0 */ >= 8) {
@@ -18294,7 +18294,7 @@ void leaI_rReg_immINode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x8D /*primary()*/));
   
@@ -18302,7 +18302,7 @@ void leaI_rReg_immINode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2400 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2400 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     int reg_encoding = opnd_array(0)->reg(ra_,this)/* dst */;
     int base         = opnd_array(1)->reg(ra_,this,idx1)/* src0 */;      // 0xFFFFFFFF indicates no base
@@ -18325,7 +18325,7 @@ void addL_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// src
   {
 
-#line 2289 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2289 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->reg(ra_,this,idx1)/* dst */ < 8) {
       if (opnd_array(2)->reg(ra_,this,idx2)/* src */ < 8) {
@@ -18345,7 +18345,7 @@ void addL_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x03 /*primary()*/));
   
@@ -18353,7 +18353,7 @@ void addL_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1678 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1678 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_rm(cbuf, 0x3, opnd_array(1)->reg(ra_,this,idx1)/* dst */ & 7, opnd_array(2)->reg(ra_,this,idx2)/* src */ & 7);
   
@@ -18369,7 +18369,7 @@ void addL_rReg_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// src
   {
 
-#line 1857 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1857 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // OpcSEr/m
     int dstenc = opnd_array(1)->reg(ra_,this,idx1)/* dst */;
@@ -18394,7 +18394,7 @@ void addL_rReg_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1879 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1879 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // Check for 8-bit immediate, and set sign extend bit in opcode
     if (-0x80 <= opnd_array(2)->constantL() && opnd_array(2)->constantL() < 0x80) {
@@ -18416,7 +18416,7 @@ void addL_rReg_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// src
   {
 
-#line 2337 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2337 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->reg(ra_,this,idx1)/* dst */ < 8) {
       if (opnd_array(2)->base(ra_,this,idx2) < 8) {
@@ -18452,7 +18452,7 @@ void addL_rReg_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x03 /*primary()*/));
   
@@ -18460,7 +18460,7 @@ void addL_rReg_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2370 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2370 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // High registers handle in encode_RegMem
     int reg = opnd_array(1)->reg(ra_,this,idx1)/* dst */;
@@ -18484,7 +18484,7 @@ void addL_rReg_mem_0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// dst
   {
 
-#line 2337 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2337 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(2)->reg(ra_,this,idx2)/* dst */ < 8) {
       if (opnd_array(1)->base(ra_,this,idx1) < 8) {
@@ -18520,7 +18520,7 @@ void addL_rReg_mem_0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x03 /*primary()*/));
   
@@ -18528,7 +18528,7 @@ void addL_rReg_mem_0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2370 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2370 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // High registers handle in encode_RegMem
     int reg = opnd_array(2)->reg(ra_,this,idx2)/* dst */;
@@ -18552,7 +18552,7 @@ void addL_mem_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// src
   {
 
-#line 2337 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2337 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(2)->reg(ra_,this,idx2)/* src */ < 8) {
       if (opnd_array(1)->base(ra_,this,idx1) < 8) {
@@ -18588,7 +18588,7 @@ void addL_mem_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x01 /*primary()*/));
   
@@ -18596,7 +18596,7 @@ void addL_mem_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2370 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2370 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // High registers handle in encode_RegMem
     int reg = opnd_array(2)->reg(ra_,this,idx2)/* src */;
@@ -18620,7 +18620,7 @@ void addL_mem_rReg_0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// src
   {
 
-#line 2337 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2337 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(2)->reg(ra_,this,idx2)/* src */ < 8) {
       if (opnd_array(1)->base(ra_,this,idx1) < 8) {
@@ -18656,7 +18656,7 @@ void addL_mem_rReg_0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x01 /*primary()*/));
   
@@ -18664,7 +18664,7 @@ void addL_mem_rReg_0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2370 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2370 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // High registers handle in encode_RegMem
     int reg = opnd_array(2)->reg(ra_,this,idx2)/* src */;
@@ -18688,7 +18688,7 @@ void addL_mem_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// src
   {
 
-#line 2183 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2183 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->base(ra_,this,idx1) >= 8) {
       if (opnd_array(1)->index(ra_,this,idx1) < 8) {
@@ -18708,7 +18708,7 @@ void addL_mem_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1825 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1825 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // Emit primary opcode and set sign-extend bit
     // Check for 8-bit immediate, and set sign extend bit in opcode
@@ -18723,7 +18723,7 @@ void addL_mem_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2383 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2383 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     int rm_byte_opcode = (0x00);
 
@@ -18743,7 +18743,7 @@ void addL_mem_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1879 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1879 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // Check for 8-bit immediate, and set sign extend bit in opcode
     if (-0x80 <= opnd_array(2)->constantL() && opnd_array(2)->constantL() < 0x80) {
@@ -18765,7 +18765,7 @@ void incL_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// src
   {
 
-#line 2265 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2265 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->reg(ra_,this,idx1)/* dst */ < 8) {
       emit_opcode(cbuf, Assembler::REX_W);
@@ -18777,7 +18777,7 @@ void incL_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xFF /*primary()*/));
   
@@ -18785,7 +18785,7 @@ void incL_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1902 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1902 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // INC, DEC, IDIV, IMOD, JMP indirect, ...
     emit_rm(cbuf, 0x3, (0x00 /*secondary()*/), opnd_array(1)->reg(ra_,this,idx1)/* dst */ & 7);
@@ -18802,7 +18802,7 @@ void incL_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// src
   {
 
-#line 2183 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2183 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->base(ra_,this,idx1) >= 8) {
       if (opnd_array(1)->index(ra_,this,idx1) < 8) {
@@ -18822,7 +18822,7 @@ void incL_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xFF /*primary()*/));
   
@@ -18830,7 +18830,7 @@ void incL_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2383 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2383 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     int rm_byte_opcode = (0x00);
 
@@ -18858,7 +18858,7 @@ void decL_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// src
   {
 
-#line 2265 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2265 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->reg(ra_,this,idx1)/* dst */ < 8) {
       emit_opcode(cbuf, Assembler::REX_W);
@@ -18870,7 +18870,7 @@ void decL_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xFF /*primary()*/));
   
@@ -18878,7 +18878,7 @@ void decL_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1902 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1902 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // INC, DEC, IDIV, IMOD, JMP indirect, ...
     emit_rm(cbuf, 0x3, (0x01 /*secondary()*/), opnd_array(1)->reg(ra_,this,idx1)/* dst */ & 7);
@@ -18895,7 +18895,7 @@ void decL_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// src
   {
 
-#line 2183 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2183 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->base(ra_,this,idx1) >= 8) {
       if (opnd_array(1)->index(ra_,this,idx1) < 8) {
@@ -18915,7 +18915,7 @@ void decL_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xFF /*primary()*/));
   
@@ -18923,7 +18923,7 @@ void decL_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2383 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2383 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     int rm_byte_opcode = (0x01);
 
@@ -18951,7 +18951,7 @@ void leaL_rReg_immLNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// src1
   {
 
-#line 2289 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2289 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(0)->reg(ra_,this)/* dst */ < 8) {
       if (opnd_array(1)->reg(ra_,this,idx1)/* src0 */ < 8) {
@@ -18971,7 +18971,7 @@ void leaL_rReg_immLNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x8D /*primary()*/));
   
@@ -18979,7 +18979,7 @@ void leaL_rReg_immLNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2400 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2400 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     int reg_encoding = opnd_array(0)->reg(ra_,this)/* dst */;
     int base         = opnd_array(1)->reg(ra_,this,idx1)/* src0 */;      // 0xFFFFFFFF indicates no base
@@ -19002,7 +19002,7 @@ void addP_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// src
   {
 
-#line 2289 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2289 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->reg(ra_,this,idx1)/* dst */ < 8) {
       if (opnd_array(2)->reg(ra_,this,idx2)/* src */ < 8) {
@@ -19022,7 +19022,7 @@ void addP_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x03 /*primary()*/));
   
@@ -19030,7 +19030,7 @@ void addP_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1678 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1678 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_rm(cbuf, 0x3, opnd_array(1)->reg(ra_,this,idx1)/* dst */ & 7, opnd_array(2)->reg(ra_,this,idx2)/* src */ & 7);
   
@@ -19046,7 +19046,7 @@ void addP_rReg_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// src
   {
 
-#line 1857 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1857 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // OpcSEr/m
     int dstenc = opnd_array(1)->reg(ra_,this,idx1)/* dst */;
@@ -19071,7 +19071,7 @@ void addP_rReg_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1879 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1879 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // Check for 8-bit immediate, and set sign extend bit in opcode
     if (-0x80 <= opnd_array(2)->constantL() && opnd_array(2)->constantL() < 0x80) {
@@ -19093,7 +19093,7 @@ void leaP_rReg_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// src1
   {
 
-#line 2289 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2289 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(0)->reg(ra_,this)/* dst */ < 8) {
       if (opnd_array(1)->reg(ra_,this,idx1)/* src0 */ < 8) {
@@ -19113,7 +19113,7 @@ void leaP_rReg_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x8D /*primary()*/));
   
@@ -19121,7 +19121,7 @@ void leaP_rReg_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2400 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2400 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     int reg_encoding = opnd_array(0)->reg(ra_,this)/* dst */;
     int base         = opnd_array(1)->reg(ra_,this,idx1)/* src0 */;      // 0xFFFFFFFF indicates no base
@@ -19182,7 +19182,7 @@ void loadPLockedNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx1 = 2; 	// mem
   {
 
-#line 2337 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2337 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(0)->reg(ra_,this)/* dst */ < 8) {
       if (opnd_array(1)->base(ra_,this,idx1) < 8) {
@@ -19218,7 +19218,7 @@ void loadPLockedNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x8B /*primary()*/));
   
@@ -19226,7 +19226,7 @@ void loadPLockedNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2370 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2370 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // High registers handle in encode_RegMem
     int reg = opnd_array(0)->reg(ra_,this)/* dst */;
@@ -19251,7 +19251,7 @@ void storePConditionalNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx3 = idx2 + opnd_array(2)->num_edges(); 	// newval
   {
 
-#line 2161 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2161 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (os::is_MP()) {
       emit_opcode(cbuf, 0xF0); // lock
@@ -19261,7 +19261,7 @@ void storePConditionalNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2337 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2337 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(3)->reg(ra_,this,idx3)/* newval */ < 8) {
       if (opnd_array(1)->base(ra_,this,idx1) < 8) {
@@ -19297,7 +19297,7 @@ void storePConditionalNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x0F /*primary()*/));
   
@@ -19305,7 +19305,7 @@ void storePConditionalNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1650 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1650 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xB1 /*secondary()*/));
   
@@ -19313,7 +19313,7 @@ void storePConditionalNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2370 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2370 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // High registers handle in encode_RegMem
     int reg = opnd_array(3)->reg(ra_,this,idx3)/* newval */;
@@ -19338,7 +19338,7 @@ void storeIConditionalNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx3 = idx2 + opnd_array(2)->num_edges(); 	// newval
   {
 
-#line 2161 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2161 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (os::is_MP()) {
       emit_opcode(cbuf, 0xF0); // lock
@@ -19348,7 +19348,7 @@ void storeIConditionalNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2306 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2306 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(3)->reg(ra_,this,idx3)/* newval */ < 8) {
       if (opnd_array(1)->base(ra_,this,idx1) < 8) {
@@ -19382,7 +19382,7 @@ void storeIConditionalNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x0F /*primary()*/));
   
@@ -19390,7 +19390,7 @@ void storeIConditionalNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1650 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1650 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xB1 /*secondary()*/));
   
@@ -19398,7 +19398,7 @@ void storeIConditionalNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2370 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2370 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // High registers handle in encode_RegMem
     int reg = opnd_array(3)->reg(ra_,this,idx3)/* newval */;
@@ -19423,7 +19423,7 @@ void storeLConditionalNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx3 = idx2 + opnd_array(2)->num_edges(); 	// newval
   {
 
-#line 2161 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2161 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (os::is_MP()) {
       emit_opcode(cbuf, 0xF0); // lock
@@ -19433,7 +19433,7 @@ void storeLConditionalNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2337 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2337 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(3)->reg(ra_,this,idx3)/* newval */ < 8) {
       if (opnd_array(1)->base(ra_,this,idx1) < 8) {
@@ -19469,7 +19469,7 @@ void storeLConditionalNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x0F /*primary()*/));
   
@@ -19477,7 +19477,7 @@ void storeLConditionalNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1650 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1650 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xB1 /*secondary()*/));
   
@@ -19485,7 +19485,7 @@ void storeLConditionalNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2370 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2370 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // High registers handle in encode_RegMem
     int reg = opnd_array(3)->reg(ra_,this,idx3)/* newval */;
@@ -19510,7 +19510,7 @@ void compareAndSwapPNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx3 = idx2 + opnd_array(2)->num_edges(); 	// newval
   {
 
-#line 2161 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2161 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (os::is_MP()) {
       emit_opcode(cbuf, 0xF0); // lock
@@ -19520,7 +19520,7 @@ void compareAndSwapPNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2337 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2337 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(3)->reg(ra_,this,idx3)/* newval */ < 8) {
       if (opnd_array(1)->base(ra_,this,idx1) < 8) {
@@ -19556,7 +19556,7 @@ void compareAndSwapPNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x0F /*primary()*/));
   
@@ -19564,7 +19564,7 @@ void compareAndSwapPNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1650 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1650 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xB1 /*secondary()*/));
   
@@ -19572,7 +19572,7 @@ void compareAndSwapPNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2370 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2370 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // High registers handle in encode_RegMem
     int reg = opnd_array(3)->reg(ra_,this,idx3)/* newval */;
@@ -19588,7 +19588,7 @@ void compareAndSwapPNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2201 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2201 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(0)->reg(ra_,this)/* res */ >= 4) {
       emit_opcode(cbuf, opnd_array(0)->reg(ra_,this)/* res */ < 8 ? Assembler::REX : Assembler::REX_B);
@@ -19598,7 +19598,7 @@ void compareAndSwapPNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1662 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1662 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x0F));
   
@@ -19606,7 +19606,7 @@ void compareAndSwapPNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1662 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1662 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x94));
   
@@ -19614,7 +19614,7 @@ void compareAndSwapPNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1673 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1673 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_rm(cbuf, 0x3, 0, opnd_array(0)->reg(ra_,this)/* res */ & 7);
   
@@ -19622,7 +19622,7 @@ void compareAndSwapPNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2209 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2209 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(0)->reg(ra_,this)/* res */ < 8) {
       if (opnd_array(0)->reg(ra_,this)/* res */ >= 4) {
@@ -19640,7 +19640,7 @@ void compareAndSwapPNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1662 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1662 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xF));
   
@@ -19648,7 +19648,7 @@ void compareAndSwapPNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1662 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1662 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xB6));
   
@@ -19656,7 +19656,7 @@ void compareAndSwapPNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1678 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1678 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_rm(cbuf, 0x3, opnd_array(0)->reg(ra_,this)/* res */ & 7, opnd_array(0)->reg(ra_,this)/* res */ & 7);
   
@@ -19673,7 +19673,7 @@ void compareAndSwapLNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx3 = idx2 + opnd_array(2)->num_edges(); 	// newval
   {
 
-#line 2161 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2161 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (os::is_MP()) {
       emit_opcode(cbuf, 0xF0); // lock
@@ -19683,7 +19683,7 @@ void compareAndSwapLNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2337 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2337 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(3)->reg(ra_,this,idx3)/* newval */ < 8) {
       if (opnd_array(1)->base(ra_,this,idx1) < 8) {
@@ -19719,7 +19719,7 @@ void compareAndSwapLNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x0F /*primary()*/));
   
@@ -19727,7 +19727,7 @@ void compareAndSwapLNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1650 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1650 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xB1 /*secondary()*/));
   
@@ -19735,7 +19735,7 @@ void compareAndSwapLNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2370 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2370 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // High registers handle in encode_RegMem
     int reg = opnd_array(3)->reg(ra_,this,idx3)/* newval */;
@@ -19751,7 +19751,7 @@ void compareAndSwapLNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2201 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2201 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(0)->reg(ra_,this)/* res */ >= 4) {
       emit_opcode(cbuf, opnd_array(0)->reg(ra_,this)/* res */ < 8 ? Assembler::REX : Assembler::REX_B);
@@ -19761,7 +19761,7 @@ void compareAndSwapLNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1662 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1662 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x0F));
   
@@ -19769,7 +19769,7 @@ void compareAndSwapLNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1662 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1662 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x94));
   
@@ -19777,7 +19777,7 @@ void compareAndSwapLNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1673 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1673 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_rm(cbuf, 0x3, 0, opnd_array(0)->reg(ra_,this)/* res */ & 7);
   
@@ -19785,7 +19785,7 @@ void compareAndSwapLNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2209 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2209 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(0)->reg(ra_,this)/* res */ < 8) {
       if (opnd_array(0)->reg(ra_,this)/* res */ >= 4) {
@@ -19803,7 +19803,7 @@ void compareAndSwapLNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1662 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1662 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xF));
   
@@ -19811,7 +19811,7 @@ void compareAndSwapLNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1662 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1662 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xB6));
   
@@ -19819,7 +19819,7 @@ void compareAndSwapLNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1678 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1678 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_rm(cbuf, 0x3, opnd_array(0)->reg(ra_,this)/* res */ & 7, opnd_array(0)->reg(ra_,this)/* res */ & 7);
   
@@ -19836,7 +19836,7 @@ void compareAndSwapINode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx3 = idx2 + opnd_array(2)->num_edges(); 	// newval
   {
 
-#line 2161 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2161 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (os::is_MP()) {
       emit_opcode(cbuf, 0xF0); // lock
@@ -19846,7 +19846,7 @@ void compareAndSwapINode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2306 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2306 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(3)->reg(ra_,this,idx3)/* newval */ < 8) {
       if (opnd_array(1)->base(ra_,this,idx1) < 8) {
@@ -19880,7 +19880,7 @@ void compareAndSwapINode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x0F /*primary()*/));
   
@@ -19888,7 +19888,7 @@ void compareAndSwapINode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1650 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1650 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xB1 /*secondary()*/));
   
@@ -19896,7 +19896,7 @@ void compareAndSwapINode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2370 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2370 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // High registers handle in encode_RegMem
     int reg = opnd_array(3)->reg(ra_,this,idx3)/* newval */;
@@ -19912,7 +19912,7 @@ void compareAndSwapINode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2201 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2201 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(0)->reg(ra_,this)/* res */ >= 4) {
       emit_opcode(cbuf, opnd_array(0)->reg(ra_,this)/* res */ < 8 ? Assembler::REX : Assembler::REX_B);
@@ -19922,7 +19922,7 @@ void compareAndSwapINode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1662 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1662 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x0F));
   
@@ -19930,7 +19930,7 @@ void compareAndSwapINode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1662 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1662 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x94));
   
@@ -19938,7 +19938,7 @@ void compareAndSwapINode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1673 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1673 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_rm(cbuf, 0x3, 0, opnd_array(0)->reg(ra_,this)/* res */ & 7);
   
@@ -19946,7 +19946,7 @@ void compareAndSwapINode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2209 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2209 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(0)->reg(ra_,this)/* res */ < 8) {
       if (opnd_array(0)->reg(ra_,this)/* res */ >= 4) {
@@ -19964,7 +19964,7 @@ void compareAndSwapINode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1662 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1662 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xF));
   
@@ -19972,7 +19972,7 @@ void compareAndSwapINode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1662 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1662 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xB6));
   
@@ -19980,7 +19980,7 @@ void compareAndSwapINode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1678 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1678 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_rm(cbuf, 0x3, opnd_array(0)->reg(ra_,this)/* res */ & 7, opnd_array(0)->reg(ra_,this)/* res */ & 7);
   
@@ -19997,7 +19997,7 @@ void compareAndSwapNNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx3 = idx2 + opnd_array(2)->num_edges(); 	// newval
   {
 
-#line 2161 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2161 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (os::is_MP()) {
       emit_opcode(cbuf, 0xF0); // lock
@@ -20007,7 +20007,7 @@ void compareAndSwapNNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2306 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2306 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(3)->reg(ra_,this,idx3)/* newval */ < 8) {
       if (opnd_array(1)->base(ra_,this,idx1) < 8) {
@@ -20041,7 +20041,7 @@ void compareAndSwapNNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x0F /*primary()*/));
   
@@ -20049,7 +20049,7 @@ void compareAndSwapNNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1650 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1650 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xB1 /*secondary()*/));
   
@@ -20057,7 +20057,7 @@ void compareAndSwapNNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2370 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2370 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // High registers handle in encode_RegMem
     int reg = opnd_array(3)->reg(ra_,this,idx3)/* newval */;
@@ -20073,7 +20073,7 @@ void compareAndSwapNNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2201 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2201 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(0)->reg(ra_,this)/* res */ >= 4) {
       emit_opcode(cbuf, opnd_array(0)->reg(ra_,this)/* res */ < 8 ? Assembler::REX : Assembler::REX_B);
@@ -20083,7 +20083,7 @@ void compareAndSwapNNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1662 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1662 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x0F));
   
@@ -20091,7 +20091,7 @@ void compareAndSwapNNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1662 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1662 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x94));
   
@@ -20099,7 +20099,7 @@ void compareAndSwapNNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1673 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1673 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_rm(cbuf, 0x3, 0, opnd_array(0)->reg(ra_,this)/* res */ & 7);
   
@@ -20107,7 +20107,7 @@ void compareAndSwapNNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2209 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2209 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(0)->reg(ra_,this)/* res */ < 8) {
       if (opnd_array(0)->reg(ra_,this)/* res */ >= 4) {
@@ -20125,7 +20125,7 @@ void compareAndSwapNNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1662 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1662 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xF));
   
@@ -20133,7 +20133,7 @@ void compareAndSwapNNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1662 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1662 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xB6));
   
@@ -20141,7 +20141,7 @@ void compareAndSwapNNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1678 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1678 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_rm(cbuf, 0x3, opnd_array(0)->reg(ra_,this)/* res */ & 7, opnd_array(0)->reg(ra_,this)/* res */ & 7);
   
@@ -20158,7 +20158,7 @@ void xaddI_no_resNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 7174 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 7174 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (os::is_MP()) { __ lock(); }
     __ addl(Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()), opnd_array(2)->constant());
@@ -20176,7 +20176,7 @@ void xaddINode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 7185 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 7185 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (os::is_MP()) { __ lock(); }
     __ xaddl(Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()), opnd_array(2)->as_Register(ra_,this,idx2)/* newval */);
@@ -20194,7 +20194,7 @@ void xaddL_no_resNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 7197 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 7197 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (os::is_MP()) { __ lock(); }
     __ addq(Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()), opnd_array(2)->constantL());
@@ -20212,7 +20212,7 @@ void xaddLNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 7208 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 7208 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (os::is_MP()) { __ lock(); }
     __ xaddq(Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()), opnd_array(2)->as_Register(ra_,this,idx2)/* newval */);
@@ -20230,7 +20230,7 @@ void xchgINode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 7218 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 7218 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ xchgl(opnd_array(2)->as_Register(ra_,this,idx2)/* newval */, Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()));
   
@@ -20247,7 +20247,7 @@ void xchgLNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 7227 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 7227 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ xchgq(opnd_array(2)->as_Register(ra_,this,idx2)/* newval */, Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()));
   
@@ -20264,7 +20264,7 @@ void xchgPNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 7236 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 7236 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ xchgq(opnd_array(2)->as_Register(ra_,this,idx2)/* newval */, Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()));
   
@@ -20281,7 +20281,7 @@ void xchgNNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 7245 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 7245 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ xchgl(opnd_array(2)->as_Register(ra_,this,idx2)/* newval */, Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()));
   
@@ -20297,7 +20297,7 @@ void subI_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// src
   {
 
-#line 2274 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2274 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->reg(ra_,this,idx1)/* dst */ < 8) {
       if (opnd_array(2)->reg(ra_,this,idx2)/* src */ >= 8) {
@@ -20315,7 +20315,7 @@ void subI_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x2B /*primary()*/));
   
@@ -20323,7 +20323,7 @@ void subI_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1678 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1678 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_rm(cbuf, 0x3, opnd_array(1)->reg(ra_,this,idx1)/* dst */ & 7, opnd_array(2)->reg(ra_,this,idx2)/* src */ & 7);
   
@@ -20339,7 +20339,7 @@ void subI_rReg_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// src
   {
 
-#line 1837 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1837 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // OpcSEr/m
     int dstenc = opnd_array(1)->reg(ra_,this,idx1)/* dst */;
@@ -20362,7 +20362,7 @@ void subI_rReg_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1879 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1879 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // Check for 8-bit immediate, and set sign extend bit in opcode
     if (-0x80 <= opnd_array(2)->constant() && opnd_array(2)->constant() < 0x80) {
@@ -20384,7 +20384,7 @@ void subI_rReg_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// src
   {
 
-#line 2306 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2306 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->reg(ra_,this,idx1)/* dst */ < 8) {
       if (opnd_array(2)->base(ra_,this,idx2) < 8) {
@@ -20418,7 +20418,7 @@ void subI_rReg_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x2B /*primary()*/));
   
@@ -20426,7 +20426,7 @@ void subI_rReg_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2370 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2370 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // High registers handle in encode_RegMem
     int reg = opnd_array(1)->reg(ra_,this,idx1)/* dst */;
@@ -20450,7 +20450,7 @@ void subI_mem_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// src
   {
 
-#line 2306 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2306 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(2)->reg(ra_,this,idx2)/* src */ < 8) {
       if (opnd_array(1)->base(ra_,this,idx1) < 8) {
@@ -20484,7 +20484,7 @@ void subI_mem_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x29 /*primary()*/));
   
@@ -20492,7 +20492,7 @@ void subI_mem_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2370 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2370 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // High registers handle in encode_RegMem
     int reg = opnd_array(2)->reg(ra_,this,idx2)/* src */;
@@ -20516,7 +20516,7 @@ void subI_mem_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// src
   {
 
-#line 2168 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2168 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->base(ra_,this,idx1) >= 8) {
       if (opnd_array(1)->index(ra_,this,idx1) < 8) {
@@ -20534,7 +20534,7 @@ void subI_mem_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1825 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1825 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // Emit primary opcode and set sign-extend bit
     // Check for 8-bit immediate, and set sign extend bit in opcode
@@ -20549,7 +20549,7 @@ void subI_mem_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2383 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2383 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     int rm_byte_opcode = (0x05);
 
@@ -20569,7 +20569,7 @@ void subI_mem_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1879 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1879 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // Check for 8-bit immediate, and set sign extend bit in opcode
     if (-0x80 <= opnd_array(2)->constant() && opnd_array(2)->constant() < 0x80) {
@@ -20591,7 +20591,7 @@ void subL_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// src
   {
 
-#line 2289 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2289 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->reg(ra_,this,idx1)/* dst */ < 8) {
       if (opnd_array(2)->reg(ra_,this,idx2)/* src */ < 8) {
@@ -20611,7 +20611,7 @@ void subL_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x2B /*primary()*/));
   
@@ -20619,7 +20619,7 @@ void subL_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1678 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1678 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_rm(cbuf, 0x3, opnd_array(1)->reg(ra_,this,idx1)/* dst */ & 7, opnd_array(2)->reg(ra_,this,idx2)/* src */ & 7);
   
@@ -20635,7 +20635,7 @@ void subL_rReg_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// src
   {
 
-#line 1857 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1857 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // OpcSEr/m
     int dstenc = opnd_array(1)->reg(ra_,this,idx1)/* dst */;
@@ -20660,7 +20660,7 @@ void subL_rReg_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1879 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1879 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // Check for 8-bit immediate, and set sign extend bit in opcode
     if (-0x80 <= opnd_array(2)->constantL() && opnd_array(2)->constantL() < 0x80) {
@@ -20682,7 +20682,7 @@ void subL_rReg_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// src
   {
 
-#line 2337 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2337 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->reg(ra_,this,idx1)/* dst */ < 8) {
       if (opnd_array(2)->base(ra_,this,idx2) < 8) {
@@ -20718,7 +20718,7 @@ void subL_rReg_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x2B /*primary()*/));
   
@@ -20726,7 +20726,7 @@ void subL_rReg_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2370 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2370 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // High registers handle in encode_RegMem
     int reg = opnd_array(1)->reg(ra_,this,idx1)/* dst */;
@@ -20750,7 +20750,7 @@ void subL_mem_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// src
   {
 
-#line 2337 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2337 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(2)->reg(ra_,this,idx2)/* src */ < 8) {
       if (opnd_array(1)->base(ra_,this,idx1) < 8) {
@@ -20786,7 +20786,7 @@ void subL_mem_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x29 /*primary()*/));
   
@@ -20794,7 +20794,7 @@ void subL_mem_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2370 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2370 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // High registers handle in encode_RegMem
     int reg = opnd_array(2)->reg(ra_,this,idx2)/* src */;
@@ -20818,7 +20818,7 @@ void subL_mem_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// src
   {
 
-#line 2183 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2183 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->base(ra_,this,idx1) >= 8) {
       if (opnd_array(1)->index(ra_,this,idx1) < 8) {
@@ -20838,7 +20838,7 @@ void subL_mem_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1825 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1825 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // Emit primary opcode and set sign-extend bit
     // Check for 8-bit immediate, and set sign extend bit in opcode
@@ -20853,7 +20853,7 @@ void subL_mem_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2383 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2383 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     int rm_byte_opcode = (0x05);
 
@@ -20873,7 +20873,7 @@ void subL_mem_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1879 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1879 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // Check for 8-bit immediate, and set sign extend bit in opcode
     if (-0x80 <= opnd_array(2)->constantL() && opnd_array(2)->constantL() < 0x80) {
@@ -20896,7 +20896,7 @@ void subP_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx3 = idx2 + opnd_array(2)->num_edges(); 	// src
   {
 
-#line 2289 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2289 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->reg(ra_,this,idx1)/* dst */ < 8) {
       if (opnd_array(3)->reg(ra_,this,idx3)/* src */ < 8) {
@@ -20916,7 +20916,7 @@ void subP_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x2B /*primary()*/));
   
@@ -20924,7 +20924,7 @@ void subP_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1678 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1678 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_rm(cbuf, 0x3, opnd_array(1)->reg(ra_,this,idx1)/* dst */ & 7, opnd_array(3)->reg(ra_,this,idx3)/* src */ & 7);
   
@@ -20940,7 +20940,7 @@ void negI_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// dst
   {
 
-#line 2258 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2258 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(2)->reg(ra_,this,idx2)/* dst */ >= 8) {
       emit_opcode(cbuf, Assembler::REX_B);
@@ -20950,7 +20950,7 @@ void negI_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xF7 /*primary()*/));
   
@@ -20958,7 +20958,7 @@ void negI_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1902 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1902 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // INC, DEC, IDIV, IMOD, JMP indirect, ...
     emit_rm(cbuf, 0x3, (0x03 /*secondary()*/), opnd_array(2)->reg(ra_,this,idx2)/* dst */ & 7);
@@ -20975,7 +20975,7 @@ void negI_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// zero
   {
 
-#line 2168 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2168 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->base(ra_,this,idx1) >= 8) {
       if (opnd_array(1)->index(ra_,this,idx1) < 8) {
@@ -20993,7 +20993,7 @@ void negI_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xF7 /*primary()*/));
   
@@ -21001,7 +21001,7 @@ void negI_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2383 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2383 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     int rm_byte_opcode = (0x03 /*secondary()*/);
 
@@ -21029,7 +21029,7 @@ void negL_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// dst
   {
 
-#line 2265 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2265 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(2)->reg(ra_,this,idx2)/* dst */ < 8) {
       emit_opcode(cbuf, Assembler::REX_W);
@@ -21041,7 +21041,7 @@ void negL_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xF7 /*primary()*/));
   
@@ -21049,7 +21049,7 @@ void negL_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1902 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1902 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // INC, DEC, IDIV, IMOD, JMP indirect, ...
     emit_rm(cbuf, 0x3, (0x03 /*secondary()*/), opnd_array(2)->reg(ra_,this,idx2)/* dst */ & 7);
@@ -21066,7 +21066,7 @@ void negL_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// zero
   {
 
-#line 2183 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2183 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->base(ra_,this,idx1) >= 8) {
       if (opnd_array(1)->index(ra_,this,idx1) < 8) {
@@ -21086,7 +21086,7 @@ void negL_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xF7 /*primary()*/));
   
@@ -21094,7 +21094,7 @@ void negL_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2383 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2383 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     int rm_byte_opcode = (0x03 /*secondary()*/);
 
@@ -21122,7 +21122,7 @@ void mulI_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// src
   {
 
-#line 2274 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2274 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->reg(ra_,this,idx1)/* dst */ < 8) {
       if (opnd_array(2)->reg(ra_,this,idx2)/* src */ >= 8) {
@@ -21140,7 +21140,7 @@ void mulI_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x0F /*primary()*/));
   
@@ -21148,7 +21148,7 @@ void mulI_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1650 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1650 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xAF /*secondary()*/));
   
@@ -21156,7 +21156,7 @@ void mulI_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1678 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1678 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_rm(cbuf, 0x3, opnd_array(1)->reg(ra_,this,idx1)/* dst */ & 7, opnd_array(2)->reg(ra_,this,idx2)/* src */ & 7);
   
@@ -21172,7 +21172,7 @@ void mulI_rReg_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// imm
   {
 
-#line 2274 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2274 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(0)->reg(ra_,this)/* dst */ < 8) {
       if (opnd_array(1)->reg(ra_,this,idx1)/* src */ >= 8) {
@@ -21190,7 +21190,7 @@ void mulI_rReg_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1825 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1825 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // Emit primary opcode and set sign-extend bit
     // Check for 8-bit immediate, and set sign extend bit in opcode
@@ -21205,7 +21205,7 @@ void mulI_rReg_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1678 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1678 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_rm(cbuf, 0x3, opnd_array(0)->reg(ra_,this)/* dst */ & 7, opnd_array(1)->reg(ra_,this,idx1)/* src */ & 7);
   
@@ -21213,7 +21213,7 @@ void mulI_rReg_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1879 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1879 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // Check for 8-bit immediate, and set sign extend bit in opcode
     if (-0x80 <= opnd_array(2)->constant() && opnd_array(2)->constant() < 0x80) {
@@ -21235,7 +21235,7 @@ void mulI_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// src
   {
 
-#line 2306 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2306 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->reg(ra_,this,idx1)/* dst */ < 8) {
       if (opnd_array(2)->base(ra_,this,idx2) < 8) {
@@ -21269,7 +21269,7 @@ void mulI_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x0F /*primary()*/));
   
@@ -21277,7 +21277,7 @@ void mulI_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1650 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1650 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xAF /*secondary()*/));
   
@@ -21285,7 +21285,7 @@ void mulI_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2370 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2370 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // High registers handle in encode_RegMem
     int reg = opnd_array(1)->reg(ra_,this,idx1)/* dst */;
@@ -21309,7 +21309,7 @@ void mulI_mem_0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// dst
   {
 
-#line 2306 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2306 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(2)->reg(ra_,this,idx2)/* dst */ < 8) {
       if (opnd_array(1)->base(ra_,this,idx1) < 8) {
@@ -21343,7 +21343,7 @@ void mulI_mem_0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x0F /*primary()*/));
   
@@ -21351,7 +21351,7 @@ void mulI_mem_0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1650 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1650 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xAF /*secondary()*/));
   
@@ -21359,7 +21359,7 @@ void mulI_mem_0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2370 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2370 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // High registers handle in encode_RegMem
     int reg = opnd_array(2)->reg(ra_,this,idx2)/* dst */;
@@ -21383,7 +21383,7 @@ void mulI_mem_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// imm
   {
 
-#line 2306 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2306 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(0)->reg(ra_,this)/* dst */ < 8) {
       if (opnd_array(1)->base(ra_,this,idx1) < 8) {
@@ -21417,7 +21417,7 @@ void mulI_mem_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1825 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1825 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // Emit primary opcode and set sign-extend bit
     // Check for 8-bit immediate, and set sign extend bit in opcode
@@ -21432,7 +21432,7 @@ void mulI_mem_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2370 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2370 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // High registers handle in encode_RegMem
     int reg = opnd_array(0)->reg(ra_,this)/* dst */;
@@ -21448,7 +21448,7 @@ void mulI_mem_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1879 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1879 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // Check for 8-bit immediate, and set sign extend bit in opcode
     if (-0x80 <= opnd_array(2)->constant() && opnd_array(2)->constant() < 0x80) {
@@ -21470,7 +21470,7 @@ void mulL_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// src
   {
 
-#line 2289 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2289 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->reg(ra_,this,idx1)/* dst */ < 8) {
       if (opnd_array(2)->reg(ra_,this,idx2)/* src */ < 8) {
@@ -21490,7 +21490,7 @@ void mulL_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x0F /*primary()*/));
   
@@ -21498,7 +21498,7 @@ void mulL_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1650 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1650 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xAF /*secondary()*/));
   
@@ -21506,7 +21506,7 @@ void mulL_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1678 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1678 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_rm(cbuf, 0x3, opnd_array(1)->reg(ra_,this,idx1)/* dst */ & 7, opnd_array(2)->reg(ra_,this,idx2)/* src */ & 7);
   
@@ -21522,7 +21522,7 @@ void mulL_rReg_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// imm
   {
 
-#line 2289 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2289 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(0)->reg(ra_,this)/* dst */ < 8) {
       if (opnd_array(1)->reg(ra_,this,idx1)/* src */ < 8) {
@@ -21542,7 +21542,7 @@ void mulL_rReg_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1825 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1825 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // Emit primary opcode and set sign-extend bit
     // Check for 8-bit immediate, and set sign extend bit in opcode
@@ -21557,7 +21557,7 @@ void mulL_rReg_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1678 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1678 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_rm(cbuf, 0x3, opnd_array(0)->reg(ra_,this)/* dst */ & 7, opnd_array(1)->reg(ra_,this,idx1)/* src */ & 7);
   
@@ -21565,7 +21565,7 @@ void mulL_rReg_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1879 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1879 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // Check for 8-bit immediate, and set sign extend bit in opcode
     if (-0x80 <= opnd_array(2)->constantL() && opnd_array(2)->constantL() < 0x80) {
@@ -21587,7 +21587,7 @@ void mulL_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// src
   {
 
-#line 2337 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2337 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->reg(ra_,this,idx1)/* dst */ < 8) {
       if (opnd_array(2)->base(ra_,this,idx2) < 8) {
@@ -21623,7 +21623,7 @@ void mulL_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x0F /*primary()*/));
   
@@ -21631,7 +21631,7 @@ void mulL_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1650 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1650 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xAF /*secondary()*/));
   
@@ -21639,7 +21639,7 @@ void mulL_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2370 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2370 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // High registers handle in encode_RegMem
     int reg = opnd_array(1)->reg(ra_,this,idx1)/* dst */;
@@ -21663,7 +21663,7 @@ void mulL_mem_0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// dst
   {
 
-#line 2337 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2337 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(2)->reg(ra_,this,idx2)/* dst */ < 8) {
       if (opnd_array(1)->base(ra_,this,idx1) < 8) {
@@ -21699,7 +21699,7 @@ void mulL_mem_0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x0F /*primary()*/));
   
@@ -21707,7 +21707,7 @@ void mulL_mem_0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1650 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1650 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xAF /*secondary()*/));
   
@@ -21715,7 +21715,7 @@ void mulL_mem_0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2370 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2370 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // High registers handle in encode_RegMem
     int reg = opnd_array(2)->reg(ra_,this,idx2)/* dst */;
@@ -21739,7 +21739,7 @@ void mulL_mem_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// imm
   {
 
-#line 2337 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2337 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(0)->reg(ra_,this)/* dst */ < 8) {
       if (opnd_array(1)->base(ra_,this,idx1) < 8) {
@@ -21775,7 +21775,7 @@ void mulL_mem_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1825 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1825 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // Emit primary opcode and set sign-extend bit
     // Check for 8-bit immediate, and set sign extend bit in opcode
@@ -21790,7 +21790,7 @@ void mulL_mem_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2370 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2370 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // High registers handle in encode_RegMem
     int reg = opnd_array(0)->reg(ra_,this)/* dst */;
@@ -21806,7 +21806,7 @@ void mulL_mem_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1879 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1879 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // Check for 8-bit immediate, and set sign extend bit in opcode
     if (-0x80 <= opnd_array(2)->constantL() && opnd_array(2)->constantL() < 0x80) {
@@ -21828,7 +21828,7 @@ void mulHiL_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// rax
   {
 
-#line 2265 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2265 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->reg(ra_,this,idx1)/* src */ < 8) {
       emit_opcode(cbuf, Assembler::REX_W);
@@ -21840,7 +21840,7 @@ void mulHiL_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xF7 /*primary()*/));
   
@@ -21848,7 +21848,7 @@ void mulHiL_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1902 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1902 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // INC, DEC, IDIV, IMOD, JMP indirect, ...
     emit_rm(cbuf, 0x3, (0x5 /*secondary()*/), opnd_array(1)->reg(ra_,this,idx1)/* src */ & 7);
@@ -21865,7 +21865,7 @@ void divI_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// div
   {
 
-#line 1689 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1689 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // Full implementation of Java idiv and irem; checks for
     // special case as described in JVM spec., p.243 & p.271.
@@ -21932,7 +21932,7 @@ void divI_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2258 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2258 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(2)->reg(ra_,this,idx2)/* div */ >= 8) {
       emit_opcode(cbuf, Assembler::REX_B);
@@ -21942,7 +21942,7 @@ void divI_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xF7 /*primary()*/));
   
@@ -21950,7 +21950,7 @@ void divI_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1902 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1902 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // INC, DEC, IDIV, IMOD, JMP indirect, ...
     emit_rm(cbuf, 0x3, (0x7 /*secondary()*/), opnd_array(2)->reg(ra_,this,idx2)/* div */ & 7);
@@ -21967,7 +21967,7 @@ void divL_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// div
   {
 
-#line 1753 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1753 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // Full implementation of Java ldiv and lrem; checks for
     // special case as described in JVM spec., p.243 & p.271.
@@ -22041,7 +22041,7 @@ void divL_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2265 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2265 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(2)->reg(ra_,this,idx2)/* div */ < 8) {
       emit_opcode(cbuf, Assembler::REX_W);
@@ -22053,7 +22053,7 @@ void divL_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xF7 /*primary()*/));
   
@@ -22061,7 +22061,7 @@ void divL_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1902 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1902 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // INC, DEC, IDIV, IMOD, JMP indirect, ...
     emit_rm(cbuf, 0x3, (0x7 /*secondary()*/), opnd_array(2)->reg(ra_,this,idx2)/* div */ & 7);
@@ -22078,7 +22078,7 @@ void divModI_rReg_divmodNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// rdx
   {
 
-#line 1689 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1689 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // Full implementation of Java idiv and irem; checks for
     // special case as described in JVM spec., p.243 & p.271.
@@ -22145,7 +22145,7 @@ void divModI_rReg_divmodNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2258 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2258 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(2)->reg(ra_,this,idx2)/* div */ >= 8) {
       emit_opcode(cbuf, Assembler::REX_B);
@@ -22155,7 +22155,7 @@ void divModI_rReg_divmodNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xF7 /*primary()*/));
   
@@ -22163,7 +22163,7 @@ void divModI_rReg_divmodNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1902 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1902 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // INC, DEC, IDIV, IMOD, JMP indirect, ...
     emit_rm(cbuf, 0x3, (0x7 /*secondary()*/), opnd_array(2)->reg(ra_,this,idx2)/* div */ & 7);
@@ -22180,7 +22180,7 @@ void divModL_rReg_divmodNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// rdx
   {
 
-#line 1753 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1753 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // Full implementation of Java ldiv and lrem; checks for
     // special case as described in JVM spec., p.243 & p.271.
@@ -22254,7 +22254,7 @@ void divModL_rReg_divmodNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2265 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2265 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(2)->reg(ra_,this,idx2)/* div */ < 8) {
       emit_opcode(cbuf, Assembler::REX_W);
@@ -22266,7 +22266,7 @@ void divModL_rReg_divmodNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xF7 /*primary()*/));
   
@@ -22274,7 +22274,7 @@ void divModL_rReg_divmodNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1902 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1902 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // INC, DEC, IDIV, IMOD, JMP indirect, ...
     emit_rm(cbuf, 0x3, (0x7 /*secondary()*/), opnd_array(2)->reg(ra_,this,idx2)/* div */ & 7);
@@ -22290,7 +22290,7 @@ void loadConL_0x6666666666666667Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_)
   unsigned idx1 = 1; 	// 
   {
 
-#line 2060 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2060 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     int dstenc = opnd_array(0)->reg(ra_,this)/* dst */;
     if (dstenc < 8) {
@@ -22314,7 +22314,7 @@ void mul_hiNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// rax
   {
 
-#line 2265 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2265 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->reg(ra_,this,idx1)/* src */ < 8) {
       emit_opcode(cbuf, Assembler::REX_W);
@@ -22326,7 +22326,7 @@ void mul_hiNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xF7 /*primary()*/));
   
@@ -22334,7 +22334,7 @@ void mul_hiNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1902 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1902 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // INC, DEC, IDIV, IMOD, JMP indirect, ...
     emit_rm(cbuf, 0x3, (0x5 /*secondary()*/), opnd_array(1)->reg(ra_,this,idx1)/* src */ & 7);
@@ -22350,7 +22350,7 @@ void sarL_rReg_63Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx1 = 1; 	// cr
   {
 
-#line 2034 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2034 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // SAL, SAR, SHR
     int dstenc = opnd_array(1)->reg(ra_,this,idx1)/* dst */;
@@ -22375,7 +22375,7 @@ void sarL_rReg_2Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx1 = 1; 	// cr
   {
 
-#line 2034 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2034 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // SAL, SAR, SHR
     int dstenc = opnd_array(1)->reg(ra_,this,idx1)/* dst */;
@@ -22401,7 +22401,7 @@ void modI_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// div
   {
 
-#line 1689 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1689 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // Full implementation of Java idiv and irem; checks for
     // special case as described in JVM spec., p.243 & p.271.
@@ -22468,7 +22468,7 @@ void modI_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2258 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2258 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(2)->reg(ra_,this,idx2)/* div */ >= 8) {
       emit_opcode(cbuf, Assembler::REX_B);
@@ -22478,7 +22478,7 @@ void modI_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xF7 /*primary()*/));
   
@@ -22486,7 +22486,7 @@ void modI_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1902 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1902 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // INC, DEC, IDIV, IMOD, JMP indirect, ...
     emit_rm(cbuf, 0x3, (0x7 /*secondary()*/), opnd_array(2)->reg(ra_,this,idx2)/* div */ & 7);
@@ -22503,7 +22503,7 @@ void modL_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// div
   {
 
-#line 1753 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1753 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // Full implementation of Java ldiv and lrem; checks for
     // special case as described in JVM spec., p.243 & p.271.
@@ -22577,7 +22577,7 @@ void modL_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2265 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2265 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(2)->reg(ra_,this,idx2)/* div */ < 8) {
       emit_opcode(cbuf, Assembler::REX_W);
@@ -22589,7 +22589,7 @@ void modL_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xF7 /*primary()*/));
   
@@ -22597,7 +22597,7 @@ void modL_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1902 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1902 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // INC, DEC, IDIV, IMOD, JMP indirect, ...
     emit_rm(cbuf, 0x3, (0x7 /*secondary()*/), opnd_array(2)->reg(ra_,this,idx2)/* div */ & 7);
@@ -22614,7 +22614,7 @@ void salI_rReg_1Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// shift
   {
 
-#line 2258 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2258 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->reg(ra_,this,idx1)/* dst */ >= 8) {
       emit_opcode(cbuf, Assembler::REX_B);
@@ -22624,7 +22624,7 @@ void salI_rReg_1Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xD1 /*primary()*/));
   
@@ -22632,7 +22632,7 @@ void salI_rReg_1Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1902 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1902 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // INC, DEC, IDIV, IMOD, JMP indirect, ...
     emit_rm(cbuf, 0x3, (0x4 /*secondary()*/), opnd_array(1)->reg(ra_,this,idx1)/* dst */ & 7);
@@ -22649,7 +22649,7 @@ void salI_mem_1Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// shift
   {
 
-#line 2168 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2168 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->base(ra_,this,idx1) >= 8) {
       if (opnd_array(1)->index(ra_,this,idx1) < 8) {
@@ -22667,7 +22667,7 @@ void salI_mem_1Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xD1 /*primary()*/));
   
@@ -22675,7 +22675,7 @@ void salI_mem_1Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2383 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2383 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     int rm_byte_opcode = (0x4 /*secondary()*/);
 
@@ -22703,7 +22703,7 @@ void salI_rReg_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// shift
   {
 
-#line 2021 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2021 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // SAL, SAR, SHR
     int dstenc = opnd_array(1)->reg(ra_,this,idx1)/* dst */;
@@ -22727,7 +22727,7 @@ void salI_mem_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// shift
   {
 
-#line 2168 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2168 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->base(ra_,this,idx1) >= 8) {
       if (opnd_array(1)->index(ra_,this,idx1) < 8) {
@@ -22745,7 +22745,7 @@ void salI_mem_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xC1 /*primary()*/));
   
@@ -22753,7 +22753,7 @@ void salI_mem_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2383 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2383 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     int rm_byte_opcode = (0x4 /*secondary()*/);
 
@@ -22773,7 +22773,7 @@ void salI_mem_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1879 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1879 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // Check for 8-bit immediate, and set sign extend bit in opcode
     if (-0x80 <= opnd_array(2)->constant() && opnd_array(2)->constant() < 0x80) {
@@ -22795,7 +22795,7 @@ void salI_rReg_CLNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// shift
   {
 
-#line 2258 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2258 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->reg(ra_,this,idx1)/* dst */ >= 8) {
       emit_opcode(cbuf, Assembler::REX_B);
@@ -22805,7 +22805,7 @@ void salI_rReg_CLNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xD3 /*primary()*/));
   
@@ -22813,7 +22813,7 @@ void salI_rReg_CLNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1902 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1902 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // INC, DEC, IDIV, IMOD, JMP indirect, ...
     emit_rm(cbuf, 0x3, (0x4 /*secondary()*/), opnd_array(1)->reg(ra_,this,idx1)/* dst */ & 7);
@@ -22830,7 +22830,7 @@ void salI_mem_CLNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// shift
   {
 
-#line 2168 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2168 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->base(ra_,this,idx1) >= 8) {
       if (opnd_array(1)->index(ra_,this,idx1) < 8) {
@@ -22848,7 +22848,7 @@ void salI_mem_CLNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xD3 /*primary()*/));
   
@@ -22856,7 +22856,7 @@ void salI_mem_CLNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2383 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2383 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     int rm_byte_opcode = (0x4 /*secondary()*/);
 
@@ -22884,7 +22884,7 @@ void sarI_rReg_1Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// shift
   {
 
-#line 2258 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2258 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->reg(ra_,this,idx1)/* dst */ >= 8) {
       emit_opcode(cbuf, Assembler::REX_B);
@@ -22894,7 +22894,7 @@ void sarI_rReg_1Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xD1 /*primary()*/));
   
@@ -22902,7 +22902,7 @@ void sarI_rReg_1Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1902 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1902 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // INC, DEC, IDIV, IMOD, JMP indirect, ...
     emit_rm(cbuf, 0x3, (0x7 /*secondary()*/), opnd_array(1)->reg(ra_,this,idx1)/* dst */ & 7);
@@ -22919,7 +22919,7 @@ void sarI_mem_1Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// shift
   {
 
-#line 2168 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2168 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->base(ra_,this,idx1) >= 8) {
       if (opnd_array(1)->index(ra_,this,idx1) < 8) {
@@ -22937,7 +22937,7 @@ void sarI_mem_1Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xD1 /*primary()*/));
   
@@ -22945,7 +22945,7 @@ void sarI_mem_1Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2383 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2383 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     int rm_byte_opcode = (0x7 /*secondary()*/);
 
@@ -22973,7 +22973,7 @@ void sarI_rReg_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// shift
   {
 
-#line 2021 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2021 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // SAL, SAR, SHR
     int dstenc = opnd_array(1)->reg(ra_,this,idx1)/* dst */;
@@ -22997,7 +22997,7 @@ void sarI_mem_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// shift
   {
 
-#line 2168 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2168 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->base(ra_,this,idx1) >= 8) {
       if (opnd_array(1)->index(ra_,this,idx1) < 8) {
@@ -23015,7 +23015,7 @@ void sarI_mem_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xC1 /*primary()*/));
   
@@ -23023,7 +23023,7 @@ void sarI_mem_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2383 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2383 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     int rm_byte_opcode = (0x7 /*secondary()*/);
 
@@ -23043,7 +23043,7 @@ void sarI_mem_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1879 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1879 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // Check for 8-bit immediate, and set sign extend bit in opcode
     if (-0x80 <= opnd_array(2)->constant() && opnd_array(2)->constant() < 0x80) {
@@ -23065,7 +23065,7 @@ void sarI_rReg_CLNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// shift
   {
 
-#line 2258 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2258 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->reg(ra_,this,idx1)/* dst */ >= 8) {
       emit_opcode(cbuf, Assembler::REX_B);
@@ -23075,7 +23075,7 @@ void sarI_rReg_CLNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xD3 /*primary()*/));
   
@@ -23083,7 +23083,7 @@ void sarI_rReg_CLNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1902 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1902 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // INC, DEC, IDIV, IMOD, JMP indirect, ...
     emit_rm(cbuf, 0x3, (0x7 /*secondary()*/), opnd_array(1)->reg(ra_,this,idx1)/* dst */ & 7);
@@ -23100,7 +23100,7 @@ void sarI_mem_CLNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// shift
   {
 
-#line 2168 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2168 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->base(ra_,this,idx1) >= 8) {
       if (opnd_array(1)->index(ra_,this,idx1) < 8) {
@@ -23118,7 +23118,7 @@ void sarI_mem_CLNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xD3 /*primary()*/));
   
@@ -23126,7 +23126,7 @@ void sarI_mem_CLNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2383 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2383 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     int rm_byte_opcode = (0x7 /*secondary()*/);
 
@@ -23154,7 +23154,7 @@ void shrI_rReg_1Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// shift
   {
 
-#line 2258 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2258 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->reg(ra_,this,idx1)/* dst */ >= 8) {
       emit_opcode(cbuf, Assembler::REX_B);
@@ -23164,7 +23164,7 @@ void shrI_rReg_1Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xD1 /*primary()*/));
   
@@ -23172,7 +23172,7 @@ void shrI_rReg_1Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1902 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1902 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // INC, DEC, IDIV, IMOD, JMP indirect, ...
     emit_rm(cbuf, 0x3, (0x5 /*secondary()*/), opnd_array(1)->reg(ra_,this,idx1)/* dst */ & 7);
@@ -23189,7 +23189,7 @@ void shrI_mem_1Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// shift
   {
 
-#line 2168 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2168 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->base(ra_,this,idx1) >= 8) {
       if (opnd_array(1)->index(ra_,this,idx1) < 8) {
@@ -23207,7 +23207,7 @@ void shrI_mem_1Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xD1 /*primary()*/));
   
@@ -23215,7 +23215,7 @@ void shrI_mem_1Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2383 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2383 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     int rm_byte_opcode = (0x5 /*secondary()*/);
 
@@ -23243,7 +23243,7 @@ void shrI_rReg_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// shift
   {
 
-#line 2021 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2021 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // SAL, SAR, SHR
     int dstenc = opnd_array(1)->reg(ra_,this,idx1)/* dst */;
@@ -23267,7 +23267,7 @@ void shrI_mem_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// shift
   {
 
-#line 2168 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2168 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->base(ra_,this,idx1) >= 8) {
       if (opnd_array(1)->index(ra_,this,idx1) < 8) {
@@ -23285,7 +23285,7 @@ void shrI_mem_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xC1 /*primary()*/));
   
@@ -23293,7 +23293,7 @@ void shrI_mem_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2383 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2383 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     int rm_byte_opcode = (0x5 /*secondary()*/);
 
@@ -23313,7 +23313,7 @@ void shrI_mem_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1879 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1879 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // Check for 8-bit immediate, and set sign extend bit in opcode
     if (-0x80 <= opnd_array(2)->constant() && opnd_array(2)->constant() < 0x80) {
@@ -23335,7 +23335,7 @@ void shrI_rReg_CLNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// shift
   {
 
-#line 2258 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2258 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->reg(ra_,this,idx1)/* dst */ >= 8) {
       emit_opcode(cbuf, Assembler::REX_B);
@@ -23345,7 +23345,7 @@ void shrI_rReg_CLNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xD3 /*primary()*/));
   
@@ -23353,7 +23353,7 @@ void shrI_rReg_CLNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1902 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1902 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // INC, DEC, IDIV, IMOD, JMP indirect, ...
     emit_rm(cbuf, 0x3, (0x5 /*secondary()*/), opnd_array(1)->reg(ra_,this,idx1)/* dst */ & 7);
@@ -23370,7 +23370,7 @@ void shrI_mem_CLNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// shift
   {
 
-#line 2168 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2168 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->base(ra_,this,idx1) >= 8) {
       if (opnd_array(1)->index(ra_,this,idx1) < 8) {
@@ -23388,7 +23388,7 @@ void shrI_mem_CLNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xD3 /*primary()*/));
   
@@ -23396,7 +23396,7 @@ void shrI_mem_CLNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2383 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2383 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     int rm_byte_opcode = (0x5 /*secondary()*/);
 
@@ -23424,7 +23424,7 @@ void salL_rReg_1Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// shift
   {
 
-#line 2265 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2265 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->reg(ra_,this,idx1)/* dst */ < 8) {
       emit_opcode(cbuf, Assembler::REX_W);
@@ -23436,7 +23436,7 @@ void salL_rReg_1Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xD1 /*primary()*/));
   
@@ -23444,7 +23444,7 @@ void salL_rReg_1Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1902 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1902 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // INC, DEC, IDIV, IMOD, JMP indirect, ...
     emit_rm(cbuf, 0x3, (0x4 /*secondary()*/), opnd_array(1)->reg(ra_,this,idx1)/* dst */ & 7);
@@ -23461,7 +23461,7 @@ void salL_mem_1Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// shift
   {
 
-#line 2183 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2183 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->base(ra_,this,idx1) >= 8) {
       if (opnd_array(1)->index(ra_,this,idx1) < 8) {
@@ -23481,7 +23481,7 @@ void salL_mem_1Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xD1 /*primary()*/));
   
@@ -23489,7 +23489,7 @@ void salL_mem_1Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2383 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2383 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     int rm_byte_opcode = (0x4 /*secondary()*/);
 
@@ -23517,7 +23517,7 @@ void salL_rReg_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// shift
   {
 
-#line 2034 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2034 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // SAL, SAR, SHR
     int dstenc = opnd_array(1)->reg(ra_,this,idx1)/* dst */;
@@ -23543,7 +23543,7 @@ void salL_mem_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// shift
   {
 
-#line 2183 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2183 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->base(ra_,this,idx1) >= 8) {
       if (opnd_array(1)->index(ra_,this,idx1) < 8) {
@@ -23563,7 +23563,7 @@ void salL_mem_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xC1 /*primary()*/));
   
@@ -23571,7 +23571,7 @@ void salL_mem_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2383 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2383 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     int rm_byte_opcode = (0x4 /*secondary()*/);
 
@@ -23591,7 +23591,7 @@ void salL_mem_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1879 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1879 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // Check for 8-bit immediate, and set sign extend bit in opcode
     if (-0x80 <= opnd_array(2)->constant() && opnd_array(2)->constant() < 0x80) {
@@ -23613,7 +23613,7 @@ void salL_rReg_CLNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// shift
   {
 
-#line 2265 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2265 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->reg(ra_,this,idx1)/* dst */ < 8) {
       emit_opcode(cbuf, Assembler::REX_W);
@@ -23625,7 +23625,7 @@ void salL_rReg_CLNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xD3 /*primary()*/));
   
@@ -23633,7 +23633,7 @@ void salL_rReg_CLNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1902 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1902 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // INC, DEC, IDIV, IMOD, JMP indirect, ...
     emit_rm(cbuf, 0x3, (0x4 /*secondary()*/), opnd_array(1)->reg(ra_,this,idx1)/* dst */ & 7);
@@ -23650,7 +23650,7 @@ void salL_mem_CLNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// shift
   {
 
-#line 2183 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2183 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->base(ra_,this,idx1) >= 8) {
       if (opnd_array(1)->index(ra_,this,idx1) < 8) {
@@ -23670,7 +23670,7 @@ void salL_mem_CLNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xD3 /*primary()*/));
   
@@ -23678,7 +23678,7 @@ void salL_mem_CLNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2383 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2383 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     int rm_byte_opcode = (0x4 /*secondary()*/);
 
@@ -23706,7 +23706,7 @@ void sarL_rReg_1Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// shift
   {
 
-#line 2265 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2265 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->reg(ra_,this,idx1)/* dst */ < 8) {
       emit_opcode(cbuf, Assembler::REX_W);
@@ -23718,7 +23718,7 @@ void sarL_rReg_1Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xD1 /*primary()*/));
   
@@ -23726,7 +23726,7 @@ void sarL_rReg_1Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1902 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1902 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // INC, DEC, IDIV, IMOD, JMP indirect, ...
     emit_rm(cbuf, 0x3, (0x7 /*secondary()*/), opnd_array(1)->reg(ra_,this,idx1)/* dst */ & 7);
@@ -23743,7 +23743,7 @@ void sarL_mem_1Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// shift
   {
 
-#line 2183 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2183 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->base(ra_,this,idx1) >= 8) {
       if (opnd_array(1)->index(ra_,this,idx1) < 8) {
@@ -23763,7 +23763,7 @@ void sarL_mem_1Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xD1 /*primary()*/));
   
@@ -23771,7 +23771,7 @@ void sarL_mem_1Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2383 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2383 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     int rm_byte_opcode = (0x7 /*secondary()*/);
 
@@ -23799,7 +23799,7 @@ void sarL_rReg_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// shift
   {
 
-#line 2034 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2034 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // SAL, SAR, SHR
     int dstenc = opnd_array(1)->reg(ra_,this,idx1)/* dst */;
@@ -23825,7 +23825,7 @@ void sarL_mem_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// shift
   {
 
-#line 2183 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2183 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->base(ra_,this,idx1) >= 8) {
       if (opnd_array(1)->index(ra_,this,idx1) < 8) {
@@ -23845,7 +23845,7 @@ void sarL_mem_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xC1 /*primary()*/));
   
@@ -23853,7 +23853,7 @@ void sarL_mem_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2383 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2383 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     int rm_byte_opcode = (0x7 /*secondary()*/);
 
@@ -23873,7 +23873,7 @@ void sarL_mem_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1879 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1879 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // Check for 8-bit immediate, and set sign extend bit in opcode
     if (-0x80 <= opnd_array(2)->constant() && opnd_array(2)->constant() < 0x80) {
@@ -23895,7 +23895,7 @@ void sarL_rReg_CLNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// shift
   {
 
-#line 2265 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2265 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->reg(ra_,this,idx1)/* dst */ < 8) {
       emit_opcode(cbuf, Assembler::REX_W);
@@ -23907,7 +23907,7 @@ void sarL_rReg_CLNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xD3 /*primary()*/));
   
@@ -23915,7 +23915,7 @@ void sarL_rReg_CLNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1902 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1902 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // INC, DEC, IDIV, IMOD, JMP indirect, ...
     emit_rm(cbuf, 0x3, (0x7 /*secondary()*/), opnd_array(1)->reg(ra_,this,idx1)/* dst */ & 7);
@@ -23932,7 +23932,7 @@ void sarL_mem_CLNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// shift
   {
 
-#line 2183 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2183 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->base(ra_,this,idx1) >= 8) {
       if (opnd_array(1)->index(ra_,this,idx1) < 8) {
@@ -23952,7 +23952,7 @@ void sarL_mem_CLNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xD3 /*primary()*/));
   
@@ -23960,7 +23960,7 @@ void sarL_mem_CLNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2383 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2383 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     int rm_byte_opcode = (0x7 /*secondary()*/);
 
@@ -23988,7 +23988,7 @@ void shrL_rReg_1Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// shift
   {
 
-#line 2265 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2265 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->reg(ra_,this,idx1)/* dst */ < 8) {
       emit_opcode(cbuf, Assembler::REX_W);
@@ -24000,7 +24000,7 @@ void shrL_rReg_1Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xD1 /*primary()*/));
   
@@ -24008,7 +24008,7 @@ void shrL_rReg_1Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1902 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1902 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // INC, DEC, IDIV, IMOD, JMP indirect, ...
     emit_rm(cbuf, 0x3, (0x5 /*secondary()*/), opnd_array(1)->reg(ra_,this,idx1)/* dst */ & 7);
@@ -24025,7 +24025,7 @@ void shrL_mem_1Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// shift
   {
 
-#line 2183 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2183 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->base(ra_,this,idx1) >= 8) {
       if (opnd_array(1)->index(ra_,this,idx1) < 8) {
@@ -24045,7 +24045,7 @@ void shrL_mem_1Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xD1 /*primary()*/));
   
@@ -24053,7 +24053,7 @@ void shrL_mem_1Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2383 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2383 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     int rm_byte_opcode = (0x5 /*secondary()*/);
 
@@ -24081,7 +24081,7 @@ void shrL_rReg_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// shift
   {
 
-#line 2034 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2034 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // SAL, SAR, SHR
     int dstenc = opnd_array(1)->reg(ra_,this,idx1)/* dst */;
@@ -24107,7 +24107,7 @@ void shrL_mem_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// shift
   {
 
-#line 2183 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2183 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->base(ra_,this,idx1) >= 8) {
       if (opnd_array(1)->index(ra_,this,idx1) < 8) {
@@ -24127,7 +24127,7 @@ void shrL_mem_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xC1 /*primary()*/));
   
@@ -24135,7 +24135,7 @@ void shrL_mem_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2383 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2383 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     int rm_byte_opcode = (0x5 /*secondary()*/);
 
@@ -24155,7 +24155,7 @@ void shrL_mem_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1879 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1879 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // Check for 8-bit immediate, and set sign extend bit in opcode
     if (-0x80 <= opnd_array(2)->constant() && opnd_array(2)->constant() < 0x80) {
@@ -24177,7 +24177,7 @@ void shrL_rReg_CLNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// shift
   {
 
-#line 2265 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2265 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->reg(ra_,this,idx1)/* dst */ < 8) {
       emit_opcode(cbuf, Assembler::REX_W);
@@ -24189,7 +24189,7 @@ void shrL_rReg_CLNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xD3 /*primary()*/));
   
@@ -24197,7 +24197,7 @@ void shrL_rReg_CLNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1902 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1902 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // INC, DEC, IDIV, IMOD, JMP indirect, ...
     emit_rm(cbuf, 0x3, (0x5 /*secondary()*/), opnd_array(1)->reg(ra_,this,idx1)/* dst */ & 7);
@@ -24214,7 +24214,7 @@ void shrL_mem_CLNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// shift
   {
 
-#line 2183 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2183 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->base(ra_,this,idx1) >= 8) {
       if (opnd_array(1)->index(ra_,this,idx1) < 8) {
@@ -24234,7 +24234,7 @@ void shrL_mem_CLNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xD3 /*primary()*/));
   
@@ -24242,7 +24242,7 @@ void shrL_mem_CLNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2383 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2383 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     int rm_byte_opcode = (0x5 /*secondary()*/);
 
@@ -24270,7 +24270,7 @@ void i2bNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// twentyfour
   {
 
-#line 2209 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2209 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(0)->reg(ra_,this)/* dst */ < 8) {
       if (opnd_array(1)->reg(ra_,this,idx1)/* src */ >= 4) {
@@ -24288,7 +24288,7 @@ void i2bNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x0F /*primary()*/));
   
@@ -24296,7 +24296,7 @@ void i2bNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1650 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1650 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xBE /*secondary()*/));
   
@@ -24304,7 +24304,7 @@ void i2bNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1678 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1678 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_rm(cbuf, 0x3, opnd_array(0)->reg(ra_,this)/* dst */ & 7, opnd_array(1)->reg(ra_,this,idx1)/* src */ & 7);
   
@@ -24320,7 +24320,7 @@ void i2sNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// sixteen
   {
 
-#line 2274 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2274 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(0)->reg(ra_,this)/* dst */ < 8) {
       if (opnd_array(1)->reg(ra_,this,idx1)/* src */ >= 8) {
@@ -24338,7 +24338,7 @@ void i2sNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x0F /*primary()*/));
   
@@ -24346,7 +24346,7 @@ void i2sNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1650 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1650 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xBF /*secondary()*/));
   
@@ -24354,7 +24354,7 @@ void i2sNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1678 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1678 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_rm(cbuf, 0x3, opnd_array(0)->reg(ra_,this)/* dst */ & 7, opnd_array(1)->reg(ra_,this,idx1)/* src */ & 7);
   
@@ -24369,7 +24369,7 @@ void rolI_rReg_imm1Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx1 = 1; 	// cr
   {
 
-#line 2258 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2258 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->reg(ra_,this,idx1)/* dst */ >= 8) {
       emit_opcode(cbuf, Assembler::REX_B);
@@ -24379,7 +24379,7 @@ void rolI_rReg_imm1Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xD1 /*primary()*/));
   
@@ -24387,7 +24387,7 @@ void rolI_rReg_imm1Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1902 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1902 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // INC, DEC, IDIV, IMOD, JMP indirect, ...
     emit_rm(cbuf, 0x3, (0x0 /*secondary()*/), opnd_array(1)->reg(ra_,this,idx1)/* dst */ & 7);
@@ -24404,7 +24404,7 @@ void rolI_rReg_imm8Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// cr
   {
 
-#line 2021 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2021 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // SAL, SAR, SHR
     int dstenc = opnd_array(1)->reg(ra_,this,idx1)/* dst */;
@@ -24428,7 +24428,7 @@ void rolI_rReg_CLNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// cr
   {
 
-#line 2258 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2258 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->reg(ra_,this,idx1)/* dst */ >= 8) {
       emit_opcode(cbuf, Assembler::REX_B);
@@ -24438,7 +24438,7 @@ void rolI_rReg_CLNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xD3 /*primary()*/));
   
@@ -24446,7 +24446,7 @@ void rolI_rReg_CLNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1902 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1902 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // INC, DEC, IDIV, IMOD, JMP indirect, ...
     emit_rm(cbuf, 0x3, (0x0 /*secondary()*/), opnd_array(1)->reg(ra_,this,idx1)/* dst */ & 7);
@@ -24462,7 +24462,7 @@ void rorI_rReg_imm1Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx1 = 1; 	// cr
   {
 
-#line 2258 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2258 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->reg(ra_,this,idx1)/* dst */ >= 8) {
       emit_opcode(cbuf, Assembler::REX_B);
@@ -24472,7 +24472,7 @@ void rorI_rReg_imm1Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xD1 /*primary()*/));
   
@@ -24480,7 +24480,7 @@ void rorI_rReg_imm1Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1902 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1902 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // INC, DEC, IDIV, IMOD, JMP indirect, ...
     emit_rm(cbuf, 0x3, (0x1 /*secondary()*/), opnd_array(1)->reg(ra_,this,idx1)/* dst */ & 7);
@@ -24497,7 +24497,7 @@ void rorI_rReg_imm8Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// cr
   {
 
-#line 2021 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2021 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // SAL, SAR, SHR
     int dstenc = opnd_array(1)->reg(ra_,this,idx1)/* dst */;
@@ -24521,7 +24521,7 @@ void rorI_rReg_CLNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// cr
   {
 
-#line 2258 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2258 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->reg(ra_,this,idx1)/* dst */ >= 8) {
       emit_opcode(cbuf, Assembler::REX_B);
@@ -24531,7 +24531,7 @@ void rorI_rReg_CLNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xD3 /*primary()*/));
   
@@ -24539,7 +24539,7 @@ void rorI_rReg_CLNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1902 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1902 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // INC, DEC, IDIV, IMOD, JMP indirect, ...
     emit_rm(cbuf, 0x3, (0x1 /*secondary()*/), opnd_array(1)->reg(ra_,this,idx1)/* dst */ & 7);
@@ -24555,7 +24555,7 @@ void rolL_rReg_imm1Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx1 = 1; 	// cr
   {
 
-#line 2265 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2265 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->reg(ra_,this,idx1)/* dst */ < 8) {
       emit_opcode(cbuf, Assembler::REX_W);
@@ -24567,7 +24567,7 @@ void rolL_rReg_imm1Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xD1 /*primary()*/));
   
@@ -24575,7 +24575,7 @@ void rolL_rReg_imm1Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1902 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1902 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // INC, DEC, IDIV, IMOD, JMP indirect, ...
     emit_rm(cbuf, 0x3, (0x0 /*secondary()*/), opnd_array(1)->reg(ra_,this,idx1)/* dst */ & 7);
@@ -24592,7 +24592,7 @@ void rolL_rReg_imm8Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// cr
   {
 
-#line 2034 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2034 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // SAL, SAR, SHR
     int dstenc = opnd_array(1)->reg(ra_,this,idx1)/* dst */;
@@ -24618,7 +24618,7 @@ void rolL_rReg_CLNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// cr
   {
 
-#line 2265 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2265 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->reg(ra_,this,idx1)/* dst */ < 8) {
       emit_opcode(cbuf, Assembler::REX_W);
@@ -24630,7 +24630,7 @@ void rolL_rReg_CLNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xD3 /*primary()*/));
   
@@ -24638,7 +24638,7 @@ void rolL_rReg_CLNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1902 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1902 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // INC, DEC, IDIV, IMOD, JMP indirect, ...
     emit_rm(cbuf, 0x3, (0x0 /*secondary()*/), opnd_array(1)->reg(ra_,this,idx1)/* dst */ & 7);
@@ -24654,7 +24654,7 @@ void rorL_rReg_imm1Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx1 = 1; 	// cr
   {
 
-#line 2265 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2265 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->reg(ra_,this,idx1)/* dst */ < 8) {
       emit_opcode(cbuf, Assembler::REX_W);
@@ -24666,7 +24666,7 @@ void rorL_rReg_imm1Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xD1 /*primary()*/));
   
@@ -24674,7 +24674,7 @@ void rorL_rReg_imm1Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1902 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1902 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // INC, DEC, IDIV, IMOD, JMP indirect, ...
     emit_rm(cbuf, 0x3, (0x1 /*secondary()*/), opnd_array(1)->reg(ra_,this,idx1)/* dst */ & 7);
@@ -24691,7 +24691,7 @@ void rorL_rReg_imm8Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// cr
   {
 
-#line 2034 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2034 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // SAL, SAR, SHR
     int dstenc = opnd_array(1)->reg(ra_,this,idx1)/* dst */;
@@ -24717,7 +24717,7 @@ void rorL_rReg_CLNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// cr
   {
 
-#line 2265 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2265 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->reg(ra_,this,idx1)/* dst */ < 8) {
       emit_opcode(cbuf, Assembler::REX_W);
@@ -24729,7 +24729,7 @@ void rorL_rReg_CLNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xD3 /*primary()*/));
   
@@ -24737,7 +24737,7 @@ void rorL_rReg_CLNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1902 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1902 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // INC, DEC, IDIV, IMOD, JMP indirect, ...
     emit_rm(cbuf, 0x3, (0x1 /*secondary()*/), opnd_array(1)->reg(ra_,this,idx1)/* dst */ & 7);
@@ -24754,7 +24754,7 @@ void andI_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// src
   {
 
-#line 2274 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2274 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->reg(ra_,this,idx1)/* dst */ < 8) {
       if (opnd_array(2)->reg(ra_,this,idx2)/* src */ >= 8) {
@@ -24772,7 +24772,7 @@ void andI_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x23 /*primary()*/));
   
@@ -24780,7 +24780,7 @@ void andI_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1678 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1678 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_rm(cbuf, 0x3, opnd_array(1)->reg(ra_,this,idx1)/* dst */ & 7, opnd_array(2)->reg(ra_,this,idx2)/* src */ & 7);
   
@@ -24796,7 +24796,7 @@ void andI_rReg_imm255Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// src
   {
 
-#line 2209 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2209 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->reg(ra_,this,idx1)/* dst */ < 8) {
       if (opnd_array(1)->reg(ra_,this,idx1)/* dst */ >= 4) {
@@ -24814,7 +24814,7 @@ void andI_rReg_imm255Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x0F /*primary()*/));
   
@@ -24822,7 +24822,7 @@ void andI_rReg_imm255Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1650 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1650 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xB6 /*secondary()*/));
   
@@ -24830,7 +24830,7 @@ void andI_rReg_imm255Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1678 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1678 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_rm(cbuf, 0x3, opnd_array(1)->reg(ra_,this,idx1)/* dst */ & 7, opnd_array(1)->reg(ra_,this,idx1)/* dst */ & 7);
   
@@ -24846,7 +24846,7 @@ void andI2L_rReg_imm255Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// mask
   {
 
-#line 2209 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2209 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(0)->reg(ra_,this)/* dst */ < 8) {
       if (opnd_array(1)->reg(ra_,this,idx1)/* src */ >= 4) {
@@ -24864,7 +24864,7 @@ void andI2L_rReg_imm255Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x0F /*primary()*/));
   
@@ -24872,7 +24872,7 @@ void andI2L_rReg_imm255Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1650 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1650 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xB6 /*secondary()*/));
   
@@ -24880,7 +24880,7 @@ void andI2L_rReg_imm255Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1678 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1678 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_rm(cbuf, 0x3, opnd_array(0)->reg(ra_,this)/* dst */ & 7, opnd_array(1)->reg(ra_,this,idx1)/* src */ & 7);
   
@@ -24896,7 +24896,7 @@ void andI_rReg_imm65535Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// src
   {
 
-#line 2274 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2274 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->reg(ra_,this,idx1)/* dst */ < 8) {
       if (opnd_array(1)->reg(ra_,this,idx1)/* dst */ >= 8) {
@@ -24914,7 +24914,7 @@ void andI_rReg_imm65535Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x0F /*primary()*/));
   
@@ -24922,7 +24922,7 @@ void andI_rReg_imm65535Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1650 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1650 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xB7 /*secondary()*/));
   
@@ -24930,7 +24930,7 @@ void andI_rReg_imm65535Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1678 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1678 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_rm(cbuf, 0x3, opnd_array(1)->reg(ra_,this,idx1)/* dst */ & 7, opnd_array(1)->reg(ra_,this,idx1)/* dst */ & 7);
   
@@ -24946,7 +24946,7 @@ void andI2L_rReg_imm65535Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const 
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// mask
   {
 
-#line 2274 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2274 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(0)->reg(ra_,this)/* dst */ < 8) {
       if (opnd_array(1)->reg(ra_,this,idx1)/* src */ >= 8) {
@@ -24964,7 +24964,7 @@ void andI2L_rReg_imm65535Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const 
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x0F /*primary()*/));
   
@@ -24972,7 +24972,7 @@ void andI2L_rReg_imm65535Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const 
   }
   {
 
-#line 1650 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1650 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xB7 /*secondary()*/));
   
@@ -24980,7 +24980,7 @@ void andI2L_rReg_imm65535Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const 
   }
   {
 
-#line 1678 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1678 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_rm(cbuf, 0x3, opnd_array(0)->reg(ra_,this)/* dst */ & 7, opnd_array(1)->reg(ra_,this,idx1)/* src */ & 7);
   
@@ -24996,7 +24996,7 @@ void andI_rReg_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// src
   {
 
-#line 1837 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1837 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // OpcSEr/m
     int dstenc = opnd_array(1)->reg(ra_,this,idx1)/* dst */;
@@ -25019,7 +25019,7 @@ void andI_rReg_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1879 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1879 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // Check for 8-bit immediate, and set sign extend bit in opcode
     if (-0x80 <= opnd_array(2)->constant() && opnd_array(2)->constant() < 0x80) {
@@ -25041,7 +25041,7 @@ void andI_rReg_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// src
   {
 
-#line 2306 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2306 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->reg(ra_,this,idx1)/* dst */ < 8) {
       if (opnd_array(2)->base(ra_,this,idx2) < 8) {
@@ -25075,7 +25075,7 @@ void andI_rReg_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x23 /*primary()*/));
   
@@ -25083,7 +25083,7 @@ void andI_rReg_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2370 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2370 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // High registers handle in encode_RegMem
     int reg = opnd_array(1)->reg(ra_,this,idx1)/* dst */;
@@ -25107,7 +25107,7 @@ void andI_rReg_mem_0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// dst
   {
 
-#line 2306 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2306 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(2)->reg(ra_,this,idx2)/* dst */ < 8) {
       if (opnd_array(1)->base(ra_,this,idx1) < 8) {
@@ -25141,7 +25141,7 @@ void andI_rReg_mem_0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x23 /*primary()*/));
   
@@ -25149,7 +25149,7 @@ void andI_rReg_mem_0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2370 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2370 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // High registers handle in encode_RegMem
     int reg = opnd_array(2)->reg(ra_,this,idx2)/* dst */;
@@ -25173,7 +25173,7 @@ void andI_mem_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// src
   {
 
-#line 2306 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2306 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(2)->reg(ra_,this,idx2)/* src */ < 8) {
       if (opnd_array(1)->base(ra_,this,idx1) < 8) {
@@ -25207,7 +25207,7 @@ void andI_mem_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x21 /*primary()*/));
   
@@ -25215,7 +25215,7 @@ void andI_mem_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2370 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2370 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // High registers handle in encode_RegMem
     int reg = opnd_array(2)->reg(ra_,this,idx2)/* src */;
@@ -25239,7 +25239,7 @@ void andI_mem_rReg_0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// src
   {
 
-#line 2306 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2306 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(2)->reg(ra_,this,idx2)/* src */ < 8) {
       if (opnd_array(1)->base(ra_,this,idx1) < 8) {
@@ -25273,7 +25273,7 @@ void andI_mem_rReg_0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x21 /*primary()*/));
   
@@ -25281,7 +25281,7 @@ void andI_mem_rReg_0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2370 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2370 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // High registers handle in encode_RegMem
     int reg = opnd_array(2)->reg(ra_,this,idx2)/* src */;
@@ -25305,7 +25305,7 @@ void andI_mem_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// src
   {
 
-#line 2168 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2168 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->base(ra_,this,idx1) >= 8) {
       if (opnd_array(1)->index(ra_,this,idx1) < 8) {
@@ -25323,7 +25323,7 @@ void andI_mem_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1825 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1825 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // Emit primary opcode and set sign-extend bit
     // Check for 8-bit immediate, and set sign extend bit in opcode
@@ -25338,7 +25338,7 @@ void andI_mem_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2383 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2383 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     int rm_byte_opcode = (0x4 /*secondary()*/);
 
@@ -25358,7 +25358,7 @@ void andI_mem_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1879 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1879 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // Check for 8-bit immediate, and set sign extend bit in opcode
     if (-0x80 <= opnd_array(2)->constant() && opnd_array(2)->constant() < 0x80) {
@@ -25382,7 +25382,7 @@ void andnI_rReg_rReg_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 8605 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 8605 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ andnl(opnd_array(0)->as_Register(ra_,this)/* dst */, opnd_array(1)->as_Register(ra_,this,idx1)/* src1 */, Address::make_raw(opnd_array(3)->base(ra_,this,idx3), opnd_array(3)->index(ra_,this,idx3), opnd_array(3)->scale(), opnd_array(3)->disp(ra_,this,idx3), opnd_array(3)->disp_reloc()));
   
@@ -25400,7 +25400,7 @@ void andnI_rReg_rReg_mem_0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const
   {
     MacroAssembler _masm(&cbuf);
 
-#line 8605 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 8605 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ andnl(opnd_array(0)->as_Register(ra_,this)/* dst */, opnd_array(2)->as_Register(ra_,this,idx2)/* src1 */, Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()));
   
@@ -25418,7 +25418,7 @@ void andnI_rReg_rReg_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const 
   {
     MacroAssembler _masm(&cbuf);
 
-#line 8618 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 8618 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ andnl(opnd_array(0)->as_Register(ra_,this)/* dst */, opnd_array(1)->as_Register(ra_,this,idx1)/* src1 */, opnd_array(3)->as_Register(ra_,this,idx3)/* src2 */);
   
@@ -25436,7 +25436,7 @@ void andnI_rReg_rReg_rReg_0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) cons
   {
     MacroAssembler _masm(&cbuf);
 
-#line 8618 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 8618 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ andnl(opnd_array(0)->as_Register(ra_,this)/* dst */, opnd_array(2)->as_Register(ra_,this,idx2)/* src1 */, opnd_array(1)->as_Register(ra_,this,idx1)/* src2 */);
   
@@ -25453,7 +25453,7 @@ void blsiI_rReg_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 8631 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 8631 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ blsil(opnd_array(0)->as_Register(ra_,this)/* dst */, opnd_array(2)->as_Register(ra_,this,idx2)/* src */);
   
@@ -25470,7 +25470,7 @@ void blsiI_rReg_rReg_0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 8631 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 8631 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ blsil(opnd_array(0)->as_Register(ra_,this)/* dst */, opnd_array(1)->as_Register(ra_,this,idx1)/* src */);
   
@@ -25487,7 +25487,7 @@ void blsiI_rReg_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 8645 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 8645 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ blsil(opnd_array(0)->as_Register(ra_,this)/* dst */, Address::make_raw(opnd_array(2)->base(ra_,this,idx2), opnd_array(2)->index(ra_,this,idx2), opnd_array(2)->scale(), opnd_array(2)->disp(ra_,this,idx2), opnd_array(2)->disp_reloc()));
   
@@ -25504,7 +25504,7 @@ void blsiI_rReg_mem_0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 8645 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 8645 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ blsil(opnd_array(0)->as_Register(ra_,this)/* dst */, Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()));
   
@@ -25521,7 +25521,7 @@ void blsmskI_rReg_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 8660 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 8660 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ blsmskl(opnd_array(0)->as_Register(ra_,this)/* dst */, Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()));
   
@@ -25538,7 +25538,7 @@ void blsmskI_rReg_mem_0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 8660 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 8660 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ blsmskl(opnd_array(0)->as_Register(ra_,this)/* dst */, Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()));
   
@@ -25555,7 +25555,7 @@ void blsmskI_rReg_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 8674 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 8674 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ blsmskl(opnd_array(0)->as_Register(ra_,this)/* dst */, opnd_array(1)->as_Register(ra_,this,idx1)/* src */);
   
@@ -25572,7 +25572,7 @@ void blsmskI_rReg_rReg_0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 8674 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 8674 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ blsmskl(opnd_array(0)->as_Register(ra_,this)/* dst */, opnd_array(1)->as_Register(ra_,this,idx1)/* src */);
   
@@ -25589,7 +25589,7 @@ void blsrI_rReg_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 8689 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 8689 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ blsrl(opnd_array(0)->as_Register(ra_,this)/* dst */, opnd_array(1)->as_Register(ra_,this,idx1)/* src */);
   
@@ -25606,7 +25606,7 @@ void blsrI_rReg_rReg_0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 8689 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 8689 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ blsrl(opnd_array(0)->as_Register(ra_,this)/* dst */, opnd_array(1)->as_Register(ra_,this,idx1)/* src */);
   
@@ -25623,7 +25623,7 @@ void blsrI_rReg_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 8705 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 8705 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ blsrl(opnd_array(0)->as_Register(ra_,this)/* dst */, Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()));
   
@@ -25640,7 +25640,7 @@ void blsrI_rReg_mem_0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 8705 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 8705 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ blsrl(opnd_array(0)->as_Register(ra_,this)/* dst */, Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()));
   
@@ -25656,7 +25656,7 @@ void orI_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// src
   {
 
-#line 2274 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2274 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->reg(ra_,this,idx1)/* dst */ < 8) {
       if (opnd_array(2)->reg(ra_,this,idx2)/* src */ >= 8) {
@@ -25674,7 +25674,7 @@ void orI_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x0B /*primary()*/));
   
@@ -25682,7 +25682,7 @@ void orI_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1678 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1678 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_rm(cbuf, 0x3, opnd_array(1)->reg(ra_,this,idx1)/* dst */ & 7, opnd_array(2)->reg(ra_,this,idx2)/* src */ & 7);
   
@@ -25698,7 +25698,7 @@ void orI_rReg_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// src
   {
 
-#line 1837 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1837 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // OpcSEr/m
     int dstenc = opnd_array(1)->reg(ra_,this,idx1)/* dst */;
@@ -25721,7 +25721,7 @@ void orI_rReg_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1879 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1879 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // Check for 8-bit immediate, and set sign extend bit in opcode
     if (-0x80 <= opnd_array(2)->constant() && opnd_array(2)->constant() < 0x80) {
@@ -25743,7 +25743,7 @@ void orI_rReg_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// src
   {
 
-#line 2306 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2306 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->reg(ra_,this,idx1)/* dst */ < 8) {
       if (opnd_array(2)->base(ra_,this,idx2) < 8) {
@@ -25777,7 +25777,7 @@ void orI_rReg_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x0B /*primary()*/));
   
@@ -25785,7 +25785,7 @@ void orI_rReg_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2370 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2370 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // High registers handle in encode_RegMem
     int reg = opnd_array(1)->reg(ra_,this,idx1)/* dst */;
@@ -25809,7 +25809,7 @@ void orI_rReg_mem_0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// dst
   {
 
-#line 2306 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2306 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(2)->reg(ra_,this,idx2)/* dst */ < 8) {
       if (opnd_array(1)->base(ra_,this,idx1) < 8) {
@@ -25843,7 +25843,7 @@ void orI_rReg_mem_0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x0B /*primary()*/));
   
@@ -25851,7 +25851,7 @@ void orI_rReg_mem_0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2370 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2370 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // High registers handle in encode_RegMem
     int reg = opnd_array(2)->reg(ra_,this,idx2)/* dst */;
@@ -25875,7 +25875,7 @@ void orI_mem_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// src
   {
 
-#line 2306 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2306 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(2)->reg(ra_,this,idx2)/* src */ < 8) {
       if (opnd_array(1)->base(ra_,this,idx1) < 8) {
@@ -25909,7 +25909,7 @@ void orI_mem_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x09 /*primary()*/));
   
@@ -25917,7 +25917,7 @@ void orI_mem_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2370 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2370 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // High registers handle in encode_RegMem
     int reg = opnd_array(2)->reg(ra_,this,idx2)/* src */;
@@ -25941,7 +25941,7 @@ void orI_mem_rReg_0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// src
   {
 
-#line 2306 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2306 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(2)->reg(ra_,this,idx2)/* src */ < 8) {
       if (opnd_array(1)->base(ra_,this,idx1) < 8) {
@@ -25975,7 +25975,7 @@ void orI_mem_rReg_0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x09 /*primary()*/));
   
@@ -25983,7 +25983,7 @@ void orI_mem_rReg_0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2370 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2370 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // High registers handle in encode_RegMem
     int reg = opnd_array(2)->reg(ra_,this,idx2)/* src */;
@@ -26007,7 +26007,7 @@ void orI_mem_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// src
   {
 
-#line 2168 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2168 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->base(ra_,this,idx1) >= 8) {
       if (opnd_array(1)->index(ra_,this,idx1) < 8) {
@@ -26025,7 +26025,7 @@ void orI_mem_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1825 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1825 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // Emit primary opcode and set sign-extend bit
     // Check for 8-bit immediate, and set sign extend bit in opcode
@@ -26040,7 +26040,7 @@ void orI_mem_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2383 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2383 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     int rm_byte_opcode = (0x1 /*secondary()*/);
 
@@ -26060,7 +26060,7 @@ void orI_mem_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1879 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1879 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // Check for 8-bit immediate, and set sign extend bit in opcode
     if (-0x80 <= opnd_array(2)->constant() && opnd_array(2)->constant() < 0x80) {
@@ -26082,7 +26082,7 @@ void xorI_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// src
   {
 
-#line 2274 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2274 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->reg(ra_,this,idx1)/* dst */ < 8) {
       if (opnd_array(2)->reg(ra_,this,idx2)/* src */ >= 8) {
@@ -26100,7 +26100,7 @@ void xorI_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x33 /*primary()*/));
   
@@ -26108,7 +26108,7 @@ void xorI_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1678 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1678 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_rm(cbuf, 0x3, opnd_array(1)->reg(ra_,this,idx1)/* dst */ & 7, opnd_array(2)->reg(ra_,this,idx2)/* src */ & 7);
   
@@ -26125,7 +26125,7 @@ void xorI_rReg_im1Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 8795 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 8795 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
      __ notl(opnd_array(1)->as_Register(ra_,this,idx1)/* dst */);
   
@@ -26141,7 +26141,7 @@ void xorI_rReg_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// src
   {
 
-#line 1837 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1837 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // OpcSEr/m
     int dstenc = opnd_array(1)->reg(ra_,this,idx1)/* dst */;
@@ -26164,7 +26164,7 @@ void xorI_rReg_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1879 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1879 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // Check for 8-bit immediate, and set sign extend bit in opcode
     if (-0x80 <= opnd_array(2)->constant() && opnd_array(2)->constant() < 0x80) {
@@ -26186,7 +26186,7 @@ void xorI_rReg_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// src
   {
 
-#line 2306 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2306 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->reg(ra_,this,idx1)/* dst */ < 8) {
       if (opnd_array(2)->base(ra_,this,idx2) < 8) {
@@ -26220,7 +26220,7 @@ void xorI_rReg_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x33 /*primary()*/));
   
@@ -26228,7 +26228,7 @@ void xorI_rReg_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2370 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2370 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // High registers handle in encode_RegMem
     int reg = opnd_array(1)->reg(ra_,this,idx1)/* dst */;
@@ -26252,7 +26252,7 @@ void xorI_rReg_mem_0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// dst
   {
 
-#line 2306 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2306 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(2)->reg(ra_,this,idx2)/* dst */ < 8) {
       if (opnd_array(1)->base(ra_,this,idx1) < 8) {
@@ -26286,7 +26286,7 @@ void xorI_rReg_mem_0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x33 /*primary()*/));
   
@@ -26294,7 +26294,7 @@ void xorI_rReg_mem_0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2370 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2370 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // High registers handle in encode_RegMem
     int reg = opnd_array(2)->reg(ra_,this,idx2)/* dst */;
@@ -26318,7 +26318,7 @@ void xorI_mem_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// src
   {
 
-#line 2306 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2306 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(2)->reg(ra_,this,idx2)/* src */ < 8) {
       if (opnd_array(1)->base(ra_,this,idx1) < 8) {
@@ -26352,7 +26352,7 @@ void xorI_mem_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x31 /*primary()*/));
   
@@ -26360,7 +26360,7 @@ void xorI_mem_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2370 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2370 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // High registers handle in encode_RegMem
     int reg = opnd_array(2)->reg(ra_,this,idx2)/* src */;
@@ -26384,7 +26384,7 @@ void xorI_mem_rReg_0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// src
   {
 
-#line 2306 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2306 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(2)->reg(ra_,this,idx2)/* src */ < 8) {
       if (opnd_array(1)->base(ra_,this,idx1) < 8) {
@@ -26418,7 +26418,7 @@ void xorI_mem_rReg_0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x31 /*primary()*/));
   
@@ -26426,7 +26426,7 @@ void xorI_mem_rReg_0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2370 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2370 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // High registers handle in encode_RegMem
     int reg = opnd_array(2)->reg(ra_,this,idx2)/* src */;
@@ -26450,7 +26450,7 @@ void xorI_mem_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// src
   {
 
-#line 2168 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2168 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->base(ra_,this,idx1) >= 8) {
       if (opnd_array(1)->index(ra_,this,idx1) < 8) {
@@ -26468,7 +26468,7 @@ void xorI_mem_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1825 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1825 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // Emit primary opcode and set sign-extend bit
     // Check for 8-bit immediate, and set sign extend bit in opcode
@@ -26483,7 +26483,7 @@ void xorI_mem_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2383 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2383 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     int rm_byte_opcode = (0x6 /*secondary()*/);
 
@@ -26503,7 +26503,7 @@ void xorI_mem_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1879 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1879 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // Check for 8-bit immediate, and set sign extend bit in opcode
     if (-0x80 <= opnd_array(2)->constant() && opnd_array(2)->constant() < 0x80) {
@@ -26525,7 +26525,7 @@ void andL_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// src
   {
 
-#line 2289 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2289 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->reg(ra_,this,idx1)/* dst */ < 8) {
       if (opnd_array(2)->reg(ra_,this,idx2)/* src */ < 8) {
@@ -26545,7 +26545,7 @@ void andL_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x23 /*primary()*/));
   
@@ -26553,7 +26553,7 @@ void andL_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1678 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1678 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_rm(cbuf, 0x3, opnd_array(1)->reg(ra_,this,idx1)/* dst */ & 7, opnd_array(2)->reg(ra_,this,idx2)/* src */ & 7);
   
@@ -26569,7 +26569,7 @@ void andL_rReg_imm255Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// src
   {
 
-#line 2289 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2289 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->reg(ra_,this,idx1)/* dst */ < 8) {
       if (opnd_array(1)->reg(ra_,this,idx1)/* dst */ < 8) {
@@ -26589,7 +26589,7 @@ void andL_rReg_imm255Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x0F /*primary()*/));
   
@@ -26597,7 +26597,7 @@ void andL_rReg_imm255Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1650 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1650 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xB6 /*secondary()*/));
   
@@ -26605,7 +26605,7 @@ void andL_rReg_imm255Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1678 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1678 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_rm(cbuf, 0x3, opnd_array(1)->reg(ra_,this,idx1)/* dst */ & 7, opnd_array(1)->reg(ra_,this,idx1)/* dst */ & 7);
   
@@ -26621,7 +26621,7 @@ void andL_rReg_imm65535Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// src
   {
 
-#line 2289 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2289 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->reg(ra_,this,idx1)/* dst */ < 8) {
       if (opnd_array(1)->reg(ra_,this,idx1)/* dst */ < 8) {
@@ -26641,7 +26641,7 @@ void andL_rReg_imm65535Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x0F /*primary()*/));
   
@@ -26649,7 +26649,7 @@ void andL_rReg_imm65535Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1650 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1650 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xB7 /*secondary()*/));
   
@@ -26657,7 +26657,7 @@ void andL_rReg_imm65535Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1678 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1678 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_rm(cbuf, 0x3, opnd_array(1)->reg(ra_,this,idx1)/* dst */ & 7, opnd_array(1)->reg(ra_,this,idx1)/* dst */ & 7);
   
@@ -26673,7 +26673,7 @@ void andL_rReg_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// src
   {
 
-#line 1857 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1857 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // OpcSEr/m
     int dstenc = opnd_array(1)->reg(ra_,this,idx1)/* dst */;
@@ -26698,7 +26698,7 @@ void andL_rReg_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1879 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1879 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // Check for 8-bit immediate, and set sign extend bit in opcode
     if (-0x80 <= opnd_array(2)->constantL() && opnd_array(2)->constantL() < 0x80) {
@@ -26720,7 +26720,7 @@ void andL_rReg_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// src
   {
 
-#line 2337 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2337 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->reg(ra_,this,idx1)/* dst */ < 8) {
       if (opnd_array(2)->base(ra_,this,idx2) < 8) {
@@ -26756,7 +26756,7 @@ void andL_rReg_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x23 /*primary()*/));
   
@@ -26764,7 +26764,7 @@ void andL_rReg_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2370 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2370 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // High registers handle in encode_RegMem
     int reg = opnd_array(1)->reg(ra_,this,idx1)/* dst */;
@@ -26788,7 +26788,7 @@ void andL_rReg_mem_0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// dst
   {
 
-#line 2337 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2337 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(2)->reg(ra_,this,idx2)/* dst */ < 8) {
       if (opnd_array(1)->base(ra_,this,idx1) < 8) {
@@ -26824,7 +26824,7 @@ void andL_rReg_mem_0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x23 /*primary()*/));
   
@@ -26832,7 +26832,7 @@ void andL_rReg_mem_0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2370 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2370 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // High registers handle in encode_RegMem
     int reg = opnd_array(2)->reg(ra_,this,idx2)/* dst */;
@@ -26856,7 +26856,7 @@ void andL_mem_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// src
   {
 
-#line 2337 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2337 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(2)->reg(ra_,this,idx2)/* src */ < 8) {
       if (opnd_array(1)->base(ra_,this,idx1) < 8) {
@@ -26892,7 +26892,7 @@ void andL_mem_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x21 /*primary()*/));
   
@@ -26900,7 +26900,7 @@ void andL_mem_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2370 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2370 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // High registers handle in encode_RegMem
     int reg = opnd_array(2)->reg(ra_,this,idx2)/* src */;
@@ -26924,7 +26924,7 @@ void andL_mem_rReg_0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// src
   {
 
-#line 2337 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2337 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(2)->reg(ra_,this,idx2)/* src */ < 8) {
       if (opnd_array(1)->base(ra_,this,idx1) < 8) {
@@ -26960,7 +26960,7 @@ void andL_mem_rReg_0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x21 /*primary()*/));
   
@@ -26968,7 +26968,7 @@ void andL_mem_rReg_0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2370 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2370 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // High registers handle in encode_RegMem
     int reg = opnd_array(2)->reg(ra_,this,idx2)/* src */;
@@ -26992,7 +26992,7 @@ void andL_mem_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// src
   {
 
-#line 2183 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2183 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->base(ra_,this,idx1) >= 8) {
       if (opnd_array(1)->index(ra_,this,idx1) < 8) {
@@ -27012,7 +27012,7 @@ void andL_mem_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1825 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1825 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // Emit primary opcode and set sign-extend bit
     // Check for 8-bit immediate, and set sign extend bit in opcode
@@ -27027,7 +27027,7 @@ void andL_mem_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2383 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2383 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     int rm_byte_opcode = (0x4 /*secondary()*/);
 
@@ -27047,7 +27047,7 @@ void andL_mem_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1879 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1879 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // Check for 8-bit immediate, and set sign extend bit in opcode
     if (-0x80 <= opnd_array(2)->constantL() && opnd_array(2)->constantL() < 0x80) {
@@ -27071,7 +27071,7 @@ void andnL_rReg_rReg_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 8952 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 8952 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ andnq(opnd_array(0)->as_Register(ra_,this)/* dst */, opnd_array(1)->as_Register(ra_,this,idx1)/* src1 */, Address::make_raw(opnd_array(3)->base(ra_,this,idx3), opnd_array(3)->index(ra_,this,idx3), opnd_array(3)->scale(), opnd_array(3)->disp(ra_,this,idx3), opnd_array(3)->disp_reloc()));
   
@@ -27089,7 +27089,7 @@ void andnL_rReg_rReg_mem_0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const
   {
     MacroAssembler _masm(&cbuf);
 
-#line 8952 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 8952 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ andnq(opnd_array(0)->as_Register(ra_,this)/* dst */, opnd_array(2)->as_Register(ra_,this,idx2)/* src1 */, Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()));
   
@@ -27107,7 +27107,7 @@ void andnL_rReg_rReg_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const 
   {
     MacroAssembler _masm(&cbuf);
 
-#line 8965 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 8965 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
   __ andnq(opnd_array(0)->as_Register(ra_,this)/* dst */, opnd_array(1)->as_Register(ra_,this,idx1)/* src1 */, opnd_array(3)->as_Register(ra_,this,idx3)/* src2 */);
   
@@ -27125,7 +27125,7 @@ void andnL_rReg_rReg_rReg_0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) cons
   {
     MacroAssembler _masm(&cbuf);
 
-#line 8965 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 8965 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
   __ andnq(opnd_array(0)->as_Register(ra_,this)/* dst */, opnd_array(2)->as_Register(ra_,this,idx2)/* src1 */, opnd_array(1)->as_Register(ra_,this,idx1)/* src2 */);
   
@@ -27142,7 +27142,7 @@ void blsiL_rReg_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 8978 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 8978 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ blsiq(opnd_array(0)->as_Register(ra_,this)/* dst */, opnd_array(2)->as_Register(ra_,this,idx2)/* src */);
   
@@ -27159,7 +27159,7 @@ void blsiL_rReg_rReg_0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 8978 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 8978 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ blsiq(opnd_array(0)->as_Register(ra_,this)/* dst */, opnd_array(1)->as_Register(ra_,this,idx1)/* src */);
   
@@ -27176,7 +27176,7 @@ void blsiL_rReg_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 8992 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 8992 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ blsiq(opnd_array(0)->as_Register(ra_,this)/* dst */, Address::make_raw(opnd_array(2)->base(ra_,this,idx2), opnd_array(2)->index(ra_,this,idx2), opnd_array(2)->scale(), opnd_array(2)->disp(ra_,this,idx2), opnd_array(2)->disp_reloc()));
   
@@ -27193,7 +27193,7 @@ void blsiL_rReg_mem_0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 8992 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 8992 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ blsiq(opnd_array(0)->as_Register(ra_,this)/* dst */, Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()));
   
@@ -27210,7 +27210,7 @@ void blsmskL_rReg_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 9007 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 9007 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ blsmskq(opnd_array(0)->as_Register(ra_,this)/* dst */, Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()));
   
@@ -27227,7 +27227,7 @@ void blsmskL_rReg_mem_0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 9007 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 9007 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ blsmskq(opnd_array(0)->as_Register(ra_,this)/* dst */, Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()));
   
@@ -27244,7 +27244,7 @@ void blsmskL_rReg_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 9021 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 9021 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ blsmskq(opnd_array(0)->as_Register(ra_,this)/* dst */, opnd_array(1)->as_Register(ra_,this,idx1)/* src */);
   
@@ -27261,7 +27261,7 @@ void blsmskL_rReg_rReg_0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 9021 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 9021 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ blsmskq(opnd_array(0)->as_Register(ra_,this)/* dst */, opnd_array(1)->as_Register(ra_,this,idx1)/* src */);
   
@@ -27278,7 +27278,7 @@ void blsrL_rReg_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 9036 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 9036 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ blsrq(opnd_array(0)->as_Register(ra_,this)/* dst */, opnd_array(1)->as_Register(ra_,this,idx1)/* src */);
   
@@ -27295,7 +27295,7 @@ void blsrL_rReg_rReg_0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 9036 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 9036 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ blsrq(opnd_array(0)->as_Register(ra_,this)/* dst */, opnd_array(1)->as_Register(ra_,this,idx1)/* src */);
   
@@ -27312,7 +27312,7 @@ void blsrL_rReg_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 9052 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 9052 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ blsrq(opnd_array(0)->as_Register(ra_,this)/* dst */, Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()));
   
@@ -27329,7 +27329,7 @@ void blsrL_rReg_mem_0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 9052 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 9052 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ blsrq(opnd_array(0)->as_Register(ra_,this)/* dst */, Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()));
   
@@ -27345,7 +27345,7 @@ void orL_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// src
   {
 
-#line 2289 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2289 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->reg(ra_,this,idx1)/* dst */ < 8) {
       if (opnd_array(2)->reg(ra_,this,idx2)/* src */ < 8) {
@@ -27365,7 +27365,7 @@ void orL_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x0B /*primary()*/));
   
@@ -27373,7 +27373,7 @@ void orL_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1678 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1678 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_rm(cbuf, 0x3, opnd_array(1)->reg(ra_,this,idx1)/* dst */ & 7, opnd_array(2)->reg(ra_,this,idx2)/* src */ & 7);
   
@@ -27389,7 +27389,7 @@ void orL_rReg_castP2XNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// src
   {
 
-#line 2289 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2289 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->reg(ra_,this,idx1)/* dst */ < 8) {
       if (opnd_array(2)->reg(ra_,this,idx2)/* src */ < 8) {
@@ -27409,7 +27409,7 @@ void orL_rReg_castP2XNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x0B /*primary()*/));
   
@@ -27417,7 +27417,7 @@ void orL_rReg_castP2XNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1678 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1678 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_rm(cbuf, 0x3, opnd_array(1)->reg(ra_,this,idx1)/* dst */ & 7, opnd_array(2)->reg(ra_,this,idx2)/* src */ & 7);
   
@@ -27433,7 +27433,7 @@ void orL_rReg_castP2X_0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// dst
   {
 
-#line 2289 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2289 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(2)->reg(ra_,this,idx2)/* dst */ < 8) {
       if (opnd_array(1)->reg(ra_,this,idx1)/* src */ < 8) {
@@ -27453,7 +27453,7 @@ void orL_rReg_castP2X_0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x0B /*primary()*/));
   
@@ -27461,7 +27461,7 @@ void orL_rReg_castP2X_0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1678 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1678 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_rm(cbuf, 0x3, opnd_array(2)->reg(ra_,this,idx2)/* dst */ & 7, opnd_array(1)->reg(ra_,this,idx1)/* src */ & 7);
   
@@ -27477,7 +27477,7 @@ void orL_rReg_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// src
   {
 
-#line 1857 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1857 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // OpcSEr/m
     int dstenc = opnd_array(1)->reg(ra_,this,idx1)/* dst */;
@@ -27502,7 +27502,7 @@ void orL_rReg_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1879 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1879 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // Check for 8-bit immediate, and set sign extend bit in opcode
     if (-0x80 <= opnd_array(2)->constantL() && opnd_array(2)->constantL() < 0x80) {
@@ -27524,7 +27524,7 @@ void orL_rReg_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// src
   {
 
-#line 2337 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2337 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->reg(ra_,this,idx1)/* dst */ < 8) {
       if (opnd_array(2)->base(ra_,this,idx2) < 8) {
@@ -27560,7 +27560,7 @@ void orL_rReg_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x0B /*primary()*/));
   
@@ -27568,7 +27568,7 @@ void orL_rReg_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2370 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2370 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // High registers handle in encode_RegMem
     int reg = opnd_array(1)->reg(ra_,this,idx1)/* dst */;
@@ -27592,7 +27592,7 @@ void orL_rReg_mem_0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// dst
   {
 
-#line 2337 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2337 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(2)->reg(ra_,this,idx2)/* dst */ < 8) {
       if (opnd_array(1)->base(ra_,this,idx1) < 8) {
@@ -27628,7 +27628,7 @@ void orL_rReg_mem_0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x0B /*primary()*/));
   
@@ -27636,7 +27636,7 @@ void orL_rReg_mem_0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2370 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2370 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // High registers handle in encode_RegMem
     int reg = opnd_array(2)->reg(ra_,this,idx2)/* dst */;
@@ -27660,7 +27660,7 @@ void orL_mem_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// src
   {
 
-#line 2337 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2337 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(2)->reg(ra_,this,idx2)/* src */ < 8) {
       if (opnd_array(1)->base(ra_,this,idx1) < 8) {
@@ -27696,7 +27696,7 @@ void orL_mem_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x09 /*primary()*/));
   
@@ -27704,7 +27704,7 @@ void orL_mem_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2370 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2370 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // High registers handle in encode_RegMem
     int reg = opnd_array(2)->reg(ra_,this,idx2)/* src */;
@@ -27728,7 +27728,7 @@ void orL_mem_rReg_0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// src
   {
 
-#line 2337 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2337 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(2)->reg(ra_,this,idx2)/* src */ < 8) {
       if (opnd_array(1)->base(ra_,this,idx1) < 8) {
@@ -27764,7 +27764,7 @@ void orL_mem_rReg_0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x09 /*primary()*/));
   
@@ -27772,7 +27772,7 @@ void orL_mem_rReg_0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2370 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2370 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // High registers handle in encode_RegMem
     int reg = opnd_array(2)->reg(ra_,this,idx2)/* src */;
@@ -27796,7 +27796,7 @@ void orL_mem_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// src
   {
 
-#line 2183 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2183 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->base(ra_,this,idx1) >= 8) {
       if (opnd_array(1)->index(ra_,this,idx1) < 8) {
@@ -27816,7 +27816,7 @@ void orL_mem_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1825 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1825 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // Emit primary opcode and set sign-extend bit
     // Check for 8-bit immediate, and set sign extend bit in opcode
@@ -27831,7 +27831,7 @@ void orL_mem_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2383 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2383 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     int rm_byte_opcode = (0x1 /*secondary()*/);
 
@@ -27851,7 +27851,7 @@ void orL_mem_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1879 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1879 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // Check for 8-bit immediate, and set sign extend bit in opcode
     if (-0x80 <= opnd_array(2)->constantL() && opnd_array(2)->constantL() < 0x80) {
@@ -27873,7 +27873,7 @@ void xorL_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// src
   {
 
-#line 2289 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2289 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->reg(ra_,this,idx1)/* dst */ < 8) {
       if (opnd_array(2)->reg(ra_,this,idx2)/* src */ < 8) {
@@ -27893,7 +27893,7 @@ void xorL_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x33 /*primary()*/));
   
@@ -27901,7 +27901,7 @@ void xorL_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1678 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1678 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_rm(cbuf, 0x3, opnd_array(1)->reg(ra_,this,idx1)/* dst */ & 7, opnd_array(2)->reg(ra_,this,idx2)/* src */ & 7);
   
@@ -27918,7 +27918,7 @@ void xorL_rReg_im1Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 9154 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 9154 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
      __ notq(opnd_array(1)->as_Register(ra_,this,idx1)/* dst */);
   
@@ -27934,7 +27934,7 @@ void xorL_rReg_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// src
   {
 
-#line 1857 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1857 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // OpcSEr/m
     int dstenc = opnd_array(1)->reg(ra_,this,idx1)/* dst */;
@@ -27959,7 +27959,7 @@ void xorL_rReg_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1879 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1879 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // Check for 8-bit immediate, and set sign extend bit in opcode
     if (-0x80 <= opnd_array(2)->constantL() && opnd_array(2)->constantL() < 0x80) {
@@ -27981,7 +27981,7 @@ void xorL_rReg_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// src
   {
 
-#line 2337 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2337 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->reg(ra_,this,idx1)/* dst */ < 8) {
       if (opnd_array(2)->base(ra_,this,idx2) < 8) {
@@ -28017,7 +28017,7 @@ void xorL_rReg_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x33 /*primary()*/));
   
@@ -28025,7 +28025,7 @@ void xorL_rReg_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2370 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2370 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // High registers handle in encode_RegMem
     int reg = opnd_array(1)->reg(ra_,this,idx1)/* dst */;
@@ -28049,7 +28049,7 @@ void xorL_rReg_mem_0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// dst
   {
 
-#line 2337 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2337 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(2)->reg(ra_,this,idx2)/* dst */ < 8) {
       if (opnd_array(1)->base(ra_,this,idx1) < 8) {
@@ -28085,7 +28085,7 @@ void xorL_rReg_mem_0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x33 /*primary()*/));
   
@@ -28093,7 +28093,7 @@ void xorL_rReg_mem_0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2370 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2370 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // High registers handle in encode_RegMem
     int reg = opnd_array(2)->reg(ra_,this,idx2)/* dst */;
@@ -28117,7 +28117,7 @@ void xorL_mem_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// src
   {
 
-#line 2337 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2337 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(2)->reg(ra_,this,idx2)/* src */ < 8) {
       if (opnd_array(1)->base(ra_,this,idx1) < 8) {
@@ -28153,7 +28153,7 @@ void xorL_mem_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x31 /*primary()*/));
   
@@ -28161,7 +28161,7 @@ void xorL_mem_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2370 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2370 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // High registers handle in encode_RegMem
     int reg = opnd_array(2)->reg(ra_,this,idx2)/* src */;
@@ -28185,7 +28185,7 @@ void xorL_mem_rReg_0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// src
   {
 
-#line 2337 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2337 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(2)->reg(ra_,this,idx2)/* src */ < 8) {
       if (opnd_array(1)->base(ra_,this,idx1) < 8) {
@@ -28221,7 +28221,7 @@ void xorL_mem_rReg_0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x31 /*primary()*/));
   
@@ -28229,7 +28229,7 @@ void xorL_mem_rReg_0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2370 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2370 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // High registers handle in encode_RegMem
     int reg = opnd_array(2)->reg(ra_,this,idx2)/* src */;
@@ -28253,7 +28253,7 @@ void xorL_mem_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// src
   {
 
-#line 2183 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2183 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->base(ra_,this,idx1) >= 8) {
       if (opnd_array(1)->index(ra_,this,idx1) < 8) {
@@ -28273,7 +28273,7 @@ void xorL_mem_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1825 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1825 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // Emit primary opcode and set sign-extend bit
     // Check for 8-bit immediate, and set sign extend bit in opcode
@@ -28288,7 +28288,7 @@ void xorL_mem_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2383 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2383 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     int rm_byte_opcode = (0x6 /*secondary()*/);
 
@@ -28308,7 +28308,7 @@ void xorL_mem_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1879 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1879 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // Check for 8-bit immediate, and set sign extend bit in opcode
     if (-0x80 <= opnd_array(2)->constantL() && opnd_array(2)->constantL() < 0x80) {
@@ -28329,7 +28329,7 @@ void convI2BNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx1 = 1; 	// src
   {
 
-#line 2274 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2274 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->reg(ra_,this,idx1)/* src */ < 8) {
       if (opnd_array(1)->reg(ra_,this,idx1)/* src */ >= 8) {
@@ -28347,7 +28347,7 @@ void convI2BNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1683 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1683 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x85));
     emit_rm(cbuf, 0x3, opnd_array(1)->reg(ra_,this,idx1)/* src */ & 7, opnd_array(1)->reg(ra_,this,idx1)/* src */ & 7);
@@ -28356,7 +28356,7 @@ void convI2BNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2453 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2453 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     int dstenc = opnd_array(0)->reg(ra_,this)/* dst */;
     if (dstenc >= 8) {
@@ -28374,7 +28374,7 @@ void convI2BNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2209 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2209 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(0)->reg(ra_,this)/* dst */ < 8) {
       if (opnd_array(0)->reg(ra_,this)/* dst */ >= 4) {
@@ -28392,7 +28392,7 @@ void convI2BNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1662 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1662 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x0F));
   
@@ -28400,7 +28400,7 @@ void convI2BNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1662 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1662 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xB6));
   
@@ -28408,7 +28408,7 @@ void convI2BNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1678 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1678 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_rm(cbuf, 0x3, opnd_array(0)->reg(ra_,this)/* dst */ & 7, opnd_array(0)->reg(ra_,this)/* dst */ & 7);
   
@@ -28423,7 +28423,7 @@ void convP2BNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx1 = 1; 	// src
   {
 
-#line 2289 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2289 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->reg(ra_,this,idx1)/* src */ < 8) {
       if (opnd_array(1)->reg(ra_,this,idx1)/* src */ < 8) {
@@ -28443,7 +28443,7 @@ void convP2BNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1683 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1683 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x85));
     emit_rm(cbuf, 0x3, opnd_array(1)->reg(ra_,this,idx1)/* src */ & 7, opnd_array(1)->reg(ra_,this,idx1)/* src */ & 7);
@@ -28452,7 +28452,7 @@ void convP2BNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2453 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2453 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     int dstenc = opnd_array(0)->reg(ra_,this)/* dst */;
     if (dstenc >= 8) {
@@ -28470,7 +28470,7 @@ void convP2BNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2209 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2209 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(0)->reg(ra_,this)/* dst */ < 8) {
       if (opnd_array(0)->reg(ra_,this)/* dst */ >= 4) {
@@ -28488,7 +28488,7 @@ void convP2BNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1662 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1662 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x0F));
   
@@ -28496,7 +28496,7 @@ void convP2BNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1662 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1662 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xB6));
   
@@ -28504,7 +28504,7 @@ void convP2BNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1678 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1678 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_rm(cbuf, 0x3, opnd_array(0)->reg(ra_,this)/* dst */ & 7, opnd_array(0)->reg(ra_,this)/* dst */ & 7);
   
@@ -28520,7 +28520,7 @@ void cmpLTMaskNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// q
   {
 
-#line 2274 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2274 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->reg(ra_,this,idx1)/* p */ < 8) {
       if (opnd_array(2)->reg(ra_,this,idx2)/* q */ >= 8) {
@@ -28538,7 +28538,7 @@ void cmpLTMaskNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1683 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1683 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x3B));
     emit_rm(cbuf, 0x3, opnd_array(1)->reg(ra_,this,idx1)/* p */ & 7, opnd_array(2)->reg(ra_,this,idx2)/* q */ & 7);
@@ -28547,7 +28547,7 @@ void cmpLTMaskNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2438 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2438 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     int dstenc = opnd_array(0)->reg(ra_,this)/* dst */;
     if (dstenc >= 8) {
@@ -28565,7 +28565,7 @@ void cmpLTMaskNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2209 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2209 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(0)->reg(ra_,this)/* dst */ < 8) {
       if (opnd_array(0)->reg(ra_,this)/* dst */ >= 4) {
@@ -28583,7 +28583,7 @@ void cmpLTMaskNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1662 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1662 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x0F));
   
@@ -28591,7 +28591,7 @@ void cmpLTMaskNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1662 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1662 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xB6));
   
@@ -28599,7 +28599,7 @@ void cmpLTMaskNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1678 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1678 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_rm(cbuf, 0x3, opnd_array(0)->reg(ra_,this)/* dst */ & 7, opnd_array(0)->reg(ra_,this)/* dst */ & 7);
   
@@ -28607,7 +28607,7 @@ void cmpLTMaskNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2412 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2412 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     int dstenc = opnd_array(0)->reg(ra_,this)/* dst */;
     if (dstenc >= 8) {
@@ -28631,7 +28631,7 @@ void cmpLTMask0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 9269 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 9269 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
   __ sarl(opnd_array(1)->as_Register(ra_,this,idx1)/* dst */, 31);
   
@@ -28649,7 +28649,7 @@ void cadd_cmpLTMaskNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 9285 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 9285 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     Register Rp = opnd_array(1)->as_Register(ra_,this,idx1)/* p */;
     Register Rq = opnd_array(2)->as_Register(ra_,this,idx2)/* q */;
@@ -28674,7 +28674,7 @@ void cadd_cmpLTMask_1Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 9285 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 9285 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     Register Rp = opnd_array(1)->as_Register(ra_,this,idx1)/* p */;
     Register Rq = opnd_array(2)->as_Register(ra_,this,idx2)/* q */;
@@ -28699,7 +28699,7 @@ void cadd_cmpLTMask_0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 9285 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 9285 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     Register Rp = opnd_array(2)->as_Register(ra_,this,idx2)/* p */;
     Register Rq = opnd_array(3)->as_Register(ra_,this,idx3)/* q */;
@@ -28724,7 +28724,7 @@ void cadd_cmpLTMask_2Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 9285 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 9285 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     Register Rp = opnd_array(1)->as_Register(ra_,this,idx1)/* p */;
     Register Rq = opnd_array(2)->as_Register(ra_,this,idx2)/* q */;
@@ -28749,7 +28749,7 @@ void and_cmpLTMaskNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 9310 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 9310 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     Register Rp = opnd_array(1)->as_Register(ra_,this,idx1)/* p */;
     Register Rq = opnd_array(2)->as_Register(ra_,this,idx2)/* q */;
@@ -28774,7 +28774,7 @@ void and_cmpLTMask_0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 9310 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 9310 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     Register Rp = opnd_array(2)->as_Register(ra_,this,idx2)/* p */;
     Register Rq = opnd_array(3)->as_Register(ra_,this,idx3)/* q */;
@@ -28798,7 +28798,7 @@ void cmpF_cc_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 9337 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 9337 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ ucomiss(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src1 */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src2 */);
     emit_cmpfp_fixup(_masm);
@@ -28816,7 +28816,7 @@ void cmpF_cc_reg_CFNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 9349 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 9349 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ ucomiss(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src1 */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src2 */);
   
@@ -28833,7 +28833,7 @@ void cmpF_cc_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 9366 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 9366 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ ucomiss(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src1 */, Address::make_raw(opnd_array(2)->base(ra_,this,idx2), opnd_array(2)->index(ra_,this,idx2), opnd_array(2)->scale(), opnd_array(2)->disp(ra_,this,idx2), opnd_array(2)->disp_reloc()));
     emit_cmpfp_fixup(_masm);
@@ -28851,7 +28851,7 @@ void cmpF_cc_memCFNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 9378 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 9378 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ ucomiss(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src1 */, Address::make_raw(opnd_array(2)->base(ra_,this,idx2), opnd_array(2)->index(ra_,this,idx2), opnd_array(2)->scale(), opnd_array(2)->disp(ra_,this,idx2), opnd_array(2)->disp_reloc()));
   
@@ -28868,7 +28868,7 @@ void cmpF_cc_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 9394 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 9394 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ ucomiss(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, InternalAddress(__ code()->consts()->start() + constant_offset()));
     emit_cmpfp_fixup(_masm);
@@ -28880,7 +28880,7 @@ void cmpF_cc_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
 void cmpF_cc_immNode::eval_constant(Compile* C) {
   {
 
-#line 9395 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 9395 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
     _constant = C->constant_table().add(this, opnd_array(2));
 #line 28886 "../generated/adfiles/ad_x86_64.cpp"
   }
@@ -28894,7 +28894,7 @@ void cmpF_cc_immCFNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 9405 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 9405 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ ucomiss(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, InternalAddress(__ code()->consts()->start() + constant_offset()));
   
@@ -28905,7 +28905,7 @@ void cmpF_cc_immCFNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
 void cmpF_cc_immCFNode::eval_constant(Compile* C) {
   {
 
-#line 9406 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 9406 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
     _constant = C->constant_table().add(this, opnd_array(2));
 #line 28911 "../generated/adfiles/ad_x86_64.cpp"
   }
@@ -28919,7 +28919,7 @@ void cmpD_cc_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 9422 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 9422 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ ucomisd(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src1 */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src2 */);
     emit_cmpfp_fixup(_masm);
@@ -28937,7 +28937,7 @@ void cmpD_cc_reg_CFNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 9434 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 9434 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ ucomisd(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src1 */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src2 */);
   
@@ -28954,7 +28954,7 @@ void cmpD_cc_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 9451 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 9451 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ ucomisd(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src1 */, Address::make_raw(opnd_array(2)->base(ra_,this,idx2), opnd_array(2)->index(ra_,this,idx2), opnd_array(2)->scale(), opnd_array(2)->disp(ra_,this,idx2), opnd_array(2)->disp_reloc()));
     emit_cmpfp_fixup(_masm);
@@ -28972,7 +28972,7 @@ void cmpD_cc_memCFNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 9463 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 9463 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ ucomisd(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src1 */, Address::make_raw(opnd_array(2)->base(ra_,this,idx2), opnd_array(2)->index(ra_,this,idx2), opnd_array(2)->scale(), opnd_array(2)->disp(ra_,this,idx2), opnd_array(2)->disp_reloc()));
   
@@ -28989,7 +28989,7 @@ void cmpD_cc_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 9479 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 9479 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ ucomisd(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, InternalAddress(__ code()->consts()->start() + constant_offset()));
     emit_cmpfp_fixup(_masm);
@@ -29001,7 +29001,7 @@ void cmpD_cc_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
 void cmpD_cc_immNode::eval_constant(Compile* C) {
   {
 
-#line 9480 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 9480 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
     _constant = C->constant_table().add(this, opnd_array(2));
 #line 29007 "../generated/adfiles/ad_x86_64.cpp"
   }
@@ -29015,7 +29015,7 @@ void cmpD_cc_immCFNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 9490 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 9490 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ ucomisd(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, InternalAddress(__ code()->consts()->start() + constant_offset()));
   
@@ -29026,7 +29026,7 @@ void cmpD_cc_immCFNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
 void cmpD_cc_immCFNode::eval_constant(Compile* C) {
   {
 
-#line 9491 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 9491 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
     _constant = C->constant_table().add(this, opnd_array(2));
 #line 29032 "../generated/adfiles/ad_x86_64.cpp"
   }
@@ -29040,7 +29040,7 @@ void cmpF_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 9510 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 9510 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ ucomiss(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src1 */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src2 */);
     emit_cmpfp3(_masm, opnd_array(0)->as_Register(ra_,this)/* dst */);
@@ -29058,7 +29058,7 @@ void cmpF_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 9531 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 9531 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ ucomiss(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src1 */, Address::make_raw(opnd_array(2)->base(ra_,this,idx2), opnd_array(2)->index(ra_,this,idx2), opnd_array(2)->scale(), opnd_array(2)->disp(ra_,this,idx2), opnd_array(2)->disp_reloc()));
     emit_cmpfp3(_masm, opnd_array(0)->as_Register(ra_,this)/* dst */);
@@ -29076,7 +29076,7 @@ void cmpF_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 9551 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 9551 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ ucomiss(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, InternalAddress(__ code()->consts()->start() + constant_offset()));
     emit_cmpfp3(_masm, opnd_array(0)->as_Register(ra_,this)/* dst */);
@@ -29088,7 +29088,7 @@ void cmpF_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
 void cmpF_immNode::eval_constant(Compile* C) {
   {
 
-#line 9552 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 9552 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
     _constant = C->constant_table().add(this, opnd_array(2));
 #line 29094 "../generated/adfiles/ad_x86_64.cpp"
   }
@@ -29102,7 +29102,7 @@ void cmpD_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 9572 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 9572 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ ucomisd(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src1 */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src2 */);
     emit_cmpfp3(_masm, opnd_array(0)->as_Register(ra_,this)/* dst */);
@@ -29120,7 +29120,7 @@ void cmpD_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 9593 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 9593 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ ucomisd(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src1 */, Address::make_raw(opnd_array(2)->base(ra_,this,idx2), opnd_array(2)->index(ra_,this,idx2), opnd_array(2)->scale(), opnd_array(2)->disp(ra_,this,idx2), opnd_array(2)->disp_reloc()));
     emit_cmpfp3(_masm, opnd_array(0)->as_Register(ra_,this)/* dst */);
@@ -29138,7 +29138,7 @@ void cmpD_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 9613 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 9613 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ ucomisd(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, InternalAddress(__ code()->consts()->start() + constant_offset()));
     emit_cmpfp3(_masm, opnd_array(0)->as_Register(ra_,this)/* dst */);
@@ -29150,7 +29150,7 @@ void cmpD_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
 void cmpD_immNode::eval_constant(Compile* C) {
   {
 
-#line 9614 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 9614 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
     _constant = C->constant_table().add(this, opnd_array(2));
 #line 29156 "../generated/adfiles/ad_x86_64.cpp"
   }
@@ -29162,7 +29162,7 @@ void cosD_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx1 = 1; 	// dst
   {
 
-#line 2527 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2527 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     MacroAssembler _masm(&cbuf);
     __ subptr(rsp, 8);
@@ -29173,7 +29173,7 @@ void cosD_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xD9 /*primary()*/));
   
@@ -29181,7 +29181,7 @@ void cosD_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1650 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1650 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xFF /*secondary()*/));
   
@@ -29189,7 +29189,7 @@ void cosD_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2520 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2520 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     MacroAssembler _masm(&cbuf);
     __ fstp_d(Address(rsp, 0));
@@ -29207,7 +29207,7 @@ void sinD_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx1 = 1; 	// dst
   {
 
-#line 2527 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2527 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     MacroAssembler _masm(&cbuf);
     __ subptr(rsp, 8);
@@ -29218,7 +29218,7 @@ void sinD_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xD9 /*primary()*/));
   
@@ -29226,7 +29226,7 @@ void sinD_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1650 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1650 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xFE /*secondary()*/));
   
@@ -29234,7 +29234,7 @@ void sinD_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2520 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2520 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     MacroAssembler _masm(&cbuf);
     __ fstp_d(Address(rsp, 0));
@@ -29252,7 +29252,7 @@ void tanD_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx1 = 1; 	// dst
   {
 
-#line 2527 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2527 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     MacroAssembler _masm(&cbuf);
     __ subptr(rsp, 8);
@@ -29263,7 +29263,7 @@ void tanD_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1662 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1662 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xD9));
   
@@ -29271,7 +29271,7 @@ void tanD_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1662 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1662 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xF2));
   
@@ -29279,7 +29279,7 @@ void tanD_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1662 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1662 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xDD));
   
@@ -29287,7 +29287,7 @@ void tanD_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1662 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1662 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xD8));
   
@@ -29295,7 +29295,7 @@ void tanD_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2520 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2520 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     MacroAssembler _masm(&cbuf);
     __ fstp_d(Address(rsp, 0));
@@ -29313,7 +29313,7 @@ void log10D_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx1 = 1; 	// dst
   {
 
-#line 1662 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1662 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xD9));
   
@@ -29321,7 +29321,7 @@ void log10D_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1662 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1662 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xEC));
   
@@ -29329,7 +29329,7 @@ void log10D_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2527 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2527 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     MacroAssembler _masm(&cbuf);
     __ subptr(rsp, 8);
@@ -29340,7 +29340,7 @@ void log10D_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1662 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1662 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xD9));
   
@@ -29348,7 +29348,7 @@ void log10D_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1662 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1662 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xF1));
   
@@ -29356,7 +29356,7 @@ void log10D_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2520 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2520 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     MacroAssembler _masm(&cbuf);
     __ fstp_d(Address(rsp, 0));
@@ -29374,7 +29374,7 @@ void logD_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx1 = 1; 	// dst
   {
 
-#line 1662 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1662 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xD9));
   
@@ -29382,7 +29382,7 @@ void logD_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1662 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1662 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xED));
   
@@ -29390,7 +29390,7 @@ void logD_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2527 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2527 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     MacroAssembler _masm(&cbuf);
     __ subptr(rsp, 8);
@@ -29401,7 +29401,7 @@ void logD_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1662 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1662 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xD9));
   
@@ -29409,7 +29409,7 @@ void logD_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1662 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1662 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xF1));
   
@@ -29417,7 +29417,7 @@ void logD_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2520 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2520 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     MacroAssembler _masm(&cbuf);
     __ fstp_d(Address(rsp, 0));
@@ -29437,7 +29437,7 @@ void powD_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 9685 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 9685 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ subptr(rsp, 8);
     __ movdbl(Address(rsp, 0), opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src1 */);
@@ -29461,7 +29461,7 @@ void expD_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 9703 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 9703 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ subptr(rsp, 8);
     __ movdbl(Address(rsp, 0), opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */);
@@ -29499,7 +29499,7 @@ void convF2D_reg_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 9740 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 9740 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ cvtss2sd (opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */);
   
@@ -29515,7 +29515,7 @@ void convF2D_reg_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 9751 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 9751 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ cvtss2sd (opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()));
   
@@ -29531,7 +29531,7 @@ void convD2F_reg_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 9762 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 9762 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ cvtsd2ss (opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */);
   
@@ -29547,7 +29547,7 @@ void convD2F_reg_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 9773 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 9773 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ cvtsd2ss (opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()));
   
@@ -29563,7 +29563,7 @@ void convF2I_reg_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 9793 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 9793 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     Label done;
     __ cvttss2sil(opnd_array(0)->as_Register(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */);
@@ -29587,7 +29587,7 @@ void convF2L_reg_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 9820 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 9820 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     Label done;
     __ cvttss2siq(opnd_array(0)->as_Register(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */);
@@ -29612,7 +29612,7 @@ void convD2I_reg_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 9848 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 9848 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     Label done;
     __ cvttsd2sil(opnd_array(0)->as_Register(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */);
@@ -29636,7 +29636,7 @@ void convD2L_reg_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 9875 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 9875 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     Label done;
     __ cvttsd2siq(opnd_array(0)->as_Register(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */);
@@ -29661,7 +29661,7 @@ void convI2F_reg_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 9896 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 9896 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ cvtsi2ssl (opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_Register(ra_,this,idx1)/* src */);
   
@@ -29677,7 +29677,7 @@ void convI2F_reg_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 9907 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 9907 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ cvtsi2ssl (opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()));
   
@@ -29693,7 +29693,7 @@ void convI2D_reg_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 9919 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 9919 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ cvtsi2sdl (opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_Register(ra_,this,idx1)/* src */);
   
@@ -29709,7 +29709,7 @@ void convI2D_reg_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 9930 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 9930 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ cvtsi2sdl (opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()));
   
@@ -29725,7 +29725,7 @@ void convXI2F_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 9943 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 9943 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ movdl(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_Register(ra_,this,idx1)/* src */);
     __ cvtdq2ps(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(0)->as_XMMRegister(ra_,this)/* dst */);
@@ -29742,7 +29742,7 @@ void convXI2D_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 9957 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 9957 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ movdl(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_Register(ra_,this,idx1)/* src */);
     __ cvtdq2pd(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(0)->as_XMMRegister(ra_,this)/* dst */);
@@ -29759,7 +29759,7 @@ void convL2F_reg_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 9969 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 9969 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ cvtsi2ssq (opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_Register(ra_,this,idx1)/* src */);
   
@@ -29775,7 +29775,7 @@ void convL2F_reg_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 9980 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 9980 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ cvtsi2ssq (opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()));
   
@@ -29791,7 +29791,7 @@ void convL2D_reg_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 9991 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 9991 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ cvtsi2sdq (opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_Register(ra_,this,idx1)/* src */);
   
@@ -29807,7 +29807,7 @@ void convL2D_reg_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 10002 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 10002 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ cvtsi2sdq (opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()));
   
@@ -29823,7 +29823,7 @@ void convI2L_reg_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 10014 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 10014 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ movslq(opnd_array(0)->as_Register(ra_,this)/* dst */, opnd_array(1)->as_Register(ra_,this,idx1)/* src */);
   
@@ -29840,7 +29840,7 @@ void convI2L_reg_reg_zexNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 10043 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 10043 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(0)->reg(ra_,this)/* dst */!= opnd_array(1)->reg(ra_,this,idx1)/* src */) {
       __ movl(opnd_array(0)->as_Register(ra_,this)/* dst */, opnd_array(1)->as_Register(ra_,this,idx1)/* src */);
@@ -29859,7 +29859,7 @@ void convI2L_reg_mem_zexNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 10057 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 10057 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ movl(opnd_array(0)->as_Register(ra_,this)/* dst */, Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()));
   
@@ -29876,7 +29876,7 @@ void zerox_long_reg_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 10068 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 10068 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ movl(opnd_array(0)->as_Register(ra_,this)/* dst */, opnd_array(1)->as_Register(ra_,this,idx1)/* src */);
   
@@ -29892,7 +29892,7 @@ void convL2I_reg_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 10079 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 10079 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ movl(opnd_array(0)->as_Register(ra_,this)/* dst */, opnd_array(1)->as_Register(ra_,this,idx1)/* src */);
   
@@ -29908,7 +29908,7 @@ void MoveF2I_stack_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 10092 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 10092 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ movl(opnd_array(0)->as_Register(ra_,this)/* dst */, Address(rsp, opnd_array(1)->disp(ra_,this,idx1)));
   
@@ -29924,7 +29924,7 @@ void MoveI2F_stack_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 10104 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 10104 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ movflt(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, Address(rsp, opnd_array(1)->disp(ra_,this,idx1)));
   
@@ -29940,7 +29940,7 @@ void MoveD2L_stack_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 10116 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 10116 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ movq(opnd_array(0)->as_Register(ra_,this)/* dst */, Address(rsp, opnd_array(1)->disp(ra_,this,idx1)));
   
@@ -29956,7 +29956,7 @@ void MoveL2D_stack_reg_partialNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) c
   {
     MacroAssembler _masm(&cbuf);
 
-#line 10129 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 10129 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ movdbl(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, Address(rsp, opnd_array(1)->disp(ra_,this,idx1)));
   
@@ -29972,7 +29972,7 @@ void MoveL2D_stack_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 10142 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 10142 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ movdbl(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, Address(rsp, opnd_array(1)->disp(ra_,this,idx1)));
   
@@ -29988,7 +29988,7 @@ void MoveF2I_reg_stackNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 10155 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 10155 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ movflt(Address(rsp, opnd_array(0)->disp(ra_,this,0)), opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */);
   
@@ -30004,7 +30004,7 @@ void MoveI2F_reg_stackNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 10167 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 10167 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ movl(Address(rsp, opnd_array(0)->disp(ra_,this,0)), opnd_array(1)->as_Register(ra_,this,idx1)/* src */);
   
@@ -30020,7 +30020,7 @@ void MoveD2L_reg_stackNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 10179 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 10179 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ movdbl(Address(rsp, opnd_array(0)->disp(ra_,this,0)), opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */);
   
@@ -30036,7 +30036,7 @@ void MoveL2D_reg_stackNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 10191 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 10191 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ movq(Address(rsp, opnd_array(0)->disp(ra_,this,0)), opnd_array(1)->as_Register(ra_,this,idx1)/* src */);
   
@@ -30052,7 +30052,7 @@ void MoveF2I_reg_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 10202 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 10202 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ movdl(opnd_array(0)->as_Register(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */);
   
@@ -30068,7 +30068,7 @@ void MoveD2L_reg_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 10213 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 10213 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ movdq(opnd_array(0)->as_Register(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */);
   
@@ -30084,7 +30084,7 @@ void MoveI2F_reg_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 10224 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 10224 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ movdl(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_Register(ra_,this,idx1)/* src */);
   
@@ -30100,7 +30100,7 @@ void MoveL2D_reg_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 10235 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 10235 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
      __ movdq(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_Register(ra_,this,idx1)/* src */);
   
@@ -30117,7 +30117,7 @@ void rep_stosNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 10253 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 10253 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ clear_mem(opnd_array(2)->as_Register(ra_,this,idx2)/* base */, opnd_array(1)->as_Register(ra_,this,idx1)/* cnt */, as_Register(RAX_enc));
   
@@ -30134,7 +30134,7 @@ void rep_fast_stosbNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 10268 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 10268 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ clear_mem(opnd_array(2)->as_Register(ra_,this,idx2)/* base */, opnd_array(1)->as_Register(ra_,this,idx1)/* cnt */, as_Register(RAX_enc));
   
@@ -30154,7 +30154,7 @@ void string_compareNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 10281 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 10281 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ string_compare(opnd_array(1)->as_Register(ra_,this,idx1)/* str1 */, opnd_array(3)->as_Register(ra_,this,idx3)/* str2 */,
                       opnd_array(2)->as_Register(ra_,this,idx2)/* cnt1 */, opnd_array(4)->as_Register(ra_,this,idx4)/* cnt2 */, opnd_array(0)->as_Register(ra_,this)/* result */,
@@ -30176,7 +30176,7 @@ void string_indexof_conNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 10298 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 10298 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     int icnt2 = (int)opnd_array(4)->constant();
     if (icnt2 >= 8) {
@@ -30210,7 +30210,7 @@ void string_indexofNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 10326 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 10326 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ string_indexof(opnd_array(1)->as_Register(ra_,this,idx1)/* str1 */, opnd_array(3)->as_Register(ra_,this,idx3)/* str2 */,
                       opnd_array(2)->as_Register(ra_,this,idx2)/* cnt1 */, opnd_array(4)->as_Register(ra_,this,idx4)/* cnt2 */,
@@ -30233,7 +30233,7 @@ void string_equalsNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 10343 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 10343 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ char_arrays_equals(false, opnd_array(1)->as_Register(ra_,this,idx1)/* str1 */, opnd_array(2)->as_Register(ra_,this,idx2)/* str2 */,
                           opnd_array(3)->as_Register(ra_,this,idx3)/* cnt */, opnd_array(0)->as_Register(ra_,this)/* result */, as_Register(RBX_enc),
@@ -30254,7 +30254,7 @@ void array_equalsNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 10360 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 10360 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ char_arrays_equals(true, opnd_array(1)->as_Register(ra_,this,idx1)/* ary1 */, opnd_array(2)->as_Register(ra_,this,idx2)/* ary2 */,
                           as_Register(RCX_enc), opnd_array(0)->as_Register(ra_,this)/* result */, as_Register(RBX_enc),
@@ -30278,7 +30278,7 @@ void encode_iso_arrayNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 10376 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 10376 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ encode_iso_array(opnd_array(1)->as_Register(ra_,this,idx1)/* src */, opnd_array(2)->as_Register(ra_,this,idx2)/* dst */, opnd_array(3)->as_Register(ra_,this,idx3)/* len */,
                         opnd_array(4)->as_XMMRegister(ra_,this,idx4)/* tmp1 */, opnd_array(5)->as_XMMRegister(ra_,this,idx5)/* tmp2 */, opnd_array(6)->as_XMMRegister(ra_,this,idx6)/* tmp3 */,
@@ -30297,7 +30297,7 @@ void overflowAddI_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 10393 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 10393 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ addl(opnd_array(1)->as_Register(ra_,this,idx1)/* op1 */, opnd_array(2)->as_Register(ra_,this,idx2)/* op2 */);
   
@@ -30314,7 +30314,7 @@ void overflowAddI_rReg_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const
   {
     MacroAssembler _masm(&cbuf);
 
-#line 10406 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 10406 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ addl(opnd_array(1)->as_Register(ra_,this,idx1)/* op1 */, opnd_array(2)->constant());
   
@@ -30331,7 +30331,7 @@ void overflowAddL_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 10418 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 10418 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ addq(opnd_array(1)->as_Register(ra_,this,idx1)/* op1 */, opnd_array(2)->as_Register(ra_,this,idx2)/* op2 */);
   
@@ -30348,7 +30348,7 @@ void overflowAddL_rReg_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const
   {
     MacroAssembler _masm(&cbuf);
 
-#line 10430 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 10430 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ addq(opnd_array(1)->as_Register(ra_,this,idx1)/* op1 */, opnd_array(2)->constantL());
   
@@ -30365,7 +30365,7 @@ void overflowSubI_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 10441 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 10441 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ cmpl(opnd_array(1)->as_Register(ra_,this,idx1)/* op1 */, opnd_array(2)->as_Register(ra_,this,idx2)/* op2 */);
   
@@ -30382,7 +30382,7 @@ void overflowSubI_rReg_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const
   {
     MacroAssembler _masm(&cbuf);
 
-#line 10452 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 10452 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ cmpl(opnd_array(1)->as_Register(ra_,this,idx1)/* op1 */, opnd_array(2)->constant());
   
@@ -30399,7 +30399,7 @@ void overflowSubL_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 10463 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 10463 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ cmpq(opnd_array(1)->as_Register(ra_,this,idx1)/* op1 */, opnd_array(2)->as_Register(ra_,this,idx2)/* op2 */);
   
@@ -30416,7 +30416,7 @@ void overflowSubL_rReg_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const
   {
     MacroAssembler _masm(&cbuf);
 
-#line 10474 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 10474 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ cmpq(opnd_array(1)->as_Register(ra_,this,idx1)/* op1 */, opnd_array(2)->constantL());
   
@@ -30433,7 +30433,7 @@ void overflowNegI_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 10486 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 10486 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ negl(opnd_array(2)->as_Register(ra_,this,idx2)/* op2 */);
   
@@ -30450,7 +30450,7 @@ void overflowNegL_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 10498 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 10498 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ negq(opnd_array(2)->as_Register(ra_,this,idx2)/* op2 */);
   
@@ -30467,7 +30467,7 @@ void overflowMulI_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 10510 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 10510 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ imull(opnd_array(1)->as_Register(ra_,this,idx1)/* op1 */, opnd_array(2)->as_Register(ra_,this,idx2)/* op2 */);
   
@@ -30485,7 +30485,7 @@ void overflowMulI_rReg_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const
   {
     MacroAssembler _masm(&cbuf);
 
-#line 10522 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 10522 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ imull(opnd_array(3)->as_Register(ra_,this,idx3)/* tmp */, opnd_array(1)->as_Register(ra_,this,idx1)/* op1 */, opnd_array(2)->constant());
   
@@ -30502,7 +30502,7 @@ void overflowMulL_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 10534 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 10534 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ imulq(opnd_array(1)->as_Register(ra_,this,idx1)/* op1 */, opnd_array(2)->as_Register(ra_,this,idx2)/* op2 */);
   
@@ -30520,7 +30520,7 @@ void overflowMulL_rReg_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const
   {
     MacroAssembler _masm(&cbuf);
 
-#line 10546 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 10546 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ imulq(opnd_array(3)->as_Register(ra_,this,idx3)/* tmp */, opnd_array(1)->as_Register(ra_,this,idx1)/* op1 */, opnd_array(2)->constantL());
   
@@ -30536,7 +30536,7 @@ void compI_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// op2
   {
 
-#line 2274 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2274 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->reg(ra_,this,idx1)/* op1 */ < 8) {
       if (opnd_array(2)->reg(ra_,this,idx2)/* op2 */ >= 8) {
@@ -30554,7 +30554,7 @@ void compI_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x3B /*primary()*/));
   
@@ -30562,7 +30562,7 @@ void compI_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1678 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1678 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_rm(cbuf, 0x3, opnd_array(1)->reg(ra_,this,idx1)/* op1 */ & 7, opnd_array(2)->reg(ra_,this,idx2)/* op2 */ & 7);
   
@@ -30578,7 +30578,7 @@ void compI_rReg_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// op2
   {
 
-#line 1837 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1837 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // OpcSEr/m
     int dstenc = opnd_array(1)->reg(ra_,this,idx1)/* op1 */;
@@ -30601,7 +30601,7 @@ void compI_rReg_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1879 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1879 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // Check for 8-bit immediate, and set sign extend bit in opcode
     if (-0x80 <= opnd_array(2)->constant() && opnd_array(2)->constant() < 0x80) {
@@ -30623,7 +30623,7 @@ void compI_rReg_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// op2
   {
 
-#line 2306 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2306 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->reg(ra_,this,idx1)/* op1 */ < 8) {
       if (opnd_array(2)->base(ra_,this,idx2) < 8) {
@@ -30657,7 +30657,7 @@ void compI_rReg_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x3B /*primary()*/));
   
@@ -30665,7 +30665,7 @@ void compI_rReg_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2370 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2370 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // High registers handle in encode_RegMem
     int reg = opnd_array(1)->reg(ra_,this,idx1)/* op1 */;
@@ -30689,7 +30689,7 @@ void testI_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// zero
   {
 
-#line 2274 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2274 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->reg(ra_,this,idx1)/* src */ < 8) {
       if (opnd_array(1)->reg(ra_,this,idx1)/* src */ >= 8) {
@@ -30707,7 +30707,7 @@ void testI_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x85 /*primary()*/));
   
@@ -30715,7 +30715,7 @@ void testI_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1678 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1678 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_rm(cbuf, 0x3, opnd_array(1)->reg(ra_,this,idx1)/* src */ & 7, opnd_array(1)->reg(ra_,this,idx1)/* src */ & 7);
   
@@ -30732,7 +30732,7 @@ void testI_reg_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx3 = idx2 + opnd_array(2)->num_edges(); 	// zero
   {
 
-#line 2258 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2258 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->reg(ra_,this,idx1)/* src */ >= 8) {
       emit_opcode(cbuf, Assembler::REX_B);
@@ -30742,7 +30742,7 @@ void testI_reg_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xF7 /*primary()*/));
   
@@ -30750,7 +30750,7 @@ void testI_reg_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1902 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1902 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // INC, DEC, IDIV, IMOD, JMP indirect, ...
     emit_rm(cbuf, 0x3, (0x00 /*secondary()*/), opnd_array(1)->reg(ra_,this,idx1)/* src */ & 7);
@@ -30759,7 +30759,7 @@ void testI_reg_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2129 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2129 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // Output immediate
     emit_d32(cbuf, opnd_array(2)->constant());
@@ -30777,7 +30777,7 @@ void testI_reg_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx3 = idx2 + opnd_array(2)->num_edges(); 	// zero
   {
 
-#line 2306 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2306 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->reg(ra_,this,idx1)/* src */ < 8) {
       if (opnd_array(2)->base(ra_,this,idx2) < 8) {
@@ -30811,7 +30811,7 @@ void testI_reg_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x85 /*primary()*/));
   
@@ -30819,7 +30819,7 @@ void testI_reg_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2370 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2370 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // High registers handle in encode_RegMem
     int reg = opnd_array(1)->reg(ra_,this,idx1)/* src */;
@@ -30844,7 +30844,7 @@ void testI_reg_mem_0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx3 = idx2 + opnd_array(2)->num_edges(); 	// zero
   {
 
-#line 2306 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2306 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(2)->reg(ra_,this,idx2)/* src */ < 8) {
       if (opnd_array(1)->base(ra_,this,idx1) < 8) {
@@ -30878,7 +30878,7 @@ void testI_reg_mem_0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x85 /*primary()*/));
   
@@ -30886,7 +30886,7 @@ void testI_reg_mem_0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2370 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2370 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // High registers handle in encode_RegMem
     int reg = opnd_array(2)->reg(ra_,this,idx2)/* src */;
@@ -30910,7 +30910,7 @@ void compU_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// op2
   {
 
-#line 2274 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2274 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->reg(ra_,this,idx1)/* op1 */ < 8) {
       if (opnd_array(2)->reg(ra_,this,idx2)/* op2 */ >= 8) {
@@ -30928,7 +30928,7 @@ void compU_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x3B /*primary()*/));
   
@@ -30936,7 +30936,7 @@ void compU_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1678 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1678 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_rm(cbuf, 0x3, opnd_array(1)->reg(ra_,this,idx1)/* op1 */ & 7, opnd_array(2)->reg(ra_,this,idx2)/* op2 */ & 7);
   
@@ -30952,7 +30952,7 @@ void compU_rReg_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// op2
   {
 
-#line 1837 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1837 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // OpcSEr/m
     int dstenc = opnd_array(1)->reg(ra_,this,idx1)/* op1 */;
@@ -30975,7 +30975,7 @@ void compU_rReg_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1879 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1879 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // Check for 8-bit immediate, and set sign extend bit in opcode
     if (-0x80 <= opnd_array(2)->constant() && opnd_array(2)->constant() < 0x80) {
@@ -30997,7 +30997,7 @@ void compU_rReg_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// op2
   {
 
-#line 2306 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2306 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->reg(ra_,this,idx1)/* op1 */ < 8) {
       if (opnd_array(2)->base(ra_,this,idx2) < 8) {
@@ -31031,7 +31031,7 @@ void compU_rReg_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x3B /*primary()*/));
   
@@ -31039,7 +31039,7 @@ void compU_rReg_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2370 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2370 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // High registers handle in encode_RegMem
     int reg = opnd_array(1)->reg(ra_,this,idx1)/* op1 */;
@@ -31063,7 +31063,7 @@ void testU_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// zero
   {
 
-#line 2274 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2274 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->reg(ra_,this,idx1)/* src */ < 8) {
       if (opnd_array(1)->reg(ra_,this,idx1)/* src */ >= 8) {
@@ -31081,7 +31081,7 @@ void testU_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x85 /*primary()*/));
   
@@ -31089,7 +31089,7 @@ void testU_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1678 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1678 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_rm(cbuf, 0x3, opnd_array(1)->reg(ra_,this,idx1)/* src */ & 7, opnd_array(1)->reg(ra_,this,idx1)/* src */ & 7);
   
@@ -31105,7 +31105,7 @@ void compP_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// op2
   {
 
-#line 2289 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2289 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->reg(ra_,this,idx1)/* op1 */ < 8) {
       if (opnd_array(2)->reg(ra_,this,idx2)/* op2 */ < 8) {
@@ -31125,7 +31125,7 @@ void compP_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x3B /*primary()*/));
   
@@ -31133,7 +31133,7 @@ void compP_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1678 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1678 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_rm(cbuf, 0x3, opnd_array(1)->reg(ra_,this,idx1)/* op1 */ & 7, opnd_array(2)->reg(ra_,this,idx2)/* op2 */ & 7);
   
@@ -31149,7 +31149,7 @@ void compP_rReg_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// op2
   {
 
-#line 2337 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2337 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->reg(ra_,this,idx1)/* op1 */ < 8) {
       if (opnd_array(2)->base(ra_,this,idx2) < 8) {
@@ -31185,7 +31185,7 @@ void compP_rReg_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x3B /*primary()*/));
   
@@ -31193,7 +31193,7 @@ void compP_rReg_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2370 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2370 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // High registers handle in encode_RegMem
     int reg = opnd_array(1)->reg(ra_,this,idx1)/* op1 */;
@@ -31217,7 +31217,7 @@ void compP_mem_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// op2
   {
 
-#line 2337 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2337 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->reg(ra_,this,idx1)/* op1 */ < 8) {
       if (opnd_array(2)->base(ra_,this,idx2) < 8) {
@@ -31253,7 +31253,7 @@ void compP_mem_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x3B /*primary()*/));
   
@@ -31261,7 +31261,7 @@ void compP_mem_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2370 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2370 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // High registers handle in encode_RegMem
     int reg = opnd_array(1)->reg(ra_,this,idx1)/* op1 */;
@@ -31285,7 +31285,7 @@ void testP_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// zero
   {
 
-#line 2289 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2289 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->reg(ra_,this,idx1)/* src */ < 8) {
       if (opnd_array(1)->reg(ra_,this,idx1)/* src */ < 8) {
@@ -31305,7 +31305,7 @@ void testP_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x85 /*primary()*/));
   
@@ -31313,7 +31313,7 @@ void testP_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1678 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1678 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_rm(cbuf, 0x3, opnd_array(1)->reg(ra_,this,idx1)/* src */ & 7, opnd_array(1)->reg(ra_,this,idx1)/* src */ & 7);
   
@@ -31329,7 +31329,7 @@ void testP_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// zero
   {
 
-#line 2183 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2183 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->base(ra_,this,idx1) >= 8) {
       if (opnd_array(1)->index(ra_,this,idx1) < 8) {
@@ -31349,7 +31349,7 @@ void testP_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xF7 /*primary()*/));
   
@@ -31357,7 +31357,7 @@ void testP_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2383 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2383 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     int rm_byte_opcode = (0x00);
 
@@ -31377,7 +31377,7 @@ void testP_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2150 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2150 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_d32(cbuf,(0xFFFFFFFF));
   
@@ -31394,7 +31394,7 @@ void testP_mem_reg0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 10753 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 10753 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ cmpq(r12, Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()));
   
@@ -31411,7 +31411,7 @@ void compN_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 10764 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 10764 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 __ cmpl(opnd_array(1)->as_Register(ra_,this,idx1)/* op1 */, opnd_array(2)->as_Register(ra_,this,idx2)/* op2 */); 
 #line 31417 "../generated/adfiles/ad_x86_64.cpp"
   }
@@ -31426,7 +31426,7 @@ void compN_rReg_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 10773 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 10773 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ cmpl(opnd_array(1)->as_Register(ra_,this,idx1)/* src */, Address::make_raw(opnd_array(2)->base(ra_,this,idx2), opnd_array(2)->index(ra_,this,idx2), opnd_array(2)->scale(), opnd_array(2)->disp(ra_,this,idx2), opnd_array(2)->disp_reloc()));
   
@@ -31443,7 +31443,7 @@ void compN_rReg_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 10783 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 10783 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ cmp_narrow_oop(opnd_array(1)->as_Register(ra_,this,idx1)/* op1 */, (jobject)opnd_array(2)->constant());
   
@@ -31460,7 +31460,7 @@ void compN_mem_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 10794 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 10794 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ cmp_narrow_oop(Address::make_raw(opnd_array(2)->base(ra_,this,idx2), opnd_array(2)->index(ra_,this,idx2), opnd_array(2)->scale(), opnd_array(2)->disp(ra_,this,idx2), opnd_array(2)->disp_reloc()), (jobject)opnd_array(1)->constant());
   
@@ -31477,7 +31477,7 @@ void compN_rReg_imm_klassNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const 
   {
     MacroAssembler _masm(&cbuf);
 
-#line 10804 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 10804 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ cmp_narrow_klass(opnd_array(1)->as_Register(ra_,this,idx1)/* op1 */, (Klass*)opnd_array(2)->constant());
   
@@ -31494,7 +31494,7 @@ void compN_mem_imm_klassNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 10815 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 10815 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ cmp_narrow_klass(Address::make_raw(opnd_array(2)->base(ra_,this,idx2), opnd_array(2)->index(ra_,this,idx2), opnd_array(2)->scale(), opnd_array(2)->disp(ra_,this,idx2), opnd_array(2)->disp_reloc()), (Klass*)opnd_array(1)->constant());
   
@@ -31511,7 +31511,7 @@ void testN_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 10825 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 10825 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 __ testl(opnd_array(1)->as_Register(ra_,this,idx1)/* src */, opnd_array(1)->as_Register(ra_,this,idx1)/* src */); 
 #line 31517 "../generated/adfiles/ad_x86_64.cpp"
   }
@@ -31526,7 +31526,7 @@ void testN_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 10836 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 10836 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ cmpl(Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()), (int)0xFFFFFFFF);
   
@@ -31543,7 +31543,7 @@ void testN_mem_reg0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 10848 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 10848 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ cmpl(r12, Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()));
   
@@ -31559,7 +31559,7 @@ void compL_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// op2
   {
 
-#line 2289 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2289 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->reg(ra_,this,idx1)/* op1 */ < 8) {
       if (opnd_array(2)->reg(ra_,this,idx2)/* op2 */ < 8) {
@@ -31579,7 +31579,7 @@ void compL_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x3B /*primary()*/));
   
@@ -31587,7 +31587,7 @@ void compL_rRegNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1678 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1678 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_rm(cbuf, 0x3, opnd_array(1)->reg(ra_,this,idx1)/* op1 */ & 7, opnd_array(2)->reg(ra_,this,idx2)/* op2 */ & 7);
   
@@ -31603,7 +31603,7 @@ void compL_rReg_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// op2
   {
 
-#line 1857 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1857 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // OpcSEr/m
     int dstenc = opnd_array(1)->reg(ra_,this,idx1)/* op1 */;
@@ -31628,7 +31628,7 @@ void compL_rReg_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1879 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1879 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // Check for 8-bit immediate, and set sign extend bit in opcode
     if (-0x80 <= opnd_array(2)->constantL() && opnd_array(2)->constantL() < 0x80) {
@@ -31650,7 +31650,7 @@ void compL_rReg_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// op2
   {
 
-#line 2337 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2337 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->reg(ra_,this,idx1)/* op1 */ < 8) {
       if (opnd_array(2)->base(ra_,this,idx2) < 8) {
@@ -31686,7 +31686,7 @@ void compL_rReg_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x3B /*primary()*/));
   
@@ -31694,7 +31694,7 @@ void compL_rReg_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2370 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2370 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // High registers handle in encode_RegMem
     int reg = opnd_array(1)->reg(ra_,this,idx1)/* op1 */;
@@ -31718,7 +31718,7 @@ void testL_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// zero
   {
 
-#line 2289 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2289 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->reg(ra_,this,idx1)/* src */ < 8) {
       if (opnd_array(1)->reg(ra_,this,idx1)/* src */ < 8) {
@@ -31738,7 +31738,7 @@ void testL_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x85 /*primary()*/));
   
@@ -31746,7 +31746,7 @@ void testL_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1678 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1678 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_rm(cbuf, 0x3, opnd_array(1)->reg(ra_,this,idx1)/* src */ & 7, opnd_array(1)->reg(ra_,this,idx1)/* src */ & 7);
   
@@ -31763,7 +31763,7 @@ void testL_reg_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx3 = idx2 + opnd_array(2)->num_edges(); 	// zero
   {
 
-#line 2265 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2265 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->reg(ra_,this,idx1)/* src */ < 8) {
       emit_opcode(cbuf, Assembler::REX_W);
@@ -31775,7 +31775,7 @@ void testL_reg_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xF7 /*primary()*/));
   
@@ -31783,7 +31783,7 @@ void testL_reg_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1902 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1902 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // INC, DEC, IDIV, IMOD, JMP indirect, ...
     emit_rm(cbuf, 0x3, (0x00 /*secondary()*/), opnd_array(1)->reg(ra_,this,idx1)/* src */ & 7);
@@ -31792,7 +31792,7 @@ void testL_reg_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2129 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2129 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // Output immediate
     emit_d32(cbuf, opnd_array(2)->constantL());
@@ -31810,7 +31810,7 @@ void testL_reg_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx3 = idx2 + opnd_array(2)->num_edges(); 	// zero
   {
 
-#line 2337 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2337 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->reg(ra_,this,idx1)/* src */ < 8) {
       if (opnd_array(2)->base(ra_,this,idx2) < 8) {
@@ -31846,7 +31846,7 @@ void testL_reg_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x85 /*primary()*/));
   
@@ -31854,7 +31854,7 @@ void testL_reg_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2370 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2370 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // High registers handle in encode_RegMem
     int reg = opnd_array(1)->reg(ra_,this,idx1)/* src */;
@@ -31879,7 +31879,7 @@ void testL_reg_mem_0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx3 = idx2 + opnd_array(2)->num_edges(); 	// zero
   {
 
-#line 2337 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2337 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(2)->reg(ra_,this,idx2)/* src */ < 8) {
       if (opnd_array(1)->base(ra_,this,idx1) < 8) {
@@ -31915,7 +31915,7 @@ void testL_reg_mem_0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x85 /*primary()*/));
   
@@ -31923,7 +31923,7 @@ void testL_reg_mem_0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2370 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2370 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // High registers handle in encode_RegMem
     int reg = opnd_array(2)->reg(ra_,this,idx2)/* src */;
@@ -31947,7 +31947,7 @@ void cmpL3_reg_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// src2
   {
 
-#line 2470 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2470 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     int src1enc = opnd_array(1)->reg(ra_,this,idx1)/* src1 */;
     int src2enc = opnd_array(2)->reg(ra_,this,idx2)/* src2 */;
@@ -32010,7 +32010,7 @@ void cmovI_reg_gNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx3 = idx2 + opnd_array(2)->num_edges(); 	// 
   {
 
-#line 2274 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2274 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->reg(ra_,this,idx1)/* dst */ < 8) {
       if (opnd_array(2)->reg(ra_,this,idx2)/* src */ >= 8) {
@@ -32028,7 +32028,7 @@ void cmovI_reg_gNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x0F /*primary()*/));
   
@@ -32036,7 +32036,7 @@ void cmovI_reg_gNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1650 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1650 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x4F /*secondary()*/));
   
@@ -32044,7 +32044,7 @@ void cmovI_reg_gNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1678 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1678 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_rm(cbuf, 0x3, opnd_array(1)->reg(ra_,this,idx1)/* dst */ & 7, opnd_array(2)->reg(ra_,this,idx2)/* src */ & 7);
   
@@ -32061,7 +32061,7 @@ void cmovI_reg_lNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx3 = idx2 + opnd_array(2)->num_edges(); 	// 
   {
 
-#line 2274 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2274 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->reg(ra_,this,idx1)/* dst */ < 8) {
       if (opnd_array(2)->reg(ra_,this,idx2)/* src */ >= 8) {
@@ -32079,7 +32079,7 @@ void cmovI_reg_lNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x0F /*primary()*/));
   
@@ -32087,7 +32087,7 @@ void cmovI_reg_lNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1650 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1650 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x4C /*secondary()*/));
   
@@ -32095,7 +32095,7 @@ void cmovI_reg_lNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1678 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1678 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_rm(cbuf, 0x3, opnd_array(1)->reg(ra_,this,idx1)/* dst */ & 7, opnd_array(2)->reg(ra_,this,idx2)/* src */ & 7);
   
@@ -32111,7 +32111,7 @@ void jmpDirNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 10996 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 10996 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     Label* L = opnd_array(1)->label();
     __ jmp(*L, false); // Always long jump
@@ -32135,7 +32135,7 @@ void jmpConNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 11012 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 11012 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     Label* L = opnd_array(3)->label();
     __ jcc((Assembler::Condition)(opnd_array(1)->ccode()), *L, false); // Always long jump
@@ -32159,7 +32159,7 @@ void jmpLoopEndNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 11028 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 11028 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     Label* L = opnd_array(3)->label();
     __ jcc((Assembler::Condition)(opnd_array(1)->ccode()), *L, false); // Always long jump
@@ -32183,7 +32183,7 @@ void jmpLoopEndUNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 11043 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 11043 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     Label* L = opnd_array(3)->label();
     __ jcc((Assembler::Condition)(opnd_array(1)->ccode()), *L, false); // Always long jump
@@ -32207,7 +32207,7 @@ void jmpLoopEndUCFNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 11057 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 11057 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     Label* L = opnd_array(3)->label();
     __ jcc((Assembler::Condition)(opnd_array(1)->ccode()), *L, false); // Always long jump
@@ -32231,7 +32231,7 @@ void jmpConUNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 11072 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 11072 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     Label* L = opnd_array(3)->label();
     __ jcc((Assembler::Condition)(opnd_array(1)->ccode()), *L, false); // Always long jump
@@ -32255,7 +32255,7 @@ void jmpConUCFNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 11086 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 11086 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     Label* L = opnd_array(3)->label();
     __ jcc((Assembler::Condition)(opnd_array(1)->ccode()), *L, false); // Always long jump
@@ -32279,7 +32279,7 @@ void jmpConUCF2Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 11108 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 11108 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     Label* l = opnd_array(3)->label();
     if (opnd_array(1)->ccode()== Assembler::notEqual) {
@@ -32306,7 +32306,7 @@ void partialSubtypeCheckNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// super
   {
 
-#line 1915 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1915 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     Register Rrdi = as_Register(RDI_enc); // result register
     Register Rrax = as_Register(RAX_enc); // super class
@@ -32337,7 +32337,7 @@ void partialSubtypeCheck_vs_ZeroNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_)
   unsigned idx3 = idx2 + opnd_array(2)->num_edges(); 	// zero
   {
 
-#line 1915 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1915 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     Register Rrdi = as_Register(RDI_enc); // result register
     Register Rrax = as_Register(RAX_enc); // super class
@@ -32367,7 +32367,7 @@ void jmpDir_shortNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 11196 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 11196 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     Label* L = opnd_array(1)->label();
     __ jmpb(*L);
@@ -32391,7 +32391,7 @@ void jmpCon_shortNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 11212 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 11212 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     Label* L = opnd_array(3)->label();
     __ jccb((Assembler::Condition)(opnd_array(1)->ccode()), *L);
@@ -32415,7 +32415,7 @@ void jmpLoopEnd_shortNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 11228 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 11228 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     Label* L = opnd_array(3)->label();
     __ jccb((Assembler::Condition)(opnd_array(1)->ccode()), *L);
@@ -32439,7 +32439,7 @@ void jmpLoopEndU_shortNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 11244 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 11244 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     Label* L = opnd_array(3)->label();
     __ jccb((Assembler::Condition)(opnd_array(1)->ccode()), *L);
@@ -32463,7 +32463,7 @@ void jmpLoopEndUCF_shortNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 11259 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 11259 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     Label* L = opnd_array(3)->label();
     __ jccb((Assembler::Condition)(opnd_array(1)->ccode()), *L);
@@ -32487,7 +32487,7 @@ void jmpConU_shortNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 11275 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 11275 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     Label* L = opnd_array(3)->label();
     __ jccb((Assembler::Condition)(opnd_array(1)->ccode()), *L);
@@ -32511,7 +32511,7 @@ void jmpConUCF_shortNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 11290 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 11290 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     Label* L = opnd_array(3)->label();
     __ jccb((Assembler::Condition)(opnd_array(1)->ccode()), *L);
@@ -32535,7 +32535,7 @@ void jmpConUCF2_shortNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 11314 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 11314 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     Label* l = opnd_array(3)->label();
     if (opnd_array(1)->ccode()== Assembler::notEqual) {
@@ -32572,7 +32572,7 @@ void cmpFastLockRTMNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 11341 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 11341 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ fast_lock(opnd_array(1)->as_Register(ra_,this,idx1)/* object */, opnd_array(2)->as_Register(ra_,this,idx2)/* box */, opnd_array(3)->as_Register(ra_,this,idx3)/* tmp */,
                  opnd_array(4)->as_Register(ra_,this,idx4)/* scr */, opnd_array(5)->as_Register(ra_,this,idx5)/* cx1 */, opnd_array(6)->as_Register(ra_,this,idx6)/* cx2 */,
@@ -32595,7 +32595,7 @@ void cmpFastLockNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 11357 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 11357 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ fast_lock(opnd_array(1)->as_Register(ra_,this,idx1)/* object */, opnd_array(2)->as_Register(ra_,this,idx2)/* box */, opnd_array(3)->as_Register(ra_,this,idx3)/* tmp */,
                  opnd_array(4)->as_Register(ra_,this,idx4)/* scr */, noreg, noreg, _counters, NULL, NULL, NULL, false, false);
@@ -32614,7 +32614,7 @@ void cmpFastUnlockNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 11369 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 11369 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ fast_unlock(opnd_array(1)->as_Register(ra_,this,idx1)/* object */, opnd_array(2)->as_Register(ra_,this,idx2)/* box */, opnd_array(3)->as_Register(ra_,this,idx3)/* tmp */, ra_->C->use_rtm());
   
@@ -32630,7 +32630,7 @@ void safePoint_pollNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 11387 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 11387 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     AddressLiteral addr(os::get_polling_page(), relocInfo::poll_type);
     __ testl(rax, addr);
@@ -32647,7 +32647,7 @@ void safePoint_poll_farNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 11403 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 11403 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     __ relocate(relocInfo::poll_type);
     __ testl(rax, Address(opnd_array(1)->as_Register(ra_,this,idx1)/* poll */, 0));
@@ -32663,7 +32663,7 @@ void CallStaticJavaDirectNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const 
   unsigned idx1 = 1; 	// 
   {
 
-#line 1933 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1933 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     debug_only(int off0 = cbuf.insts_size());
     if (ra_->C->max_vector_size() > 16) {
@@ -32679,7 +32679,7 @@ void CallStaticJavaDirectNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const 
   }
   {
 
-#line 1966 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1966 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // JAVA STATIC CALL
     // CALL to fixup routine.  Fixup routine uses ScopeDesc info to
@@ -32712,7 +32712,7 @@ void CallStaticJavaDirectNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const 
   }
   {
 
-#line 930 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 930 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     if (VerifyStackAtCalls) {
       // Check that stack depth is unchanged: find majik cookie on stack
@@ -32737,7 +32737,7 @@ void CallStaticJavaHandleNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const 
   unsigned idx1 = 1; 	// rbp_mh_SP_save
   {
 
-#line 1933 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1933 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     debug_only(int off0 = cbuf.insts_size());
     if (ra_->C->max_vector_size() > 16) {
@@ -32753,7 +32753,7 @@ void CallStaticJavaHandleNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const 
   }
   {
 
-#line 915 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 915 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     debug_only(int off0 = cbuf.insts_size());
     MacroAssembler _masm(&cbuf);
@@ -32767,7 +32767,7 @@ void CallStaticJavaHandleNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const 
   }
   {
 
-#line 1966 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1966 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // JAVA STATIC CALL
     // CALL to fixup routine.  Fixup routine uses ScopeDesc info to
@@ -32800,7 +32800,7 @@ void CallStaticJavaHandleNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const 
   }
   {
 
-#line 925 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 925 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     MacroAssembler _masm(&cbuf);
     __ movptr(rsp, rbp_mh_SP_save);
@@ -32809,7 +32809,7 @@ void CallStaticJavaHandleNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const 
   }
   {
 
-#line 930 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 930 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     if (VerifyStackAtCalls) {
       // Check that stack depth is unchanged: find majik cookie on stack
@@ -32834,7 +32834,7 @@ void CallDynamicJavaDirectNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const
   unsigned idx1 = 1; 	// 
   {
 
-#line 1933 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1933 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     debug_only(int off0 = cbuf.insts_size());
     if (ra_->C->max_vector_size() > 16) {
@@ -32850,7 +32850,7 @@ void CallDynamicJavaDirectNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const
   }
   {
 
-#line 1995 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1995 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     MacroAssembler _masm(&cbuf);
     __ ic_call((address)opnd_array(1)->method());
@@ -32859,7 +32859,7 @@ void CallDynamicJavaDirectNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const
   }
   {
 
-#line 930 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 930 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     if (VerifyStackAtCalls) {
       // Check that stack depth is unchanged: find majik cookie on stack
@@ -32884,7 +32884,7 @@ void CallRuntimeDirectNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx1 = 1; 	// 
   {
 
-#line 1933 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1933 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     debug_only(int off0 = cbuf.insts_size());
     if (ra_->C->max_vector_size() > 16) {
@@ -32900,7 +32900,7 @@ void CallRuntimeDirectNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1945 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1945 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // No relocation needed
     MacroAssembler _masm(&cbuf);
@@ -32918,7 +32918,7 @@ void CallLeafDirectNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx1 = 1; 	// 
   {
 
-#line 1933 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1933 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     debug_only(int off0 = cbuf.insts_size());
     if (ra_->C->max_vector_size() > 16) {
@@ -32934,7 +32934,7 @@ void CallLeafDirectNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1945 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1945 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // No relocation needed
     MacroAssembler _masm(&cbuf);
@@ -32952,7 +32952,7 @@ void CallLeafNoFPDirectNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx1 = 1; 	// 
   {
 
-#line 1945 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1945 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // No relocation needed
     MacroAssembler _masm(&cbuf);
@@ -32970,7 +32970,7 @@ void RetNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx1 = 5; 	// 
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xC3 /*primary()*/));
   
@@ -32986,7 +32986,7 @@ void TailCalljmpIndNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// 
   {
 
-#line 2258 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2258 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->reg(ra_,this,idx1)/* jump_target */ >= 8) {
       emit_opcode(cbuf, Assembler::REX_B);
@@ -32996,7 +32996,7 @@ void TailCalljmpIndNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xFF /*primary()*/));
   
@@ -33004,7 +33004,7 @@ void TailCalljmpIndNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1902 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1902 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // INC, DEC, IDIV, IMOD, JMP indirect, ...
     emit_rm(cbuf, 0x3, (0x4 /*secondary()*/), opnd_array(1)->reg(ra_,this,idx1)/* jump_target */ & 7);
@@ -33021,7 +33021,7 @@ void tailjmpIndNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx2 = idx1 + opnd_array(1)->num_edges(); 	// 
   {
 
-#line 1662 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1662 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0x5a));
   
@@ -33029,7 +33029,7 @@ void tailjmpIndNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 2258 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2258 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     if (opnd_array(1)->reg(ra_,this,idx1)/* jump_target */ >= 8) {
       emit_opcode(cbuf, Assembler::REX_B);
@@ -33039,7 +33039,7 @@ void tailjmpIndNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1644 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1644 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     emit_opcode(cbuf, (0xFF /*primary()*/));
   
@@ -33047,7 +33047,7 @@ void tailjmpIndNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   }
   {
 
-#line 1902 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 1902 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // INC, DEC, IDIV, IMOD, JMP indirect, ...
     emit_rm(cbuf, 0x3, (0x4 /*secondary()*/), opnd_array(1)->reg(ra_,this,idx1)/* jump_target */ & 7);
@@ -33076,7 +33076,7 @@ void RethrowExceptionNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   unsigned idx1 = 5; 	// 
   {
 
-#line 2536 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2536 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     cbuf.set_insts_mark();
     emit_opcode(cbuf, 0xE9); // jmp entry
@@ -33110,7 +33110,7 @@ void ShouldNotReachHereNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 993 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 993 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ int3();
   
@@ -33127,7 +33127,7 @@ void addF_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 1007 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1007 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ addss(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src */);
   
@@ -33144,7 +33144,7 @@ void addF_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 1019 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1019 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ addss(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, Address::make_raw(opnd_array(2)->base(ra_,this,idx2), opnd_array(2)->index(ra_,this,idx2), opnd_array(2)->scale(), opnd_array(2)->disp(ra_,this,idx2), opnd_array(2)->disp_reloc()));
   
@@ -33161,7 +33161,7 @@ void addF_mem_0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 1019 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1019 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ addss(opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* dst */, Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()));
   
@@ -33178,7 +33178,7 @@ void addF_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 1030 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1030 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ addss(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, InternalAddress(__ code()->consts()->start() + constant_offset()));
   
@@ -33189,7 +33189,7 @@ void addF_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
 void addF_immNode::eval_constant(Compile* C) {
   {
 
-#line 1031 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1031 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
     _constant = C->constant_table().add(this, opnd_array(2));
 #line 33195 "../generated/adfiles/ad_x86_64.cpp"
   }
@@ -33203,7 +33203,7 @@ void addF_reg_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 1042 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1042 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ vaddss(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src1 */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src2 */);
   
@@ -33220,7 +33220,7 @@ void addF_reg_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 1054 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1054 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ vaddss(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src1 */, Address::make_raw(opnd_array(2)->base(ra_,this,idx2), opnd_array(2)->index(ra_,this,idx2), opnd_array(2)->scale(), opnd_array(2)->disp(ra_,this,idx2), opnd_array(2)->disp_reloc()));
   
@@ -33237,7 +33237,7 @@ void addF_reg_mem_0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 1054 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1054 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ vaddss(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src1 */, Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()));
   
@@ -33254,7 +33254,7 @@ void addF_reg_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 1066 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1066 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ vaddss(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, InternalAddress(__ code()->consts()->start() + constant_offset()));
   
@@ -33265,7 +33265,7 @@ void addF_reg_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
 void addF_reg_immNode::eval_constant(Compile* C) {
   {
 
-#line 1067 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1067 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
     _constant = C->constant_table().add(this, opnd_array(2));
 #line 33271 "../generated/adfiles/ad_x86_64.cpp"
   }
@@ -33279,7 +33279,7 @@ void addD_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 1078 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1078 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ addsd(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src */);
   
@@ -33296,7 +33296,7 @@ void addD_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 1090 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1090 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ addsd(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, Address::make_raw(opnd_array(2)->base(ra_,this,idx2), opnd_array(2)->index(ra_,this,idx2), opnd_array(2)->scale(), opnd_array(2)->disp(ra_,this,idx2), opnd_array(2)->disp_reloc()));
   
@@ -33313,7 +33313,7 @@ void addD_mem_0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 1090 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1090 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ addsd(opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* dst */, Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()));
   
@@ -33330,7 +33330,7 @@ void addD_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 1101 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1101 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ addsd(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, InternalAddress(__ code()->consts()->start() + constant_offset()));
   
@@ -33341,7 +33341,7 @@ void addD_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
 void addD_immNode::eval_constant(Compile* C) {
   {
 
-#line 1102 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1102 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
     _constant = C->constant_table().add(this, opnd_array(2));
 #line 33347 "../generated/adfiles/ad_x86_64.cpp"
   }
@@ -33355,7 +33355,7 @@ void addD_reg_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 1113 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1113 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ vaddsd(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src1 */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src2 */);
   
@@ -33372,7 +33372,7 @@ void addD_reg_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 1125 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1125 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ vaddsd(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src1 */, Address::make_raw(opnd_array(2)->base(ra_,this,idx2), opnd_array(2)->index(ra_,this,idx2), opnd_array(2)->scale(), opnd_array(2)->disp(ra_,this,idx2), opnd_array(2)->disp_reloc()));
   
@@ -33389,7 +33389,7 @@ void addD_reg_mem_0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 1125 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1125 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ vaddsd(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src1 */, Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()));
   
@@ -33406,7 +33406,7 @@ void addD_reg_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 1137 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1137 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ vaddsd(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, InternalAddress(__ code()->consts()->start() + constant_offset()));
   
@@ -33417,7 +33417,7 @@ void addD_reg_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
 void addD_reg_immNode::eval_constant(Compile* C) {
   {
 
-#line 1138 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1138 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
     _constant = C->constant_table().add(this, opnd_array(2));
 #line 33423 "../generated/adfiles/ad_x86_64.cpp"
   }
@@ -33431,7 +33431,7 @@ void subF_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 1149 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1149 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ subss(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src */);
   
@@ -33448,7 +33448,7 @@ void subF_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 1161 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1161 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ subss(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, Address::make_raw(opnd_array(2)->base(ra_,this,idx2), opnd_array(2)->index(ra_,this,idx2), opnd_array(2)->scale(), opnd_array(2)->disp(ra_,this,idx2), opnd_array(2)->disp_reloc()));
   
@@ -33465,7 +33465,7 @@ void subF_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 1172 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1172 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ subss(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, InternalAddress(__ code()->consts()->start() + constant_offset()));
   
@@ -33476,7 +33476,7 @@ void subF_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
 void subF_immNode::eval_constant(Compile* C) {
   {
 
-#line 1173 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1173 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
     _constant = C->constant_table().add(this, opnd_array(2));
 #line 33482 "../generated/adfiles/ad_x86_64.cpp"
   }
@@ -33490,7 +33490,7 @@ void subF_reg_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 1184 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1184 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ vsubss(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src1 */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src2 */);
   
@@ -33507,7 +33507,7 @@ void subF_reg_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 1196 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1196 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ vsubss(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src1 */, Address::make_raw(opnd_array(2)->base(ra_,this,idx2), opnd_array(2)->index(ra_,this,idx2), opnd_array(2)->scale(), opnd_array(2)->disp(ra_,this,idx2), opnd_array(2)->disp_reloc()));
   
@@ -33524,7 +33524,7 @@ void subF_reg_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 1208 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1208 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ vsubss(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, InternalAddress(__ code()->consts()->start() + constant_offset()));
   
@@ -33535,7 +33535,7 @@ void subF_reg_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
 void subF_reg_immNode::eval_constant(Compile* C) {
   {
 
-#line 1209 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1209 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
     _constant = C->constant_table().add(this, opnd_array(2));
 #line 33541 "../generated/adfiles/ad_x86_64.cpp"
   }
@@ -33549,7 +33549,7 @@ void subD_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 1220 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1220 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ subsd(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src */);
   
@@ -33566,7 +33566,7 @@ void subD_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 1232 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1232 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ subsd(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, Address::make_raw(opnd_array(2)->base(ra_,this,idx2), opnd_array(2)->index(ra_,this,idx2), opnd_array(2)->scale(), opnd_array(2)->disp(ra_,this,idx2), opnd_array(2)->disp_reloc()));
   
@@ -33583,7 +33583,7 @@ void subD_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 1243 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1243 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ subsd(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, InternalAddress(__ code()->consts()->start() + constant_offset()));
   
@@ -33594,7 +33594,7 @@ void subD_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
 void subD_immNode::eval_constant(Compile* C) {
   {
 
-#line 1244 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1244 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
     _constant = C->constant_table().add(this, opnd_array(2));
 #line 33600 "../generated/adfiles/ad_x86_64.cpp"
   }
@@ -33608,7 +33608,7 @@ void subD_reg_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 1255 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1255 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ vsubsd(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src1 */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src2 */);
   
@@ -33625,7 +33625,7 @@ void subD_reg_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 1267 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1267 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ vsubsd(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src1 */, Address::make_raw(opnd_array(2)->base(ra_,this,idx2), opnd_array(2)->index(ra_,this,idx2), opnd_array(2)->scale(), opnd_array(2)->disp(ra_,this,idx2), opnd_array(2)->disp_reloc()));
   
@@ -33642,7 +33642,7 @@ void subD_reg_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 1279 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1279 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ vsubsd(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, InternalAddress(__ code()->consts()->start() + constant_offset()));
   
@@ -33653,7 +33653,7 @@ void subD_reg_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
 void subD_reg_immNode::eval_constant(Compile* C) {
   {
 
-#line 1280 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1280 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
     _constant = C->constant_table().add(this, opnd_array(2));
 #line 33659 "../generated/adfiles/ad_x86_64.cpp"
   }
@@ -33667,7 +33667,7 @@ void mulF_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 1291 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1291 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ mulss(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src */);
   
@@ -33684,7 +33684,7 @@ void mulF_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 1303 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1303 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ mulss(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, Address::make_raw(opnd_array(2)->base(ra_,this,idx2), opnd_array(2)->index(ra_,this,idx2), opnd_array(2)->scale(), opnd_array(2)->disp(ra_,this,idx2), opnd_array(2)->disp_reloc()));
   
@@ -33701,7 +33701,7 @@ void mulF_mem_0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 1303 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1303 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ mulss(opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* dst */, Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()));
   
@@ -33718,7 +33718,7 @@ void mulF_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 1314 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1314 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ mulss(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, InternalAddress(__ code()->consts()->start() + constant_offset()));
   
@@ -33729,7 +33729,7 @@ void mulF_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
 void mulF_immNode::eval_constant(Compile* C) {
   {
 
-#line 1315 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1315 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
     _constant = C->constant_table().add(this, opnd_array(2));
 #line 33735 "../generated/adfiles/ad_x86_64.cpp"
   }
@@ -33743,7 +33743,7 @@ void mulF_reg_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 1326 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1326 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ vmulss(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src1 */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src2 */);
   
@@ -33760,7 +33760,7 @@ void mulF_reg_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 1338 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1338 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ vmulss(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src1 */, Address::make_raw(opnd_array(2)->base(ra_,this,idx2), opnd_array(2)->index(ra_,this,idx2), opnd_array(2)->scale(), opnd_array(2)->disp(ra_,this,idx2), opnd_array(2)->disp_reloc()));
   
@@ -33777,7 +33777,7 @@ void mulF_reg_mem_0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 1338 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1338 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ vmulss(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src1 */, Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()));
   
@@ -33794,7 +33794,7 @@ void mulF_reg_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 1350 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1350 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ vmulss(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, InternalAddress(__ code()->consts()->start() + constant_offset()));
   
@@ -33805,7 +33805,7 @@ void mulF_reg_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
 void mulF_reg_immNode::eval_constant(Compile* C) {
   {
 
-#line 1351 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1351 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
     _constant = C->constant_table().add(this, opnd_array(2));
 #line 33811 "../generated/adfiles/ad_x86_64.cpp"
   }
@@ -33819,7 +33819,7 @@ void mulD_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 1362 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1362 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ mulsd(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src */);
   
@@ -33836,7 +33836,7 @@ void mulD_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 1374 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1374 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ mulsd(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, Address::make_raw(opnd_array(2)->base(ra_,this,idx2), opnd_array(2)->index(ra_,this,idx2), opnd_array(2)->scale(), opnd_array(2)->disp(ra_,this,idx2), opnd_array(2)->disp_reloc()));
   
@@ -33853,7 +33853,7 @@ void mulD_mem_0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 1374 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1374 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ mulsd(opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* dst */, Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()));
   
@@ -33870,7 +33870,7 @@ void mulD_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 1385 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1385 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ mulsd(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, InternalAddress(__ code()->consts()->start() + constant_offset()));
   
@@ -33881,7 +33881,7 @@ void mulD_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
 void mulD_immNode::eval_constant(Compile* C) {
   {
 
-#line 1386 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1386 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
     _constant = C->constant_table().add(this, opnd_array(2));
 #line 33887 "../generated/adfiles/ad_x86_64.cpp"
   }
@@ -33895,7 +33895,7 @@ void mulD_reg_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 1397 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1397 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ vmulsd(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src1 */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src2 */);
   
@@ -33912,7 +33912,7 @@ void mulD_reg_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 1409 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1409 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ vmulsd(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src1 */, Address::make_raw(opnd_array(2)->base(ra_,this,idx2), opnd_array(2)->index(ra_,this,idx2), opnd_array(2)->scale(), opnd_array(2)->disp(ra_,this,idx2), opnd_array(2)->disp_reloc()));
   
@@ -33929,7 +33929,7 @@ void mulD_reg_mem_0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 1409 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1409 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ vmulsd(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src1 */, Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()));
   
@@ -33946,7 +33946,7 @@ void mulD_reg_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 1421 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1421 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ vmulsd(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, InternalAddress(__ code()->consts()->start() + constant_offset()));
   
@@ -33957,7 +33957,7 @@ void mulD_reg_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
 void mulD_reg_immNode::eval_constant(Compile* C) {
   {
 
-#line 1422 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1422 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
     _constant = C->constant_table().add(this, opnd_array(2));
 #line 33963 "../generated/adfiles/ad_x86_64.cpp"
   }
@@ -33971,7 +33971,7 @@ void divF_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 1433 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1433 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ divss(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src */);
   
@@ -33988,7 +33988,7 @@ void divF_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 1445 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1445 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ divss(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, Address::make_raw(opnd_array(2)->base(ra_,this,idx2), opnd_array(2)->index(ra_,this,idx2), opnd_array(2)->scale(), opnd_array(2)->disp(ra_,this,idx2), opnd_array(2)->disp_reloc()));
   
@@ -34005,7 +34005,7 @@ void divF_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 1456 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1456 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ divss(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, InternalAddress(__ code()->consts()->start() + constant_offset()));
   
@@ -34016,7 +34016,7 @@ void divF_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
 void divF_immNode::eval_constant(Compile* C) {
   {
 
-#line 1457 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1457 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
     _constant = C->constant_table().add(this, opnd_array(2));
 #line 34022 "../generated/adfiles/ad_x86_64.cpp"
   }
@@ -34030,7 +34030,7 @@ void divF_reg_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 1468 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1468 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ vdivss(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src1 */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src2 */);
   
@@ -34047,7 +34047,7 @@ void divF_reg_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 1480 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1480 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ vdivss(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src1 */, Address::make_raw(opnd_array(2)->base(ra_,this,idx2), opnd_array(2)->index(ra_,this,idx2), opnd_array(2)->scale(), opnd_array(2)->disp(ra_,this,idx2), opnd_array(2)->disp_reloc()));
   
@@ -34064,7 +34064,7 @@ void divF_reg_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 1492 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1492 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ vdivss(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, InternalAddress(__ code()->consts()->start() + constant_offset()));
   
@@ -34075,7 +34075,7 @@ void divF_reg_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
 void divF_reg_immNode::eval_constant(Compile* C) {
   {
 
-#line 1493 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1493 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
     _constant = C->constant_table().add(this, opnd_array(2));
 #line 34081 "../generated/adfiles/ad_x86_64.cpp"
   }
@@ -34089,7 +34089,7 @@ void divD_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 1504 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1504 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ divsd(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src */);
   
@@ -34106,7 +34106,7 @@ void divD_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 1516 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1516 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ divsd(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, Address::make_raw(opnd_array(2)->base(ra_,this,idx2), opnd_array(2)->index(ra_,this,idx2), opnd_array(2)->scale(), opnd_array(2)->disp(ra_,this,idx2), opnd_array(2)->disp_reloc()));
   
@@ -34123,7 +34123,7 @@ void divD_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 1527 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1527 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ divsd(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, InternalAddress(__ code()->consts()->start() + constant_offset()));
   
@@ -34134,7 +34134,7 @@ void divD_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
 void divD_immNode::eval_constant(Compile* C) {
   {
 
-#line 1528 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1528 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
     _constant = C->constant_table().add(this, opnd_array(2));
 #line 34140 "../generated/adfiles/ad_x86_64.cpp"
   }
@@ -34148,7 +34148,7 @@ void divD_reg_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 1539 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1539 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ vdivsd(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src1 */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src2 */);
   
@@ -34165,7 +34165,7 @@ void divD_reg_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 1551 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1551 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ vdivsd(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src1 */, Address::make_raw(opnd_array(2)->base(ra_,this,idx2), opnd_array(2)->index(ra_,this,idx2), opnd_array(2)->scale(), opnd_array(2)->disp(ra_,this,idx2), opnd_array(2)->disp_reloc()));
   
@@ -34182,7 +34182,7 @@ void divD_reg_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 1563 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1563 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ vdivsd(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, InternalAddress(__ code()->consts()->start() + constant_offset()));
   
@@ -34193,7 +34193,7 @@ void divD_reg_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
 void divD_reg_immNode::eval_constant(Compile* C) {
   {
 
-#line 1564 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1564 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
     _constant = C->constant_table().add(this, opnd_array(2));
 #line 34199 "../generated/adfiles/ad_x86_64.cpp"
   }
@@ -34206,7 +34206,7 @@ void absF_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 1574 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1574 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ andps(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, ExternalAddress(float_signmask()));
   
@@ -34222,7 +34222,7 @@ void absF_reg_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 1585 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1585 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vandps(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */,
@@ -34240,7 +34240,7 @@ void absD_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 1599 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1599 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ andpd(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, ExternalAddress(double_signmask()));
   
@@ -34256,7 +34256,7 @@ void absD_reg_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 1611 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1611 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vandpd(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */,
@@ -34274,7 +34274,7 @@ void negF_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 1624 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1624 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ xorps(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, ExternalAddress(float_signflip()));
   
@@ -34290,7 +34290,7 @@ void negF_reg_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 1635 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1635 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vxorps(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */,
@@ -34308,7 +34308,7 @@ void negD_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 1649 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1649 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ xorpd(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, ExternalAddress(double_signflip()));
   
@@ -34324,7 +34324,7 @@ void negD_reg_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 1661 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1661 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vxorpd(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */,
@@ -34342,7 +34342,7 @@ void sqrtF_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 1675 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1675 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ sqrtss(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */);
   
@@ -34358,7 +34358,7 @@ void sqrtF_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 1687 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1687 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ sqrtss(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()));
   
@@ -34374,7 +34374,7 @@ void sqrtF_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 1698 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1698 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ sqrtss(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, InternalAddress(__ code()->consts()->start() + constant_offset()));
   
@@ -34385,7 +34385,7 @@ void sqrtF_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
 void sqrtF_immNode::eval_constant(Compile* C) {
   {
 
-#line 1699 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1699 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
     _constant = C->constant_table().add(this, opnd_array(1));
 #line 34391 "../generated/adfiles/ad_x86_64.cpp"
   }
@@ -34398,7 +34398,7 @@ void sqrtD_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 1710 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1710 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ sqrtsd(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */);
   
@@ -34414,7 +34414,7 @@ void sqrtD_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 1722 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1722 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ sqrtsd(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()));
   
@@ -34430,7 +34430,7 @@ void sqrtD_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 1733 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1733 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ sqrtsd(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, InternalAddress(__ code()->consts()->start() + constant_offset()));
   
@@ -34441,7 +34441,7 @@ void sqrtD_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
 void sqrtD_immNode::eval_constant(Compile* C) {
   {
 
-#line 1734 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1734 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
     _constant = C->constant_table().add(this, opnd_array(1));
 #line 34447 "../generated/adfiles/ad_x86_64.cpp"
   }
@@ -34454,7 +34454,7 @@ void loadV4Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 1748 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1748 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ movdl(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()));
   
@@ -34470,7 +34470,7 @@ void loadV8Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 1760 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1760 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ movq(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()));
   
@@ -34486,7 +34486,7 @@ void loadV16Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 1772 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1772 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ movdqu(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()));
   
@@ -34502,7 +34502,7 @@ void loadV32Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 1784 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1784 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ vmovdqu(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()));
   
@@ -34519,7 +34519,7 @@ void storeV4Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 1796 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1796 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ movdl(Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()), opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src */);
   
@@ -34536,7 +34536,7 @@ void storeV8Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 1807 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1807 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ movq(Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()), opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src */);
   
@@ -34553,7 +34553,7 @@ void storeV16Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 1818 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1818 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ movdqu(Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()), opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src */);
   
@@ -34570,7 +34570,7 @@ void storeV32Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 1829 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1829 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ vmovdqu(Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()), opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src */);
   
@@ -34586,7 +34586,7 @@ void Repl4BNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 1842 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1842 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ movdl(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_Register(ra_,this,idx1)/* src */);
     __ punpcklbw(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(0)->as_XMMRegister(ra_,this)/* dst */);
@@ -34604,7 +34604,7 @@ void Repl8BNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 1856 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1856 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ movdl(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_Register(ra_,this,idx1)/* src */);
     __ punpcklbw(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(0)->as_XMMRegister(ra_,this)/* dst */);
@@ -34622,7 +34622,7 @@ void Repl16BNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 1871 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1871 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ movdl(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_Register(ra_,this,idx1)/* src */);
     __ punpcklbw(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(0)->as_XMMRegister(ra_,this)/* dst */);
@@ -34641,7 +34641,7 @@ void Repl32BNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 1888 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1888 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ movdl(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_Register(ra_,this,idx1)/* src */);
     __ punpcklbw(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(0)->as_XMMRegister(ra_,this)/* dst */);
@@ -34661,7 +34661,7 @@ void Repl4B_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 1903 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1903 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ movdl(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, InternalAddress(__ code()->consts()->start() + constant_offset()));
   
@@ -34672,7 +34672,7 @@ void Repl4B_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
 void Repl4B_immNode::eval_constant(Compile* C) {
   {
 
-#line 1904 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1904 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
     _constant = C->constant_table().add(this, replicate4_imm(opnd_array(1)->constant(), 1));
 #line 34678 "../generated/adfiles/ad_x86_64.cpp"
   }
@@ -34685,7 +34685,7 @@ void Repl8B_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 1913 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1913 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ movq(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, InternalAddress(__ code()->consts()->start() + constant_offset()));
   
@@ -34696,7 +34696,7 @@ void Repl8B_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
 void Repl8B_immNode::eval_constant(Compile* C) {
   {
 
-#line 1914 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1914 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
     _constant = C->constant_table().add(this, replicate8_imm(opnd_array(1)->constant(), 1));
 #line 34702 "../generated/adfiles/ad_x86_64.cpp"
   }
@@ -34709,7 +34709,7 @@ void Repl16B_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 1924 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1924 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ movq(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, InternalAddress(__ code()->consts()->start() + constant_offset()));
     __ punpcklqdq(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(0)->as_XMMRegister(ra_,this)/* dst */);
@@ -34721,7 +34721,7 @@ void Repl16B_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
 void Repl16B_immNode::eval_constant(Compile* C) {
   {
 
-#line 1925 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1925 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
     _constant = C->constant_table().add(this, replicate8_imm(opnd_array(1)->constant(), 1));
 #line 34727 "../generated/adfiles/ad_x86_64.cpp"
   }
@@ -34734,7 +34734,7 @@ void Repl32B_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 1937 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1937 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ movq(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, InternalAddress(__ code()->consts()->start() + constant_offset()));
     __ punpcklqdq(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(0)->as_XMMRegister(ra_,this)/* dst */);
@@ -34747,7 +34747,7 @@ void Repl32B_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
 void Repl32B_immNode::eval_constant(Compile* C) {
   {
 
-#line 1938 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1938 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
     _constant = C->constant_table().add(this, replicate8_imm(opnd_array(1)->constant(), 1));
 #line 34753 "../generated/adfiles/ad_x86_64.cpp"
   }
@@ -34760,7 +34760,7 @@ void Repl4B_zeroNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 1950 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1950 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ pxor(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(0)->as_XMMRegister(ra_,this)/* dst */);
   
@@ -34776,7 +34776,7 @@ void Repl8B_zeroNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 1960 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1960 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ pxor(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(0)->as_XMMRegister(ra_,this)/* dst */);
   
@@ -34792,7 +34792,7 @@ void Repl16B_zeroNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 1970 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1970 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ pxor(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(0)->as_XMMRegister(ra_,this)/* dst */);
   
@@ -34808,7 +34808,7 @@ void Repl32B_zeroNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 1980 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1980 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     // Use vxorpd since AVX does not have vpxor for 256-bit (AVX2 will have it).
     bool vector256 = true;
@@ -34826,7 +34826,7 @@ void Repl2SNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 1994 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 1994 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ movdl(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_Register(ra_,this,idx1)/* src */);
     __ pshuflw(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, 0x00);
@@ -34843,7 +34843,7 @@ void Repl4SNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 2006 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 2006 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ movdl(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_Register(ra_,this,idx1)/* src */);
     __ pshuflw(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, 0x00);
@@ -34860,7 +34860,7 @@ void Repl8SNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 2019 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 2019 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ movdl(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_Register(ra_,this,idx1)/* src */);
     __ pshuflw(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, 0x00);
@@ -34878,7 +34878,7 @@ void Repl16SNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 2034 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 2034 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ movdl(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_Register(ra_,this,idx1)/* src */);
     __ pshuflw(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, 0x00);
@@ -34897,7 +34897,7 @@ void Repl2S_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 2048 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 2048 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ movdl(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, InternalAddress(__ code()->consts()->start() + constant_offset()));
   
@@ -34908,7 +34908,7 @@ void Repl2S_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
 void Repl2S_immNode::eval_constant(Compile* C) {
   {
 
-#line 2049 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 2049 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
     _constant = C->constant_table().add(this, replicate4_imm(opnd_array(1)->constant(), 2));
 #line 34914 "../generated/adfiles/ad_x86_64.cpp"
   }
@@ -34921,7 +34921,7 @@ void Repl4S_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 2058 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 2058 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ movq(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, InternalAddress(__ code()->consts()->start() + constant_offset()));
   
@@ -34932,7 +34932,7 @@ void Repl4S_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
 void Repl4S_immNode::eval_constant(Compile* C) {
   {
 
-#line 2059 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 2059 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
     _constant = C->constant_table().add(this, replicate8_imm(opnd_array(1)->constant(), 2));
 #line 34938 "../generated/adfiles/ad_x86_64.cpp"
   }
@@ -34945,7 +34945,7 @@ void Repl8S_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 2069 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 2069 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ movq(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, InternalAddress(__ code()->consts()->start() + constant_offset()));
     __ punpcklqdq(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(0)->as_XMMRegister(ra_,this)/* dst */);
@@ -34957,7 +34957,7 @@ void Repl8S_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
 void Repl8S_immNode::eval_constant(Compile* C) {
   {
 
-#line 2070 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 2070 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
     _constant = C->constant_table().add(this, replicate8_imm(opnd_array(1)->constant(), 2));
 #line 34963 "../generated/adfiles/ad_x86_64.cpp"
   }
@@ -34970,7 +34970,7 @@ void Repl16S_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 2082 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 2082 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ movq(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, InternalAddress(__ code()->consts()->start() + constant_offset()));
     __ punpcklqdq(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(0)->as_XMMRegister(ra_,this)/* dst */);
@@ -34983,7 +34983,7 @@ void Repl16S_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
 void Repl16S_immNode::eval_constant(Compile* C) {
   {
 
-#line 2083 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 2083 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
     _constant = C->constant_table().add(this, replicate8_imm(opnd_array(1)->constant(), 2));
 #line 34989 "../generated/adfiles/ad_x86_64.cpp"
   }
@@ -34996,7 +34996,7 @@ void Repl2S_zeroNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 2095 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 2095 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ pxor(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(0)->as_XMMRegister(ra_,this)/* dst */);
   
@@ -35012,7 +35012,7 @@ void Repl4S_zeroNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 2105 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 2105 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ pxor(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(0)->as_XMMRegister(ra_,this)/* dst */);
   
@@ -35028,7 +35028,7 @@ void Repl8S_zeroNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 2115 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 2115 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ pxor(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(0)->as_XMMRegister(ra_,this)/* dst */);
   
@@ -35044,7 +35044,7 @@ void Repl16S_zeroNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 2125 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 2125 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     // Use vxorpd since AVX does not have vpxor for 256-bit (AVX2 will have it).
     bool vector256 = true;
@@ -35062,7 +35062,7 @@ void Repl2INode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 2139 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 2139 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ movdl(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_Register(ra_,this,idx1)/* src */);
     __ pshufd(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, 0x00);
@@ -35079,7 +35079,7 @@ void Repl4INode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 2151 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 2151 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ movdl(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_Register(ra_,this,idx1)/* src */);
     __ pshufd(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, 0x00);
@@ -35096,7 +35096,7 @@ void Repl8INode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 2164 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 2164 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ movdl(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_Register(ra_,this,idx1)/* src */);
     __ pshufd(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, 0x00);
@@ -35114,7 +35114,7 @@ void Repl2I_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 2177 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 2177 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ movq(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, InternalAddress(__ code()->consts()->start() + constant_offset()));
   
@@ -35125,7 +35125,7 @@ void Repl2I_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
 void Repl2I_immNode::eval_constant(Compile* C) {
   {
 
-#line 2178 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 2178 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
     _constant = C->constant_table().add(this, replicate8_imm(opnd_array(1)->constant(), 4));
 #line 35131 "../generated/adfiles/ad_x86_64.cpp"
   }
@@ -35138,7 +35138,7 @@ void Repl4I_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 2188 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 2188 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ movq(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, InternalAddress(__ code()->consts()->start() + constant_offset()));
     __ punpcklqdq(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(0)->as_XMMRegister(ra_,this)/* dst */);
@@ -35150,7 +35150,7 @@ void Repl4I_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
 void Repl4I_immNode::eval_constant(Compile* C) {
   {
 
-#line 2189 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 2189 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
     _constant = C->constant_table().add(this, replicate8_imm(opnd_array(1)->constant(), 4));
 #line 35156 "../generated/adfiles/ad_x86_64.cpp"
   }
@@ -35163,7 +35163,7 @@ void Repl8I_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 2201 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 2201 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ movq(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, InternalAddress(__ code()->consts()->start() + constant_offset()));
     __ punpcklqdq(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(0)->as_XMMRegister(ra_,this)/* dst */);
@@ -35176,7 +35176,7 @@ void Repl8I_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
 void Repl8I_immNode::eval_constant(Compile* C) {
   {
 
-#line 2202 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 2202 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
     _constant = C->constant_table().add(this, replicate8_imm(opnd_array(1)->constant(), 4));
 #line 35182 "../generated/adfiles/ad_x86_64.cpp"
   }
@@ -35189,7 +35189,7 @@ void Repl2I_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 2215 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 2215 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ movdl(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()));
     __ pshufd(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, 0x00);
@@ -35206,7 +35206,7 @@ void Repl4I_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 2227 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 2227 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ movdl(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()));
     __ pshufd(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, 0x00);
@@ -35223,7 +35223,7 @@ void Repl8I_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 2240 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 2240 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ movdl(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()));
     __ pshufd(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, 0x00);
@@ -35241,7 +35241,7 @@ void Repl2I_zeroNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 2253 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 2253 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ pxor(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(0)->as_XMMRegister(ra_,this)/* dst */);
   
@@ -35257,7 +35257,7 @@ void Repl4I_zeroNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 2263 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 2263 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ pxor(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(0)->as_XMMRegister(ra_,this)/* dst */);
   
@@ -35273,7 +35273,7 @@ void Repl8I_zeroNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 2273 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 2273 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     // Use vxorpd since AVX does not have vpxor for 256-bit (AVX2 will have it).
     bool vector256 = true;
@@ -35291,7 +35291,7 @@ void Repl2LNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 2288 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 2288 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ movdq(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_Register(ra_,this,idx1)/* src */);
     __ punpcklqdq(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(0)->as_XMMRegister(ra_,this)/* dst */);
@@ -35308,7 +35308,7 @@ void Repl4LNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 2301 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 2301 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ movdq(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_Register(ra_,this,idx1)/* src */);
     __ punpcklqdq(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(0)->as_XMMRegister(ra_,this)/* dst */);
@@ -35326,7 +35326,7 @@ void Repl2L_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 2352 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 2352 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ movq(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, InternalAddress(__ code()->consts()->start() + constant_offset()));
     __ punpcklqdq(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(0)->as_XMMRegister(ra_,this)/* dst */);
@@ -35338,7 +35338,7 @@ void Repl2L_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
 void Repl2L_immNode::eval_constant(Compile* C) {
   {
 
-#line 2353 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 2353 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
     _constant = C->constant_table().add(this, opnd_array(1));
 #line 35344 "../generated/adfiles/ad_x86_64.cpp"
   }
@@ -35351,7 +35351,7 @@ void Repl4L_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 2365 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 2365 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ movq(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, InternalAddress(__ code()->consts()->start() + constant_offset()));
     __ punpcklqdq(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(0)->as_XMMRegister(ra_,this)/* dst */);
@@ -35364,7 +35364,7 @@ void Repl4L_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
 void Repl4L_immNode::eval_constant(Compile* C) {
   {
 
-#line 2366 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 2366 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
     _constant = C->constant_table().add(this, opnd_array(1));
 #line 35370 "../generated/adfiles/ad_x86_64.cpp"
   }
@@ -35377,7 +35377,7 @@ void Repl2L_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 2379 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 2379 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ movq(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()));
     __ punpcklqdq(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(0)->as_XMMRegister(ra_,this)/* dst */);
@@ -35394,7 +35394,7 @@ void Repl4L_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 2392 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 2392 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ movq(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, Address::make_raw(opnd_array(1)->base(ra_,this,idx1), opnd_array(1)->index(ra_,this,idx1), opnd_array(1)->scale(), opnd_array(1)->disp(ra_,this,idx1), opnd_array(1)->disp_reloc()));
     __ punpcklqdq(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(0)->as_XMMRegister(ra_,this)/* dst */);
@@ -35412,7 +35412,7 @@ void Repl2L_zeroNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 2405 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 2405 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ pxor(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(0)->as_XMMRegister(ra_,this)/* dst */);
   
@@ -35428,7 +35428,7 @@ void Repl4L_zeroNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 2415 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 2415 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     // Use vxorpd since AVX does not have vpxor for 256-bit (AVX2 will have it).
     bool vector256 = true;
@@ -35446,7 +35446,7 @@ void Repl2FNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 2428 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 2428 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ pshufd(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, 0x00);
   
@@ -35462,7 +35462,7 @@ void Repl4FNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 2438 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 2438 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ pshufd(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, 0x00);
   
@@ -35478,7 +35478,7 @@ void Repl8FNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 2449 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 2449 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ pshufd(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, 0x00);
     __ vinsertf128h(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(0)->as_XMMRegister(ra_,this)/* dst */);
@@ -35495,7 +35495,7 @@ void Repl2F_zeroNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 2461 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 2461 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ xorps(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(0)->as_XMMRegister(ra_,this)/* dst */);
   
@@ -35511,7 +35511,7 @@ void Repl4F_zeroNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 2471 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 2471 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ xorps(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(0)->as_XMMRegister(ra_,this)/* dst */);
   
@@ -35527,7 +35527,7 @@ void Repl8F_zeroNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 2481 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 2481 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = true;
     __ vxorps(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, vector256);
@@ -35544,7 +35544,7 @@ void Repl2DNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 2493 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 2493 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ pshufd(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, 0x44);
   
@@ -35560,7 +35560,7 @@ void Repl4DNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 2504 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 2504 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ pshufd(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, 0x44);
     __ vinsertf128h(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(0)->as_XMMRegister(ra_,this)/* dst */);
@@ -35577,7 +35577,7 @@ void Repl2D_zeroNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 2516 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 2516 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ xorpd(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(0)->as_XMMRegister(ra_,this)/* dst */);
   
@@ -35593,7 +35593,7 @@ void Repl4D_zeroNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 2526 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 2526 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = true;
     __ vxorpd(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, vector256);
@@ -35611,7 +35611,7 @@ void vadd4BNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 2542 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 2542 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ paddb(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src */);
   
@@ -35628,7 +35628,7 @@ void vadd4B_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 2552 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 2552 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vpaddb(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src1 */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src2 */, vector256);
@@ -35646,7 +35646,7 @@ void vadd8BNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 2563 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 2563 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ paddb(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src */);
   
@@ -35663,7 +35663,7 @@ void vadd8B_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 2573 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 2573 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vpaddb(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src1 */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src2 */, vector256);
@@ -35681,7 +35681,7 @@ void vadd16BNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 2584 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 2584 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ paddb(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src */);
   
@@ -35698,7 +35698,7 @@ void vadd16B_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 2594 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 2594 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vpaddb(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src1 */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src2 */, vector256);
@@ -35716,7 +35716,7 @@ void vadd16B_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 2605 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 2605 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vpaddb(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, Address::make_raw(opnd_array(2)->base(ra_,this,idx2), opnd_array(2)->index(ra_,this,idx2), opnd_array(2)->scale(), opnd_array(2)->disp(ra_,this,idx2), opnd_array(2)->disp_reloc()), vector256);
@@ -35734,7 +35734,7 @@ void vadd32B_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 2616 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 2616 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = true;
     __ vpaddb(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src1 */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src2 */, vector256);
@@ -35752,7 +35752,7 @@ void vadd32B_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 2627 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 2627 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = true;
     __ vpaddb(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, Address::make_raw(opnd_array(2)->base(ra_,this,idx2), opnd_array(2)->index(ra_,this,idx2), opnd_array(2)->scale(), opnd_array(2)->disp(ra_,this,idx2), opnd_array(2)->disp_reloc()), vector256);
@@ -35770,7 +35770,7 @@ void vadd2SNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 2639 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 2639 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ paddw(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src */);
   
@@ -35787,7 +35787,7 @@ void vadd2S_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 2649 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 2649 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vpaddw(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src1 */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src2 */, vector256);
@@ -35805,7 +35805,7 @@ void vadd4SNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 2660 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 2660 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ paddw(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src */);
   
@@ -35822,7 +35822,7 @@ void vadd4S_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 2670 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 2670 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vpaddw(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src1 */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src2 */, vector256);
@@ -35840,7 +35840,7 @@ void vadd8SNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 2681 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 2681 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ paddw(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src */);
   
@@ -35857,7 +35857,7 @@ void vadd8S_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 2691 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 2691 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vpaddw(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src1 */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src2 */, vector256);
@@ -35875,7 +35875,7 @@ void vadd8S_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 2702 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 2702 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vpaddw(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, Address::make_raw(opnd_array(2)->base(ra_,this,idx2), opnd_array(2)->index(ra_,this,idx2), opnd_array(2)->scale(), opnd_array(2)->disp(ra_,this,idx2), opnd_array(2)->disp_reloc()), vector256);
@@ -35893,7 +35893,7 @@ void vadd16S_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 2713 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 2713 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = true;
     __ vpaddw(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src1 */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src2 */, vector256);
@@ -35911,7 +35911,7 @@ void vadd16S_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 2724 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 2724 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = true;
     __ vpaddw(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, Address::make_raw(opnd_array(2)->base(ra_,this,idx2), opnd_array(2)->index(ra_,this,idx2), opnd_array(2)->scale(), opnd_array(2)->disp(ra_,this,idx2), opnd_array(2)->disp_reloc()), vector256);
@@ -35929,7 +35929,7 @@ void vadd2INode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 2736 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 2736 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ paddd(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src */);
   
@@ -35946,7 +35946,7 @@ void vadd2I_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 2746 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 2746 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vpaddd(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src1 */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src2 */, vector256);
@@ -35964,7 +35964,7 @@ void vadd4INode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 2757 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 2757 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ paddd(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src */);
   
@@ -35981,7 +35981,7 @@ void vadd4I_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 2767 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 2767 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vpaddd(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src1 */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src2 */, vector256);
@@ -35999,7 +35999,7 @@ void vadd4I_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 2778 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 2778 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vpaddd(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, Address::make_raw(opnd_array(2)->base(ra_,this,idx2), opnd_array(2)->index(ra_,this,idx2), opnd_array(2)->scale(), opnd_array(2)->disp(ra_,this,idx2), opnd_array(2)->disp_reloc()), vector256);
@@ -36017,7 +36017,7 @@ void vadd8I_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 2789 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 2789 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = true;
     __ vpaddd(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src1 */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src2 */, vector256);
@@ -36035,7 +36035,7 @@ void vadd8I_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 2800 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 2800 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = true;
     __ vpaddd(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, Address::make_raw(opnd_array(2)->base(ra_,this,idx2), opnd_array(2)->index(ra_,this,idx2), opnd_array(2)->scale(), opnd_array(2)->disp(ra_,this,idx2), opnd_array(2)->disp_reloc()), vector256);
@@ -36053,7 +36053,7 @@ void vadd2LNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 2812 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 2812 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ paddq(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src */);
   
@@ -36070,7 +36070,7 @@ void vadd2L_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 2822 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 2822 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vpaddq(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src1 */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src2 */, vector256);
@@ -36088,7 +36088,7 @@ void vadd2L_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 2833 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 2833 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vpaddq(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, Address::make_raw(opnd_array(2)->base(ra_,this,idx2), opnd_array(2)->index(ra_,this,idx2), opnd_array(2)->scale(), opnd_array(2)->disp(ra_,this,idx2), opnd_array(2)->disp_reloc()), vector256);
@@ -36106,7 +36106,7 @@ void vadd4L_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 2844 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 2844 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = true;
     __ vpaddq(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src1 */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src2 */, vector256);
@@ -36124,7 +36124,7 @@ void vadd4L_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 2855 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 2855 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = true;
     __ vpaddq(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, Address::make_raw(opnd_array(2)->base(ra_,this,idx2), opnd_array(2)->index(ra_,this,idx2), opnd_array(2)->scale(), opnd_array(2)->disp(ra_,this,idx2), opnd_array(2)->disp_reloc()), vector256);
@@ -36142,7 +36142,7 @@ void vadd2FNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 2867 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 2867 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ addps(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src */);
   
@@ -36159,7 +36159,7 @@ void vadd2F_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 2877 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 2877 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vaddps(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src1 */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src2 */, vector256);
@@ -36177,7 +36177,7 @@ void vadd4FNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 2888 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 2888 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ addps(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src */);
   
@@ -36194,7 +36194,7 @@ void vadd4F_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 2898 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 2898 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vaddps(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src1 */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src2 */, vector256);
@@ -36212,7 +36212,7 @@ void vadd4F_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 2909 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 2909 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vaddps(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, Address::make_raw(opnd_array(2)->base(ra_,this,idx2), opnd_array(2)->index(ra_,this,idx2), opnd_array(2)->scale(), opnd_array(2)->disp(ra_,this,idx2), opnd_array(2)->disp_reloc()), vector256);
@@ -36230,7 +36230,7 @@ void vadd8F_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 2920 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 2920 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = true;
     __ vaddps(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src1 */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src2 */, vector256);
@@ -36248,7 +36248,7 @@ void vadd8F_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 2931 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 2931 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = true;
     __ vaddps(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, Address::make_raw(opnd_array(2)->base(ra_,this,idx2), opnd_array(2)->index(ra_,this,idx2), opnd_array(2)->scale(), opnd_array(2)->disp(ra_,this,idx2), opnd_array(2)->disp_reloc()), vector256);
@@ -36266,7 +36266,7 @@ void vadd2DNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 2943 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 2943 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ addpd(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src */);
   
@@ -36283,7 +36283,7 @@ void vadd2D_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 2953 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 2953 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vaddpd(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src1 */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src2 */, vector256);
@@ -36301,7 +36301,7 @@ void vadd2D_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 2964 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 2964 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vaddpd(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, Address::make_raw(opnd_array(2)->base(ra_,this,idx2), opnd_array(2)->index(ra_,this,idx2), opnd_array(2)->scale(), opnd_array(2)->disp(ra_,this,idx2), opnd_array(2)->disp_reloc()), vector256);
@@ -36319,7 +36319,7 @@ void vadd4D_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 2975 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 2975 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = true;
     __ vaddpd(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src1 */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src2 */, vector256);
@@ -36337,7 +36337,7 @@ void vadd4D_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 2986 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 2986 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = true;
     __ vaddpd(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, Address::make_raw(opnd_array(2)->base(ra_,this,idx2), opnd_array(2)->index(ra_,this,idx2), opnd_array(2)->scale(), opnd_array(2)->disp(ra_,this,idx2), opnd_array(2)->disp_reloc()), vector256);
@@ -36355,7 +36355,7 @@ void vsub4BNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 3000 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 3000 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ psubb(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src */);
   
@@ -36372,7 +36372,7 @@ void vsub4B_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 3010 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 3010 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vpsubb(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src1 */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src2 */, vector256);
@@ -36390,7 +36390,7 @@ void vsub8BNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 3021 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 3021 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ psubb(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src */);
   
@@ -36407,7 +36407,7 @@ void vsub8B_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 3031 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 3031 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vpsubb(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src1 */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src2 */, vector256);
@@ -36425,7 +36425,7 @@ void vsub16BNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 3042 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 3042 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ psubb(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src */);
   
@@ -36442,7 +36442,7 @@ void vsub16B_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 3052 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 3052 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vpsubb(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src1 */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src2 */, vector256);
@@ -36460,7 +36460,7 @@ void vsub16B_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 3063 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 3063 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vpsubb(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, Address::make_raw(opnd_array(2)->base(ra_,this,idx2), opnd_array(2)->index(ra_,this,idx2), opnd_array(2)->scale(), opnd_array(2)->disp(ra_,this,idx2), opnd_array(2)->disp_reloc()), vector256);
@@ -36478,7 +36478,7 @@ void vsub32B_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 3074 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 3074 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = true;
     __ vpsubb(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src1 */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src2 */, vector256);
@@ -36496,7 +36496,7 @@ void vsub32B_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 3085 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 3085 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = true;
     __ vpsubb(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, Address::make_raw(opnd_array(2)->base(ra_,this,idx2), opnd_array(2)->index(ra_,this,idx2), opnd_array(2)->scale(), opnd_array(2)->disp(ra_,this,idx2), opnd_array(2)->disp_reloc()), vector256);
@@ -36514,7 +36514,7 @@ void vsub2SNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 3097 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 3097 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ psubw(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src */);
   
@@ -36531,7 +36531,7 @@ void vsub2S_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 3107 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 3107 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vpsubw(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src1 */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src2 */, vector256);
@@ -36549,7 +36549,7 @@ void vsub4SNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 3118 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 3118 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ psubw(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src */);
   
@@ -36566,7 +36566,7 @@ void vsub4S_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 3128 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 3128 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vpsubw(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src1 */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src2 */, vector256);
@@ -36584,7 +36584,7 @@ void vsub8SNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 3139 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 3139 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ psubw(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src */);
   
@@ -36601,7 +36601,7 @@ void vsub8S_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 3149 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 3149 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vpsubw(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src1 */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src2 */, vector256);
@@ -36619,7 +36619,7 @@ void vsub8S_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 3160 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 3160 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vpsubw(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, Address::make_raw(opnd_array(2)->base(ra_,this,idx2), opnd_array(2)->index(ra_,this,idx2), opnd_array(2)->scale(), opnd_array(2)->disp(ra_,this,idx2), opnd_array(2)->disp_reloc()), vector256);
@@ -36637,7 +36637,7 @@ void vsub16S_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 3171 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 3171 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = true;
     __ vpsubw(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src1 */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src2 */, vector256);
@@ -36655,7 +36655,7 @@ void vsub16S_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 3182 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 3182 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = true;
     __ vpsubw(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, Address::make_raw(opnd_array(2)->base(ra_,this,idx2), opnd_array(2)->index(ra_,this,idx2), opnd_array(2)->scale(), opnd_array(2)->disp(ra_,this,idx2), opnd_array(2)->disp_reloc()), vector256);
@@ -36673,7 +36673,7 @@ void vsub2INode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 3194 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 3194 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ psubd(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src */);
   
@@ -36690,7 +36690,7 @@ void vsub2I_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 3204 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 3204 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vpsubd(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src1 */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src2 */, vector256);
@@ -36708,7 +36708,7 @@ void vsub4INode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 3215 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 3215 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ psubd(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src */);
   
@@ -36725,7 +36725,7 @@ void vsub4I_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 3225 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 3225 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vpsubd(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src1 */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src2 */, vector256);
@@ -36743,7 +36743,7 @@ void vsub4I_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 3236 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 3236 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vpsubd(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, Address::make_raw(opnd_array(2)->base(ra_,this,idx2), opnd_array(2)->index(ra_,this,idx2), opnd_array(2)->scale(), opnd_array(2)->disp(ra_,this,idx2), opnd_array(2)->disp_reloc()), vector256);
@@ -36761,7 +36761,7 @@ void vsub8I_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 3247 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 3247 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = true;
     __ vpsubd(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src1 */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src2 */, vector256);
@@ -36779,7 +36779,7 @@ void vsub8I_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 3258 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 3258 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = true;
     __ vpsubd(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, Address::make_raw(opnd_array(2)->base(ra_,this,idx2), opnd_array(2)->index(ra_,this,idx2), opnd_array(2)->scale(), opnd_array(2)->disp(ra_,this,idx2), opnd_array(2)->disp_reloc()), vector256);
@@ -36797,7 +36797,7 @@ void vsub2LNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 3270 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 3270 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ psubq(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src */);
   
@@ -36814,7 +36814,7 @@ void vsub2L_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 3280 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 3280 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vpsubq(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src1 */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src2 */, vector256);
@@ -36832,7 +36832,7 @@ void vsub2L_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 3291 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 3291 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vpsubq(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, Address::make_raw(opnd_array(2)->base(ra_,this,idx2), opnd_array(2)->index(ra_,this,idx2), opnd_array(2)->scale(), opnd_array(2)->disp(ra_,this,idx2), opnd_array(2)->disp_reloc()), vector256);
@@ -36850,7 +36850,7 @@ void vsub4L_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 3302 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 3302 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = true;
     __ vpsubq(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src1 */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src2 */, vector256);
@@ -36868,7 +36868,7 @@ void vsub4L_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 3313 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 3313 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = true;
     __ vpsubq(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, Address::make_raw(opnd_array(2)->base(ra_,this,idx2), opnd_array(2)->index(ra_,this,idx2), opnd_array(2)->scale(), opnd_array(2)->disp(ra_,this,idx2), opnd_array(2)->disp_reloc()), vector256);
@@ -36886,7 +36886,7 @@ void vsub2FNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 3325 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 3325 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ subps(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src */);
   
@@ -36903,7 +36903,7 @@ void vsub2F_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 3335 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 3335 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vsubps(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src1 */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src2 */, vector256);
@@ -36921,7 +36921,7 @@ void vsub4FNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 3346 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 3346 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ subps(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src */);
   
@@ -36938,7 +36938,7 @@ void vsub4F_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 3356 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 3356 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vsubps(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src1 */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src2 */, vector256);
@@ -36956,7 +36956,7 @@ void vsub4F_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 3367 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 3367 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vsubps(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, Address::make_raw(opnd_array(2)->base(ra_,this,idx2), opnd_array(2)->index(ra_,this,idx2), opnd_array(2)->scale(), opnd_array(2)->disp(ra_,this,idx2), opnd_array(2)->disp_reloc()), vector256);
@@ -36974,7 +36974,7 @@ void vsub8F_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 3378 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 3378 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = true;
     __ vsubps(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src1 */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src2 */, vector256);
@@ -36992,7 +36992,7 @@ void vsub8F_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 3389 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 3389 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = true;
     __ vsubps(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, Address::make_raw(opnd_array(2)->base(ra_,this,idx2), opnd_array(2)->index(ra_,this,idx2), opnd_array(2)->scale(), opnd_array(2)->disp(ra_,this,idx2), opnd_array(2)->disp_reloc()), vector256);
@@ -37010,7 +37010,7 @@ void vsub2DNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 3401 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 3401 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ subpd(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src */);
   
@@ -37027,7 +37027,7 @@ void vsub2D_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 3411 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 3411 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vsubpd(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src1 */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src2 */, vector256);
@@ -37045,7 +37045,7 @@ void vsub2D_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 3422 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 3422 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vsubpd(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, Address::make_raw(opnd_array(2)->base(ra_,this,idx2), opnd_array(2)->index(ra_,this,idx2), opnd_array(2)->scale(), opnd_array(2)->disp(ra_,this,idx2), opnd_array(2)->disp_reloc()), vector256);
@@ -37063,7 +37063,7 @@ void vsub4D_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 3433 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 3433 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = true;
     __ vsubpd(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src1 */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src2 */, vector256);
@@ -37081,7 +37081,7 @@ void vsub4D_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 3444 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 3444 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = true;
     __ vsubpd(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, Address::make_raw(opnd_array(2)->base(ra_,this,idx2), opnd_array(2)->index(ra_,this,idx2), opnd_array(2)->scale(), opnd_array(2)->disp(ra_,this,idx2), opnd_array(2)->disp_reloc()), vector256);
@@ -37099,7 +37099,7 @@ void vmul2SNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 3458 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 3458 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ pmullw(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src */);
   
@@ -37116,7 +37116,7 @@ void vmul2S_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 3468 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 3468 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vpmullw(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src1 */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src2 */, vector256);
@@ -37134,7 +37134,7 @@ void vmul4SNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 3479 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 3479 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ pmullw(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src */);
   
@@ -37151,7 +37151,7 @@ void vmul4S_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 3489 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 3489 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vpmullw(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src1 */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src2 */, vector256);
@@ -37169,7 +37169,7 @@ void vmul8SNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 3500 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 3500 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ pmullw(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src */);
   
@@ -37186,7 +37186,7 @@ void vmul8S_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 3510 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 3510 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vpmullw(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src1 */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src2 */, vector256);
@@ -37204,7 +37204,7 @@ void vmul8S_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 3521 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 3521 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vpmullw(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, Address::make_raw(opnd_array(2)->base(ra_,this,idx2), opnd_array(2)->index(ra_,this,idx2), opnd_array(2)->scale(), opnd_array(2)->disp(ra_,this,idx2), opnd_array(2)->disp_reloc()), vector256);
@@ -37222,7 +37222,7 @@ void vmul16S_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 3532 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 3532 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = true;
     __ vpmullw(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src1 */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src2 */, vector256);
@@ -37240,7 +37240,7 @@ void vmul16S_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 3543 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 3543 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = true;
     __ vpmullw(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, Address::make_raw(opnd_array(2)->base(ra_,this,idx2), opnd_array(2)->index(ra_,this,idx2), opnd_array(2)->scale(), opnd_array(2)->disp(ra_,this,idx2), opnd_array(2)->disp_reloc()), vector256);
@@ -37258,7 +37258,7 @@ void vmul2INode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 3555 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 3555 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ pmulld(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src */);
   
@@ -37275,7 +37275,7 @@ void vmul2I_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 3565 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 3565 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vpmulld(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src1 */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src2 */, vector256);
@@ -37293,7 +37293,7 @@ void vmul4INode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 3576 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 3576 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ pmulld(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src */);
   
@@ -37310,7 +37310,7 @@ void vmul4I_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 3586 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 3586 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vpmulld(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src1 */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src2 */, vector256);
@@ -37328,7 +37328,7 @@ void vmul4I_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 3597 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 3597 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vpmulld(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, Address::make_raw(opnd_array(2)->base(ra_,this,idx2), opnd_array(2)->index(ra_,this,idx2), opnd_array(2)->scale(), opnd_array(2)->disp(ra_,this,idx2), opnd_array(2)->disp_reloc()), vector256);
@@ -37346,7 +37346,7 @@ void vmul8I_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 3608 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 3608 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = true;
     __ vpmulld(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src1 */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src2 */, vector256);
@@ -37364,7 +37364,7 @@ void vmul8I_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 3619 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 3619 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = true;
     __ vpmulld(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, Address::make_raw(opnd_array(2)->base(ra_,this,idx2), opnd_array(2)->index(ra_,this,idx2), opnd_array(2)->scale(), opnd_array(2)->disp(ra_,this,idx2), opnd_array(2)->disp_reloc()), vector256);
@@ -37382,7 +37382,7 @@ void vmul2FNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 3631 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 3631 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ mulps(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src */);
   
@@ -37399,7 +37399,7 @@ void vmul2F_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 3641 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 3641 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vmulps(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src1 */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src2 */, vector256);
@@ -37417,7 +37417,7 @@ void vmul4FNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 3652 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 3652 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ mulps(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src */);
   
@@ -37434,7 +37434,7 @@ void vmul4F_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 3662 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 3662 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vmulps(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src1 */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src2 */, vector256);
@@ -37452,7 +37452,7 @@ void vmul4F_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 3673 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 3673 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vmulps(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, Address::make_raw(opnd_array(2)->base(ra_,this,idx2), opnd_array(2)->index(ra_,this,idx2), opnd_array(2)->scale(), opnd_array(2)->disp(ra_,this,idx2), opnd_array(2)->disp_reloc()), vector256);
@@ -37470,7 +37470,7 @@ void vmul8F_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 3684 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 3684 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = true;
     __ vmulps(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src1 */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src2 */, vector256);
@@ -37488,7 +37488,7 @@ void vmul8F_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 3695 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 3695 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = true;
     __ vmulps(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, Address::make_raw(opnd_array(2)->base(ra_,this,idx2), opnd_array(2)->index(ra_,this,idx2), opnd_array(2)->scale(), opnd_array(2)->disp(ra_,this,idx2), opnd_array(2)->disp_reloc()), vector256);
@@ -37506,7 +37506,7 @@ void vmul2DNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 3707 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 3707 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ mulpd(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src */);
   
@@ -37523,7 +37523,7 @@ void vmul2D_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 3717 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 3717 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vmulpd(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src1 */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src2 */, vector256);
@@ -37541,7 +37541,7 @@ void vmul2D_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 3728 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 3728 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vmulpd(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, Address::make_raw(opnd_array(2)->base(ra_,this,idx2), opnd_array(2)->index(ra_,this,idx2), opnd_array(2)->scale(), opnd_array(2)->disp(ra_,this,idx2), opnd_array(2)->disp_reloc()), vector256);
@@ -37559,7 +37559,7 @@ void vmul4D_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 3739 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 3739 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = true;
     __ vmulpd(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src1 */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src2 */, vector256);
@@ -37577,7 +37577,7 @@ void vmul4D_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 3750 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 3750 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = true;
     __ vmulpd(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, Address::make_raw(opnd_array(2)->base(ra_,this,idx2), opnd_array(2)->index(ra_,this,idx2), opnd_array(2)->scale(), opnd_array(2)->disp(ra_,this,idx2), opnd_array(2)->disp_reloc()), vector256);
@@ -37595,7 +37595,7 @@ void vdiv2FNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 3764 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 3764 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ divps(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src */);
   
@@ -37612,7 +37612,7 @@ void vdiv2F_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 3774 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 3774 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vdivps(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src1 */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src2 */, vector256);
@@ -37630,7 +37630,7 @@ void vdiv4FNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 3785 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 3785 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ divps(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src */);
   
@@ -37647,7 +37647,7 @@ void vdiv4F_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 3795 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 3795 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vdivps(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src1 */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src2 */, vector256);
@@ -37665,7 +37665,7 @@ void vdiv4F_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 3806 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 3806 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vdivps(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, Address::make_raw(opnd_array(2)->base(ra_,this,idx2), opnd_array(2)->index(ra_,this,idx2), opnd_array(2)->scale(), opnd_array(2)->disp(ra_,this,idx2), opnd_array(2)->disp_reloc()), vector256);
@@ -37683,7 +37683,7 @@ void vdiv8F_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 3817 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 3817 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = true;
     __ vdivps(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src1 */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src2 */, vector256);
@@ -37701,7 +37701,7 @@ void vdiv8F_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 3828 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 3828 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = true;
     __ vdivps(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, Address::make_raw(opnd_array(2)->base(ra_,this,idx2), opnd_array(2)->index(ra_,this,idx2), opnd_array(2)->scale(), opnd_array(2)->disp(ra_,this,idx2), opnd_array(2)->disp_reloc()), vector256);
@@ -37719,7 +37719,7 @@ void vdiv2DNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 3840 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 3840 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ divpd(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src */);
   
@@ -37736,7 +37736,7 @@ void vdiv2D_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 3850 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 3850 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vdivpd(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src1 */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src2 */, vector256);
@@ -37754,7 +37754,7 @@ void vdiv2D_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 3861 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 3861 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vdivpd(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, Address::make_raw(opnd_array(2)->base(ra_,this,idx2), opnd_array(2)->index(ra_,this,idx2), opnd_array(2)->scale(), opnd_array(2)->disp(ra_,this,idx2), opnd_array(2)->disp_reloc()), vector256);
@@ -37772,7 +37772,7 @@ void vdiv4D_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 3872 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 3872 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = true;
     __ vdivpd(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src1 */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src2 */, vector256);
@@ -37790,7 +37790,7 @@ void vdiv4D_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 3883 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 3883 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = true;
     __ vdivpd(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, Address::make_raw(opnd_array(2)->base(ra_,this,idx2), opnd_array(2)->index(ra_,this,idx2), opnd_array(2)->scale(), opnd_array(2)->disp(ra_,this,idx2), opnd_array(2)->disp_reloc()), vector256);
@@ -37807,7 +37807,7 @@ void vshiftcntNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 3898 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 3898 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ movdl(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_Register(ra_,this,idx1)/* cnt */);
   
@@ -37823,7 +37823,7 @@ void vshiftcnt_0Node::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 3898 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 3898 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ movdl(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_Register(ra_,this,idx1)/* cnt */);
   
@@ -37840,7 +37840,7 @@ void vsll2SNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 3911 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 3911 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ psllw(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* shift */);
   
@@ -37857,7 +37857,7 @@ void vsll2S_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 3921 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 3921 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ psllw(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, (int)opnd_array(2)->constant());
   
@@ -37874,7 +37874,7 @@ void vsll2S_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 3931 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 3931 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vpsllw(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* shift */, vector256);
@@ -37892,7 +37892,7 @@ void vsll2S_reg_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 3942 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 3942 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vpsllw(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, (int)opnd_array(2)->constant(), vector256);
@@ -37910,7 +37910,7 @@ void vsll4SNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 3953 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 3953 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ psllw(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* shift */);
   
@@ -37927,7 +37927,7 @@ void vsll4S_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 3963 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 3963 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ psllw(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, (int)opnd_array(2)->constant());
   
@@ -37944,7 +37944,7 @@ void vsll4S_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 3973 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 3973 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vpsllw(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* shift */, vector256);
@@ -37962,7 +37962,7 @@ void vsll4S_reg_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 3984 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 3984 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vpsllw(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, (int)opnd_array(2)->constant(), vector256);
@@ -37980,7 +37980,7 @@ void vsll8SNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 3995 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 3995 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ psllw(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* shift */);
   
@@ -37997,7 +37997,7 @@ void vsll8S_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4005 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 4005 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ psllw(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, (int)opnd_array(2)->constant());
   
@@ -38014,7 +38014,7 @@ void vsll8S_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4015 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 4015 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vpsllw(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* shift */, vector256);
@@ -38032,7 +38032,7 @@ void vsll8S_reg_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4026 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 4026 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vpsllw(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, (int)opnd_array(2)->constant(), vector256);
@@ -38050,7 +38050,7 @@ void vsll16S_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4037 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 4037 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = true;
     __ vpsllw(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* shift */, vector256);
@@ -38068,7 +38068,7 @@ void vsll16S_reg_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4048 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 4048 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = true;
     __ vpsllw(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, (int)opnd_array(2)->constant(), vector256);
@@ -38086,7 +38086,7 @@ void vsll2INode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4060 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 4060 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ pslld(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* shift */);
   
@@ -38103,7 +38103,7 @@ void vsll2I_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4070 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 4070 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ pslld(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, (int)opnd_array(2)->constant());
   
@@ -38120,7 +38120,7 @@ void vsll2I_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4080 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 4080 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vpslld(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* shift */, vector256);
@@ -38138,7 +38138,7 @@ void vsll2I_reg_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4091 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 4091 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vpslld(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, (int)opnd_array(2)->constant(), vector256);
@@ -38156,7 +38156,7 @@ void vsll4INode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4102 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 4102 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ pslld(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* shift */);
   
@@ -38173,7 +38173,7 @@ void vsll4I_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4112 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 4112 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ pslld(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, (int)opnd_array(2)->constant());
   
@@ -38190,7 +38190,7 @@ void vsll4I_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4122 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 4122 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vpslld(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* shift */, vector256);
@@ -38208,7 +38208,7 @@ void vsll4I_reg_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4133 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 4133 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vpslld(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, (int)opnd_array(2)->constant(), vector256);
@@ -38226,7 +38226,7 @@ void vsll8I_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4144 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 4144 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = true;
     __ vpslld(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* shift */, vector256);
@@ -38244,7 +38244,7 @@ void vsll8I_reg_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4155 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 4155 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = true;
     __ vpslld(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, (int)opnd_array(2)->constant(), vector256);
@@ -38262,7 +38262,7 @@ void vsll2LNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4167 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 4167 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ psllq(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* shift */);
   
@@ -38279,7 +38279,7 @@ void vsll2L_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4177 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 4177 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ psllq(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, (int)opnd_array(2)->constant());
   
@@ -38296,7 +38296,7 @@ void vsll2L_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4187 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 4187 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vpsllq(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* shift */, vector256);
@@ -38314,7 +38314,7 @@ void vsll2L_reg_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4198 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 4198 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vpsllq(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, (int)opnd_array(2)->constant(), vector256);
@@ -38332,7 +38332,7 @@ void vsll4L_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4209 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 4209 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = true;
     __ vpsllq(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* shift */, vector256);
@@ -38350,7 +38350,7 @@ void vsll4L_reg_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4220 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 4220 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = true;
     __ vpsllq(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, (int)opnd_array(2)->constant(), vector256);
@@ -38368,7 +38368,7 @@ void vsrl2SNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4238 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 4238 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ psrlw(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* shift */);
   
@@ -38385,7 +38385,7 @@ void vsrl2S_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4248 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 4248 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ psrlw(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, (int)opnd_array(2)->constant());
   
@@ -38402,7 +38402,7 @@ void vsrl2S_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4258 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 4258 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vpsrlw(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* shift */, vector256);
@@ -38420,7 +38420,7 @@ void vsrl2S_reg_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4269 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 4269 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vpsrlw(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, (int)opnd_array(2)->constant(), vector256);
@@ -38438,7 +38438,7 @@ void vsrl4SNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4280 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 4280 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ psrlw(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* shift */);
   
@@ -38455,7 +38455,7 @@ void vsrl4S_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4290 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 4290 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ psrlw(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, (int)opnd_array(2)->constant());
   
@@ -38472,7 +38472,7 @@ void vsrl4S_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4300 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 4300 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vpsrlw(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* shift */, vector256);
@@ -38490,7 +38490,7 @@ void vsrl4S_reg_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4311 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 4311 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vpsrlw(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, (int)opnd_array(2)->constant(), vector256);
@@ -38508,7 +38508,7 @@ void vsrl8SNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4322 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 4322 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ psrlw(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* shift */);
   
@@ -38525,7 +38525,7 @@ void vsrl8S_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4332 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 4332 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ psrlw(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, (int)opnd_array(2)->constant());
   
@@ -38542,7 +38542,7 @@ void vsrl8S_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4342 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 4342 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vpsrlw(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* shift */, vector256);
@@ -38560,7 +38560,7 @@ void vsrl8S_reg_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4353 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 4353 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vpsrlw(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, (int)opnd_array(2)->constant(), vector256);
@@ -38578,7 +38578,7 @@ void vsrl16S_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4364 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 4364 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = true;
     __ vpsrlw(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* shift */, vector256);
@@ -38596,7 +38596,7 @@ void vsrl16S_reg_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4375 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 4375 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = true;
     __ vpsrlw(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, (int)opnd_array(2)->constant(), vector256);
@@ -38614,7 +38614,7 @@ void vsrl2INode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4387 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 4387 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ psrld(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* shift */);
   
@@ -38631,7 +38631,7 @@ void vsrl2I_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4397 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 4397 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ psrld(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, (int)opnd_array(2)->constant());
   
@@ -38648,7 +38648,7 @@ void vsrl2I_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4407 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 4407 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vpsrld(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* shift */, vector256);
@@ -38666,7 +38666,7 @@ void vsrl2I_reg_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4418 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 4418 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vpsrld(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, (int)opnd_array(2)->constant(), vector256);
@@ -38684,7 +38684,7 @@ void vsrl4INode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4429 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 4429 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ psrld(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* shift */);
   
@@ -38701,7 +38701,7 @@ void vsrl4I_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4439 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 4439 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ psrld(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, (int)opnd_array(2)->constant());
   
@@ -38718,7 +38718,7 @@ void vsrl4I_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4449 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 4449 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vpsrld(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* shift */, vector256);
@@ -38736,7 +38736,7 @@ void vsrl4I_reg_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4460 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 4460 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vpsrld(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, (int)opnd_array(2)->constant(), vector256);
@@ -38754,7 +38754,7 @@ void vsrl8I_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4471 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 4471 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = true;
     __ vpsrld(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* shift */, vector256);
@@ -38772,7 +38772,7 @@ void vsrl8I_reg_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4482 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 4482 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = true;
     __ vpsrld(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, (int)opnd_array(2)->constant(), vector256);
@@ -38790,7 +38790,7 @@ void vsrl2LNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4494 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 4494 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ psrlq(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* shift */);
   
@@ -38807,7 +38807,7 @@ void vsrl2L_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4504 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 4504 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ psrlq(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, (int)opnd_array(2)->constant());
   
@@ -38824,7 +38824,7 @@ void vsrl2L_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4514 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 4514 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vpsrlq(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* shift */, vector256);
@@ -38842,7 +38842,7 @@ void vsrl2L_reg_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4525 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 4525 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vpsrlq(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, (int)opnd_array(2)->constant(), vector256);
@@ -38860,7 +38860,7 @@ void vsrl4L_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4536 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 4536 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = true;
     __ vpsrlq(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* shift */, vector256);
@@ -38878,7 +38878,7 @@ void vsrl4L_reg_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4547 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 4547 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = true;
     __ vpsrlq(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, (int)opnd_array(2)->constant(), vector256);
@@ -38896,7 +38896,7 @@ void vsra2SNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4561 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 4561 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ psraw(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* shift */);
   
@@ -38913,7 +38913,7 @@ void vsra2S_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4571 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 4571 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ psraw(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, (int)opnd_array(2)->constant());
   
@@ -38930,7 +38930,7 @@ void vsra2S_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4581 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 4581 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vpsraw(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* shift */, vector256);
@@ -38948,7 +38948,7 @@ void vsra2S_reg_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4592 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 4592 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vpsraw(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, (int)opnd_array(2)->constant(), vector256);
@@ -38966,7 +38966,7 @@ void vsra4SNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4603 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 4603 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ psraw(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* shift */);
   
@@ -38983,7 +38983,7 @@ void vsra4S_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4613 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 4613 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ psraw(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, (int)opnd_array(2)->constant());
   
@@ -39000,7 +39000,7 @@ void vsra4S_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4623 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 4623 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vpsraw(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* shift */, vector256);
@@ -39018,7 +39018,7 @@ void vsra4S_reg_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4634 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 4634 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vpsraw(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, (int)opnd_array(2)->constant(), vector256);
@@ -39036,7 +39036,7 @@ void vsra8SNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4645 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 4645 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ psraw(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* shift */);
   
@@ -39053,7 +39053,7 @@ void vsra8S_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4655 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 4655 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ psraw(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, (int)opnd_array(2)->constant());
   
@@ -39070,7 +39070,7 @@ void vsra8S_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4665 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 4665 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vpsraw(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* shift */, vector256);
@@ -39088,7 +39088,7 @@ void vsra8S_reg_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4676 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 4676 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vpsraw(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, (int)opnd_array(2)->constant(), vector256);
@@ -39106,7 +39106,7 @@ void vsra16S_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4687 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 4687 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = true;
     __ vpsraw(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* shift */, vector256);
@@ -39124,7 +39124,7 @@ void vsra16S_reg_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4698 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 4698 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = true;
     __ vpsraw(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, (int)opnd_array(2)->constant(), vector256);
@@ -39142,7 +39142,7 @@ void vsra2INode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4710 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 4710 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ psrad(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* shift */);
   
@@ -39159,7 +39159,7 @@ void vsra2I_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4720 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 4720 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ psrad(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, (int)opnd_array(2)->constant());
   
@@ -39176,7 +39176,7 @@ void vsra2I_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4730 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 4730 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vpsrad(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* shift */, vector256);
@@ -39194,7 +39194,7 @@ void vsra2I_reg_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4741 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 4741 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vpsrad(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, (int)opnd_array(2)->constant(), vector256);
@@ -39212,7 +39212,7 @@ void vsra4INode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4752 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 4752 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ psrad(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* shift */);
   
@@ -39229,7 +39229,7 @@ void vsra4I_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4762 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 4762 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ psrad(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, (int)opnd_array(2)->constant());
   
@@ -39246,7 +39246,7 @@ void vsra4I_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4772 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 4772 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vpsrad(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* shift */, vector256);
@@ -39264,7 +39264,7 @@ void vsra4I_reg_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4783 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 4783 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vpsrad(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, (int)opnd_array(2)->constant(), vector256);
@@ -39282,7 +39282,7 @@ void vsra8I_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4794 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 4794 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = true;
     __ vpsrad(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* shift */, vector256);
@@ -39300,7 +39300,7 @@ void vsra8I_reg_immNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4805 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 4805 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = true;
     __ vpsrad(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, (int)opnd_array(2)->constant(), vector256);
@@ -39318,7 +39318,7 @@ void vand4BNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4821 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 4821 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ pand(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src */);
   
@@ -39335,7 +39335,7 @@ void vand4B_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4831 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 4831 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vpand(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src1 */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src2 */, vector256);
@@ -39353,7 +39353,7 @@ void vand8BNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4842 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 4842 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ pand(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src */);
   
@@ -39370,7 +39370,7 @@ void vand8B_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4852 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 4852 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vpand(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src1 */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src2 */, vector256);
@@ -39388,7 +39388,7 @@ void vand16BNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4863 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 4863 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ pand(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src */);
   
@@ -39405,7 +39405,7 @@ void vand16B_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4873 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 4873 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vpand(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src1 */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src2 */, vector256);
@@ -39423,7 +39423,7 @@ void vand16B_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4884 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 4884 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vpand(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, Address::make_raw(opnd_array(2)->base(ra_,this,idx2), opnd_array(2)->index(ra_,this,idx2), opnd_array(2)->scale(), opnd_array(2)->disp(ra_,this,idx2), opnd_array(2)->disp_reloc()), vector256);
@@ -39441,7 +39441,7 @@ void vand32B_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4895 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 4895 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = true;
     __ vpand(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src1 */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src2 */, vector256);
@@ -39459,7 +39459,7 @@ void vand32B_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4906 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 4906 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = true;
     __ vpand(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, Address::make_raw(opnd_array(2)->base(ra_,this,idx2), opnd_array(2)->index(ra_,this,idx2), opnd_array(2)->scale(), opnd_array(2)->disp(ra_,this,idx2), opnd_array(2)->disp_reloc()), vector256);
@@ -39477,7 +39477,7 @@ void vor4BNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4919 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 4919 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ por(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src */);
   
@@ -39494,7 +39494,7 @@ void vor4B_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4929 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 4929 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vpor(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src1 */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src2 */, vector256);
@@ -39512,7 +39512,7 @@ void vor8BNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4940 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 4940 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ por(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src */);
   
@@ -39529,7 +39529,7 @@ void vor8B_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4950 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 4950 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vpor(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src1 */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src2 */, vector256);
@@ -39547,7 +39547,7 @@ void vor16BNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4961 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 4961 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ por(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src */);
   
@@ -39564,7 +39564,7 @@ void vor16B_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4971 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 4971 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vpor(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src1 */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src2 */, vector256);
@@ -39582,7 +39582,7 @@ void vor16B_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4982 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 4982 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vpor(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, Address::make_raw(opnd_array(2)->base(ra_,this,idx2), opnd_array(2)->index(ra_,this,idx2), opnd_array(2)->scale(), opnd_array(2)->disp(ra_,this,idx2), opnd_array(2)->disp_reloc()), vector256);
@@ -39600,7 +39600,7 @@ void vor32B_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 4993 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 4993 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = true;
     __ vpor(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src1 */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src2 */, vector256);
@@ -39618,7 +39618,7 @@ void vor32B_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 5004 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 5004 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = true;
     __ vpor(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, Address::make_raw(opnd_array(2)->base(ra_,this,idx2), opnd_array(2)->index(ra_,this,idx2), opnd_array(2)->scale(), opnd_array(2)->disp(ra_,this,idx2), opnd_array(2)->disp_reloc()), vector256);
@@ -39636,7 +39636,7 @@ void vxor4BNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 5017 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 5017 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ pxor(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src */);
   
@@ -39653,7 +39653,7 @@ void vxor4B_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 5027 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 5027 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vpxor(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src1 */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src2 */, vector256);
@@ -39671,7 +39671,7 @@ void vxor8BNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 5038 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 5038 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ pxor(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src */);
   
@@ -39688,7 +39688,7 @@ void vxor8B_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 5048 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 5048 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vpxor(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src1 */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src2 */, vector256);
@@ -39706,7 +39706,7 @@ void vxor16BNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 5059 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 5059 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     __ pxor(opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* dst */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src */);
   
@@ -39723,7 +39723,7 @@ void vxor16B_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 5069 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 5069 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vpxor(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src1 */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src2 */, vector256);
@@ -39741,7 +39741,7 @@ void vxor16B_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 5080 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 5080 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = false;
     __ vpxor(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, Address::make_raw(opnd_array(2)->base(ra_,this,idx2), opnd_array(2)->index(ra_,this,idx2), opnd_array(2)->scale(), opnd_array(2)->disp(ra_,this,idx2), opnd_array(2)->disp_reloc()), vector256);
@@ -39759,7 +39759,7 @@ void vxor32B_regNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 5091 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 5091 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = true;
     __ vpxor(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src1 */, opnd_array(2)->as_XMMRegister(ra_,this,idx2)/* src2 */, vector256);
@@ -39777,7 +39777,7 @@ void vxor32B_memNode::emit(CodeBuffer& cbuf, PhaseRegAlloc* ra_) const {
   {
     MacroAssembler _masm(&cbuf);
 
-#line 5102 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86.ad"
+#line 5102 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86.ad"
 
     bool vector256 = true;
     __ vpxor(opnd_array(0)->as_XMMRegister(ra_,this)/* dst */, opnd_array(1)->as_XMMRegister(ra_,this,idx1)/* src */, Address::make_raw(opnd_array(2)->base(ra_,this,idx2), opnd_array(2)->index(ra_,this,idx2), opnd_array(2)->scale(), opnd_array(2)->disp(ra_,this,idx2), opnd_array(2)->disp_reloc()), vector256);
@@ -40438,7 +40438,7 @@ uint Compile::varargs_C_out_slots_killed() const { return frame::arg_reg_save_ar
 
 void Matcher::calling_convention(BasicType *sig_bt, VMRegPair *regs, uint length, bool is_outgoing) {
 
-#line 2664 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2664 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // No difference between ingoing/outgoing just pass false
     SharedRuntime::java_calling_convention(sig_bt, regs, length, false);
@@ -40449,7 +40449,7 @@ void Matcher::calling_convention(BasicType *sig_bt, VMRegPair *regs, uint length
 
 void Matcher::c_calling_convention(BasicType *sig_bt, VMRegPair *regs, uint length) {
 
-#line 2670 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2670 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     // This is obviously always outgoing
     (void) SharedRuntime::c_calling_convention(sig_bt, regs, /*regs2=*/NULL, length);
@@ -40460,7 +40460,7 @@ void Matcher::c_calling_convention(BasicType *sig_bt, VMRegPair *regs, uint leng
 
 OptoRegPair Matcher::return_value(int ideal_reg, bool is_outgoing) {
 
-#line 2677 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2677 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     assert(ideal_reg >= Op_RegI && ideal_reg <= Op_RegL,
            "only return normal values");
@@ -40495,7 +40495,7 @@ OptoRegPair Matcher::return_value(int ideal_reg, bool is_outgoing) {
 
 OptoRegPair Matcher::c_return_value(int ideal_reg, bool is_outgoing) {
 
-#line 2677 "/Users/cg/jdk8u/openjdk/hotspot/src/cpu/x86/vm/x86_64.ad"
+#line 2677 "/Volumes/Mac/OpenJdk/openjdk8/myOpenJDK/hotspot/src/cpu/x86/vm/x86_64.ad"
 
     assert(ideal_reg >= Op_RegI && ideal_reg <= Op_RegL,
            "only return normal values");

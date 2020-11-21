@@ -315,14 +315,14 @@ public class FormatData_vi extends ListResourceBundle {
                     "dd/MM/y GGGG",
                 }
             },
+            { "calendarname.islamic", "L\u1ecbch Islamic" },
+            { "calendarname.buddhist", "L\u1ecbch Ph\u1eadt Gi\u00e1o" },
             { "calendarname.gregorian", "L\u1ecbch Gregory" },
             { "calendarname.gregory", "L\u1ecbch Gregory" },
-            { "calendarname.roc", "L\u1ecbch Trung Hoa D\u00e2n Qu\u1ed1c" },
             { "calendarname.islamic-civil", "L\u1ecbch Islamic-Civil" },
             { "calendarname.islamicc", "L\u1ecbch Islamic-Civil" },
+            { "calendarname.roc", "L\u1ecbch Trung Hoa D\u00e2n Qu\u1ed1c" },
             { "calendarname.japanese", "L\u1ecbch Nh\u1eadt B\u1ea3n" },
-            { "calendarname.buddhist", "L\u1ecbch Ph\u1eadt Gi\u00e1o" },
-            { "calendarname.islamic", "L\u1ecbch Islamic" },
             { "DefaultNumberingSystem", "latn" },
             { "latn.NumberElements",
                 new String[] {

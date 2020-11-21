@@ -367,14 +367,14 @@ public class FormatData_it extends ListResourceBundle {
                     "dd/MM/y GGGG",
                 }
             },
+            { "calendarname.islamic", "calendario islamico" },
+            { "calendarname.buddhist", "calendario buddista" },
             { "calendarname.gregorian", "calendario gregoriano" },
             { "calendarname.gregory", "calendario gregoriano" },
-            { "calendarname.roc", "Calendario Minguo" },
             { "calendarname.islamic-civil", "calendario civile islamico" },
             { "calendarname.islamicc", "calendario civile islamico" },
+            { "calendarname.roc", "Calendario Minguo" },
             { "calendarname.japanese", "calendario giapponese" },
-            { "calendarname.buddhist", "calendario buddista" },
-            { "calendarname.islamic", "calendario islamico" },
             { "DefaultNumberingSystem", "latn" },
             { "latn.NumberElements",
                 new String[] {

@@ -326,14 +326,14 @@ public class FormatData_id extends ListResourceBundle {
                     "dd/MM/y GGGG",
                 }
             },
+            { "calendarname.islamic", "Kalender Islam" },
+            { "calendarname.buddhist", "Kalender Buddha" },
             { "calendarname.gregorian", "Kalender Gregorian" },
             { "calendarname.gregory", "Kalender Gregorian" },
-            { "calendarname.roc", "Kalendar Minguo" },
             { "calendarname.islamic-civil", "Kalender Sipil Islam" },
             { "calendarname.islamicc", "Kalender Sipil Islam" },
+            { "calendarname.roc", "Kalendar Minguo" },
             { "calendarname.japanese", "Kalender Jepang" },
-            { "calendarname.buddhist", "Kalender Buddha" },
-            { "calendarname.islamic", "Kalender Islam" },
             { "DefaultNumberingSystem", "latn" },
             { "latn.NumberElements",
                 new String[] {

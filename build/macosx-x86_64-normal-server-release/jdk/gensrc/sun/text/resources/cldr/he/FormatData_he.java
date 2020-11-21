@@ -262,14 +262,14 @@ public class FormatData_he extends ListResourceBundle {
                     "\u05e9\u05e0\u05ea \u05d4\u05d9\u05d2\u05f3\u05e8\u05d4",
                 }
             },
+            { "calendarname.islamic", "\u05dc\u05d5\u05d7 \u05e9\u05e0\u05d4 \u05de\u05d5\u05e1\u05dc\u05de\u05d9" },
+            { "calendarname.buddhist", "\u05dc\u05d5\u05d7 \u05e9\u05e0\u05d4 \u05d1\u05d5\u05d3\u05d4\u05d9\u05e1\u05d8\u05d9" },
             { "calendarname.gregorian", "\u05dc\u05d5\u05d7 \u05e9\u05e0\u05d4 \u05d2\u05e8\u05d2\u05d5\u05e8\u05d9\u05d0\u05e0\u05d9" },
             { "calendarname.gregory", "\u05dc\u05d5\u05d7 \u05e9\u05e0\u05d4 \u05d2\u05e8\u05d2\u05d5\u05e8\u05d9\u05d0\u05e0\u05d9" },
-            { "calendarname.roc", "\u05dc\u05d5\u05d7 \u05d4\u05e9\u05e0\u05d4 \u05d4\u05e1\u05d9\u05e0\u05d9 Minguo" },
             { "calendarname.islamic-civil", "\u05dc\u05d5\u05d7 \u05e9\u05e0\u05d4 \u05de\u05d5\u05e1\u05dc\u05de\u05d9-\u05d0\u05d6\u05e8\u05d7\u05d9" },
             { "calendarname.islamicc", "\u05dc\u05d5\u05d7 \u05e9\u05e0\u05d4 \u05de\u05d5\u05e1\u05dc\u05de\u05d9-\u05d0\u05d6\u05e8\u05d7\u05d9" },
+            { "calendarname.roc", "\u05dc\u05d5\u05d7 \u05d4\u05e9\u05e0\u05d4 \u05d4\u05e1\u05d9\u05e0\u05d9 Minguo" },
             { "calendarname.japanese", "\u05dc\u05d5\u05d7 \u05e9\u05e0\u05d4 \u05d9\u05e4\u05e0\u05d9" },
-            { "calendarname.buddhist", "\u05dc\u05d5\u05d7 \u05e9\u05e0\u05d4 \u05d1\u05d5\u05d3\u05d4\u05d9\u05e1\u05d8\u05d9" },
-            { "calendarname.islamic", "\u05dc\u05d5\u05d7 \u05e9\u05e0\u05d4 \u05de\u05d5\u05e1\u05dc\u05de\u05d9" },
             { "DefaultNumberingSystem", "latn" },
             { "latn.NumberElements",
                 new String[] {

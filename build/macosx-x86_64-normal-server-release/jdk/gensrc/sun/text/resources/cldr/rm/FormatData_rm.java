@@ -203,14 +203,14 @@ public class FormatData_rm extends ListResourceBundle {
                     "dd-MM-yy",
                 }
             },
+            { "calendarname.islamic", "chalender islamic" },
+            { "calendarname.buddhist", "chalender budistic" },
             { "calendarname.gregorian", "chalender gregorian" },
             { "calendarname.gregory", "chalender gregorian" },
-            { "calendarname.roc", "chalendar da la republica chinaisa" },
             { "calendarname.islamic-civil", "chalender islamic civil" },
             { "calendarname.islamicc", "chalender islamic civil" },
+            { "calendarname.roc", "chalendar da la republica chinaisa" },
             { "calendarname.japanese", "chalender giapunais" },
-            { "calendarname.buddhist", "chalender budistic" },
-            { "calendarname.islamic", "chalender islamic" },
             { "DefaultNumberingSystem", "latn" },
             { "latn.NumberElements",
                 new String[] {
