@@ -8,7 +8,7 @@
 **/.vscode
 
 # idea
-.idea
+/.idea
 
 # Prerequisites
 *.d
