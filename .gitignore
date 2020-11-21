@@ -1,6 +1,9 @@
 # build target files dir
 build
 
+# mac file
+.DS_Store
+
 # Prerequisites
 *.d
 
