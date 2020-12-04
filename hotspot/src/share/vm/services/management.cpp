@@ -22,6 +22,10 @@
  *
  */
 
+/**
+ * JMX函数，做管理和监控的一系列函数实现
+ */
+
 #include "precompiled.hpp"
 #include "classfile/systemDictionary.hpp"
 #include "compiler/compileBroker.hpp"
@@ -2328,6 +2332,7 @@ const struct jmmInterface_1_ jmm_interface = {
   jmm_GetMemoryPoolUsage,
   jmm_GetPeakMemoryPoolUsage,
   jmm_GetThreadAllocatedMemory,
+  // 获得内存使用情况
   jmm_GetMemoryUsage,
   jmm_GetLongAttribute,
   jmm_GetBoolAttribute,

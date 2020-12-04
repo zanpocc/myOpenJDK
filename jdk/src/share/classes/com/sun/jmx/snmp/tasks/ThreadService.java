@@ -23,6 +23,10 @@
  * questions.
  */
 
+/**
+ * 线程服务
+ */
+
 package com.sun.jmx.snmp.tasks;
 
 import java.util.ArrayList;
@@ -30,11 +34,10 @@ import com.sun.jmx.snmp.tasks.Task;
 import com.sun.jmx.snmp.tasks.TaskServer;
 
 /**
- * This class implements a {@link com.sun.jmx.snmp.tasks.TaskServer} over
- * a thread pool.
- * <p><b>This API is a Sun Microsystems internal API  and is subject
- * to change without notice.</b></p>
- **/
+* 此类通过{@link com.sun.jmx.snmp.tasks.TaskServer}实现线程池。
+* 此API是Sun Microsystems内部API，受以下主题限制
+* 如有更改，恕不另行通知。
+**/
 public class ThreadService implements TaskServer {
 
     public ThreadService(int threadNumber) {

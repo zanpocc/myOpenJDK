@@ -89,6 +89,8 @@ WinMain(HINSTANCE inst, HINSTANCE previnst, LPSTR cmdline, int cmdshow)
     __initenv = _environ;
 
 #else /* JAVAW */
+    
+// 通用launcher启动器，类Unix平台的入口点
 int
 main(int argc, char **argv)
 {
@@ -122,6 +124,8 @@ main(int argc, char **argv)
     margc = argc;
     margv = argv;
 #endif /* WIN32 */
+    // argc参数个数
+    // argv参数指针：第一个是java程序路径，后面的是参数
     return JLI_Launch(margc, margv,
                    sizeof(const_jargs) / sizeof(char *), const_jargs,
                    sizeof(const_appclasspath) / sizeof(char *), const_appclasspath,

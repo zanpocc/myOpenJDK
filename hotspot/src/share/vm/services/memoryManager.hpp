@@ -22,6 +22,11 @@
  *
  */
 
+/**
+ * 内存管理器，垃圾回收器的实现
+ *
+ */
+
 #ifndef SHARE_VM_SERVICES_MEMORYMANAGER_HPP
 #define SHARE_VM_SERVICES_MEMORYMANAGER_HPP
 
@@ -29,12 +34,12 @@
 #include "runtime/timer.hpp"
 #include "services/memoryUsage.hpp"
 
-// A memory manager is responsible for managing one or more memory pools.
-// The garbage collector is one type of memory managers responsible
-// for reclaiming memory occupied by unreachable objects.  A Java virtual
-// machine may have one or more memory managers.   It may
-// add or remove memory managers during execution.
-// A memory pool can be managed by more than one memory managers.
+// 内存管理器负责管理一个或多个内存池。
+// 垃圾收集器是负责的一种内存管理器
+// 回收无法访问的对象占用的内存。
+// Java虚拟机可能具有一个或多个内存管理器。
+// 在执行过程中可能添加或删除内存管理器。
+// 一个内存池可以由多个内存管理器管理。
 
 class MemoryPool;
 class GCMemoryManager;

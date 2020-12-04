@@ -1,4 +1,5 @@
 #!/bin/bash
+cd ../myOpenJDK/
 source ./env.bash
 ./configure clean
 ./configure OBJCOPY=gobjcopy --with-debug-level=slowdebug --enable-debug-symbols ZIP_DEBUGINFO_FILES=0 

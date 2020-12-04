@@ -169,20 +169,20 @@ static jlong maxHeapSize        = 0;  /* max heap size */
 static jlong initialHeapSize    = 0;  /* inital heap size */
 
 /*
- * Entry point.
+ * gamma启动器入口，调试用
  */
 int
 JLI_Launch(int argc, char ** argv,              /* main argc, argc */
         int jargc, const char** jargv,          /* java args */
         int appclassc, const char** appclassv,  /* app classpath */
-        const char* fullversion,                /* full version defined */
-        const char* dotversion,                 /* dot version defined */
-        const char* pname,                      /* program name */
-        const char* lname,                      /* launcher name */
-        jboolean javaargs,                      /* JAVA_ARGS */
-        jboolean cpwildcard,                    /* classpath wildcard*/
-        jboolean javaw,                         /* windows-only javaw */
-        jint ergo                               /* ergonomics class policy */
+        const char* fullversion,                /* full version defined 完整版本名称 */
+        const char* dotversion,                 /* dot version defined 例如：1.8 */
+        const char* pname,                      /* program name 程序名称java */
+        const char* lname,                      /* launcher name 启动名称openjdk */
+        jboolean javaargs,                      /* JAVA_ARGS \0 不知道什么意思 */
+        jboolean cpwildcard,                    /* classpath wildcard \x 01不知道什么意思 */
+        jboolean javaw,                         /* windows-only javaw windows才有 */
+        jint ergo                               /* ergonomics class policy 0不知道什么意思 */
 )
 {
     int mode = LM_UNKNOWN;
@@ -204,7 +204,7 @@ JLI_Launch(int argc, char ** argv,              /* main argc, argc */
     _wc_enabled = cpwildcard;
     _ergo_policy = ergo;
 
-    InitLauncher(javaw);
+    InitLauncher(javaw);// 好像没做什么事
     DumpState();
     if (JLI_IsTraceLauncher()) {
         int i;
@@ -233,7 +233,7 @@ JLI_Launch(int argc, char ** argv,              /* main argc, argc */
      *     bugid 5030265 below.)
      */
     SelectVersion(argc, argv, &main_class);
-
+    // 创建运行环境
     CreateExecutionEnvironment(&argc, &argv,
                                jrepath, sizeof(jrepath),
                                jvmpath, sizeof(jvmpath),
