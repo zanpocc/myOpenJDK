@@ -30,8 +30,8 @@ Kernel configured for up to 8 processors.
 Processor type: x86_64h (Intel x86-64h Haswell)
 Processors active: 0 1 2 3 4 5 6 7
 Primary memory available: 16.00 gigabytes
-Default processor set: 274 tasks, 990 threads, 8 processors
-Load average: 1.99, Mach factor: 6.00
+Default processor set: 299 tasks, 1175 threads, 8 processors
+Load average: 3.05, Mach factor: 5.09
 /bin/machine           = unknown
 /usr/bin/oslevel       = unknown
 /bin/universe          = unknown
@@ -57,7 +57,7 @@ PATH: /sbin
 ## Core tests. ##
 ## ----------- ##
 
-configure:3892: Configuration created at Fri Dec  4 23:01:33 CST 2020.
+configure:3892: Configuration created at Sat Dec  5 00:31:47 CST 2020.
 configure:3894: configure script generated at timestamp 1416326200.
 configure:3911: checking for basename
 configure:3929: found /usr/bin/basename
@@ -610,7 +610,7 @@ C_O_FLAG_HIGHEST=''
 C_O_FLAG_NONE=''
 C_O_FLAG_NORM=''
 DATE='/bin/date'
-DATE_WHEN_CONFIGURED='Fri Dec  4 23:01:33 CST 2020'
+DATE_WHEN_CONFIGURED='Sat Dec  5 00:31:47 CST 2020'
 DEBUG_CLASSFILES='true'
 DEBUG_LEVEL='slowdebug'
 DEFINE_CROSS_COMPILE_ARCH=''
@@ -836,7 +836,7 @@ UNAME='/usr/bin/uname'
 UNIQ='/usr/bin/uniq'
 UNLIMITED_CRYPTO='false'
 UNZIP='/usr/bin/unzip'
-USER_RELEASE_SUFFIX='cg_2020_12_04_23_01'
+USER_RELEASE_SUFFIX='cg_2020_12_05_00_31'
 USE_EXTERNAL_LIBGIF=''
 USE_EXTERNAL_LIBJPEG=''
 USE_EXTERNAL_LIBZ=''

@@ -90,7 +90,7 @@ WinMain(HINSTANCE inst, HINSTANCE previnst, LPSTR cmdline, int cmdshow)
 
 #else /* JAVAW */
     
-// 通用launcher启动器，类Unix平台的入口点
+// zanpocc:通用launcher启动器，类Unix平台的入口点
 int
 main(int argc, char **argv)
 {

@@ -426,13 +426,13 @@ class os: AllStatic {
   // threads
 
   enum ThreadType {
-    vm_thread,
+    vm_thread,         // VM线程
     cgc_thread,        // Concurrent GC thread
     pgc_thread,        // Parallel GC thread
-    java_thread,
-    compiler_thread,
-    watcher_thread,
-    os_thread
+    java_thread,       // Java线程
+    compiler_thread,   // 编译器线程
+    watcher_thread,    // watcher线程
+    os_thread          // 系统线程
   };
 
   static bool create_thread(Thread* thread,

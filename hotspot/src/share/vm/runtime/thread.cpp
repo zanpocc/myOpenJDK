@@ -3302,6 +3302,7 @@ void Threads::threads_do(ThreadClosure* tc) {
   // If CompilerThreads ever become non-JavaThreads, add them here
 }
 
+// zanpocc:create_vm，系统初始化，其它的入口点都在jdk包中，都是一个启动器，这里才是真正的创建vm
 jint Threads::create_vm(JavaVMInitArgs* args, bool* canTryAgain) {
 
   extern void JDK_Version_init();
@@ -3309,28 +3310,29 @@ jint Threads::create_vm(JavaVMInitArgs* args, bool* canTryAgain) {
   // Check version
   if (!is_supported_jni_version(args->version)) return JNI_EVERSION;
 
-  // Initialize the output stream module
+  // 1、初始化输出流模块
   ostream_init();
 
-  // Process java launcher properties.
+  // 2、处理启动器属性
   Arguments::process_sun_java_launcher_properties(args);
 
-  // Initialize the os module before using TLS
+  // 3、在TLS之前，初始化OS模块
   os::init();
 
-  // Initialize system properties.
+  // 4、初始化系统属性
   Arguments::init_system_properties();
 
+  // 5、参数解析
   // So that JDK version can be used as a discrimintor when parsing arguments
   JDK_Version_init();
 
   // Update/Initialize System properties after JDK version number is known
   Arguments::init_version_specific_system_properties();
 
-  // Parse arguments
   jint parse_result = Arguments::parse(args);
   if (parse_result != JNI_OK) return parse_result;
 
+  // 6、根据参数配置OS
   os::init_before_ergo();
 
   jint ergo_result = Arguments::apply_ergo();
@@ -3360,10 +3362,10 @@ jint Threads::create_vm(JavaVMInitArgs* args, bool* canTryAgain) {
   jint adjust_after_os_result = Arguments::adjust_after_os();
   if (adjust_after_os_result != JNI_OK) return adjust_after_os_result;
 
-  // intialize TLS
+  // 7、初始化TLS
   ThreadLocalStorage::init();
 
-  // Initialize output stream logging
+  // 8、初始化输出流日志
   ostream_init_log();
 
   // Convert -Xrun to -agentlib: if there is no JVM_OnLoad
@@ -3373,6 +3375,7 @@ jint Threads::create_vm(JavaVMInitArgs* args, bool* canTryAgain) {
   }
 
   // Launch -agentlib/-agentpath and converted -Xrun agents
+  // 初始化agent
   if (Arguments::init_agents_at_startup()) {
     create_vm_init_agents();
   }
@@ -3383,9 +3386,11 @@ jint Threads::create_vm(JavaVMInitArgs* args, bool* canTryAgain) {
   _number_of_non_daemon_threads = 0;
 
   // Initialize global data structures and create system classes in heap
+  // 初始化全局数据结构
   vm_init_globals();
 
   // Attach the main thread to this os thread
+  // 重点：创建主线程，附加主线程到这个系统线程
   JavaThread* main_thread = new JavaThread();
   main_thread->set_thread_state(_thread_in_vm);
   // must do this before set_active_handles and initialize_thread_local_storage
@@ -3393,9 +3398,12 @@ jint Threads::create_vm(JavaVMInitArgs* args, bool* canTryAgain) {
   // change the stack size recorded here to one based on the java thread
   // stacksize. This adjusted size is what is used to figure the placement
   // of the guard pages.
-  main_thread->record_stack_base_and_size();
-  main_thread->initialize_thread_local_storage();
 
+  // 记录主线程栈基址和大小
+  main_thread->record_stack_base_and_size();
+  // 初始化线程TLS
+  main_thread->initialize_thread_local_storage();
+  
   main_thread->set_active_handles(JNIHandleBlock::allocate_block());
 
   if (!main_thread->set_as_starting_thread()) {
@@ -3414,6 +3422,7 @@ jint Threads::create_vm(JavaVMInitArgs* args, bool* canTryAgain) {
   ObjectMonitor::Initialize() ;
 
   // Initialize global modules
+  // 初始化全局模块
   jint status = init_globals();
   if (status != JNI_OK) {
     delete main_thread;
@@ -3434,7 +3443,7 @@ jint Threads::create_vm(JavaVMInitArgs* args, bool* canTryAgain) {
   // real raw monitor. VM is setup enough here for raw monitor enter.
   JvmtiExport::transition_pending_onload_raw_monitors();
 
-  // Create the VMThread
+  // 创建VMThread：执行VMOperation的线程，实现JVM内部的核心操作，为运行时和外部接口服务
   { TraceTime timer("Start VMThread", TraceStartupTime);
     VMThread::create();
     Thread* vmthread = VMThread::vm_thread();
@@ -3477,6 +3486,7 @@ jint Threads::create_vm(JavaVMInitArgs* args, bool* canTryAgain) {
   // Notify JVMTI agents that VM has started (JNI is up) - nop if no agents.
   JvmtiExport::post_vm_start();
 
+  // 初始化一些系统类
   {
     TraceTime timer("Initialize java.lang classes", TraceStartupTime);
 
@@ -3601,6 +3611,7 @@ jint Threads::create_vm(JavaVMInitArgs* args, bool* canTryAgain) {
   JvmtiExport::enter_live_phase();
 
   // Signal Dispatcher needs to be started before VMInit event is posted
+  // 创建守护线程
   os::signal_init();
 
   // Start Attach Listener if +StartAttachListener or it can't be started lazily

@@ -1026,7 +1026,7 @@ SetXStartOnFirstThreadArg()
 
 @end
 
-// MacOSX we may continue in the same thread
+// zanpocc:JVMInit，MacOSX we may continue in the same thread
 int
 JVMInit(InvocationFunctions* ifn, jlong threadStackSize,
                  int argc, char **argv,
@@ -1053,6 +1053,7 @@ JVMInit(InvocationFunctions* ifn, jlong threadStackSize,
         [pool drain];
         return rslt;
     } else {
+        // 开启一个新线程去执行JavaMain
         return ContinueInNewThread(ifn, threadStackSize, argc, argv, mode, what, ret);
     }
 }

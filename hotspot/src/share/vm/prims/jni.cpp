@@ -5139,6 +5139,9 @@ DT_RETURN_MARK_DECL(CreateJavaVM, jint
                     , HOTSPOT_JNI_CREATEJAVAVM_RETURN(_ret_ref));
 #endif /* USDT2 */
 
+/**
+ *  zanpocc:CreateJavaVM，得到大量JNI函数的指针，最终调用Threads模板的create_vm方法
+ */
 _JNI_IMPORT_OR_EXPORT_ jint JNICALL JNI_CreateJavaVM(JavaVM **vm, void **penv, void *args) {
 #ifndef USDT2
   HS_DTRACE_PROBE3(hotspot_jni, CreateJavaVM__entry, vm, penv, args);
@@ -5198,12 +5201,13 @@ _JNI_IMPORT_OR_EXPORT_ jint JNICALL JNI_CreateJavaVM(JavaVM **vm, void **penv, v
    */
   bool can_try_again = true;
 
+  // 调用Threads模板的create_vm方法
   result = Threads::create_vm((JavaVMInitArgs*) args, &can_try_again);
   if (result == JNI_OK) {
     JavaThread *thread = JavaThread::current();
     /* thread is thread_in_vm here */
-    *vm = (JavaVM *)(&main_vm);
-    *(JNIEnv**)penv = thread->jni_environment();
+    *vm = (JavaVM *)(&main_vm);// 这里获得了vm结构体中很多JNI函数的地址
+    *(JNIEnv**)penv = thread->jni_environment();// 这里获得了env结构体中很多JNI函数的地址
 
     // Tracks the time application was running before GC
     RuntimeService::record_application_start();

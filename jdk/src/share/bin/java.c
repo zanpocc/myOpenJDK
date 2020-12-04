@@ -169,7 +169,7 @@ static jlong maxHeapSize        = 0;  /* max heap size */
 static jlong initialHeapSize    = 0;  /* inital heap size */
 
 /*
- * gamma启动器入口，调试用
+ * zanpocc:JLI_Launch，gamma启动器入口点，调试用
  */
 int
 JLI_Launch(int argc, char ** argv,              /* main argc, argc */
@@ -190,6 +190,7 @@ JLI_Launch(int argc, char ** argv,              /* main argc, argc */
     char *cpath = 0;
     char *main_class = NULL;
     int ret;
+    // 关键结构体InvocationFunctions
     InvocationFunctions ifn;
     jlong start, end;
     char jvmpath[MAXPATHLEN];
@@ -233,16 +234,18 @@ JLI_Launch(int argc, char ** argv,              /* main argc, argc */
      *     bugid 5030265 below.)
      */
     SelectVersion(argc, argv, &main_class);
-    // 创建运行环境
+    // 创建运行环境，第一次执行会重新进入main函数
     CreateExecutionEnvironment(&argc, &argv,
                                jrepath, sizeof(jrepath),
                                jvmpath, sizeof(jvmpath),
                                jvmcfg,  sizeof(jvmcfg));
 
     if (!IsJavaArgs()) {
+        // 设置JVM环境
         SetJvmEnvironment(argc,argv);
     }
 
+    // InvocationFunctions结构体初始化，看样子是三个指针构成的结构体
     ifn.CreateJavaVM = 0;
     ifn.GetDefaultJavaVMInitArgs = 0;
 
@@ -250,6 +253,7 @@ JLI_Launch(int argc, char ** argv,              /* main argc, argc */
         start = CounterGet();
     }
 
+    // 在这里设置InvocationFunctions结构体中的函数
     if (!LoadJavaVM(jvmpath, &ifn)) {
         return(6);
     }
@@ -281,13 +285,14 @@ JLI_Launch(int argc, char ** argv,              /* main argc, argc */
 
     /* Parse command line options; if the return value of
      * ParseArguments is false, the program should exit.
+     * 解析命令行参数，如果返回false，程序退出
      */
     if (!ParseArguments(&argc, &argv, &mode, &what, &ret, jrepath))
     {
         return(ret);
     }
 
-    /* Override class path if -jar flag was specified */
+    /* 如果-jar标志被指定，覆盖类路径 */
     if (mode == LM_JAR) {
         SetClassPath(what);     /* Override class path */
     }
@@ -350,6 +355,7 @@ JLI_Launch(int argc, char ** argv,              /* main argc, argc */
         } \
     } while (JNI_FALSE)
 
+// zanpocc:JavaMain，线程入口点，应用程序的整个生命周期函数
 int JNICALL
 JavaMain(void * _args)
 {
@@ -373,11 +379,12 @@ JavaMain(void * _args)
 
     /* Initialize the virtual machine */
     start = CounterGet();
-    if (!InitializeJVM(&vm, &env, &ifn)) {
+    if (!InitializeJVM(&vm, &env, &ifn)) {//初始化虚拟机
         JLI_ReportErrorMessage(JVM_ERROR1);
         exit(1);
     }
 
+    // showSettings、printVersion、showVersion、printXUsage、printUsage是在解析命令行参数时传入的，这些执行完就结束了，不会执行后面的代码了
     if (showSettings != NULL) {
         ShowSettings(env, showSettings);
         CHECK_EXCEPTION_LEAVE(1);
@@ -419,9 +426,9 @@ JavaMain(void * _args)
     ret = 1;
 
     /*
-     * Get the application's main class.
+     * 获得应用程序的主类
      *
-     * See bugid 5030265.  The Main-Class name has already been parsed
+     * See bugid 5030265.  主类名已经从manifest中解析
      * from the manifest, but not parsed properly for UTF-8 support.
      * Hence the code here ignores the value previously extracted and
      * uses the pre-existing code to reextract the value.  This is
@@ -465,15 +472,17 @@ JavaMain(void * _args)
      * is not required. The main method is invoked here so that extraneous java
      * stacks are not in the application stack trace.
      */
+    // 获得main方法ID
     mainID = (*env)->GetStaticMethodID(env, mainClass, "main",
                                        "([Ljava/lang/String;)V");
     CHECK_EXCEPTION_NULL_LEAVE(mainID);
 
     /* Build platform specific argument array */
+    // 获得main方法参数
     mainArgs = CreateApplicationArgs(env, argv, argc);
     CHECK_EXCEPTION_NULL_LEAVE(mainArgs);
 
-    /* Invoke main method. */
+    /* 执行Main方法. */
     (*env)->CallStaticVoidMethod(env, mainClass, mainID, mainArgs);
 
     /*
@@ -1184,6 +1193,7 @@ ParseArguments(int *pargc, char ***pargv,
 }
 
 /*
+ * zanpocc:InitializeJVM，初始化Java虚拟机
  * Initializes the Java Virtual Machine. Also frees options array when
  * finished.
  */
@@ -1983,6 +1993,7 @@ ContinueInNewThread(InvocationFunctions* ifn, jlong threadStackSize,
      * If user doesn't specify stack size, check if VM has a preference.
      * Note that HotSpot no longer supports JNI_VERSION_1_1 but it will
      * return its default stack size through the init args structure.
+     * 如果没有指定线程栈大小，则用JNI_VERSION_1_1的默认大小：1048576
      */
     if (threadStackSize == 0) {
       struct JDK1_1InitArgs args1_1;
@@ -2003,7 +2014,7 @@ ContinueInNewThread(InvocationFunctions* ifn, jlong threadStackSize,
       args.mode = mode;
       args.what = what;
       args.ifn = *ifn;
-
+      // 开启新线程
       rslt = ContinueInNewThread0(JavaMain, threadStackSize, (void*)&args);
       /* If the caller has deemed there is an error we
        * simply return that, otherwise we return the value of
