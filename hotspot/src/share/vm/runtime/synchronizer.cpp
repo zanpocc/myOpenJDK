@@ -599,7 +599,7 @@ static inline intptr_t get_next_hash(Thread * Self, oop obj) {
   TEVENT (hashCode: GENERATE) ;
   return value;
 }
-//
+// zanpocc:得到对象的hashcode,Object对象的hashcode方法实际实现
 intptr_t ObjectSynchronizer::FastHashCode (Thread * Self, oop obj) {
   if (UseBiasedLocking) {
     // NOTE: many places throughout the JVM do not expect a safepoint

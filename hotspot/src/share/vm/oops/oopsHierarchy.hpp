@@ -34,7 +34,7 @@
 
 typedef juint narrowOop; // Offset instead of address for an oop within a java object
 
-// If compressed klass pointers then use narrowKlass.
+// If compressed klass pointers then use narrowKlass.   32位
 typedef juint  narrowKlass;
 
 typedef void* OopOrNarrowOopStar;

@@ -65,12 +65,14 @@ inline void oopDesc::release_set_mark(markOop m) {
   OrderAccess::release_store_ptr(&_mark, m);
 }
 
+// 原子操作设置mark word
 inline markOop oopDesc::cas_set_mark(markOop new_mark, markOop old_mark) {
   return (markOop) Atomic::cmpxchg_ptr(new_mark, &_mark, old_mark);
 }
 
+// 返回对象对应的类型
 inline Klass* oopDesc::klass() const {
-  if (UseCompressedClassPointers) {
+    if (UseCompressedClassPointers) { // -XX:UseCompressedOops,64位VM上，对_metaData成员使用32位指针存储
     return Klass::decode_klass_not_null(_metadata._compressed_klass);
   } else {
     return _metadata._klass;
@@ -144,14 +146,16 @@ inline oop oopDesc::list_ptr_from_klass() {
   }
 }
 
+// 初始化mark word
 inline void   oopDesc::init_mark()                 { set_mark(markOopDesc::prototype_for_object(this)); }
 
 inline bool oopDesc::is_a(Klass* k)        const { return klass()->is_subtype_of(k); }
-
+// 是否是类实例
 inline bool oopDesc::is_instance()            const { return klass()->oop_is_instance(); }
 inline bool oopDesc::is_instanceClassLoader() const { return klass()->oop_is_instanceClassLoader(); }
 inline bool oopDesc::is_instanceMirror()      const { return klass()->oop_is_instanceMirror(); }
 inline bool oopDesc::is_instanceRef()         const { return klass()->oop_is_instanceRef(); }
+// 是否是数组
 inline bool oopDesc::is_array()               const { return klass()->oop_is_array(); }
 inline bool oopDesc::is_objArray()            const { return klass()->oop_is_objArray(); }
 inline bool oopDesc::is_typeArray()           const { return klass()->oop_is_typeArray(); }

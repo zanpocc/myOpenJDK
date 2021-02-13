@@ -56,13 +56,14 @@ class CMSIsAliveClosure;
 class PSPromotionManager;
 class ParCompactionManager;
 
+// Java对象描述，每创建一个Java对象，就有一个OOPDesc，该类是所有Java对象的基类
 class oopDesc {
   friend class VMStructs;
  private:
   volatile markOop  _mark;
-  union _metadata {
-    Klass*      _klass;
-    narrowKlass _compressed_klass;
+  union _metadata { // 类元数据指针
+    Klass*      _klass; // 和虚拟机位数相等，32位四字节，64位八字节。
+    narrowKlass _compressed_klass; // 压缩过的指针，仅限64位jvm，用32位指针。
   } _metadata;
 
   // Fast access to barrier set.  Must be initialized.
@@ -75,6 +76,7 @@ class oopDesc {
   void set_mark(volatile markOop m)      { _mark = m;   }
 
   void    release_set_mark(markOop m);
+  // cas方式操作mark word
   markOop cas_set_mark(markOop new_mark, markOop old_mark);
 
   // Used only to re-initialize the mark word (e.g., of promoted
