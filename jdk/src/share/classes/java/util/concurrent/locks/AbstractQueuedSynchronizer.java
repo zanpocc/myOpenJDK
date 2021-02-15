@@ -583,18 +583,18 @@ public abstract class AbstractQueuedSynchronizer
      */
     private Node enq(final Node node) {
         /**
-         * 注释中t2和t3的场景说明：t1线程持有锁的时候，t2线程进入，t3线程进入
+         * ???t2?t3??????t1?????????t2?????t3????
          */
 
         for (;;) {
             Node t = tail;
-            // 第一次lock进入时初始化
+            // ???lock??????
             if (t == null) { // Must initialize
-                // 初始化头结点和尾结点为空结点（没有thread和mode）
+                // ?????????????????thread?mode?
                 if (compareAndSetHead(new Node()))
                     tail = head;
             } else {
-                // 情况1：t2进入第二次循环进入：挂在空结点之后，成为尾结点
+                // ??1?t2???????????????????????
                 node.prev = t;
                 if (compareAndSetTail(t, node)) {
                     t.next = node;
@@ -605,7 +605,7 @@ public abstract class AbstractQueuedSynchronizer
     }
 
     /**
-     * 创建一个结点，入队；根据当前线程和给定的模式（独占exclusive）
+     * ?????????????????????????exclusive?
      *
      * @param mode Node.EXCLUSIVE for exclusive, Node.SHARED for shared
      * @return the new node
@@ -615,9 +615,9 @@ public abstract class AbstractQueuedSynchronizer
         // Try the fast path of enq; backup to full enq on failure
         Node pred = tail;
 
-        // 如果队列中有其它的结点
+        // ???????????
         if (pred != null) {
-            // 将新创建的结点挂在尾结点上
+            // ?????????????
             node.prev = pred;
             if (compareAndSetTail(pred, node)) {
                 pred.next = node;
@@ -625,7 +625,7 @@ public abstract class AbstractQueuedSynchronizer
             }
         }
 
-        // 入队，就是挂在等待队列队列末尾
+        // ???????????????
         enq(node);
         return node;
     }
@@ -806,7 +806,7 @@ public abstract class AbstractQueuedSynchronizer
      * @return {@code true} if thread should block
      */
     private static boolean shouldParkAfterFailedAcquire(Node pred, Node node) {
-        // 头结点的状态
+        // ??????
         int ws = pred.waitStatus;
         if (ws == Node.SIGNAL)
             /*
@@ -825,11 +825,11 @@ public abstract class AbstractQueuedSynchronizer
             pred.next = node;
         } else {
             /*
-             *  waitStatus的状态一定是0或者PROPAGATE，意味着我们需要一个信号，
-             *  但是我们还不挂起这个线程，直到调用者重试确保挂起前无法获取到锁
+             *  waitStatus??????0??PROPAGATE?????????????
+             *  ???????????????????????????????
              */
 
-            // 将前一个结点的状态改为已挂起
+            // ??????????????
             compareAndSetWaitStatus(pred, ws, Node.SIGNAL);
         }
         return false;
@@ -875,24 +875,24 @@ public abstract class AbstractQueuedSynchronizer
             boolean interrupted = false;
             for (;;) {
                 final Node p = node.predecessor();
-                // 如果当前结点是头结点后一个结点。，然后再尝试去获取锁
+                // ??????????????????????????
                 if (p == head && tryAcquire(arg)) {
-                    // 如果获取锁成功了，把当前结点从队列中移除
+                    // ????????????????????
                     setHead(node);
                     p.next = null; // help GC
                     failed = false;
                     return interrupted;
                 }
-                // 挂起t2线程
-                // 第一次执行这个if中的shouldParkAfterFailedAcquire只会设置当前结点的上一个结点waitStatus为-1，if条件不会成立
-                // 第二次执行是会进入parkAndCheckInterrupt挂起这个线程
-                // 被唤醒后会继续这个循环，直到获取到了锁
+                // ??t2??
+                // ???????if??shouldParkAfterFailedAcquire??????????????waitStatus?-1?if??????
+                // ?????????parkAndCheckInterrupt??????
+                // ???????????????????
                 if (shouldParkAfterFailedAcquire(p, node) &&
                     parkAndCheckInterrupt())
                     interrupted = true;
             }
         } finally {
-            // 执行到这里，表示当前线程通过在队列中等待后已经获取到了锁，failed为false，线程也不阻塞了
+            // ?????????????????????????????failed?false????????
             if (failed)
                 cancelAcquire(node);
         }
@@ -1217,16 +1217,16 @@ public abstract class AbstractQueuedSynchronizer
      *        can represent anything you like.
      */
     public final void acquire(int arg) {
-        // 尝试获取锁，只会修改当前持有锁的线程和state字段（重入次数）
+        // ???????????????????state????????
         boolean isLock = tryAcquire(arg);
 
-        // 将该线程封装成一个Node对象,然后挂在等待队列末尾上
+        // ?????????Node??,???????????
         Node node = addWaiter(Node.EXCLUSIVE);
-        // 将自己加到等待队列
+        // ?????????
         boolean isAddQueues = acquireQueued(node, arg);
 
         if (!isLock && isAddQueues){
-            // 中断该线程
+            // ?????
             selfInterrupt();
         }
     }
@@ -1289,7 +1289,7 @@ public abstract class AbstractQueuedSynchronizer
      * @return the value returned from {@link #tryRelease}
      */
     public final boolean release(int arg) {
-        // tryRelease和tryAquire一样，都是只修改state（重入次数）和ownner（当前锁拥有者，为0时释放）
+        // tryRelease?tryAquire????????state???????ownner?????????0????
         if (tryRelease(arg)) {
             Node h = head;
             if (h != null && h.waitStatus != 0)

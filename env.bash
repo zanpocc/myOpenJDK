@@ -40,6 +40,7 @@ export BUILD_INSTALL=false
 # 你的bootstrap jdk的地址，得比当前版本低
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home
 
+export JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF-8
 # unset JAVA_HOME
 unset CLASSPATH
 # unset ALT_ environment
